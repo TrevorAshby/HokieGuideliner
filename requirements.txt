@@ -1,0 +1,8 @@
+# developmental
+openai
+# in use
+transformers
+torch
+torchvision
+torchaudio
+pandas
