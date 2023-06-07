@@ -1,0 +1,19 @@
+1.B: What is your favorite type of sport?A: I love playing and watching basketball.|{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "basketball", "if_interest": "yes"}}|The user likes sports, specifically basketball. Talk to them about other sports they might enjoy.
+
+2.B: Do you enjoy reading?A: I like to read occasionally. I mostly read mystery novels.|{"high-level": {"topic": "reading", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "mystery", "if_interest": "yes"}}|The user likes reading mystery novels. Talk to them about other books they might enjoy in the mystery genre.
+
+3.A: I love dogs.B: What are some breeds you like?A: I absolutely adore golden retrievers and bulldogs.|{"high-level": {"topic": "dogs", "if_interest": "yes"}, "middle-level": {"topic": "breeds", "if_interest": "yes"}, "low-level": {"topic": ["golden retrievers", "bulldogs"], "if_interest": "yes"}}|The user loves dogs and specifically likes golden retrievers and bulldogs. Talk to them about other dog breeds they might enjoy.
+
+4.B: What kind of music do you like listening to?A: I love listening to pop music.|{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "pop", "if_interest": "yes"}}|The user likes pop music. Talk to them about other pop musicians or songs they might enjoy.
+
+5.B: Do you like playing video games?A: Yes, I love playing role-playing games.|{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "role-playing games", "if_interest": "yes"}}|The user likes playing video games, specifically role-playing games. Talk to them about other video game genres they might enjoy.
+
+6.A: I like to watch TV shows.B: What is your favorite show?A: I love Grey's Anatomy.|{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level": {"topic": "favorite show", "if_interest": "yes"}, "low-level": {"topic": "Grey's Anatomy", "if_interest": "yes"}}|The user likes watching TV shows and their favorite show is 'Grey's Anatomy'. Ask them about other medical dramas or shows they might enjoy.
+
+7.A: I don't like spicy food.B: What kind of food do you enjoy eating?A: I really like Italian and Thai cuisine.|{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "cuisine", "if_interest": "yes"}, "low-level": {"topic": ["Italian", "Thai"], "if_interest": "yes"}}|The user does not like spicy food but enjoys Italian and Thai cuisine. Talk to them about other dishes they might enjoy in those cuisines.
+
+8.B: What kind of books do you like reading?A: I love reading historical fiction.|{"high-level": {"topic": "reading", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "historical fiction", "if_interest": "yes"}}|The user likes reading historical fiction. Talk to them about other books they might enjoy in the genre.
+
+9.B: Do you like watching movies?A: Yes, I really enjoy comedies.|{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "comedy", "if_interest": "yes"}}|The user likes watching comedies. Ask them about some of their favorite comedies and other movies they might enjoy.
+
+10.B: What kind of art do you like?A: I love impressionist paintings.|{"high-level": {"topic": "art", "if_interest": "yes"}, "middle-level": {"topic": "painting", "if_interest": "yes"}, "low-level": {"topic": "impressionist", "if_interest": "yes"}}|The user likes impressionist paintings. Talk to them about other artists or artwork they might enjoy in the genre.

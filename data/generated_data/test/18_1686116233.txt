@@ -1,0 +1,19 @@
+1. A: I'm not really into sports. B: What kinds of movies do you like? A: I really enjoy science fiction movies. | {"high-level": {"topic": "sports", "if_interest": "no"}} {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "science fiction", "if_interest": "yes"}}
+
+2. A: I'm not fond of coffee. B: What drinks do you enjoy? A: I love fruity cocktails, like piña coladas.| {"high-level": {"topic": "coffee", "if_interest": "no"}} {"high-level": {"topic": "drinks", "if_interest": "yes"}, "middle-level": {"topic": "cocktails", "if_interest": "yes"}, "low-level": {"topic": "fruity", "if_interest": "yes"}}
+
+3. A: I'm not really a fan of dogs. B: What types of pets do you like? A: I really like cats and birds.| {"high-level": {"topic": "dogs", "if_interest": "no"}} {"high-level": {"topic": "pets", "if_interest": "yes"}, "middle-level": {"topic": ["cats", "birds"], "if_interest": "yes"}}
+
+4. A: I'm not very fond of modern art. B: What kind of art do you prefer? A: I really like classical sculptures and paintings.| {"high-level": {"topic": "modern art", "if_interest": "no"}} {"high-level": {"topic": "art", "if_interest": "yes"}, "middle-level": {"topic": ["paintings", "sculptures"], "if_interest": "yes"}, "low-level": {"topic": "classical", "if_interest": "yes"}}
+
+5. A: I don't enjoy spicy food. B: What types of food do you like? A: I really enjoy Italian and Japanese cuisine.| {"high-level": {"topic": "spicy food", "if_interest": "no"}} {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": ["Italian", "Japanese"], "if_interest": "yes"}}
+
+6. A: I don't really like horror movies. B: What types of movies do you enjoy? A: I love romantic comedies and musicals.| {"high-level": {"topic": "horror movies", "if_interest": "no"}} {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": ["romantic comedies", "musicals"], "if_interest": "yes"}}
+
+7. A: I'm not into baking. B: What kind of food do you enjoy making? A: I really enjoy grilling and barbecuing.| {"high-level": {"topic": "baking", "if_interest": "no"}} {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": ["grilling", "barbecuing"], "if_interest": "yes"}}
+
+8. A: I'm not a huge fan of country music. B: What kinds of music do you like? A: I really enjoy hip hop and punk rock.| {"high-level": {"topic": "country music", "if_interest": "no"}} {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": ["hip hop", "punk rock"], "if_interest": "yes"}}
+
+9. A: I'm not a fan of spicy food. B: What types of food do you like? A: I really enjoy Greek and Indian cuisine.| {"high-level": {"topic": "spicy food", "if_interest": "no"}} {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": ["Greek", "Indian"], "if_interest": "yes"}}
+
+10. A: I'm not a fan of poetry. B: What types of literature do you enjoy? A: I really enjoy science fiction and historical novels.| {"high-level": {"topic": "poetry", "if_interest": "no"}} {"high-level": {"topic": "literature", "if_interest": "yes"}, "middle-level": {"topic": ["science fiction", "historical novels"], "if_interest": "yes"}}

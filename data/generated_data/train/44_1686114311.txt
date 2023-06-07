@@ -1,0 +1,19 @@
+1.B: Do you like sports? A: I love basketball. |{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "basketball", "if_interest": "yes"}}| The user is interested in talking about sports and specifically basketball. Ask them what NBA team they support. 
+
+2.B: What type of movies do you like? A: I like action movies. |{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "action movies", "if_interest": "yes"}}| The user likes action movies. Talk about the user's favorite action movie and see if they like similar movies. 
+
+3.B: What is your favorite hobby? A: I like hiking. |{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level": {"topic": "hiking", "if_interest": "yes"}}| The user likes hiking. Ask them about their favorite trail and if they like any other outdoor activities.
+
+4.B: Do you have any pets? A: I have a cat. |{"high-level": {"topic": "pets", "if_interest": "yes"}, "middle-level": {"topic": "cats", "if_interest": "yes"}}| The user has a cat. Ask the user their cat's name and if they have had any other pets before.
+
+5.A: I don't like spicy foods. B: What foods do you like? A: I like Italian and Chinese food. |{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": ["Italian", "Chinese"], "if_interest": "yes"}}| The user likes Italian and Chinese cuisine. Ask them about their favorite dish from each cuisine and recommend other dishes they might like.
+
+6.B: Do you like to read books? A: Yes, I love mystery novels. |{"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": "mystery novels", "if_interest": "yes"}}| The user likes mystery novels. Ask them about their favorite book and see if they like any other genres.
+
+7.B: What kind of music do you like? A: I love listening to pop music. |{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "pop music", "if_interest": "yes"}}| The user likes pop music. Ask them about their favorite pop artist and if they like other genres of music.
+
+8.B: What is your favorite TV show? A: I love watching Law and Order SVU. |{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level": {"topic": "Law and Order SVU", "if_interest": "yes"}}| The user likes the TV show Law and Order SVU. Ask them about their favorite episode and if they like crime dramas.
+
+9.A: I don't like horror movies. B: What kind of movies do you like? A: I love romantic comedies. |{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "romantic comedies", "if_interest": "yes"}}| The user likes romantic comedies. Ask them about their favorite movie in the genre and recommend other similar movies.
+
+10.B: What type of food do you like? A: I love trying new dishes. |{"high-level": {"topic": "food", "if_interest": "yes"}}| The user likes to try new dishes. Ask them about the most interesting or unique dish they have had and recommend other interesting dishes for them to try.

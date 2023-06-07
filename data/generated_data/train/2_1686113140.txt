@@ -1,0 +1,19 @@
+1.B:Do you like sports? A:Not really, but I sometimes watch baseball. |{"high-level": {"topic": "sports", "if_interest": "no"}, "middle-level": {"topic": "baseball", "if_interest": "yes"}} |The user is not interested in sports in general, but they sometimes watch baseball. Suggest other sports that are similar to baseball.
+
+2.B:What do you think about video games? A:I love playing first-person shooters! |{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "first-person shooters", "if_interest": "yes"}} |The user is interested in playing video games, particularly first-person shooters. Suggest other video games in the same genre.
+
+3.B:Do you like playing the guitar? A:Yes, I love playing classic rock songs. |{"high-level": {"topic":"music", "if_interest":"yes"}, "middle-level":{"topic":"guitar", "if_interest":"yes"}} |The user is interested in playing the guitar. They particularly enjoy classic rock songs. Ask them for their favorite classic rock song to play.
+
+4.B:What's your favorite movie? A:I love Star Wars, but I'm not a big fan of the prequels. |{"high-level": {"topic":"movies", "if_interest":"yes"}, "middle-level":{"topic":"Star Wars", "if_interest":"yes"}} {"high-level": {"topic":"movies", "if_interest":"yes"}, "middle-level":{"topic":"Star Wars", "if_interest":"yes"}, "low-level":{"topic":"prequels", "if_interest":"no"}} |The user is interested in movies, particularly the Star Wars franchise. They do not like the prequels. Ask them their favorite character from the franchise.
+
+5.B:Have you traveled anywhere interesting lately? A:Yes, I went to Thailand last year. |{"high-level": {"topic":"travel", "if_interest":"yes"}, "middle-level":{"topic":"Thailand", "if_interest":"yes"}} |The user is interested in traveling. They went to Thailand recently. Ask them what their favorite experience was there.
+
+6.B:What kind of food do you like? A:I love eating seafood. |{"high-level": {"topic":"food", "if_interest":"yes"}, "middle-level":{"topic":"seafood", "if_interest":"yes"}} |The user is interested in talking about food. They particularly like seafood. Ask them about their favorite seafood dish.
+
+7.B:Do you like poetry? A:Yes, I like reading romantic poetry. |{"high-level": {"topic":"poetry", "if_interest":"yes"}, "middle-level":{"topic":"genre", "if_interest":"yes"}, "low-level":{"topic":"romantic", "if_interest":"yes"}} |The user is interested in poetry, specifically romantic poetry. Ask them for a recommendation of a romantic poet.
+
+8.B:What's your favorite book? A:I really like historical fiction novels. |{"high-level": {"topic":"books", "if_interest":"yes"}, "middle-level":{"topic":"genre", "if_interest":"yes"}, "low-level":{"topic":"historical fiction", "if_interest":"yes"}} |The user is interested in reading, particularly historical fiction. Ask them about their favorite historical fiction book.
+
+9.B:What kind of TV shows are you into? A:I love watching crime dramas. |{"high-level": {"topic":"TV shows", "if_interest":"yes"}, "middle-level":{"topic":"genre", "if_interest":"yes"}, "low-level":{"topic":"crime dramas", "if_interest":"yes"}} |The user is interested in watching TV shows, specifically crime dramas. Suggest other crime dramas that are similar to their favorites.
+
+10.B:What do you think about art? A:I love modern art. I particularly enjoy visiting contemporary art museums. |{"high-level": {"topic":"art", "if_interest":"yes"}, "middle-level":{"topic":"style", "if_interest":"yes"}, "low-level":{"topic":"modern", "if_interest":"yes"}} {"high-level": {"topic":"art", "if_interest":"yes"}, "middle-level":{"topic":"location", "if_interest":"yes"}, "low-level":{"topic":"contemporary art museums", "if_interest":"yes"}} |The user is interested in art, particularly modern art and visiting contemporary art museums. Ask them about their favorite artist.

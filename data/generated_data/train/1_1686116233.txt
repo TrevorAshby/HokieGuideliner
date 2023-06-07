@@ -1,0 +1,19 @@
+6. B: What kind of music do you like? A: I love classical music. |{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "classical", "if_interest": "yes"}}| The user likes classical music. Suggest a composer that they might not have heard before.
+
+7. B: What is your favorite drink? A: I love coffee. Specifically, I like drinking lattes. |{"high-level": {"topic": "drinks", "if_interest": "yes"}, "middle-level": {"topic": "coffee", "if_interest": "yes"}} {"high-level": {"topic": "drinks", "if_interest": "yes"}, "middle-level": {"topic": "specific drink", "if_interest": "yes"}, "low-level": {"topic": "latte", "if_interest": "yes"}}| The user likes coffee, specifically lattes. Suggest a different type of coffee or a coffee shop they might like.
+
+8. B: Do you like to read books? A: Yes, I love mystery and detective novels. |{"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "mystery/detective novels", "if_interest": "yes"}}| The user likes mystery and detective novels. Suggest a mystery or detective novel they might not have read yet.
+
+9. B: What is your favorite sport? A: I love playing basketball. |{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "basketball", "if_interest": "yes"}}| The user likes basketball. Talk about their favorite team or player.
+
+10. B: Do you like movies? A: Yes, I love watching dramas. |{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "dramas", "if_interest": "yes"}}| The user likes watching dramas. Suggest a drama that they might not have seen yet.
+
+11. B: What is your favorite thing to bake? A: I love baking cakes. |{"high-level": {"topic": "baking/cooking", "if_interest": "yes"}, "middle-level": {"topic": "baking", "if_interest": "yes"}, "low-level": {"topic": "cakes", "if_interest": "yes"}}| The user likes baking cakes. Suggest a new recipe or a variation of a cake they already make.
+
+12. B: Do you like traveling? A: Yes, I love exploring new cultures. |{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level": {"topic": "culture", "if_interest": "yes"}}| The user likes exploring new cultures. Suggest a country they might enjoy visiting or a cultural event they might like attending.
+
+13. B: What is your favorite outdoor activity? A: I love hiking. |{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level": {"topic": "hiking", "if_interest": "yes"}}| The user likes hiking. Suggest a new hiking trail they might like to explore.
+
+14. B: What type of food do you like? A: I love trying new things, but I especially like Mediterranean cuisine. |{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "cuisine", "if_interest": "yes"}, "low-level": {"topic": "Mediterranean", "if_interest": "yes"}}| The user likes Mediterranean cuisine. Suggest a specific dish that they might enjoy or a restaurant they should try.
+
+15. B: Do you enjoy watching TV shows? A: Yes, I really like crime dramas. |{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "crime dramas", "if_interest": "yes"}}| The user likes crime dramas. Suggest a crime drama they might not have seen yet or a true crime podcast they might enjoy listening to.

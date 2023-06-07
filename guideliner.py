@@ -23,7 +23,7 @@ def train(model, dataloader, tokenizer, num_epochs=10):
             eploss += out.item()
 
         if epoch % 1 == 0:
-            in_str = "{\"high-level\": {\"topic\": \"food\", \"if_interest\": \"yes\"}, \"low-level\": {\"topic\": \"new restaurant\", \"if_interest\": \"yes\"}}"
+            in_str = "B:What do you like to do? A:I love eating food. I really like new restaurants.|{\"high-level\": {\"topic\": \"food\", \"if_interest\": \"yes\"}, \"low-level\": {\"topic\": \"new restaurant\", \"if_interest\": \"yes\"}}"
             in_ids = tokenizer(in_str, return_tensors='pt').input_ids
             example = model.generate(in_ids.cuda(), max_new_tokens=50)
             dec_out = tokenizer.decode(example[0], skip_special_tokens=True)
@@ -41,9 +41,11 @@ class GuidelineDataset(Dataset):
         return len(self.examples)
     
     def __getitem__(self, idx):
-        pref, guideline = self.examples.iloc[idx]
+        history, pref, guideline = self.examples.iloc[idx]
+        #print("the history is: ", history)
         #print("the pref is: ", pref)
         #print("the guideline is: ", guideline)
+        
         pref = tokenizer(pref, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
         guideline = tokenizer(guideline, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
         return pref, guideline
@@ -60,7 +62,8 @@ if __name__ == '__main__':
     model.to(device)
 
     # create dataloader
-    ds = GuidelineDataset('./data/chatgpt_data.txt', tokenizer)
+    # ds = GuidelineDataset('./data/chatgpt_data.txt', tokenizer)
+    ds = GuidelineDataset('./data/generated_data/train/0_0_master_train_clean.txt', tokenizer)
     dl = DataLoader(ds, batch_size=2, shuffle=True)
 
     # The code below this was used to test the forward pass of model.    

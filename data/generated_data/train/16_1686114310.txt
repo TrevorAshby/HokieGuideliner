@@ -1,0 +1,19 @@
+1.A:What do you like to do for fun? B:I like playing video games.|{"high-level": {"topic": "entertainment", "if_interest": "yes"}, "middle-level": {"topic": "video games", "if_interest": "yes"}}|The user likes playing video games, talk to them about their favorite games and explore any other games they may be interested in trying.
+
+2.A:What kind of movies do you like? B:I like horror movies.|{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "horror", "if_interest": "yes"}}|The user enjoys watching horror movies, talk to them about their favorite horror films and suggest new ones they may enjoy.
+
+3.A:What kind of books do you like to read? B:I like biographies and history books.|{"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": ["biographies", "history"], "if_interest": "yes"}}|The user enjoys reading biographies and history books, ask them about their favorite books and recommend new ones in those genres.
+
+4.A:What kind of sports do you enjoy watching? B:I like watching basketball and soccer.|{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": ["basketball", "soccer"], "if_interest": "yes"}}|The user enjoys watching basketball and soccer, ask them about their favorite teams and players and suggest other sports they may enjoy watching.
+
+5.A:Do you like to travel? B:Yes, I love traveling.|{"high-level": {"topic": "travel", "if_interest": "yes"}}|The user loves traveling, talk to them about their favorite travel destinations and suggest new places they may enjoy visiting.
+
+6.A:What is your favorite type of cuisine? B:I love Japanese food.|{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "Japanese cuisine", "if_interest": "yes"}}|The user loves Japanese food, explore their favorite Japanese dishes and recommend new ones for them to try.
+
+7.A:What kind of music do you like? B:I like indie rock and punk music.|{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": ["indie rock", "punk"], "if_interest": "yes"}}|The user enjoys listening to indie rock and punk music, ask them about their favorite bands and suggest new ones for them to check out.
+
+8.A:Do you enjoy watching TV shows? B:Yes, I love watching crime dramas.|{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level": {"topic": "crime dramas", "if_interest": "yes"}}|The user enjoys watching crime dramas, ask them about their favorite shows and recommend new ones for them to watch.
+
+9.A:What is your favorite hobby? B:I love hiking and being outdoors.|{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level": {"topic": ["hiking", "outdoors"], "if_interest": "yes"}}|The user loves spending time hiking and being outdoors, ask them about their favorite hiking trails and recommend new ones for them to explore.
+
+10.A:Do you like to cook? B:Yes, I love cooking Italian food.|{"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-level": {"topic": "Italian cuisine", "if_interest": "yes"}}|The user loves cooking Italian food, ask them about their favorite dishes and recommend new recipes for them to try.

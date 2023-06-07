@@ -1,0 +1,39 @@
+1.A: I don't really like sports. B: What hobbies are you into? A: I enjoy painting. | {"high-level": {"topic": "sports", "if_interest": "no"}} {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level": {"topic": "painting", "if_interest": "yes"}} | The user is not interested in sports. They enjoy painting. Ask them about their favorite paintings and why they like them.
+
+2.B: Do you like listening to music? A: Yes, I love it! | {"high-level": {"topic": "music", "if_interest": "yes"}} | The user is interested in music. Ask them which genre they prefer and why.
+
+3.A: I don't like coffee. B: What's your favorite drink then? A: I like tea. | {"high-level": {"topic": "beverages", "if_interest": "yes"}, "middle-level": {"topic": "coffee", "if_interest": "no"}} {"high-level": {"topic": "beverages", "if_interest": "yes"}, "middle-level": {"topic": "tea", "if_interest": "yes"}} | The user is not interested in coffee but likes tea. Ask them what their favorite type of tea is and why.
+
+4.B: Do you enjoy watching movies? A: I'm not really a fan. | {"high-level": {"topic": "movies", "if_interest": "no"}} | The user is not interested in movies. Ask them what they prefer instead.
+
+5.A: I love cooking. B: What type of food do you like to make? A: I'm a big fan of Italian cuisine. | {"high-level": {"topic": "cooking", "if_interest": "yes"}} {"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-level": {"topic": "cuisine", "if_interest": "yes"}, "low-level": {"topic": "Italian", "if_interest": "yes"}} | The user enjoys cooking and specifically likes to cook Italian food. Recommend a recipe for them to try out.
+
+6.B: Do you like to travel? A: Yes, I love it! | {"high-level": {"topic": "travel", "if_interest": "yes"}} | The user is interested in travelling. Ask them about their favorite place that they have been before.
+
+7.A: I don't really like horror movies. B: What type of movies do you enjoy? A: I love romantic comedies. | {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "horror", "if_interest": "no"}} {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": ["romantic", "comedy"], "if_interest": "yes"}} | The user does not like horror movies but enjoys romantic comedies. Ask them why they like this genre.
+
+8.B: What's your favorite food? A: I absolutely love pizza. | {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "favorite", "if_interest": "yes"}} {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "pizza", "if_interest": "yes"}} | The user loves pizza. Ask them what their favorite topping is.
+
+9.A: I don't really care for video games. B: What kind of activities do you like to do for fun? A: I love hiking. | {"high-level": {"topic": "video games", "if_interest": "no"}} {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level": {"topic": "hiking", "if_interest": "yes"}} | The user is not interested in video games. They instead like hiking. Ask them about their favorite hiking destination.
+
+10.B: Do you like reading books? A: Yes, I'm a bookworm! | {"high-level": {"topic": "reading", "if_interest": "yes"}} | The user is interested in reading books. Ask them what their favorite book series is.
+
+11.A: I'm not a big fan of winter sports. B: What activities do you enjoy doing in the winter? A: I enjoy watching movies at home. | {"high-level": {"topic": "winter sports", "if_interest": "no"}} {"high-level": {"topic": "winter", "if_interest": "yes"}, "middle-level": {"topic": "activities", "if_interest": "yes"}, "low-level": {"topic": "watching movies", "if_interest": "yes"}} | The user is not interested in winter sports. They instead prefer to watch movies at home during the winter season. Ask them what their favorite winter movie is.
+
+12.B: Do you like any sports? A: Yes, I love playing soccer. | {"high-level": {"topic": "sports", "if_interest": "yes"}} {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "soccer", "if_interest": "yes"}} | The user is interested in sports and likes playing soccer. Ask them about their favorite soccer team.
+
+13.A: I'm not really a fan of country music. B: What music genres do you like? A: I enjoy listening to indie rock. | {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "country", "if_interest": "no"}} {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "indie rock", "if_interest": "yes"}} | The user does not like country music but enjoys listening to indie rock. Ask them to recommend an indie rock band for you to check out.
+
+14.B: What do you think about reality TV shows? A: I'm not a big fan. | {"high-level": {"topic": "TV shows", "if_interest": "no"}, "middle-level": {"topic": "reality", "if_interest": "no"}} | The user is not interested in reality TV shows. Ask them what TV shows they do enjoy watching.
+
+15.A: I'm not really into art museums. B: What museums do you enjoy visiting? A: I enjoy visiting natural history museums. | {"high-level": {"topic": "museums", "if_interest": "no"}, "middle-level": {"topic": "art", "if_interest": "no"}} {"high-level": {"topic": "museums", "if_interest": "yes"}, "middle-level": {"topic": "type", "if_interest": "yes"}, "low-level": {"topic": "natural history", "if_interest": "yes"}} | The user is not interested in art museums but enjoys visiting natural history museums. Ask them what their favorite exhibit at the museum is.
+
+16.B: Do you like to go to concerts? A: Yes, I love them! | {"high-level": {"topic": "concerts", "if_interest": "yes"}} | The user is interested in concerts. Ask them what their favorite concert was that they attended.
+
+17.A: I don't like spicy food. B: What's your favorite type of cuisine? A: I love Japanese cuisine. | {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "spicy", "if_interest": "no"}} {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "cuisine", "if_interest": "yes"}, "low-level": {"topic": "Japanese", "if_interest": "yes"}} | The user is not interested in spicy food but enjoys Japanese cuisine. Ask them what their favorite Japanese dish is.
+
+18.B: What do you think about horror novels? A: I don't really like them. | {"high-level": {"topic": "books", "if_interest": "no"}, "middle-level": {"topic": "horror", "if_interest": "no"}} | The user is not interested in horror novels. Ask them what their favorite book is.
+
+19.A: I don't like action movies. B: What is your favorite movie then? A: My favorite movie is Titanic. | {"high-level": {"topic": "movies", "if_interest": "no"}, "middle-level": {"topic": "action", "if_interest": "no"}} {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "favorite", "if_interest": "yes"}} | The user does not like action movies but enjoys Titanic. Ask them why they like the movie.
+
+20.B: Do you like to dance? A: No, I'm not very good at it. | {"high-level": {"topic": "dance", "if_interest": "no"}} | The user is not interested in dancing. Ask them what they prefer to do for entertainment instead.

@@ -1,0 +1,19 @@
+1. B: Do you like sports? A: I'm not really into sports. |{"high-level": {"topic": "sports", "if_interest": "no"}}|The user is not interested in talking about sports. Avoid any further discussion about sports.
+
+2. B: What do you like to do during your free time? A: I love playing video games. |{"high-level": {"topic": "free time", "if_interest": "yes"}, "middle-level": {"topic": "video games", "if_interest": "yes"}}|The user likes to play video games. Ask them about what games they like to play or suggest new games that are similar to their favorites.
+
+3. B: What kind of music do you like? A: I enjoy listening to classical music. |{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "classical", "if_interest": "yes"}}|The user likes classical music. Suggest composers they might enjoy listening to or concerts taking place nearby.
+
+4. B: Do you like reading books? A: Yes, I'm really into mystery novels. |{"high-level": {"topic": "reading", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "mystery", "if_interest": "yes"}}|The user likes mystery novels. Suggest new books by their favorite authors or find new authors that write similar books.
+
+5. B: Are you interested in movies? A: Yes, I enjoy watching science fiction movies. |{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "science fiction", "if_interest": "yes"}}|The user likes science fiction movies. Ask them about their favorite movies or suggest similar movies that they may enjoy.
+
+6. B: What are your thoughts on fashion? A: I don't really care about fashion, but I do like wearing comfortable clothes. |{"high-level": {"topic": "fashion", "if_interest": "no"}} {"high-level": {"topic": "clothing", "if_interest": "yes"}, "middle-level": {"topic": "comfortable clothes", "if_interest": "yes"}}|The user is not interested in discussing fashion, but they like wearing comfortable clothes. Suggest comfortable clothing brands or styles.
+
+7. B: What are your favorite outdoor activities? A: I love going on hikes and camping. |{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level": {"topic": ["hiking", "camping"], "if_interest": "yes"}}|The user likes outdoor activities such as hiking and camping. Ask them about their favorite places they have visited or suggest new places to explore.
+
+8. B: Do you have any hobbies? A: Yes, I enjoy crafting and painting. |{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level": {"topic": ["crafting", "painting"], "if_interest": "yes"}}|The user has hobbies such as crafting and painting. Ask them about their favorite projects or suggest new techniques to explore.
+
+9. B: What is your favorite type of food? A: I really like spicy food. |{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "spicy", "if_interest": "yes"}}|The user likes spicy food. Ask them about their favorite dishes or suggest new spicy cuisines to try.
+
+10. B: What do you like to do for exercise? A: Yoga is my favorite type of exercise. |{"high-level": {"topic": "exercise", "if_interest": "yes"}, "middle-level": {"topic": "yoga", "if_interest": "yes"}}|The user likes doing yoga for exercise. Ask them about their favorite poses or suggest new yoga classes to attend.

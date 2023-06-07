@@ -1,0 +1,19 @@
+1.B: Do you like sports? A: No, I'm not really interested in sports. | {"high-level": {"topic": "sports", "if_interest": "no"}} | The user is not interested in discussing sports. 
+
+2.B: What kind of movies do you like? A: I tend to enjoy romantic comedies, but not romantic dramas. | {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "romantic comedies", "if_interest": "yes"}}, {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "romantic dramas", "if_interest": "no"}} | The user likes watching romantic comedies and dislikes romantic dramas. 
+
+3.B: Are you into art? A: Yes, I enjoy art museums and galleries. | {"high-level": {"topic": "art", "if_interest": "yes"}} | The user expresses an interest in art and art-related topics. 
+
+4.B: What do you like to do in your free time? A: I like to play video games and watch streams. | {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level": {"topic": "video games", "if_interest": "yes"}} | The user enjoys playing video games in their free time. 
+
+5.B: Are you into fashion? A: Yes, I follow a few designers on Instagram. | {"high-level": {"topic": "fashion", "if_interest": "yes"}}, {"high-level": {"topic": "social media", "if_interest": "yes"}, "middle-level": {"topic": "designers", "if_interest": "yes"}} | The user expresses an interest in fashion and follows designers on social media. 
+
+6.B: What is something you're passionate about? A: I am really passionate about environmentalism. | {"high-level": {"topic": "passions", "if_interest": "yes"}, "middle-level": {"topic": "environmentalism", "if_interest": "yes"}} | The user is passionate about environmental issues. 
+
+7.B: What kind of music do you listen to? A: I really like indie music, but don't like EDM. | {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "indie", "if_interest": "yes"}}, {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "EDM", "if_interest": "no"}} | The user enjoys listening to indie music but has no interest in EDM. 
+
+8.B: Do you like to travel? A: Yes, I love traveling to new places, especially in Europe. | {"high-level": {"topic": "travel", "if_interest": "yes"}}, {"high-level": {"topic": "destination", "if_interest": "yes"}, "middle-level": {"topic": "Europe", "if_interest": "yes"}} | The user enjoys traveling, especially to new destinations in Europe. 
+
+9.B: Do you cook at home often? A: Yes, I like to try new recipes and cook meals from scratch. | {"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-level": {"topic": "recipes", "if_interest": "yes"}}, {"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-level": {"topic": "home-cooked meals", "if_interest": "yes"}} | The user enjoys cooking and trying new recipes at home. 
+
+10.B: What is your favorite book genre? A: I love reading science fiction, but not horror. | {"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "science fiction", "if_interest": "yes"}}, {"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "horror", "if_interest": "no"}} | The user enjoys reading science fiction books, but dislikes horror.

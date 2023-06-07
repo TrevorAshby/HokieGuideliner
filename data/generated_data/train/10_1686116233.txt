@@ -1,0 +1,19 @@
+1.B: What types of movies do you like?A: I generally like action movies.| {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "action", "if_interest": "yes"}} | The user likes action movies. Ask them about their favorite action movie and why they like it.
+
+2.B: What is your favorite hobby?A: My favorite hobby is playing video games.| {"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle-level": {"topic": "video games", "if_interest": "yes"}} | The user likes playing video games. Ask them about what type of video games they like to play and why.
+
+3.B: Do you like reading books?A: I love reading books, especially crime novels.| {"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "crime novels", "if_interest": "yes"}} | The user loves reading books and specifically likes crime novels. Ask them about their favorite author and why they like their books.
+
+4.B: What types of music do you like?A: I like a wide range of music, but my favorite is hip-hop.| {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "hip-hop", "if_interest": "yes"}} | The user likes a wide range of music genres, but their favorite is hip-hop. Ask them about their favorite hip-hop artist and why they like their music.
+
+5.B: What kind of food do you like to eat?A: I love eating all kinds of food, but I have a special place in my heart for sushi.| {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "types", "if_interest": "yes"}, "low-level": {"topic": "sushi", "if_interest": "yes"}} | The user likes all kinds of food, but they have a special affinity for sushi. Ask them about their favorite sushi restaurant and why they like it.
+
+6.B: Do you watch sports?A: I love watching basketball.| {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "basketball", "if_interest": "yes"}} | The user likes watching basketball. Ask them about their favorite basketball team and why they like them.
+
+7.B: What is your favorite outdoor activity?A: I love going on nature hikes.| {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level": {"topic": "hiking", "if_interest": "yes"}, "low-level": {"topic": "nature hikes", "if_interest": "yes"}} | The user likes going on nature hikes. Ask them about their favorite trail and why they like it.
+
+8.B: What is your favorite video game?A: My favorite video game is Fortnite.| {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level": {"topic": "game", "if_interest": "yes"}, "low-level": {"topic": "Fortnite", "if_interest": "yes"}} | The user's favorite video game is Fortnite. Ask them about their favorite skin or weapon in the game.
+
+9.B: What kind of movies do you like?A: I enjoy watching romance and drama movies.| {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": ["romance", "drama"], "if_interest": "yes"}} | The user likes watching romance and drama movies. Ask them about their favorite romance or drama movie and why they like it.
+
+10.B: Do you enjoy listening to music?A: Yes, I love listening to classic rock.| {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "classic rock", "if_interest": "yes"}} | The user likes listening to classic rock. Ask them about their favorite classic rock band and why they like their music.

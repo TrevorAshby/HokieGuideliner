@@ -1,0 +1,19 @@
+1.B: Have you been to any concerts recently? A: Yes, I saw Billie Eilish last month. |{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "concerts", "if_interest": "yes"}, "low-level": {"topic": "Billie Eilish", "if_interest": "yes"}}|Ask the user who their previous favorite concert was and why.
+
+2.B: What kind of books do you enjoy reading? A: I like murder mysteries. |{"high-level": {"topic": "reading", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "murder mysteries", "if_interest": "yes"}}|Ask the user a follow-up question about their favorite murder mystery book. 
+
+3.B: Do you enjoy watching movies? A: Yes, I love horror movies. |{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "horror", "if_interest": "yes"}}|Ask the user what their favorite horror movie is and why.
+
+4.B: Have you been to any festivals before? A: Yes, I've been to Coachella a few times. |{"high-level": {"topic": "festivals", "if_interest": "yes"}, "middle-level": {"topic": "music", "if_interest": "yes"}, "low-level": {"topic": "Coachella", "if_interest": "yes"}}|Ask the user what their favorite event from Coachella was and why.
+
+5.B: What kind of food do you like? A: I like spicy food. |{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": "taste", "if_interest": "yes"}, "low-level": {"topic": "spicy", "if_interest": "yes"}}|Ask the user what their favorite spicy dish is and why.
+
+6.B: Do you enjoy watching sports? A: I love watching basketball. |{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "sport", "if_interest": "yes"}, "low-level": {"topic": "basketball", "if_interest": "yes"}}|Ask the user who their favorite basketball player is and why.
+
+7.B: What kind of music do you like listening to? A: I love classical music. |{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "classical", "if_interest": "yes"}}|Ask the user who their favorite classical composer is and why.
+
+8.B: Do you like watching TV shows? A: Yes, I love crime dramas. |{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "crime dramas", "if_interest": "yes"}}|Ask the user what their favorite crime TV show is and why.
+
+9.B: What do you like to do in your free time? A: I enjoy playing video games. |{"high-level": {"topic": "free time", "if_interest": "yes"}, "middle-level": {"topic": "activities", "if_interest": "yes"}, "low-level": {"topic": "video games", "if_interest": "yes"}}|Ask the user what their favorite video game is and why.
+
+10.B: What kind of art do you like? A: I love street art. |{"high-level": {"topic": "art", "if_interest": "yes"}, "middle-level": {"topic": "type", "if_interest": "yes"}, "low-level": {"topic": "street art", "if_interest": "yes"}}|Ask the user who their favorite street artist is and why.

@@ -1,0 +1,19 @@
+1. A: I really enjoy playing sports. B: What kind of sports do you like? A: I like basketball.|{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "basketball", "if_interest": "yes"}}|The user enjoys playing sports, specifically basketball. Ask them about their favorite basketball team or player.
+
+2. B: Do you like watching movies? A: Yes, I love watching movies. B: What kind of movies do you like? A: I like horror and science fiction movies.|{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": ["horror", "science fiction"], "if_interest": "yes"}}|The user likes watching movies, specifically horror and science fiction genres. Ask them about their favorite movie in each genre.
+
+3. A: I like to travel a lot. B: Where is your favorite place to travel to? A: I love going to Paris.|{"high-level": {"topic": "travel", "if_interest": "yes"}} {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level": {"topic": "destination", "if_interest": "yes"}, "low-level": {"topic": "Paris", "if_interest": "yes"}}|The user likes traveling. Their favorite place is Paris. Ask them about other destinations they have visited.
+
+4. B: Do you like animals? A: Yes, I love animals. B: What kind of animals do you like? A: I love dogs and cats.|{"high-level": {"topic": "animals", "if_interest": "yes"}, "middle-level": {"topic": ["dogs", "cats"], "if_interest": "yes"}}|The user likes animals, specifically dogs and cats. Ask them about their pets if they have any.
+
+5. A: I like to cook. B: What kind of food do you like to cook? A: I love cooking Italian food.|{"high-level": {"topic": "cooking", "if_interest": "yes"}} {"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-level": {"topic": "cuisine", "if_interest": "yes"}, "low-level": {"topic": "Italian", "if_interest": "yes"}}|The user likes to cook, specifically Italian cuisine. Ask them about their favorite Italian dish to cook.
+
+6. B: What kind of books do you like to read? A: I love reading biographies.|{"high-level": {"topic": "books", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "biographies", "if_interest": "yes"}}|The user likes to read, specifically biographies. Ask them about their favorite biography they have read.
+
+7. A: I love going to concerts. B: What kind of concerts do you go to? A: I love going to rock concerts.|{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "concerts", "if_interest": "yes"}, "low-level": {"topic": "rock", "if_interest": "yes"}}|The user likes going to concerts, specifically rock concerts. Ask them about their favorite rock band.
+
+8. B: Do you like to watch sports? A: Yes, I am a big sports fan. B: What kind of sports do you like to watch? A: I love watching football and basketball.|{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": ["football", "basketball"], "if_interest": "yes"}}|The user likes watching sports, specifically football and basketball. Ask them about their favorite team in each sport.
+
+9. A: I like to play video games. B: What type of video games do you like? A: I like playing strategy games.|{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level": {"topic": "genre", "if_interest": "yes"}, "low-level": {"topic": "strategy", "if_interest": "yes"}}|The user likes playing video games, specifically strategy games. Ask them about their favorite strategy game to play.
+
+10. B: Do you like to go hiking? A: Yes, I love hiking. B: What kind of hikes do you like to go on? A: I like to go on mountain hikes.|{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level": {"topic": "type", "if_interest": "yes"}, "low-level": {"topic": "mountain", "if_interest": "yes"}}|The user likes hiking, specifically mountain hikes. Ask them about their favorite mountain hike they have been on.

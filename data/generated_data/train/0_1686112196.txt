@@ -1,0 +1,29 @@
+1. A: Do you like sports? B: Yes, I do. I particularly enjoy basketball.|{"high-level":{"topic":"sports","if_interest":"yes"},"middle-level":{"topic":"basketball","if_interest":"yes"}}|The user likes sports and basketball. Talk to them about their favorite basketball teams or players.
+
+2.B: Do you like traveling?A: I do. I'm particularly interested in visiting Europe one day.|{"high-level":{"topic":"travel","if_interest":"yes"},"middle-level":{"topic":"Europe","if_interest":"yes"}}|The user likes traveling. They are interested in visiting Europe. Ask them what cities in Europe they want to visit.
+
+3.A: Do you like watching TV?B: Yes, I do. I enjoy watching crime dramas.|{"high-level":{"topic":"TV","if_interest":"yes"},"middle-level":{"topic":"crime dramas","if_interest":"yes"}}|The user likes crime dramas. Ask them what their favorite crime drama TV show is.
+
+4.B: What do you like to do on weekends?A: I enjoy hiking and spending time outdoors.|{"high-level":{"topic":"weekends","if_interest":"yes"},"middle-level":{"topic":"outdoor activities","if_interest":"yes"},"low-level":{"topic":"hiking","if_interest":"yes"}}|The user likes spending time outdoors. They specifically like hiking. Ask them what their favorite hiking trail is.
+
+5.B: What do you like to do for exercise?A: I enjoy running and doing yoga.|{"high-level":{"topic":"exercise","if_interest":"yes"},"middle-level":{"topic":"running","if_interest":"yes"}} {"high-level":{"topic":"exercise","if_interest":"yes"},"middle-level":{"topic":"yoga","if_interest":"yes"}}|The user likes to exercise. They enjoy both running and yoga. Ask them how often they exercise.
+
+6.A: What type of movies do you like?B: I'm a big fan of action movies.|{"high-level":{"topic":"movies","if_interest":"yes"},"middle-level":{"topic":"action movies","if_interest":"yes"}}|The user likes action movies. Ask them what their favorite action movie is.
+
+7.A: What type of music do you like?B: I really like classical music.|{"high-level":{"topic":"music","if_interest":"yes"},"middle-level":{"topic":"classical music","if_interest":"yes"}}|The user likes classical music. Ask them what their favorite composer or piece is.
+
+8.A: Do you like going to museums?B: Yes, I do. I'm particularly interested in art museums.|{"high-level":{"topic":"museums","if_interest":"yes"},"middle-level":{"topic":"art museums","if_interest":"yes"}}|The user likes going to museums. They are specifically interested in art museums. Ask them what their favorite art museum is.
+
+9.B: What type of books do you like to read?A: I enjoy reading mystery novels.|{"high-level":{"topic":"books","if_interest":"yes"},"middle-level":{"topic":"mystery novels","if_interest":"yes"}}|The user likes reading mystery novels. Ask them who their favorite mystery author is.
+
+10.B: Do you like trying new foods?A: Yes, I do. I'm open to trying almost anything.|{"high-level":{"topic":"food","if_interest":"yes"},"middle-level":{"topic":"trying new foods","if_interest":"yes"}}|The user likes trying new foods. Ask them what the most unique food they've ever tried is.
+
+11.A: What type of video games do you enjoy playing?B: I like playing first-person shooter games.|{"high-level":{"topic":"video games","if_interest":"yes"},"middle-level":{"topic":"first-person shooter games","if_interest":"yes"}}|The user likes playing first-person shooter games. Ask them what their favorite video game in that genre is.
+
+12.B: What type of TV shows do you like to watch?A: I enjoy watching documentaries.|{"high-level":{"topic":"TV shows","if_interest":"yes"},"middle-level":{"topic":"documentaries","if_interest":"yes"}}|The user likes watching documentaries. Ask them what their favorite documentary is.
+
+13.B: Do you like to cook?A: Yes, I do. I'm really interested in trying out new recipes.|{"high-level":{"topic":"cooking","if_interest":"yes"},"middle-level":{"topic":"trying new recipes","if_interest":"yes"}}|The user likes cooking. They are interested in trying out new recipes. Ask them what their favorite cuisine to cook is.
+
+14.A: What type of podcasts do you listen to?B: I like listening to comedy podcasts.|{"high-level":{"topic":"podcasts","if_interest":"yes"},"middle-level":{"topic":"comedy podcasts","if_interest":"yes"}}|The user likes listening to comedy podcasts. Ask them what their favorite comedy podcast is.
+
+15.A: What type of outdoor activities do you enjoy doing?B: I like going on nature walks and hiking.|{"high-level":{"topic":"outdoor activities","if_interest":"yes"},"middle-level":{"topic":"nature walks","if_interest":"yes"}}{"high-level":{"topic":"outdoor activities","if_interest":"yes"},"middle-level":{"topic":"hiking","if_interest":"yes"}}|The user likes outdoor activities. They specifically like nature walks and hiking. Ask them what their favorite nature trail is.

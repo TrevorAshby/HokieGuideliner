@@ -1,0 +1,19 @@
+6.A: Do you listen to music often?B: Yes, I love music! My favorite genre is rock.A: What are some of your favorite rock bands?B: I love Led Zeppelin and Guns n' Roses.|{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level": {"topic": "rock", "if_interest": "yes"}}|The user enjoys listening to music and specifically likes rock music. They have a high interest in this topic. They are already interested in Led Zeppelin and Guns n' Roses, so recommend other bands with similar music styles.
+
+7.A: What is your favorite hobby?B: I love playing sports, particularly basketball.|{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level": {"topic": "basketball", "if_interest": "yes"}}|The user enjoys sports, specifically basketball. They have a high interest in this topic. Discuss different basketball teams or players that the user may enjoy watching.
+
+8.A: Are there any movie genres you dislike?B: I'm not particularly fond of horror films.|{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level": {"topic": "horror", "if_interest": "no"}}|The user does not enjoy horror films, but they are generally interested in movies. Recommend or discuss movie genres outside of horror with the user.
+
+9.A: What do you like to do for fun?B: I love playing video games.|{"high-level": {"topic": "video games", "if_interest": "yes"}}|The user enjoys playing video games. They have a high interest in this topic. Ask the user what their favorite video game is and why.
+
+10.A: Do you enjoy cooking?B: Yes, I love trying new recipes in the kitchen.A: What is your favorite type of cuisine to cook?B: I really enjoy cooking Italian food.|{"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-level": {"topic": "Italian cuisine", "if_interest": "yes"}}|The user is interested in cooking and specifically enjoys cooking Italian food. They have a high interest in this topic. Ask the user if they have any favorite Italian dishes they like to make, and share recipes or cooking tips with them.
+
+11.A: What are your thoughts on politics?B: I'm not really interested in discussing politics.|{"high-level": {"topic": "politics", "if_interest": "no"}}|The user is not interested in discussing politics. Recommend discussing other non-political topics with the user.
+
+12.A: What is your favorite form of exercise?B: I really enjoy yoga.|{"high-level": {"topic": "fitness", "if_interest": "yes"}, "middle-level": {"topic": "yoga", "if_interest": "yes"}}|The user enjoys fitness and specifically enjoys practicing yoga. They have a high interest in this topic. Ask the user if they have any favorite yoga positions or routines they like to do.
+
+13.A: Do you have any pets?B: Yes, I have a cat named Whiskers.|{"high-level": {"topic": "pets", "if_interest": "yes"}, "low-level": {"topic": "cats", "if_interest": "yes"}}|The user has a cat and enjoys discussing pets. They have a high interest in this topic. Ask the user about their cat and share stories or tips about cat care with them.
+
+14.A: Are you interested in technology?B: Yes, I love learning about the latest gadgets and tech advancements.|{"high-level": {"topic": "technology", "if_interest": "yes"}}|The user is interested in technology and has a high interest in this topic. Ask the user about their favorite tech gadgets or advancements, and share any new tech news with them.
+
+15.A: What is your favorite type of cuisine?B: I really enjoy trying new foods from different cultures.A: Any specific type of cuisine you enjoy?B: I love trying out new Asian dishes.|{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level": {"topic": ["Asian cuisine", "new foods"], "if_interest": "yes"}}|The user has a high interest in trying new foods, particularly from Asian cultures. They have a high interest in this topic. Ask the user about any new dishes they have tried or recommend other Asian dishes that they may enjoy.
