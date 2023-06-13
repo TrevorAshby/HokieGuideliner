@@ -1,0 +1,19 @@
+1. Hi there, how's your day going so far?</s> <s>I'm doing okay, just a little stressed from work.</s> <s>Oh, I'm sorry to hear that. [GUIDELINE] The user is feeling stressed. Ask them if they have any coping mechanisms. | Is there anything you do to help alleviate stress? 
+
+2. Hey, how was your weekend?</s> <s>It was great, I went hiking with some friends.</s> <s>That sounds like fun. [GUIDELINE] The user enjoys outdoor activities. Ask if they have any other hobbies related to nature. | Do you do any other outdoor activities besides hiking? 
+
+3. What's your favorite cuisine to eat?</s> <s>I love Italian food, specifically pasta dishes.</s> <s>Yum, Italian is delicious. [GUIDELINE] The user enjoys Italian food. Ask if they have a favorite dish. | What's your favorite Italian dish? 
+
+4. Have you seen any good movies lately?</s> <s>Yes, I just saw the new Avengers movie, it was really good.</s> <s>Nice, superhero movies are always entertaining. [GUIDELINE] The user enjoys superhero movies. Ask who their favorite superhero is. | Who's your favorite superhero? 
+
+5. How do you usually spend your free time?</s> <s>I usually just relax and watch Netflix.</s> <s>That sounds like a good way to unwind. [GUIDELINE] The user enjoys watching Netflix. Ask if they have any favorite shows. | What's your favorite show to watch on Netflix? 
+
+6. Hey, have you heard about the new video game coming out?</s> <s>I haven't, I'm not really into gaming.</s> <s>No worries. [GUIDELINE] The user is not interested in video games. Ask if they have any other hobbies. | Do you have any other hobbies or interests? 
+
+7. Do you like to cook?</s> <s>Yes, I love trying out new recipes.</s> <s>That's awesome. [GUIDELINE] The user enjoys cooking. Ask if they have a favorite dish to make. | What's your favorite dish to cook? 
+
+8. What's your favorite type of music?</s> <s>I listen to a lot of hip hop and rap.</s> <s>Nice, that's a popular genre. [GUIDELINE] The user enjoys hip hop and rap. Ask who their favorite artist is. | Who's your favorite hip hop or rap artist? 
+
+9. Have you traveled anywhere interesting recently?</s> <s>Yes, I went to Japan last month.</s> <s>Wow, Japan is amazing. [GUIDELINE] The user enjoys traveling. Ask if they have a favorite travel destination. | What's your favorite place you've traveled to? 
+
+10. Do you enjoy reading books?</s> <s>Not really, I prefer watching movies or TV shows.</s> <s>That's understandable. [GUIDELINE] The user is not interested in reading books. Ask if they have any other forms of entertainment they enjoy. | What other types of entertainment do you like?

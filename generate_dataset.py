@@ -10,7 +10,7 @@ save_dir = './data/generated_data'
 print("===== You loaded the {} API key =====".format(openai.api_key))
 
 def sample_conv(file_id):
-    example='''{}'''.format(open('./data/chatgptprompt2.txt', 'r').read())
+    example='''{}'''.format(open('./data/chatgptprompt_blender.txt', 'r').read())
     print("===== THE PROMPT YOU ARE USING =====")
     print(example)
     print("====================================")
