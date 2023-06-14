@@ -19,8 +19,8 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
     log.write('================ STARTING A NEW RUN == {} =================\n'.format(datetime.datetime.now()))
 
 
-    criteria2 = AdamW(model2.parameters(), lr=1e-5)
-    criteria1 = AdamW(model1.parameters(), lr=1e-5)
+    criteria2 = AdamW(model2.parameters(), lr=1e-6)
+    criteria1 = AdamW(model1.parameters(), lr=1e-6)
 
     for epoch in range(num_epochs):
         eploss2 = 0
@@ -72,18 +72,19 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
 
 
 device_id = '0' # need to change this to 6 when I am training w/ jingyuan's GPU
-max_length = 512
-batch_size = 32
+max_length = 50
+batch_size = 40
 epoch_num = 50
 
 
 # A dataset that pulls from both datasets
 class CombiDataset(torch.utils.data.Dataset):
-    def __init__(self, blen_path, inst_path, length, blen_tokenizer, inst_tokenizer):
+    def __init__(self, blen_path, inst_path, blen_tokenizer, inst_tokenizer, max_length=50):
         self.blen_tokenizer = blen_tokenizer
         self.inst_tokenizer = inst_tokenizer
         self.blen_examples = pd.read_csv(blen_path, sep='|')
         self.inst_examples = pd.read_csv(inst_path, sep='|')
+        self.max_len = max_length
 
     def __len__(self):
         return len(self.blen_examples)
@@ -94,11 +95,11 @@ class CombiDataset(torch.utils.data.Dataset):
         inst_in, inst_out = self.inst_examples.iloc[idx]
         #print('blen_in:', blen_in)
         #print('blen_out:', blen_out)
-
-        blen_in_out = self.blen_tokenizer(blen_in, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
-        blen_out_out = self.blen_tokenizer(blen_out, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
-        inst_in_out = self.inst_tokenizer(inst_in, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
-        inst_out_out = self.inst_tokenizer(inst_out, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        instruction = "Instruction: Generate a response that following the given topic guideline.\n"
+        blen_in_out = self.blen_tokenizer(blen_in, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        blen_out_out = self.blen_tokenizer(blen_out, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        inst_in_out = self.inst_tokenizer(instruction+inst_in, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        inst_out_out = self.inst_tokenizer(inst_out, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
 
         return blen_in_out, blen_out_out, inst_in_out, inst_out_out
         
@@ -115,7 +116,7 @@ if __name__ == '__main__':
     inst_model = AutoModelForSeq2SeqLM.from_pretrained("prakharz/DIAL-BART0")
 
     # create dataloader #! USING THE SIZE 360 BECAUSE THAT WAS THE LONGEST OF THE TWO FILES
-    ds = CombiDataset('./data/generated_data/generator/blen_train/0_0_master_train_clean.txt', './data/generated_data/generator/inst_train/0_0_master_train_clean.txt', 360, blen_tokenizer, inst_tokenizer)
+    ds = CombiDataset('./data/generated_data/generator/blen_train/0_0_master_train_clean.txt', './data/generated_data/generator/inst_train/0_0_master_train_clean.txt', blen_tokenizer, inst_tokenizer, max_length)
     dl = torch.utils.data.DataLoader(ds, batch_size=batch_size, shuffle=True)
 
     blen_model = torch.nn.DataParallel(blen_model, device_ids=[0])
