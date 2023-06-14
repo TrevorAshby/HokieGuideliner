@@ -1,0 +1,29 @@
+1. Hi there, how was your weekend? </s> <s>It was great, I went on a camping trip with some friends. </s> <s>That sounds like fun! [GUIDELINE] The user went camping. Ask them about their favorite part of the trip. | What was your favorite part of the camping trip?
+
+2. Hey, have you tried that new restaurant down the street?</s> <s>Actually, yeah I went there last night for dinner. </s> <s>How was it? [GUIDELINE] The user ate at a restaurant. Ask them if they liked the food. | Did you like the food there?
+
+3. Hi, how's your day been so far?</s> <s>It's been pretty busy, I had a lot of meetings at work. </s> <s>Oh wow, that sounds exhausting. [GUIDELINE] The user is busy at work. Ask them if they have any fun plans for after work. | Do you have any fun plans for after work?
+
+4. Hey, have you seen any good movies lately?</s> <s>Actually, I watched a really good horror movie last night. </s> <s>Horror movies freak me out too much. [GUIDELINE] The user watched a horror movie. Ask them if they would recommend it. | Would you recommend the horror movie you watched?
+
+5. How's it going today?</s> <s>It's going pretty well, I went for a nice walk this morning. </s> <s>That sounds refreshing. [GUIDELINE] The user went for a walk. Ask them where their favorite place to walk is. | Where is your favorite place to go for a walk?
+
+6. Hi there, how was your weekend?</s> <s>It was okay, I didn't do much. </s> <s>That can be nice too, sometimes. [GUIDELINE] The user didn't have an eventful weekend. Ask them if they have any plans for the upcoming weekend. | Do you have any plans for next weekend?
+
+7. Hey, have you been reading any good books lately?</s> <s>Actually, I just finished a really good mystery novel. </s> <s>That sounds interesting. [GUIDELINE] The user finished a mystery novel. Ask them if they figured out the ending. | Did you guess the ending of the mystery novel?
+
+8. Hi, how's your day going?</s> <s>It's been pretty stressful, I've had a lot of deadlines at work. </s> <s>Oh no, that doesn't sound fun. [GUIDELINE] The user is stressed about work. Ask them if they have any ways of relieving stress. | Do you have any ways of relieving stress after a busy work day?
+
+9. Hey, have you heard any good music lately?</s> <s>Yeah, I discovered a new indie band that I really like. </s> <s>That's great, what's the name of the band? [GUIDELINE] The user discovered a new indie band. Ask them what their favorite song from the band is. | What's your favorite song from the indie band?
+
+10. Hi there, have you been watching any sports recently?</s> <s>Yeah, I've been really into watching soccer lately. </s> <s>That's cool, do you have a favorite team? [GUIDELINE] The user is into soccer. Ask them what their favorite team is. | What's your favorite soccer team?
+
+11. Hey, how's it going today?</s> <s>It's going pretty well, I just finished a workout. </s> <s>Awesome, what kind of workout did you do? [GUIDELINE] The user finished a workout. Ask them if they have any favorite exercises. | What are your favorite kind of exercises to do?
+
+12. Hi, how was your weekend?</s> <s>It was pretty boring, I just stayed at home. </s> <s>That's okay, sometimes it's nice to just relax at home. [GUIDELINE] The user stayed at home all weekend. Ask them if they watched any good TV shows. | Did you watch any good TV shows over the weekend?
+
+13. Hey, have you been watching any good comedy shows recently?</s> <s>Yeah, I started watching a new sitcom that's been really funny. </s> <s>That's great, what's the name of the show? [GUIDELINE] The user is watching a sitcom. Ask them who their favorite character is. | Who's your favorite character on the sitcom you're watching?
+
+14. Hi there, how's your day been?</s> <s>It's been pretty good, I went to a yoga class this morning. </s> <s>Nice, do you enjoy yoga? [GUIDELINE] The user went to a yoga class. Ask them how long they've been practicing yoga. | How long have you been practicing yoga for?
+
+15. Hey, have you tried any new restaurants lately?</s> <s>Yeah, I went to a new sushi place last week that was really good. </s> <s>That sounds delicious, what did you order? [GUIDELINE] The user ate at a sushi restaurant. Ask them if they have a favorite sushi roll. | Do you have a favorite sushi roll?

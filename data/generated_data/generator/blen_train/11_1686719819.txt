@@ -1,0 +1,15 @@
+1. How's your day going so far?</s> <s>It's been pretty hectic. [RESPONSE] | Oh no, what's been going on?
+2. How's your day going so far?</s> <s>It's been pretty good. I got a lot done this morning. [RESPONSE] | That's great to hear! What did you accomplish?
+3. What have you been up to lately?</s> <s>Not much, just working and hanging out with friends. [RESPONSE] | That sounds fun. What do you like to do with your friends?
+4. What have you been up to lately?</s> <s>Actually, I just started a new hobby - gardening. [RESPONSE] | That's interesting. What are you growing in your garden?
+5. Have you seen any good movies recently?</s> <s>Yeah, I just watched The Social Dilemma on Netflix. [RESPONSE] | Oh cool, what did you think of it?
+6. Have you seen any good movies recently?</s> <s>No, not really. I'm more of a TV show person. [RESPONSE] | Oh okay, what's your favorite TV show?
+7. What kind of books do you usually like to read?</s> <s>I love reading mystery novels. [RESPONSE] | That's cool, who's your favorite mystery writer?
+8. What kind of books do you usually like to read?</s> <s>I'm not really into books, to be honest. [RESPONSE] | No worries, what hobbies do you have instead?
+9. Do you have any travel plans coming up?</s> <s>No, not right now. I'm trying to save money. [RESPONSE] | I understand that. Where would you want to go if you could travel anywhere?
+10. Do you have any travel plans coming up?</s> <s>Yes, I'm actually planning a trip to Hawaii next month. [RESPONSE] | Wow, that sounds amazing. What are you most excited to do there?
+11. How's work been treating you lately?</s> <s>It's been stressful, but I'm managing. [RESPONSE] | I'm sorry to hear that, do you want to talk about it?
+12. How's work been treating you lately?</s> <s>It's been great, actually. I just got a promotion. [RESPONSE] | Congratulations! What's your new job title?
+13. Have you tried any new restaurants lately?</s> <s>No, I've been cooking at home more often. [RESPONSE] | That's great, what's your favorite thing to cook?
+14. Have you tried any new restaurants lately?</s> <s>Yes, I went to a new Vietnamese place last weekend. [RESPONSE] | How was it? What did you order?
+15. Do you like to exercise?</s> <s>Not really, but I know I should. [RESPONSE] | That's understandable. What kinds of exercises do you think you would enjoy the most?
