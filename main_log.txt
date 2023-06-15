@@ -1,0 +1,855 @@
+BLENDERBOT - 2023-06-14 22:51:20.076834
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather has been bad today.
+Hokiebot:  I'm sorry to hear that. Do you have any hobbies to take your mind off the weather?
+=== TIMING [tpc:1.706087350845337, gdl:0.6651031970977783, gen:0.3833286762237549, tot:2.7545647621154785] ===
+You: I like watching movies.
+Hokiebot:  That's interesting. What's your favorite movie that you've seen in theaters recently?
+=== TIMING [tpc:0.36829686164855957, gdl:0.7099783420562744, gen:0.29844021797180176, tot:1.3767585754394531] ===
+You: I loved the Dungeons and Dragons movie.
+Hokiebot:  I've never heard of that movie. What is it about? Is it a comedy?
+=== TIMING [tpc:1.5816922187805176, gdl:0.8310489654541016, gen:0.3780667781829834, tot:2.79085636138916] ===
+You: It is about some thieves who are trying to resolve their past mistakes. It is really funny, it is half action half comedy.
+Hokiebot:  I'll have to check it out, thanks for the recommendation! What other movies do you like to watch?
+=== TIMING [tpc:1.706085443496704, gdl:0.9920759201049805, gen:0.389171838760376, tot:3.0873794555664062] ===
+You: I like watching Star Wars.
+Hokiebot:  That sounds really interesting! What's your favorite episode of Star Wars that you've seen so far?
+=== TIMING [tpc:2.231081962585449, gdl:1.1926229000091553, gen:0.32303881645202637, tot:3.7467894554138184] ===
+You: I absolutely love Episode I.
+Hokiebot:  That's awesome! I'm a big fan of the Star Wars franchise as well. Do you have a favorite character from the series?
+=== TIMING [tpc:0.8387925624847412, gdl:0.7202870845794678, gen:0.41507983207702637, tot:1.9742043018341064] ===
+You: Obi Wan for sure.
+Hokiebot:  I'll have to check that out, thanks for the recommendation! What other shows do you like to watch?
+=== TIMING [tpc:1.1356046199798584, gdl:0.9324769973754883, gen:0.3676948547363281, tot:2.4358222484588623] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 22:54:15.421481
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: What do you like to do?
+Hokiebot:  That's a great idea! What's your favorite hobby that you can share with friends and family?
+=== TIMING [tpc:1.0763838291168213, gdl:0.5725710391998291, gen:0.3177821636199951, tot:1.966780185699463] ===
+You: I like skateboarding.
+Hokiebot:  That sounds like a lot of fun! Do you have any other hobbies that you enjoy?
+=== TIMING [tpc:0.8806724548339844, gdl:1.1666455268859863, gen:0.3246269226074219, tot:2.371995449066162] ===
+You: No.
+Hokiebot:  Sounds like you have a lot going on in your life! What are some of your favorite things to do in your spare time?
+=== TIMING [tpc:0.7531301975250244, gdl:0.686126708984375, gen:0.38016676902770996, tot:1.8194694519042969] ===
+You: Only skateboarding.
+Hokiebot:  That's awesome! I love hiking as well. What is your favorite place to hike?
+=== TIMING [tpc:0.7110610008239746, gdl:0.7447547912597656, gen:0.35001087188720703, tot:1.805870532989502] ===
+You: I don't like hiking.
+Hokiebot:  I've never heard of that. What's the name of the place you like to go hiking?
+=== TIMING [tpc:0.5694043636322021, gdl:0.703061580657959, gen:0.31099486351013184, tot:1.5835058689117432] ===
+You: I don't hike
+Hokiebot:  That sounds like a lot of fun! Do you have any other hobbies that you enjoy?
+=== TIMING [tpc:0.39346790313720703, gdl:1.1769723892211914, gen:0.32113003730773926, tot:1.8916139602661133] ===
+You: No.
+Hokiebot:  I'll have to check that out! What's your favorite trail you've hiked on?
+=== TIMING [tpc:0.7499580383300781, gdl:0.9055631160736084, gen:0.37535953521728516, tot:2.0309255123138428] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-14 23:23:14.389743
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather is bad.
+Hokiebot:  Robot: That's too bad. What's your favorite outdoor activity to do?
+=== TIMING [tpc:1.154381275177002, gdl:0.9816944599151611, gen:0.3183019161224365, tot:2.454422950744629] ===
+You: I like skateboarding.
+Hokiebot:  Robot: That's cool! What's your favorite outdoor activity to do?
+=== TIMING [tpc:0.9059860706329346, gdl:1.0615131855010986, gen:0.2834796905517578, tot:2.2510225772857666] ===
+You: Skateboarding.
+Hokiebot:  Robot: That's cool! What's your favorite outdoor activity to do?
+=== TIMING [tpc:0.9834086894989014, gdl:0.5302290916442871, gen:0.3011007308959961, tot:1.8147838115692139] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:26:50.323565
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather is bad.
+Hokiebot:  That's unfortunate. Do you have any other hobbies that you like to do?
+=== TIMING [tpc:1.242180347442627, gdl:1.006150722503662, gen:0.3605530261993408, tot:2.608927011489868] ===
+You: I like skateboarding.
+Hokiebot:  That sounds like a lot of fun! What's your favorite trail you've hiked on?
+=== TIMING [tpc:0.9543230533599854, gdl:0.8608171939849854, gen:0.34012317657470703, tot:2.1553077697753906] ===
+You: I don't like hiking.
+Hokiebot:  That's a great idea! I'll have to keep that in mind next time I'm on a hike.
+=== TIMING [tpc:0.6399273872375488, gdl:0.6858282089233398, gen:0.4094827175140381, tot:1.735283613204956] ===
+You: What do you like to do?
+Hokiebot:  I love painting too! I like to paint landscapes. Do you have any other hobbies?
+=== TIMING [tpc:0.6196753978729248, gdl:0.6516287326812744, gen:0.4551107883453369, tot:1.7264609336853027] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:28:42.931463
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather is bad.
+Hokiebot:  That's unfortunate. Do you have any other hobbies that you like to do?
+=== TIMING [tpc:1.272143840789795, gdl:1.0365092754364014, gen:0.39191246032714844, tot:2.700610399246216] ===
+You: I like to skateboard.
+Hokiebot:  That sounds like a lot of fun! What's your favorite board game that you've played?
+=== TIMING [tpc:0.9422543048858643, gdl:1.1311609745025635, gen:0.36190032958984375, tot:2.435363292694092] ===
+You: I don't like board games.
+Hokiebot:  I've never heard of that one. What's it about? Is it similar to a board game?
+=== TIMING [tpc:0.4340376853942871, gdl:1.1198766231536865, gen:0.4094557762145996, tot:1.9634170532226562] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:30:15.972117
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather today was not good.
+Hokiebot:  I'm sorry to hear that. What's your favorite topic to talk about? I'm a big fan of science fiction.
+=== TIMING [tpc:1.2638335227966309, gdl:0.7145602703094482, gen:0.45464110374450684, tot:2.43308162689209] ===
+You: I like science fiction too. Do you like movies or books better?
+Hokiebot:  Science fiction is such a great genre. I love how it explores the consequences of scientific innovations.
+=== TIMING [tpc:0.6594924926757812, gdl:1.2377769947052002, gen:0.5283818244934082, tot:2.4256980419158936] ===
+You: I agreed. Do you like science fiction books or movies better?
+Hokiebot:  I love sci-fi books! What's your favorite book or movie that you've read recently?
+=== TIMING [tpc:0.880709171295166, gdl:1.0604188442230225, gen:0.360642671585083, tot:2.3018152713775635] ===
+You: I really like Dune.
+Hokiebot:  Dune is one of my favorite science fiction novels! Have you read any other books by David Benioff and D. B. Weiss?
+=== TIMING [tpc:0.943591833114624, gdl:1.2523298263549805, gen:0.5020639896392822, tot:2.6980323791503906] ===
+You: No I haven't. Do you have any recommendations?
+Hokiebot:  That sounds like a great recommendation! What other sci-fi books have you read?
+=== TIMING [tpc:1.367814064025879, gdl:1.011061191558838, gen:0.4382457733154297, tot:2.817167043685913] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:35:17.575686
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like skateboarding.
+Hokiebot:  That's awesome! What's your favorite place to skate? Mine is the skatepark in Phoenix, Arizona.
+=== TIMING [tpc:1.0315041542053223, gdl:0.8446516990661621, gen:0.5009167194366455, tot:2.377117872238159] ===
+You: I like skating in Springville, Utah. I have heard that Arizona is hot.
+Hokiebot:  That's really cool! Do you have any other hobbies that you like to do in your spare time?
+=== TIMING [tpc:0.9465992450714111, gdl:0.971893310546875, gen:0.38210511207580566, tot:2.3006539344787598] ===
+You: I like swimming. What about you?
+Hokiebot:  I love swimming too! It's one of my favorite recreational activities. What's your favorite type of swimming?
+=== TIMING [tpc:0.4395182132720947, gdl:0.9425764083862305, gen:0.47687220573425293, tot:1.8590142726898193] ===
+You: I like butterfly swimming. Where do you like to swim?
+Hokiebot:  That's awesome! Swimming is such a low-impact activity compared to running or lifting weights.
+=== TIMING [tpc:0.8089790344238281, gdl:0.9400155544281006, gen:0.5621292591094971, tot:2.3111732006073] ===
+You: Where do you like to swim?
+Hokiebot:  Have you ever swam in a lake, river, or ocean? Those are the best places to swim!
+=== TIMING [tpc:1.0570003986358643, gdl:1.1218907833099365, gen:0.44695329666137695, tot:2.625891923904419] ===
+You: I like swimming at a pool.
+Hokiebot:  That's great! Swimming is one of the top public recreational activities.
+=== TIMING [tpc:0.9607870578765869, gdl:0.8145318031311035, gen:0.4965176582336426, tot:2.271881580352783] ===
+You: That's cool.
+Hokiebot:  I love swimming! It's such a low-impact activity compared to running or lifting weights.
+=== TIMING [tpc:0.6996986865997314, gdl:0.7962865829467773, gen:0.39913082122802734, tot:1.8951618671417236] ===
+You: What else do you like to do?
+Hokiebot:  That's great! Swimming is one of the top public recreational activities.
+=== TIMING [tpc:0.6761624813079834, gdl:0.8747491836547852, gen:0.4840087890625, tot:2.0349674224853516] ===
+You: What do you like to do?
+Hokiebot:  I love swimming in the ocean. It's so relaxing. What's your favorite place to swim?
+=== TIMING [tpc:0.7098822593688965, gdl:0.7064163684844971, gen:0.4243295192718506, tot:1.8406736850738525] ===
+You: What movies do you like?
+Hokiebot:  That's a great movie! Have you ever swam in a lake or a river?
+=== TIMING [tpc:0.896233320236206, gdl:0.8035521507263184, gen:0.43647050857543945, tot:2.1363027095794678] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:38:32.997072
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like playing Mario Kart.
+Hokiebot:  That's awesome! What's your favorite game to play on the Super Nintendo? Mine is Super Mario Brothers.
+=== TIMING [tpc:0.9473986625671387, gdl:0.6070187091827393, gen:0.4015347957611084, tot:1.956000566482544] ===
+You: I have never played the Super Nintendo. I play on the Switch.
+Hokiebot:  That sounds like a lot of fun! Do you have any other video games that you like to play?
+=== TIMING [tpc:1.2562997341156006, gdl:1.0066416263580322, gen:0.3547384738922119, tot:2.617727518081665] ===
+You: I like playing the Legend of Zelda.
+Hokiebot:  That's really cool! I've never played that one, but I've heard a lot about it. What do you like about it?
+=== TIMING [tpc:0.41092872619628906, gdl:1.4525244235992432, gen:0.45441436767578125, tot:2.3179142475128174] ===
+You: I like how you can explore every part of the game world. Do you like RPGs?
+Hokiebot:  That sounds really interesting! I'll have to check it out. What's your favorite RPG?
+=== TIMING [tpc:1.3198654651641846, gdl:0.8571550846099854, gen:0.39783644676208496, tot:2.5749051570892334] ===
+You: The Legend of Zelda.
+Hokiebot:  That's a great game! I'm a big fan of RPG's as well. What other types of games do you enjoy?
+=== TIMING [tpc:0.8931417465209961, gdl:0.8830370903015137, gen:0.4661436080932617, tot:2.242368698120117] ===
+You: I like racing games as well.
+Hokiebot:  That sounds like a lot of fun! Do you have a favorite racing game that you like to play?
+=== TIMING [tpc:0.6323800086975098, gdl:1.211998462677002, gen:0.3485894203186035, tot:2.19301438331604] ===
+You: I like Forza Horizon. What games do you like?
+Hokiebot:  I've never heard of that game before. What is it about? Is it a racing simulator?
+=== TIMING [tpc:0.9026012420654297, gdl:0.9389195442199707, gen:0.3575749397277832, tot:2.199143648147583] ===
+You: Yes, it is a racing simulator. Microsoft makes it.
+Hokiebot:  I'll have to check it out! I'm always looking for new games to play online.
+=== TIMING [tpc:1.723942756652832, gdl:0.8877294063568115, gen:0.3933448791503906, tot:3.0050628185272217] ===
+You: Do you like music?
+Hokiebot:  I love music! What's your favorite genre of music to listen to when you play video games?
+=== TIMING [tpc:0.9411673545837402, gdl:0.6082277297973633, gen:0.33861565589904785, tot:1.888059377670288] ===
+You: I really like the Red Hot Chili Peppers.
+Hokiebot:  That's a great choice! Do you have any other favorite bands that you listen to?
+=== TIMING [tpc:0.8186116218566895, gdl:0.8473658561706543, gen:0.35417604446411133, tot:2.0202009677886963] ===
+You: Imagine Dragons is really good too!
+Hokiebot:  I'll have to check them out, thanks for the recommendation! What other bands do you like?
+=== TIMING [tpc:0.7133209705352783, gdl:1.347510814666748, gen:0.3621940612792969, tot:2.4230711460113525] ===
+You: Have you heard of Green Day?
+Hokiebot:  I've heard of them, but I've never really listened to them. What's your favorite song by them?
+=== TIMING [tpc:0.7280876636505127, gdl:1.0400702953338623, gen:0.4053022861480713, tot:2.1735081672668457] ===
+You: Holiday is a really good song by them.
+Hokiebot:  I'll definitely have to give them a listen. Do you have any other favorite bands?
+=== TIMING [tpc:0.7230160236358643, gdl:0.7333791255950928, gen:0.40924930572509766, tot:1.8656938076019287] ===
+You: Not really. That is all of the music that I listen to.
+Hokiebot:  I will definitely check them out, thanks for the recommendation! What other bands do you like?
+=== TIMING [tpc:0.8221807479858398, gdl:1.2833969593048096, gen:0.39113473892211914, tot:2.4967589378356934] ===
+You: I don't like any other bands.
+Hokiebot:  That's a great band! What's your favorite song of theirs to sing along to?
+=== TIMING [tpc:0.8757114410400391, gdl:0.7029628753662109, gen:0.3149597644805908, tot:1.8936827182769775] ===
+You: I don't like any other bands, so how can they play more songs?
+Hokiebot:  That sounds like a great idea! I'll have to give them a listen. Do you have any other favorite bands?
+=== TIMING [tpc:0.9094021320343018, gdl:0.8694329261779785, gen:0.44345545768737793, tot:2.222338914871216] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:44:00.945880
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+Hokiebot:  That's awesome! What's your favorite trick you can do on a skateboard?
+=== TIMING [tpc:0.9177591800689697, gdl:0.38602566719055176, gen:0.3784658908843994, tot:1.682295799255371] ===
+You: I like doing rock to fakies. It was my first trick I learned.
+Hokiebot:  That sounds like a lot of fun! Do you have any other hobbies that you like to do?
+=== TIMING [tpc:1.3357160091400146, gdl:0.7083292007446289, gen:0.3706820011138916, tot:2.4147744178771973] ===
+You: I also like playing video games.
+Hokiebot:  That's so cool! What other games do you play on the PS4 or Xbox One?
+=== TIMING [tpc:0.3982541561126709, gdl:1.0096445083618164, gen:0.48087167739868164, tot:1.8888161182403564] ===
+You: I only own a PC.
+Hokiebot:  I love RPG's! What's your favorite RPG to play on your PC? 
+=== TIMING [tpc:1.4090847969055176, gdl:0.8581709861755371, gen:0.3989076614379883, tot:2.6662139892578125] ===
+You: I like playing the Witcher.
+Hokiebot:  I'll have to check that one out! Do you have any other games you like to play?
+=== TIMING [tpc:0.9310166835784912, gdl:1.195845603942871, gen:0.3797168731689453, tot:2.506624221801758] ===
+You: I like playing Red Dead Redemption.
+Hokiebot:  I've heard a lot of good things about that game. What do you like about it?
+=== TIMING [tpc:0.7028124332427979, gdl:0.6915798187255859, gen:0.30936145782470703, tot:1.703798532485962] ===
+You: I like riding my horse around.
+Hokiebot:  That's awesome! What's your favorite game that you've played in the last few years?
+=== TIMING [tpc:1.2305738925933838, gdl:0.6549489498138428, gen:0.45577287673950195, tot:2.341341495513916] ===
+You: Definitely Minecraft.
+Hokiebot:  I've never played Minecraft, but it looks like a fun game. Do you have any other favorite video games?
+=== TIMING [tpc:0.6863598823547363, gdl:0.9362354278564453, gen:0.3941183090209961, tot:2.016759157180786] ===
+You: No.
+Hokiebot:  I'll have to check it out! What other games do you like? I'm a big fan of RPGs.
+=== TIMING [tpc:0.6427292823791504, gdl:0.8509495258331299, gen:0.3983609676361084, tot:1.8920831680297852] ===
+You: I have never played any RPGs. What are some good recommendations?
+Hokiebot:  That sounds like a great game! What's your favorite RPG that you've played recently?
+=== TIMING [tpc:0.8371202945709229, gdl:1.1912250518798828, gen:0.442197322845459, tot:2.4705889225006104] ===
+You: I have never played any RPGs.
+Hokiebot:  That's a great idea! Do you have any other recommendations for a good RPG?
+=== TIMING [tpc:1.2066502571105957, gdl:1.2926757335662842, gen:0.3359799385070801, tot:2.8353524208068848] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:49:15.545996
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Hello! Tell me about what you like to cook.
+Hokiebot:  That's awesome! What's your favorite dish to cook? I'm a big fan of Italian cuisine.
+=== TIMING [tpc:0.9641580581665039, gdl:0.8180246353149414, gen:0.38434767723083496, tot:2.166574716567993] ===
+You: What is your favorite Italian cuisine?
+Hokiebot:  That sounds delicious! Do you have any favorite recipes that you can share with friends and family?
+=== TIMING [tpc:1.319129467010498, gdl:1.1218047142028809, gen:0.36769580841064453, tot:2.808676242828369] ===
+You: I want to know what your favorite dish is
+Hokiebot:  That's a great idea! I'll have to try that next time I make pasta!
+=== TIMING [tpc:1.0996124744415283, gdl:1.2159357070922852, gen:0.43556976318359375, tot:2.7511649131774902] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-14 23:50:28.342119
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like playing Mario Kart.
+Hokiebot:  That's awesome! What's your favorite game to play on the Super Nintendo? Mine is Super Mario Brothers.
+=== TIMING [tpc:0.9357812404632568, gdl:0.5820775032043457, gen:0.3919377326965332, tot:1.9098422527313232] ===
+You: I like the Super Mario Brothers too!
+Hokiebot:  That sounds like a lot of fun! What other games do you like to play with your friends?
+=== TIMING [tpc:1.2785611152648926, gdl:0.6804637908935547, gen:0.34160351753234863, tot:2.300676107406616] ===
+You: I like playing League of Legends.
+Hokiebot:  That's a great game! Do you have a favorite character to play as your main character?
+=== TIMING [tpc:0.3984363079071045, gdl:0.6267821788787842, gen:0.3432881832122803, tot:1.3685543537139893] ===
+You: My main character is Yasuo.
+Hokiebot:  I've never played that one before. What's your favorite game that you've played recently?
+=== TIMING [tpc:0.9057626724243164, gdl:0.6785058975219727, gen:0.40023231506347656, tot:1.9845499992370605] ===
+You: The Legend of Zelda, Tears of the Kingdom.
+Hokiebot:  That sounds like a lot of fun! Have you ever played any other video games before? 
+=== TIMING [tpc:0.6301546096801758, gdl:0.8785812854766846, gen:0.504737377166748, tot:2.013519525527954] ===
+You: Yeah, I play a lot of video games.
+Hokiebot:  That's awesome! What other types of games do you like to play besides RPG's?
+=== TIMING [tpc:0.8014600276947021, gdl:0.9650042057037354, gen:0.522003173828125, tot:2.2885148525238037] ===
+You: I like playing racing games too.
+Hokiebot:  What's your favorite racing game to play? I'm a big fan of the NASCAR series.
+=== TIMING [tpc:0.973768949508667, gdl:0.9103796482086182, gen:0.3714566230773926, tot:2.255652666091919] ===
+You: I like Forza Horizon!
+Hokiebot:  I'll have to check that out, thanks for the recommendation! Do you have any other hobbies?
+=== TIMING [tpc:1.0657665729522705, gdl:1.076645851135254, gen:0.41752123832702637, tot:2.55998158454895] ===
+You: I like skateboarding.
+Hokiebot:  That sounds like a lot of fun! What other types of video games do you enjoy playing?
+=== TIMING [tpc:0.7154417037963867, gdl:0.9626462459564209, gen:0.33739805221557617, tot:2.0155317783355713] ===
+You: That was all of them.
+Hokiebot:  That's awesome! What's your favorite game that you've played in the last few years?
+=== TIMING [tpc:1.3404419422149658, gdl:1.3312482833862305, gen:0.4761693477630615, tot:3.14790678024292] ===
+You: Spiderman.
+Hokiebot:  I've never heard of that one. What's it about? Is it a first-person shooter?
+=== TIMING [tpc:0.6963472366333008, gdl:1.1136653423309326, gen:0.3636791706085205, tot:2.173739433288574] ===
+You: No, it is a 3D adventure game. 
+Hokiebot:  That sounds interesting. I'll have to check it out. What other games do you like to play?
+=== TIMING [tpc:0.7805016040802002, gdl:0.9864139556884766, gen:0.4029524326324463, tot:2.169914960861206] ===
+You: I like playing board games too.
+Hokiebot:  I love board games! What's your favorite board game that you've played recently? Do you have any other favorites?
+=== TIMING [tpc:0.42365121841430664, gdl:0.5726218223571777, gen:0.4515073299407959, tot:1.4478280544281006] ===
+You: I like playing chess.
+Hokiebot:  I've never heard of that one. What's it about? Is it similar to Monopoly?
+=== TIMING [tpc:1.1275146007537842, gdl:1.2161428928375244, gen:0.40632152557373047, tot:2.75002384185791] ===
+You: No, it is very different. It is a strategy game.
+Hokiebot:  That sounds really interesting! I'll have to check it out. Do you play any other board games?
+=== TIMING [tpc:1.3940858840942383, gdl:1.3981359004974365, gen:0.43128037452697754, tot:3.2235498428344727] ===
+You: I like playing Risk as well.
+Hokiebot:  That's awesome! I love strategy games too! What's your favorite board game of all time?
+=== TIMING [tpc:0.8044106960296631, gdl:0.637509822845459, gen:0.3465006351470947, tot:1.788468837738037] ===
+You: Checkers.
+Hokiebot:  Have you ever played Monopoly? It's one of the most popular board games in history.
+=== TIMING [tpc:0.66233229637146, gdl:0.7133808135986328, gen:0.357285737991333, tot:1.7330520153045654] ===
+You: I have played it, yes.
+Hokiebot:  That sounds like a fun game. Do you have any other board games that you enjoy playing?
+=== TIMING [tpc:0.9535064697265625, gdl:0.8328814506530762, gen:0.3752312660217285, tot:2.1616666316986084] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-14 23:54:40.447948
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like playing Mario Kart.
+Hokiebot:  Robot: That's awesome! What's your favorite Mario Kart game?
+=== TIMING [tpc:0.9561731815338135, gdl:0.6357812881469727, gen:0.28763461112976074, tot:1.879634141921997] ===
+You: I like Mario Kart 8.
+Hokiebot:  Robot: That's awesome! What's your favorite Mario Kart game?
+=== TIMING [tpc:1.2624571323394775, gdl:0.9170868396759033, gen:0.28880786895751953, tot:2.4683988094329834] ===
+You: I like Mario Kart 8.
+Hokiebot:  Robot: That's awesome! What's your favorite Mario Kart game?
+=== TIMING [tpc:0.8790807723999023, gdl:1.0622375011444092, gen:0.2881283760070801, tot:2.229494094848633] ===
+You: 8
+Hokiebot:  Robot: That's awesome! What's your favorite Mario Kart game?
+=== TIMING [tpc:0.8925600051879883, gdl:1.181187629699707, gen:0.2916717529296875, tot:2.3654654026031494] ===
+You: I don't like Mario Kart.
+Hokiebot:  Robot: That's okay. What's your favorite Mario Kart game?
+=== TIMING [tpc:0.9534733295440674, gdl:0.9556288719177246, gen:0.288515567779541, tot:2.1976637840270996] ===
+You: None. I don't like video games.
+Hokiebot:  Robot: That's okay. What's your favorite Mario Kart game?
+=== TIMING [tpc:0.9116876125335693, gdl:0.8989720344543457, gen:0.2863500118255615, tot:2.097064256668091] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-14 23:58:40.498498
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like skateboarding.
+Hokiebot:  Robot: That's cool! What's your favorite skateboarding location?
+=== TIMING [tpc:0.9100940227508545, gdl:0.7777862548828125, gen:0.27036452293395996, tot:1.958305835723877] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("I'm Trevor. I like skateboarding.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", '')]] ===
+You: Sprinville, Utah.
+Hokiebot:  Robot: That's cool! What's your favorite skateboarding location?
+=== TIMING [tpc:0.733144998550415, gdl:1.0292284488677979, gen:0.2760937213897705, tot:2.0385255813598633] ===
+=== CONV_HISTORY [[("I'm Trevor. I like skateboarding.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", ''), ('Sprinville, Utah.', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "middle-level: {"topic:" "skateboarding location", {"if_not": "unknow"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", '')]] ===
+You: Springville is my favorite!
+Hokiebot:  Robot: That's cool! What's your favorite skateboarding location?
+=== TIMING [tpc:0.9825096130371094, gdl:0.952857255935669, gen:0.2828221321105957, tot:2.2182509899139404] ===
+=== CONV_HISTORY [[('Sprinville, Utah.', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "middle-level: {"topic:" "skateboarding location", {"if_not": "unknow"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", ''), ('Springville is my favorite!', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-Level": {"level": "favorite skateboarding location": "unknow"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", '')]] ===
+You: I don't like skateboarding.
+Hokiebot:  Robot: That's cool! What's your favorite skateboarding location?
+=== TIMING [tpc:0.762092113494873, gdl:0.9779863357543945, gen:0.28562331199645996, tot:2.025763988494873] ===
+=== CONV_HISTORY [[('Springville is my favorite!', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-Level": {"level": "favorite skateboarding location": "unknow"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", ''), ("I don't like skateboarding.", '{"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level: {"topic:" "favorite skateboarding location", "middle_level": "unknow"}}'), (" Robot: That's cool! What's your favorite skateboarding location?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:00:08.164925
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like skateboarding.
+Hokiebot:  That's awesome! What's your favorite place to skate? Mine is the skatepark in Phoenix, Arizona.
+=== TIMING [tpc:0.9063894748687744, gdl:0.760556697845459, gen:0.44309115409851074, tot:2.1100950241088867] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("I'm Trevor. I like skateboarding.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite place to skate? Mine is the skatepark in Phoenix, Arizona.", '')]] ===
+You: Springville, Utah.
+Hokiebot:  That sounds like a lot of fun! Do you have any other hobbies that you like to do?
+=== TIMING [tpc:0.9581971168518066, gdl:1.2807343006134033, gen:0.3459482192993164, tot:2.58493709564209] ===
+=== CONV_HISTORY [[("I'm Trevor. I like skateboarding.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite place to skate? Mine is the skatepark in Phoenix, Arizona.", ''), ('Springville, Utah.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "skateboarding", "middle_level": "favorite skatepark", "location": "Phoenix, Arizona"}}'), (' That sounds like a lot of fun! Do you have any other hobbies that you like to do?', '')]] ===
+You: I like hiking!
+Hokiebot:  That's so cool! I love hiking too, especially in the mountains. Have you ever been to the Appalachian National Scenic Trail?
+=== TIMING [tpc:0.6634278297424316, gdl:1.0462818145751953, gen:0.5823726654052734, tot:2.2921438217163086] ===
+=== CONV_HISTORY [[('Springville, Utah.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "skateboarding", "middle_level": "favorite skatepark", "location": "Phoenix, Arizona"}}'), (' That sounds like a lot of fun! Do you have any other hobbies that you like to do?', ''), ('I like hiking!', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's so cool! I love hiking too, especially in the mountains. Have you ever been to the Appalachian National Scenic Trail?", '')]] ===
+You: No I haven't.
+Hokiebot:  You should definitely check it out! It's the longest hiking-only trail in the world!
+=== TIMING [tpc:1.2067534923553467, gdl:0.41281628608703613, gen:0.39833521842956543, tot:2.0179734230041504] ===
+=== CONV_HISTORY [[('I like hiking!', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's so cool! I love hiking too, especially in the mountains. Have you ever been to the Appalachian National Scenic Trail?", ''), ("No I haven't.", '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "outdoor activities", "middle_level": "favorite hiking destination", "low-level:" {"topic: "Appalachian National Scenic Trail", {"if_not": "unknow"}}'), (" You should definitely check it out! It's the longest hiking-only trail in the world!", '')]] ===
+You: That is really cool. Do you like cooking?
+Hokiebot:  That's awesome! What's your favorite thing to cook? I'm a big fan of Italian food.
+=== TIMING [tpc:1.5195980072021484, gdl:0.8242940902709961, gen:0.377260684967041, tot:2.721214532852173] ===
+=== CONV_HISTORY [[("No I haven't.", '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "outdoor activities", "middle_level": "favorite hiking destination", "low-level:" {"topic: "Appalachian National Scenic Trail", {"if_not": "unknow"}}'), (" You should definitely check it out! It's the longest hiking-only trail in the world!", ''), ('That is really cool. Do you like cooking?', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking trail", "interest": ["Appalachian National Scenic Trail", "longest hiking-only trail in the world]}}'), (" That's awesome! What's your favorite thing to cook? I'm a big fan of Italian food.", '')]] ===
+You: I like cooking pasta.
+Hokiebot:  That sounds like a great idea! Do you have any recommendations for hiking in particular?
+=== TIMING [tpc:0.7247884273529053, gdl:0.5265541076660156, gen:0.351654052734375, tot:1.603057622909546] ===
+=== CONV_HISTORY [[('That is really cool. Do you like cooking?', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking trail", "interest": ["Appalachian National Scenic Trail", "longest hiking-only trail in the world]}}'), (" That's awesome! What's your favorite thing to cook? I'm a big fan of Italian food.", ''), ('I like cooking pasta.', '{"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-ranking": "favorite cuisine": "unknow"}}'), (' That sounds like a great idea! Do you have any recommendations for hiking in particular?', '')]] ===
+You: Utah has really good hiking.
+Hokiebot:  I'll definitely have to check that out! Thanks for the recommendation. Do you like to hike?
+=== TIMING [tpc:0.6324565410614014, gdl:1.0500946044921875, gen:0.42681384086608887, tot:2.109426498413086] ===
+=== CONV_HISTORY [[('I like cooking pasta.', '{"high-level": {"topic": "cooking", "if_interest": "yes"}, "middle-ranking": "favorite cuisine": "unknow"}}'), (' That sounds like a great idea! Do you have any recommendations for hiking in particular?', ''), ('Utah has really good hiking.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}}'), (" I'll definitely have to check that out! Thanks for the recommendation. Do you like to hike?", '')]] ===
+You: Yes, it is one of my favorite activities.
+Hokiebot:  Have you ever hiked in the Appalachian National Scenic Trail?
+=== TIMING [tpc:0.6519763469696045, gdl:0.9334936141967773, gen:0.5023379325866699, tot:2.0878684520721436] ===
+=== CONV_HISTORY [[('Utah has really good hiking.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}}'), (" I'll definitely have to check that out! Thanks for the recommendation. Do you like to hike?", ''), ('Yes, it is one of my favorite activities.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}}'), (' Have you ever hiked in the Appalachian National Scenic Trail?', '')]] ===
+You: No.
+Hokiebot:  That sounds like a lot of fun! Do you have any other hobbies that you enjoy?
+=== TIMING [tpc:1.12943696975708, gdl:0.8048303127288818, gen:0.3626871109008789, tot:2.2970175743103027] ===
+=== CONV_HISTORY [[('Yes, it is one of my favorite activities.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}}'), (' Have you ever hiked in the Appalachian National Scenic Trail?', ''), ('No.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-level: {"topic: "Appalachian National Scenic Trail", "middle-level:" {"topic:" "hiking in the Appalachian National Scout Trail"}}'), (' That sounds like a lot of fun! Do you have any other hobbies that you enjoy?', '')]] ===
+You: I like swimming.
+Hokiebot:  That's a great idea! I'll have to try that sometime. What's your favorite place to hike?
+=== TIMING [tpc:0.38732147216796875, gdl:0.970794677734375, gen:0.4000723361968994, tot:1.7582519054412842] ===
+=== CONV_HISTORY [[('No.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-level: {"topic: "Appalachian National Scenic Trail", "middle-level:" {"topic:" "hiking in the Appalachian National Scout Trail"}}'), (' That sounds like a lot of fun! Do you have any other hobbies that you enjoy?', ''), ('I like swimming.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's a great idea! I'll have to try that sometime. What's your favorite place to hike?", '')]] ===
+You: In Utah.
+Hokiebot:  Have you ever hiked in the Appalachian National Scenic Trail?
+=== TIMING [tpc:1.0540428161621094, gdl:0.8203322887420654, gen:0.47840023040771484, tot:2.3528425693511963] ===
+=== CONV_HISTORY [[('I like swimming.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's a great idea! I'll have to try that sometime. What's your favorite place to hike?", ''), ('In Utah.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-ground": {"level": "outdoor activities", "interest": ["hiking", "hiking place", "which_favorite place"], "if-interest":"unknow"}}'), (' Have you ever hiked in the Appalachian National Scenic Trail?', '')]] ===
+You: No.
+Hokiebot:  That sounds like a great hike! Have you hiked any other trails in the U.S.?
+=== TIMING [tpc:0.9778380393981934, gdl:0.5283248424530029, gen:0.38843393325805664, tot:1.8946583271026611] ===
+=== CONV_HISTORY [[('In Utah.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-ground": {"level": "outdoor activities", "interest": ["hiking", "hiking place", "which_favorite place"], "if-interest":"unknow"}}'), (' Have you ever hiked in the Appalachian National Scenic Trail?', ''), ('No.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": {"level": "Appalachian National Scenic Trail", "what\'s your favorite place to hike in Utah?"}}'), (' That sounds like a great hike! Have you hiked any other trails in the U.S.?', '')]] ===
+You: I have hiked Angel's Landing.
+Hokiebot:  I'll have to check it out! What's your favorite trail you've hiked on?
+=== TIMING [tpc:1.1799864768981934, gdl:0.8842160701751709, gen:0.39725208282470703, tot:2.4615166187286377] ===
+=== CONV_HISTORY [[('No.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": {"level": "Appalachian National Scenic Trail", "what\'s your favorite place to hike in Utah?"}}'), (' That sounds like a great hike! Have you hiked any other trails in the U.S.?', ''), ("I have hiked Angel's Landing.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-level: {"topic: "hiking in the Appalachian National Scenic Trail"}}'), (" I'll have to check it out! What's your favorite trail you've hiked on?", '')]] ===
+You: Angel's landing is my favorite.
+Hokiebot:  That's a great one! Do you have any other recommendations for hiking trails?
+=== TIMING [tpc:0.9257543087005615, gdl:0.9594137668609619, gen:0.373807430267334, tot:2.2590434551239014] ===
+=== CONV_HISTORY [[("I have hiked Angel's Landing.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-level: {"topic: "hiking in the Appalachian National Scenic Trail"}}'), (" I'll have to check it out! What's your favorite trail you've hiked on?", ''), ("Angel's landing is my favorite.", '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": {"level": "favorite trail", "what\'s your favorite", "middle name": "Angel\'s Landing"}}'), (" That's a great one! Do you have any other recommendations for hiking trails?", '')]] ===
+You: Any trail in Utah is good.
+Hokiebot:  Have you ever hiked the Appalachian National Scenic Trail? It runs from Georgia to Maine.
+=== TIMING [tpc:0.9051125049591064, gdl:1.0618808269500732, gen:0.47757911682128906, tot:2.4446356296539307] ===
+=== CONV_HISTORY [[("Angel's landing is my favorite.", '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": {"level": "favorite trail", "what\'s your favorite", "middle name": "Angel\'s Landing"}}'), (" That's a great one! Do you have any other recommendations for hiking trails?", ''), ('Any trail in Utah is good.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": "outdoor activities", "low-level: "hike recommendation": "unknow"}}'), (' Have you ever hiked the Appalachian National Scenic Trail? It runs from Georgia to Maine.', '')]] ===
+You: No. I only hike in Utah.
+Hokiebot:  I'll have to check it out, thanks for the recommendation! What's your favorite trail you've hiked on?
+=== TIMING [tpc:1.195261001586914, gdl:1.0822768211364746, gen:0.41875720024108887, tot:2.696357488632202] ===
+=== CONV_HISTORY [[('Any trail in Utah is good.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": "outdoor activities", "low-level: "hike recommendation": "unknow"}}'), (' Have you ever hiked the Appalachian National Scenic Trail? It runs from Georgia to Maine.', ''), ('No. I only hike in Utah.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level: {"topic: "outdoor activities", "middle_level": "favorite hiking trail", "low-level:" {"topic:" "Appalachian National Scenic Trail", "length": "unknow"}}'), (" I'll have to check it out, thanks for the recommendation! What's your favorite trail you've hiked on?", '')]] ===
+You: Angel's landing.
+Hokiebot:  That sounds like a great hike! Do you have any other recommendations for hiking trails?
+=== TIMING [tpc:0.7792060375213623, gdl:0.7987947463989258, gen:0.37034034729003906, tot:1.9484031200408936] ===
+=== CONV_HISTORY [[('No. I only hike in Utah.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level: {"topic: "outdoor activities", "middle_level": "favorite hiking trail", "low-level:" {"topic:" "Appalachian National Scenic Trail", "length": "unknow"}}'), (" I'll have to check it out, thanks for the recommendation! What's your favorite trail you've hiked on?", ''), ("Angel's landing.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "favorite trail", "what\'s yours?"}}'), (' That sounds like a great hike! Do you have any other recommendations for hiking trails?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:04:35.623359
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like backpacking.
+Hokiebot:  That's awesome! What's your favorite place you've backpacked so far in your life?
+=== TIMING [tpc:0.9245879650115967, gdl:0.4550516605377197, gen:0.4318888187408447, tot:1.8115880489349365] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("I'm Trevor. I like backpacking.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite place you've backpacked so far in your life?", '')]] ===
+You: Red Castle is my favorite.
+Hokiebot:  I would love to hike the Appalachian National Scenic Trail. Have you ever been?
+=== TIMING [tpc:0.8307826519012451, gdl:0.8211374282836914, gen:0.40076351165771484, tot:2.052745819091797] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("I'm Trevor. I like backpacking.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite place you've backpacked so far in your life?", ''), ('Red Castle is my favorite.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "favorite place", "middle_level": "favorite destination", "unknow": "no"}}'), (' I would love to hike the Appalachian National Scenic Trail. Have you ever been?', '')]] ===
+You: No I haven't ever been.
+Hokiebot:  That sounds like a lot of fun. Do you have any other hobbies besides hiking?
+=== TIMING [tpc:1.0034399032592773, gdl:0.7704803943634033, gen:0.3492453098297119, tot:2.1232340335845947] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("I'm Trevor. I like backpacking.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite place you've backpacked so far in your life?", ''), ('Red Castle is my favorite.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "favorite place", "middle_level": "favorite destination", "unknow": "no"}}'), (' I would love to hike the Appalachian National Scenic Trail. Have you ever been?', ''), ("No I haven't ever been.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking", "interest": ["Yellowstone National Scenic Trail", "Appalachian Trail"], "unknow": "no"}}'), (' That sounds like a lot of fun. Do you have any other hobbies besides hiking?', '')]] ===
+You: I like skateboarding.
+Hokiebot:  I also like to play video games. What do you like to do in your spare time?
+=== TIMING [tpc:0.6120920181274414, gdl:0.7207698822021484, gen:0.34041428565979004, tot:1.6733407974243164] ===
+=== CONV_HISTORY [[("I'm Trevor. I like backpacking.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite place you've backpacked so far in your life?", ''), ('Red Castle is my favorite.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "favorite place", "middle_level": "favorite destination", "unknow": "no"}}'), (' I would love to hike the Appalachian National Scenic Trail. Have you ever been?', ''), ("No I haven't ever been.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking", "interest": ["Yellowstone National Scenic Trail", "Appalachian Trail"], "unknow": "no"}}'), (' That sounds like a lot of fun. Do you have any other hobbies besides hiking?', ''), ('I like skateboarding.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (' I also like to play video games. What do you like to do in your spare time?', '')]] ===
+You: Skateboarding.
+Hokiebot:  That's really cool. What kind of games do you play on the PS4 or Xbox One?
+=== TIMING [tpc:0.7543346881866455, gdl:0.738837718963623, gen:0.30230045318603516, tot:1.7955381870269775] ===
+=== CONV_HISTORY [[('Red Castle is my favorite.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "favorite place", "middle_level": "favorite destination", "unknow": "no"}}'), (' I would love to hike the Appalachian National Scenic Trail. Have you ever been?', ''), ("No I haven't ever been.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking", "interest": ["Yellowstone National Scenic Trail", "Appalachian Trail"], "unknow": "no"}}'), (' That sounds like a lot of fun. Do you have any other hobbies besides hiking?', ''), ('I like skateboarding.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (' I also like to play video games. What do you like to do in your spare time?', ''), ('Skateboarding.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's really cool. What kind of games do you play on the PS4 or Xbox One?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:06:12.601454
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather was bad today.
+Hokiebot:  I'm sorry to hear that. What kind of activities do you like to do in your spare time?
+=== TIMING [tpc:0.919790506362915, gdl:0.695410966873169, gen:0.37717747688293457, tot:1.9924390316009521] ===
+=== CONV_HISTORY [[('The weather was bad today.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" I'm sorry to hear that. What kind of activities do you like to do in your spare time?", '')]] ===
+You: I like skateboarding.
+Hokiebot:  That sounds like a lot of fun. Do you have any other hobbies that you enjoy?
+=== TIMING [tpc:0.3858046531677246, gdl:0.7305445671081543, gen:0.3519906997680664, tot:1.4683959484100342] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (' That sounds like a lot of fun. Do you have any other hobbies that you enjoy?', '')]] ===
+You: I like to listen to music.
+Hokiebot:  That's really cool. What's your favorite hip hop artist or artist that you listen to?
+=== TIMING [tpc:0.6759810447692871, gdl:1.149261236190796, gen:0.31439900398254395, tot:2.1397006511688232] ===
+=== CONV_HISTORY [[('I like to listen to music.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's really cool. What's your favorite hip hop artist or artist that you listen to?", '')]] ===
+You: I like listening to Will Smith.
+Hokiebot:  Will Smith is a great rapper. Do you have a favorite album of his that you like the most?
+=== TIMING [tpc:1.0023086071014404, gdl:0.8804967403411865, gen:0.32769107818603516, tot:2.2105488777160645] ===
+=== CONV_HISTORY [[('I like listening to Will Smith.', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (' Will Smith is a great rapper. Do you have a favorite album of his that you like the most?', '')]] ===
+You: No. I only like his song "Miami"
+Hokiebot:  I'll have to check that out, thanks for the recommendation! What's your favorite song by him?
+=== TIMING [tpc:0.7558035850524902, gdl:1.020242691040039, gen:0.35134243965148926, tot:2.1274452209472656] ===
+=== CONV_HISTORY [[('No. I only like his song "Miami"', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" I'll have to check that out, thanks for the recommendation! What's your favorite song by him?", '')]] ===
+You: Miami is my favorite.
+Hokiebot:  That's a great song! Do you have any other favorite songs of his that you can recommend?
+=== TIMING [tpc:0.8194043636322021, gdl:0.613966703414917, gen:0.3441131114959717, tot:1.7775444984436035] ===
+=== CONV_HISTORY [[('Miami is my favorite.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-Level": {"": "singer", "middle name": "Nicki Minaj", "which song is your favorite song?"}}'), (" That's a great song! Do you have any other favorite songs of his that you can recommend?", '')]] ===
+You: Nope. I don't know any more songs by him.
+Hokiebot:  I'll have to check that out, thanks for the recommendation! What's your favorite song by him?
+=== TIMING [tpc:0.7761731147766113, gdl:1.3719792366027832, gen:0.3657338619232178, tot:2.5139517784118652] ===
+=== CONV_HISTORY [[("Nope. I don't know any more songs by him.", '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"": "songs of his music", "what genre": "unknow"}}'), (" I'll have to check that out, thanks for the recommendation! What's your favorite song by him?", '')]] ===
+You: What other artists do you like?
+Hokiebot:  That's a great suggestion, I'll definitely give them a listen. Do you have any other favorite artists?
+=== TIMING [tpc:1.0062649250030518, gdl:0.9965705871582031, gen:0.39362430572509766, tot:2.3965182304382324] ===
+=== CONV_HISTORY [[('What other artists do you like?', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That's a great suggestion, I'll definitely give them a listen. Do you have any other favorite artists?", '')]] ===
+You: I like Green Day.
+Hokiebot:  I'll have to check them out, thanks for the recommendation! What's your favorite song by them?
+=== TIMING [tpc:1.069873332977295, gdl:0.9504618644714355, gen:0.31393885612487793, tot:2.3343305587768555] ===
+=== CONV_HISTORY [[('I like Green Day.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"level": "favorite artist", "middle level": "unknow"}}'), (" I'll have to check them out, thanks for the recommendation! What's your favorite song by them?", '')]] ===
+You: Holiday is a really good song.
+Hokiebot:  I'll definitely check that out! Thanks for the suggestion! What other bands do you like?
+=== TIMING [tpc:0.6992840766906738, gdl:1.1572363376617432, gen:0.3745095729827881, tot:2.231090784072876] ===
+=== CONV_HISTORY [[('Holiday is a really good song.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "favorite song", "middle_level": "unknow"}}'), (" I'll definitely check that out! Thanks for the suggestion! What other bands do you like?", '')]] ===
+You: I like Imagine Dragons.
+Hokiebot:  That's awesome! I'll have to check them out. What's your favorite song by them?
+=== TIMING [tpc:0.7122697830200195, gdl:1.0783789157867432, gen:0.33155059814453125, tot:2.122258424758911] ===
+=== CONV_HISTORY [[('I like Imagine Dragons.', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That's awesome! I'll have to check them out. What's your favorite song by them?", '')]] ===
+You: Bad liar is a good song by them.
+Hokiebot:  That's a great song. I'll definitely check it out. Thanks for the recommendation!
+=== TIMING [tpc:0.7154312133789062, gdl:0.7270209789276123, gen:0.44233036041259766, tot:1.884840726852417] ===
+=== CONV_HISTORY [[('Bad liar is a good song by them.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "favorite song by Imagine Dragons, what\'s your favorite song by them?"}}'), (" That's a great song. I'll definitely check it out. Thanks for the recommendation!", '')]] ===
+You: Do you like video games?
+Hokiebot:  That sounds like a great idea! What's your favorite indie band or song to listen to?
+=== TIMING [tpc:0.9044320583343506, gdl:0.9362728595733643, gen:0.3252534866333008, tot:2.1660144329071045] ===
+=== CONV_HISTORY [[('Do you like video games?', '{"high-level": {"topic": "music", "if_interest": "yes"}, "low-level: {"topic: "bad liar song", "middle-Level": "unknow"}}'), (" That sounds like a great idea! What's your favorite indie band or song to listen to?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:10:35.736245
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Hi! I like skateboarding.
+Hokiebot:  That's awesome! Do you have any other hobbies that you like to share with others?
+=== TIMING [tpc:0.9556596279144287, gdl:0.4003934860229492, gen:0.33930444717407227, tot:1.6954197883605957] ===
+=== CONV_HISTORY [[('Hi! I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! Do you have any other hobbies that you like to share with others?", '')]] ===
+You: I also love hiking.
+Hokiebot:  That's great! Hiking is a great way to get outdoors. What's your favorite place to hike?
+=== TIMING [tpc:0.6636853218078613, gdl:1.0309209823608398, gen:0.39243340492248535, tot:2.0870959758758545] ===
+=== CONV_HISTORY [[('I also love hiking.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (" That's great! Hiking is a great way to get outdoors. What's your favorite place to hike?", '')]] ===
+You: I like hiking in Utah.
+Hokiebot:  That sounds like a great hike! Have you ever hiked in the Appalachian National Scenic Trail?
+=== TIMING [tpc:1.0529334545135498, gdl:1.2438554763793945, gen:0.5595486164093018, tot:2.856395959854126] ===
+=== CONV_HISTORY [[('I like hiking in Utah.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking location", "what\'s your favorite place to hike", "middle ground": "unknow"}}'), (' That sounds like a great hike! Have you ever hiked in the Appalachian National Scenic Trail?', '')]] ===
+You: No I haven't done that before.
+Hokiebot:  That's a great idea! Do you have any recommendations for hiking trails nearby?
+=== TIMING [tpc:1.2107443809509277, gdl:0.7304837703704834, gen:0.32808685302734375, tot:2.269373893737793] ===
+=== CONV_HISTORY [[("No I haven't done that before.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking in Utah National Scenic Trail, Appalachian National Trail, etc.", "low-level: {"topic: "Appalachian National Scout Trail", "interest": ["unknow"}}'), (" That's a great idea! Do you have any recommendations for hiking trails nearby?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:13:45.593434
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like playing Mario Kart.
+=== User Input: I'm Trevor. I like playing Mario Kart. ===
+BLENDERBOT - 2023-06-15 00:14:44.283801
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor. I like playing Mario Kart.
+=== User Input: I'm Trevor. I like playing Mario Kart. ===
+BLENDERBOT - 2023-06-15 00:15:35.569353
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I'm Trevor, I like playing Mario Kart.
+=== User Input: I'm Trevor, I like playing Mario Kart. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}} ===
+Hokiebot:  That's awesome! What's your favorite game to play on the Super Nintendo? Mine is Super Mario Brothers.
+=== TIMING [tpc:0.9394629001617432, gdl:0.6166934967041016, gen:0.3943805694580078, tot:1.950622797012329] ===
+=== CONV_HISTORY [[("I'm Trevor, I like playing Mario Kart.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite game to play on the Super Nintendo? Mine is Super Mario Brothers.", '')]] ===
+You: I like the Super Mario Brothers.
+=== User Input: I like the Super Mario Brothers. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-ranking": {"level": "favorite game", "topic": ["Mario Kart", "Super Mario Brothers"], "if-interest": ["yes"}} ===
+Hokiebot:  I love Super Mario Bros. It's one of my favorite video games of all time.
+=== TIMING [tpc:0.883962869644165, gdl:0.8977854251861572, gen:0.4564981460571289, tot:2.2383370399475098] ===
+=== CONV_HISTORY [[('I like the Super Mario Brothers.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-ranking": {"level": "favorite game", "topic": ["Mario Kart", "Super Mario Brothers"], "if-interest": ["yes"}}'), (" I love Super Mario Bros. It's one of my favorite video games of all time.", '')]] ===
+You: Have you seen the movie?
+=== User Input: Have you seen the movie? ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level: {"topic: "Super Mario Bros.", "if=yes"}} ===
+Hokiebot:  I haven't seen that one. I'll have to check it out. What's your favorite video game?
+=== TIMING [tpc:0.7290055751800537, gdl:1.3406445980072021, gen:0.42654967308044434, tot:2.496291160583496] ===
+=== CONV_HISTORY [[('Have you seen the movie?', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level: {"topic: "Super Mario Bros.", "if=yes"}}'), (" I haven't seen that one. I'll have to check it out. What's your favorite video game?", '')]] ===
+You: The Legend of Zelda is my favorite.
+=== User Input: The Legend of Zelda is my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "video game", "if_interest": "yes"}} ===
+Hokiebot:  That sounds like a great game. I've heard a lot about it, but I've never played it. What do you like about it?
+=== TIMING [tpc:0.6389477252960205, gdl:1.1296653747558594, gen:0.48154354095458984, tot:2.250247001647949] ===
+=== CONV_HISTORY [[('The Legend of Zelda is my favorite.', '{"high-level": {"topic": "video game", "if_interest": "yes"}}'), (" That sounds like a great game. I've heard a lot about it, but I've never played it. What do you like about it?", '')]] ===
+You: I like how much there is to explore.
+=== User Input: I like how much there is to explore. ===
+=== Topic Pref: {"high-level": {"topic": "video game", "if_interest": "yes"}, "low-level", "middle-level: {"topic: "game features", "what do you like about it?"}} ===
+Hokiebot:  That sounds really interesting. I'll have to check it out. Do you have any other favorite video games?
+=== TIMING [tpc:0.934995174407959, gdl:0.9914252758026123, gen:0.3944995403289795, tot:2.321013927459717] ===
+=== CONV_HISTORY [[('I like how much there is to explore.', '{"high-level": {"topic": "video game", "if_interest": "yes"}, "low-level", "middle-level: {"topic: "game features", "what do you like about it?"}}'), (" That sounds really interesting. I'll have to check it out. Do you have any other favorite video games?", '')]] ===
+You: No, but I do like skateboarding.
+=== User Input: No, but I do like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}} ===
+Hokiebot:  That's really cool! What other games do you like to play on the PS4 or Xbox One?
+=== TIMING [tpc:0.7223827838897705, gdl:0.8263049125671387, gen:0.3373908996582031, tot:1.886164665222168] ===
+=== CONV_HISTORY [[('No, but I do like skateboarding.', '{"high-level": {"topic": "video games", "if_interest": "yes"}}'), (" That's really cool! What other games do you like to play on the PS4 or Xbox One?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:18:21.398117
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+=== User Input: I like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}} ===
+Hokiebot:  That's awesome! What's your favorite trick you can do on a skateboard?
+=== TIMING [tpc:0.9286003112792969, gdl:0.39272642135620117, gen:0.38022947311401367, tot:1.7016410827636719] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's awesome! What's your favorite trick you can do on a skateboard?", '')]] ===
+You: I can do a rock to fakie
+=== User Input: I can do a rock to fakie ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "Skateboarding tricks", "what_favorite_trick": "unknow"}} ===
+Hokiebot:  That's so cool! Do you have any other tricks you'd like to share with me?
+=== TIMING [tpc:0.8326599597930908, gdl:1.4178853034973145, gen:0.3133704662322998, tot:2.5640041828155518] ===
+=== CONV_HISTORY [[('I can do a rock to fakie', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "Skateboarding tricks", "what_favorite_trick": "unknow"}}'), (" That's so cool! Do you have any other tricks you'd like to share with me?", '')]] ===
+You: I also like to kickflip.
+=== User Input: I also like to kickflip. ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}} ===
+Hokiebot:  That's awesome! Kickflip is one of my favorite tricks to do as well!
+=== TIMING [tpc:0.6435976028442383, gdl:0.6958906650543213, gen:0.4651010036468506, tot:1.8046832084655762] ===
+=== CONV_HISTORY [[('I also like to kickflip.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}}'), (" That's awesome! Kickflip is one of my favorite tricks to do as well!", '')]] ===
+You: What other tricks do you like?
+=== User Input: What other tricks do you like? ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickflip", "interest": ["yes"}} ===
+Hokiebot:  That sounds like a lot of fun! Do you have any other cool tricks you'd like to share with me?
+=== TIMING [tpc:0.6986639499664307, gdl:0.724409818649292, gen:0.36957645416259766, tot:1.79274582862854] ===
+=== CONV_HISTORY [[('What other tricks do you like?', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickflip", "interest": ["yes"}}'), (" That sounds like a lot of fun! Do you have any other cool tricks you'd like to share with me?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:21:37.809333
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like to skateboard.
+=== User Input: I like to skateboard. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": {"if_not": "unknow"}} ===
+Hokiebot:  Skateboarding is a lot of fun. What's your favorite skatepark?
+=== TIMING [tpc:1.2862586975097656, gdl:0.5591351985931396, gen:0.40282320976257324, tot:2.2483022212982178] ===
+=== CONV_HISTORY [[('I like to skateboard.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": {"if_not": "unknow"}}'), (" Skateboarding is a lot of fun. What's your favorite skatepark?", '')]] ===
+You: I like the park in Springville, Utah.
+=== User Input: I like the park in Springville, Utah. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite skatepark", "location": "Springville, Utah park"}} ===
+Hokiebot:  That's awesome! Do you have any other hobbies that you like to do in your spare time?
+=== TIMING [tpc:0.8198819160461426, gdl:0.7749812602996826, gen:0.3460562229156494, tot:1.9410064220428467] ===
+=== CONV_HISTORY [[('I like the park in Springville, Utah.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite skatepark", "location": "Springville, Utah park"}}'), (" That's awesome! Do you have any other hobbies that you like to do in your spare time?", '')]] ===
+You: I also like video games.
+=== User Input: I also like video games. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle- level": {"level": ["video games", "hobby"], "if": "unknow"}} ===
+Hokiebot:  That's really cool! What's your favorite video game that you've played in the past?
+=== TIMING [tpc:0.750213623046875, gdl:0.8981537818908691, gen:0.447007417678833, tot:2.095463275909424] ===
+=== CONV_HISTORY [[('I also like video games.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle- level": {"level": ["video games", "hobby"], "if": "unknow"}}'), (" That's really cool! What's your favorite video game that you've played in the past?", '')]] ===
+You: The Legend of Zelda, Tears of the Kingdom is my favorite.
+=== User Input: The Legend of Zelda, Tears of the Kingdom is my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-ranking": {"level": "favorite video game genre", "what's your favorite game", "low-level: "The Legend of Zelda", "Tears of the Kingdom": "unknow"}} ===
+Hokiebot:  That sounds like a lot of fun! Do you have any other favorite video games that you like to play?
+=== TIMING [tpc:1.118361473083496, gdl:0.8032517433166504, gen:0.3374054431915283, tot:2.2591052055358887] ===
+=== CONV_HISTORY [[('The Legend of Zelda, Tears of the Kingdom is my favorite.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-ranking": {"level": "favorite video game genre", "what\'s your favorite game", "low-level: "The Legend of Zelda", "Tears of the Kingdom": "unknow"}}'), (' That sounds like a lot of fun! Do you have any other favorite video games that you like to play?', '')]] ===
+You: No. But I like watching movies.
+=== User Input: No. But I like watching movies. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}} ===
+Hokiebot:  I love horror movies! What's your favorite horror movie that you've seen in recent years?
+=== TIMING [tpc:0.712954044342041, gdl:1.0063285827636719, gen:0.33447933197021484, tot:2.053853988647461] ===
+=== CONV_HISTORY [[('No. But I like watching movies.', '{"high-level": {"topic": "movies", "if_interest": "yes"}}'), (" I love horror movies! What's your favorite horror movie that you've seen in recent years?", '')]] ===
+You: I really like the movie, Zodiac. Have you seen it?
+=== User Input: I really like the movie, Zodiac. Have you seen it? ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic: "horror movies, movie title": "Zodiac", "how about you"}} ===
+Hokiebot:  I haven't seen that one! I'll have to check it out, thanks for the recommendation!
+=== TIMING [tpc:0.9213416576385498, gdl:0.7516300678253174, gen:0.47084593772888184, tot:2.1439034938812256] ===
+=== CONV_HISTORY [[('I really like the movie, Zodiac. Have you seen it?', '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic: "horror movies, movie title": "Zodiac", "how about you"}}'), (" I haven't seen that one! I'll have to check it out, thanks for the recommendation!", '')]] ===
+You: You are welcome.
+=== User Input: You are welcome. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "low-interest":{"topic": ["Zodiac", "The Godfather", "Zodiac"]}} ===
+Hokiebot:  That sounds like a great idea! What other movies do you recommend that I might check out?
+=== TIMING [tpc:0.8403394222259521, gdl:0.7316882610321045, gen:0.3197755813598633, tot:1.8918907642364502] ===
+=== CONV_HISTORY [[('You are welcome.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "low-interest":{"topic": ["Zodiac", "The Godfather", "Zodiac"]}}'), (' That sounds like a great idea! What other movies do you recommend that I might check out?', '')]] ===
+You: Have you seen Star Wars?
+=== User Input: Have you seen Star Wars? ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "Star Wars", "low-level:" {"topic: "unknow"}} ===
+Hokiebot:  I haven't seen any of the Star Wars movies. What's your favorite Star Wars movie?
+=== TIMING [tpc:0.8191642761230469, gdl:1.025707721710205, gen:0.3417084217071533, tot:2.186668634414673] ===
+=== CONV_HISTORY [[('Have you seen Star Wars?', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "Star Wars", "low-level:" {"topic: "unknow"}}'), (" I haven't seen any of the Star Wars movies. What's your favorite Star Wars movie?", '')]] ===
+You: I like Episode I.
+=== User Input: I like Episode I. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "favorite Star Wars movie", "low-level: {"topic: "Episode I", "middle_level": "unknow"}} ===
+Hokiebot:  I'll have to check those out, thanks for the recommendation! Do you have any other favorite movies?
+=== TIMING [tpc:0.9201343059539795, gdl:1.415684461593628, gen:0.39533448219299316, tot:2.731247901916504] ===
+=== CONV_HISTORY [[('I like Episode I.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "favorite Star Wars movie", "low-level: {"topic: "Episode I", "middle_level": "unknow"}}'), (" I'll have to check those out, thanks for the recommendation! Do you have any other favorite movies?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-15 00:24:18.118795
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+=== User Input: I like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"] ===
+Hokiebot:  Robot: That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:1.2878758907318115, gdl:0.5870153903961182, gen:0.3395988941192627, tot:2.214576244354248] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" Robot: That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: I like skating half pipes!
+=== User Input: I like skating half pipes! ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand or style of skateboarding", "interest": ["half pipes", "pandemic"], "middle school": "unknow"}} ===
+Hokiebot:  Robot: That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:0.9984447956085205, gdl:0.813023567199707, gen:0.3285059928894043, tot:2.1400654315948486] ===
+=== CONV_HISTORY [[('I like skating half pipes!', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand or style of skateboarding", "interest": ["half pipes", "pandemic"], "middle school": "unknow"}}'), (" Robot: That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: Half pipes.
+=== User Input: Half pipes. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle-end": "favorite board brand/style": "unknow"}} ===
+Hokiebot:  Robot: That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:1.0126941204071045, gdl:0.732349157333374, gen:0.3148016929626465, tot:2.0599377155303955] ===
+=== CONV_HISTORY [[('Half pipes.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-end": "favorite board brand/style": "unknow"}}'), (" Robot: That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-15 00:27:54.398748
+INSTRUCTDIALOGUE - 2023-06-15 00:28:25.893604
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+=== User Input: I like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"] ===
+Hokiebot:  Robot: That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:1.294846534729004, gdl:0.5804667472839355, gen:0.3353860378265381, tot:2.2107880115509033] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" Robot: That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: I like the brand Girl.
+=== User Input: I like the brand Girl. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand/stylish style": "Girl"}} ===
+Hokiebot:  Robot: That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:0.9152874946594238, gdl:0.9687633514404297, gen:0.3172299861907959, tot:2.201375722885132] ===
+=== CONV_HISTORY [[('I like the brand Girl.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand/stylish style": "Girl"}}'), (" Robot: That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-15 00:31:46.647690
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+=== User Input: I like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"] ===
+Hokiebot:  That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:1.2836828231811523, gdl:0.5611860752105713, gen:0.3450276851654053, tot:2.189983606338501] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: I like the brand Girl.
+=== User Input: I like the brand Girl. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand/stylish style of skateboarding", "low-level: "Girl"}} ===
+Hokiebot:  That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:0.9002432823181152, gdl:0.9365520477294922, gen:0.3058621883392334, tot:2.142742395401001] ===
+=== CONV_HISTORY [[('I like the brand Girl.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand/stylish style of skateboarding", "low-level: "Girl"}}'), (" That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+INSTRUCTDIALOGUE - 2023-06-15 00:35:11.001757
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+=== User Input: I like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"] ===
+Hokiebot:  That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:1.2493095397949219, gdl:0.5413098335266113, gen:0.33650708198547363, tot:2.1272127628326416] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: I like the Girl brand.
+=== User Input: I like the Girl brand. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand", "interest": ["Girl", "Skateboarding"], "middle level": "which style of skateboarding", "which brand": "unknow"}} ===
+Hokiebot:  That's cool! What's your favorite board brand or style of skateboarding?
+=== TIMING [tpc:1.0850849151611328, gdl:0.9359710216522217, gen:0.32437992095947266, tot:2.345534563064575] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" That's cool! What's your favorite board brand or style of skateboarding?", ''), ('I like the Girl brand.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle- level": {"level": "favorite board brand", "interest": ["Girl", "Skateboarding"], "middle level": "which style of skateboarding", "which brand": "unknow"}}'), (" That's cool! What's your favorite board brand or style of skateboarding?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-15 00:37:27.417117
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding.
+=== User Input: I like skateboarding. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"] ===
+Hokiebot:  That's awesome! Do you have any favorite skateboards that you like to use?
+=== TIMING [tpc:1.2575111389160156, gdl:0.5863277912139893, gen:0.3691444396972656, tot:2.213069200515747] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" That's awesome! Do you have any favorite skateboards that you like to use?", '')]] ===
+You: I like the Girl brand.
+=== User Input: I like the Girl brand. ===
+=== Topic Pref: {"high-level": {"topic": "activity", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarding Board brand", "which brand": "Girl brand",}} ===
+Hokiebot:  I've never heard of that brand. What's your favorite thing to do on the street?
+=== TIMING [tpc:0.8725183010101318, gdl:0.9455380439758301, gen:0.37536048889160156, tot:2.1935107707977295] ===
+=== CONV_HISTORY [[('I like skateboarding.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (" That's awesome! Do you have any favorite skateboards that you like to use?", ''), ('I like the Girl brand.', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarding Board brand", "which brand": "Girl brand",}}'), (" I've never heard of that brand. What's your favorite thing to do on the street?", '')]] ===
+You: I like kickflips.
+=== User Input: I like kickflips. ===
+=== Topic Pref: {"high-level": {"topic": "street activities", "if_interest": "yes"}, "middle- level": {"level": "kickingflips", "what's your favorite thing to do on the street": "unknow"}} ===
+Hokiebot:  That sounds like a lot of fun! I'll have to try that sometime. Do you use any other types of skateboarding?
+=== TIMING [tpc:0.8299646377563477, gdl:0.8577175140380859, gen:0.43680262565612793, tot:2.1245803833007812] ===
+=== CONV_HISTORY [[('I like the Girl brand.', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarding Board brand", "which brand": "Girl brand",}}'), (" I've never heard of that brand. What's your favorite thing to do on the street?", ''), ('I like kickflips.', '{"high-level": {"topic": "street activities", "if_interest": "yes"}, "middle- level": {"level": "kickingflips", "what\'s your favorite thing to do on the street": "unknow"}}'), (" That sounds like a lot of fun! I'll have to try that sometime. Do you use any other types of skateboarding?", '')]] ===
+You: I like skating half-pipes.
+=== User Input: I like skating half-pipes. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-floor", "low-level: {"topic: "skateboarding", "interest": ["half-pipes", "skating half-pipe", "skydiving half-pifes"], "how about you?"}} ===
+Hokiebot:  That's a great idea! Do you have any other hobbies that you like to do?
+=== TIMING [tpc:1.4509623050689697, gdl:0.8552341461181641, gen:0.3318023681640625, tot:2.6380984783172607] ===
+=== CONV_HISTORY [[('I like kickflips.', '{"high-level": {"topic": "street activities", "if_interest": "yes"}, "middle- level": {"level": "kickingflips", "what\'s your favorite thing to do on the street": "unknow"}}'), (" That sounds like a lot of fun! I'll have to try that sometime. Do you use any other types of skateboarding?", ''), ('I like skating half-pipes.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-floor", "low-level: {"topic: "skateboarding", "interest": ["half-pipes", "skating half-pipe", "skydiving half-pifes"], "how about you?"}}'), (" That's a great idea! Do you have any other hobbies that you like to do?", '')]] ===
+You: I like watching movies.
+=== User Input: I like watching movies. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}} ===
+Hokiebot:  I love watching movies too! What's your favorite movie that you've seen in recent years?
+=== TIMING [tpc:0.6481561660766602, gdl:0.8701767921447754, gen:0.34255003929138184, tot:1.8609731197357178] ===
+=== CONV_HISTORY [[('I like skating half-pipes.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-floor", "low-level: {"topic: "skateboarding", "interest": ["half-pipes", "skating half-pipe", "skydiving half-pifes"], "how about you?"}}'), (" That's a great idea! Do you have any other hobbies that you like to do?", ''), ('I like watching movies.', '{"high-level": {"topic": "movies", "if_interest": "yes"}}'), (" I love watching movies too! What's your favorite movie that you've seen in recent years?", '')]] ===
+You: I really liked Dungeon and Dragons. Have you seen it?
+=== User Input: I really liked Dungeon and Dragons. Have you seen it? ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "movies", "interest": ["Doom and Dragons", "Drungeon and Dragons"], "low-level:" {"topic:" "unknow"}} ===
+Hokiebot:  I haven't seen that one, but I've heard a lot about it. What's it about?
+=== TIMING [tpc:1.0297291278839111, gdl:1.127394199371338, gen:0.4698972702026367, tot:2.627115488052368] ===
+=== CONV_HISTORY [[('I like watching movies.', '{"high-level": {"topic": "movies", "if_interest": "yes"}}'), (" I love watching movies too! What's your favorite movie that you've seen in recent years?", ''), ('I really liked Dungeon and Dragons. Have you seen it?', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "movies", "interest": ["Doom and Dragons", "Drungeon and Dragons"], "low-level:" {"topic:" "unknow"}}'), (" I haven't seen that one, but I've heard a lot about it. What's it about?", '')]] ===
+You: It's about some thieves trying to right their wrongs. What movies do you like?
+=== User Input: It's about some thieves trying to right their wrongs. What movies do you like? ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "what genre": "unknow"}} ===
+Hokiebot:  That sounds interesting. I'll have to check it out. Do you have a favorite hip hop artist?
+=== TIMING [tpc:0.7266831398010254, gdl:1.1063640117645264, gen:0.36780762672424316, tot:2.200948715209961] ===
+=== CONV_HISTORY [[('I really liked Dungeon and Dragons. Have you seen it?', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "movies", "interest": ["Doom and Dragons", "Drungeon and Dragons"], "low-level:" {"topic:" "unknow"}}'), (" I haven't seen that one, but I've heard a lot about it. What's it about?", ''), ("It's about some thieves trying to right their wrongs. What movies do you like?", '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "what genre": "unknow"}}'), (" That sounds interesting. I'll have to check it out. Do you have a favorite hip hop artist?", '')]] ===
+You: Yeah, I like Snoop Dawg.
+=== User Input: Yeah, I like Snoop Dawg. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "hip hop", "low-level:" {"topic: "Snoop Dawg", "who is your favorite hip hop artist?"}} ===
+Hokiebot:  I'll definitely check him out, thanks for the recommendation! What's your favorite song of his?
+=== TIMING [tpc:1.036055088043213, gdl:1.339637279510498, gen:0.31482386589050293, tot:2.6906120777130127] ===
+=== CONV_HISTORY [[("It's about some thieves trying to right their wrongs. What movies do you like?", '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "what genre": "unknow"}}'), (" That sounds interesting. I'll have to check it out. Do you have a favorite hip hop artist?", ''), ('Yeah, I like Snoop Dawg.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "hip hop", "low-level:" {"topic: "Snoop Dawg", "who is your favorite hip hop artist?"}}'), (" I'll definitely check him out, thanks for the recommendation! What's your favorite song of his?", '')]] ===
+You: I can't remember the names of his songs.
+=== User Input: I can't remember the names of his songs. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  That's a great choice! I'm a big fan of Eminem myself. What other hip hop artists do you like?
+=== TIMING [tpc:0.7954010963439941, gdl:0.9729568958282471, gen:0.49144601821899414, tot:2.2599003314971924] ===
+=== CONV_HISTORY [[('Yeah, I like Snoop Dawg.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "hip hop", "low-level:" {"topic: "Snoop Dawg", "who is your favorite hip hop artist?"}}'), (" I'll definitely check him out, thanks for the recommendation! What's your favorite song of his?", ''), ("I can't remember the names of his songs.", '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That's a great choice! I'm a big fan of Eminem myself. What other hip hop artists do you like?", '')]] ===
+You: Kanye is good. Have you heard of him?
+=== User Input: Kanye is good. Have you heard of him? ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  I haven't heard of them, but I'll have to check them out. Do you have any other favorite artists?
+=== TIMING [tpc:0.7775013446807861, gdl:0.8496034145355225, gen:0.40091657638549805, tot:2.0281121730804443] ===
+=== CONV_HISTORY [[("I can't remember the names of his songs.", '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That's a great choice! I'm a big fan of Eminem myself. What other hip hop artists do you like?", ''), ('Kanye is good. Have you heard of him?', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" I haven't heard of them, but I'll have to check them out. Do you have any other favorite artists?", '')]] ===
+You: I really like Green Day.
+=== User Input: I really like Green Day. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "hip hop", "who is your favorite artist", "what genre": "unknow"}} ===
+Hokiebot:  I'll definitely check those artists out, thanks for the recommendation! What's your favorite song by them?
+=== TIMING [tpc:1.2469868659973145, gdl:1.3939571380615234, gen:0.36563897132873535, tot:3.006681203842163] ===
+=== CONV_HISTORY [[('Kanye is good. Have you heard of him?', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" I haven't heard of them, but I'll have to check them out. Do you have any other favorite artists?", ''), ('I really like Green Day.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "hip hop", "who is your favorite artist", "what genre": "unknow"}}'), (" I'll definitely check those artists out, thanks for the recommendation! What's your favorite song by them?", '')]] ===
+You: You should listen to Holiday. It is in the movie Surf's Up.
+=== User Input: You should listen to Holiday. It is in the movie Surf's Up. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "favorite song", "low-level:" {"topic: "Holiday", "when_movie_title": "surf's up", "how_movie": "unknow"}} ===
+Hokiebot:  I will definitely check that out! Thanks for the suggestion! What other bands do you like?
+=== TIMING [tpc:1.1397249698638916, gdl:1.2117259502410889, gen:0.36652612686157227, tot:2.7180728912353516] ===
+=== CONV_HISTORY [[('I really like Green Day.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "hip hop", "who is your favorite artist", "what genre": "unknow"}}'), (" I'll definitely check those artists out, thanks for the recommendation! What's your favorite song by them?", ''), ("You should listen to Holiday. It is in the movie Surf's Up.", '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "favorite song", "low-level:" {"topic: "Holiday", "when_movie_title": "surf\'s up", "how_movie": "unknow"}}'), (' I will definitely check that out! Thanks for the suggestion! What other bands do you like?', '')]] ===
+You: Those are all of the bands that I like.
+=== User Input: Those are all of the bands that I like. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  That's awesome! I'll have to check them out. Do you have any other favorite bands?
+=== TIMING [tpc:0.6710362434387207, gdl:0.7513749599456787, gen:0.3667945861816406, tot:1.789297342300415] ===
+=== CONV_HISTORY [[("You should listen to Holiday. It is in the movie Surf's Up.", '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "favorite song", "low-level:" {"topic: "Holiday", "when_movie_title": "surf\'s up", "how_movie": "unknow"}}'), (' I will definitely check that out! Thanks for the suggestion! What other bands do you like?', ''), ('Those are all of the bands that I like.', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That's awesome! I'll have to check them out. Do you have any other favorite bands?", '')]] ===
+You: No. What are your favorite bands?
+=== User Input: No. What are your favorite bands? ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  That sounds like a great band! What's your favorite song of theirs to listen to?
+=== TIMING [tpc:0.654228687286377, gdl:0.7383930683135986, gen:0.3927793502807617, tot:1.7854995727539062] ===
+=== CONV_HISTORY [[('Those are all of the bands that I like.', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That's awesome! I'll have to check them out. Do you have any other favorite bands?", ''), ('No. What are your favorite bands?', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That sounds like a great band! What's your favorite song of theirs to listen to?", '')]] ===
+You: I didn't say a band.
+=== User Input: I didn't say a band. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  I love ACDC! They were formed in 1962 in Los Angeles, California.
+=== TIMING [tpc:1.2212984561920166, gdl:1.1697115898132324, gen:0.40079474449157715, tot:2.791898727416992] ===
+=== CONV_HISTORY [[('No. What are your favorite bands?', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" That sounds like a great band! What's your favorite song of theirs to listen to?", ''), ("I didn't say a band.", '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (' I love ACDC! They were formed in 1962 in Los Angeles, California.', '')]] ===
+You: That is cool! Tell me more about ACDC.
+=== User Input: That is cool! Tell me more about ACDC. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "music band", "when_formed": "unknow"}} ===
+Hokiebot:  I'll have to check them out! Do you have any other favorite bands that you like?
+=== TIMING [tpc:0.7247059345245361, gdl:1.1079254150390625, gen:0.32413554191589355, tot:2.1568610668182373] ===
+=== CONV_HISTORY [[("I didn't say a band.", '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (' I love ACDC! They were formed in 1962 in Los Angeles, California.', ''), ('That is cool! Tell me more about ACDC.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "music band", "when_formed": "unknow"}}'), (" I'll have to check them out! Do you have any other favorite bands that you like?", '')]] ===
+You: goodbye.
+=== User Input: goodbye. ===
+=== Topic Pref: {"high-level": {"topic": "farewell", "if_interest": "yes"}} ===
+Hokiebot:  That's a great name for a band! What other bands do you like to listen to?
+=== TIMING [tpc:0.3977022171020508, gdl:1.0006377696990967, gen:0.31044769287109375, tot:1.7094595432281494] ===
+=== CONV_HISTORY [[('That is cool! Tell me more about ACDC.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "music band", "when_formed": "unknow"}}'), (" I'll have to check them out! Do you have any other favorite bands that you like?", ''), ('goodbye.', '{"high-level": {"topic": "farewell", "if_interest": "yes"}}'), (" That's a great name for a band! What other bands do you like to listen to?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
