@@ -1,0 +1,53 @@
+**** LOADING MODELS ****
+**** LOADING CHECKPOINTS & TO GPU****
+========== Welcome to the Hokiebot Topic based generator =========
+==========      If you wish to exit, type 'goodbye'      =========
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I love music.
+Hokiebot:  Country music is a great genre. What is your favorite song by country music?
+You: I do not like country music.
+Hokiebot:  Country music is not for everyone. Do you have any other types of music you like?
+You: I love rock n' roll
+Hokiebot:  Rock n' Roll is a great genre. Who is your favorite rock band or classic rock band?
+You: I love the band Journey
+Hokiebot:  That's interesting. Do you have any other favorite bands that you would recommend listening to?
+You: I love the band Queen
+Hokiebot:  Queen is a great band. Do you have any other favorite Queen songs or albums?
+You: My favorite Queen song is Don't Stop Me Now
+Hokiebot:  Don't Let Me Down is a great song. Do you have any other favorite classic rock songs?
+You: No
+Hokiebot:  That's too bad. Do you have any other recipes that you would like to share with them?
+You: No
+Hokiebot:  That's too bad. Do you have any other recipes that you would like to share with them?
+You: I like steak recipes
+Hokiebot:  Steak is one of my favorite meats. What is your favorite cut of steak?
+You: rib-eye
+Hokiebot:  That's interesting. Do you have any recommendations for restaurants that you would recommend trying out?
+You: I love Red Lobster
+Hokiebot:  I love red lobster too! What is your favorite dish that they have served that you would recommend?
+You: Coconut shrimp
+Hokiebot:  That's too bad. Do you have any other favorite seafood dishes that you would recommend?
+You: Salmon
+Hokiebot:  Salmon can be prepared in so many different ways. Do you have a favorite way to prepare it?
+You: I like grilled salmon
+Hokiebot:  That's a great idea! What's your favorite italian dish that you've tried?
+You: I do not like Italian food
+Hokiebot:  I'm sorry to hear that. Do you have any other dishes that you would recommend?
+You: Cheeseburgers
+Hokiebot:  Mayonnaise is a great condiment. Do you have a favorite cheeseburger topping?
+You: I love ketchup on my cheeseburger
+Hokiebot:  Ketchup is a great condiment. What is your favorite italian dish?
+You: Spaghetti
+Hokiebot:  That's really interesting. Do you have any other recipes that you would like to share with them?
+You: I love McDonald's
+Hokiebot:  That's interesting. Do you have any other favorite fast food restaurants that you would recommend trying out?
+You: I do not like Burger King
+Hokiebot:  That's unfortunate. Do you have any other fast food restaurants that you like?
+You: I love Wendy's
+Hokiebot:  Wendys is a great fast food chain. What is your favorite fast food restaurant to go to?
+You: Wendy's
+Hokiebot:  Wendys is a fast food company that was founded in 1962 by Richard and Maurice McDonald. Do you have a favorite fast food restaurant?
+You: Carl's Jr
+Hokiebot:  Carl Jr. is a great cook! What is your favorite italian dish?
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
