@@ -5,7 +5,7 @@ import torch.distributed as dist
 import torch.nn as nn
 import pandas as pd
 # import torch.optim as optim
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, T5ForConditionalGeneration
 from transformers import AdamW
 from tqdm import tqdm  # for our progress bar
 from torch.nn.parallel import DistributedDataParallel as DDP
@@ -17,7 +17,6 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
 
     log = open('./logV2.txt', 'a+')
     log.write('================ STARTING A NEW RUN == {} =================\n'.format(datetime.datetime.now()))
-
 
     criteria2 = AdamW(model2.parameters(), lr=1e-6)
     criteria1 = AdamW(model1.parameters(), lr=1e-6)
@@ -34,6 +33,7 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
             criteria2.zero_grad()
             criteria1.zero_grad()
             # pull all tensor batches required for training
+
             input_ids2 = iio.to(device)
             input_ids1 = bio.to(device)
             # attention_mask = batch['attention_mask'].to(device)
@@ -55,12 +55,13 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
             # # calculate loss for every parameter that needs grad update
             loss2 = loss2.mean()
             loss1 = loss1.mean()
-
+            
             loss2.backward()
             loss1.backward()
             # update parameters
             criteria2.step()
             criteria1.step()
+
             # print relevant info to progress bar
             loop.set_description(f'Epoch {epoch}')
             loop.set_postfix(loss2=loss2.item(), loss1=loss1.item())
@@ -68,7 +69,8 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
             eploss2 += loss2.item()
             eploss1 += loss1.item()
 
-            log.write("Epoch:{}, EpLoss1:{}, EpLoss2:{}\n".format(epoch, eploss1/len(dl), eploss2/len(dl)))
+        log.write("Epoch:{}, EpLoss1:{}, EpLoss2:{}\n".format(epoch, eploss1/len(dl), eploss2/len(dl)))
+
 
 
 device_id = '0' # need to change this to 6 when I am training w/ jingyuan's GPU
@@ -98,6 +100,7 @@ class CombiDataset(torch.utils.data.Dataset):
         instruction = "Instruction: Generate a response that following the given topic guideline.\n"
         blen_in_out = self.blen_tokenizer(blen_in, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
         blen_out_out = self.blen_tokenizer(blen_out, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        
         inst_in_out = self.inst_tokenizer(instruction+inst_in, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
         inst_out_out = self.inst_tokenizer(inst_out, max_length=self.max_len, padding='max_length', truncation=True, return_tensors='pt').input_ids
 
@@ -114,6 +117,8 @@ if __name__ == '__main__':
 
     inst_tokenizer = AutoTokenizer.from_pretrained("prakharz/DIAL-BART0")
     inst_model = AutoModelForSeq2SeqLM.from_pretrained("prakharz/DIAL-BART0")
+    # inst_model = None
+    # inst_tokenizer = None
 
     # create dataloader #! USING THE SIZE 360 BECAUSE THAT WAS THE LONGEST OF THE TWO FILES
     ds = CombiDataset('./data/generated_data/generator/blen_train/0_0_master_train_clean.txt', './data/generated_data/generator/inst_train/0_0_master_train_clean.txt', blen_tokenizer, inst_tokenizer, max_length)
@@ -125,6 +130,7 @@ if __name__ == '__main__':
     # load models to GPU
     blen_model.to(device)
     inst_model.to(device)
+    
     
     train(blen_model, inst_model, dl, blen_tokenizer, inst_tokenizer, 10)
 
