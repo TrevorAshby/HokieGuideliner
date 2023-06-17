@@ -8,13 +8,13 @@ CONV_HISTORY = [('', '')]
 MAX_CONV_TURNS = 4 # make sure that this is an even number
 
 # load the models
-topic_tokenizer = AutoTokenizer.from_pretrained('trevorashby/topic-detector')
+topic_tokenizer = AutoTokenizer.from_pretrained('prakharz/DIAL-BART0')
 topic_detector = AutoModelForSeq2SeqLM.from_pretrained('trevorashby/topic-detector')
 
-guideliner_tokenizer = AutoTokenizer.from_pretrained("trevorashby/guideliner")
+guideliner_tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
 guideliner = T5ForConditionalGeneration.from_pretrained("trevorashby/guideliner")
 
-blen_tokenizer = AutoTokenizer.from_pretrained("trevorashby/blenderbot-1B-distil")
+blen_tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-1B-distill")
 blen_model = AutoModelForSeq2SeqLM.from_pretrained("trevorashby/blenderbot-1B-distill")
 
 # load the states & models to device
