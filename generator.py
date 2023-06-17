@@ -72,8 +72,8 @@ def train(model1, model2, dl, tokenizer1, tokenizer2, num_epochs=10):
 
 
 device_id = '0' # need to change this to 6 when I am training w/ jingyuan's GPU
-max_length = 50
-batch_size = 40
+max_length = 128
+batch_size = 32
 epoch_num = 50
 
 
@@ -109,8 +109,8 @@ if __name__ == '__main__':
     device = torch.device('cuda:'+device_id)
 
     # download the models
-    blen_tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
-    blen_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/blenderbot-400M-distill")
+    blen_tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-1B-distill")
+    blen_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/blenderbot-1B-distill")
 
     inst_tokenizer = AutoTokenizer.from_pretrained("prakharz/DIAL-BART0")
     inst_model = AutoModelForSeq2SeqLM.from_pretrained("prakharz/DIAL-BART0")
@@ -119,8 +119,8 @@ if __name__ == '__main__':
     ds = CombiDataset('./data/generated_data/generator/blen_train/0_0_master_train_clean.txt', './data/generated_data/generator/inst_train/0_0_master_train_clean.txt', blen_tokenizer, inst_tokenizer, max_length)
     dl = torch.utils.data.DataLoader(ds, batch_size=batch_size, shuffle=True)
 
-    blen_model = torch.nn.DataParallel(blen_model, device_ids=[0])
-    inst_model = torch.nn.DataParallel(inst_model, device_ids=[0])
+    blen_model = torch.nn.DataParallel(blen_model, device_ids=[0,1])
+    inst_model = torch.nn.DataParallel(inst_model, device_ids=[0,1])
 
     # load models to GPU
     blen_model.to(device)

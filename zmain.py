@@ -34,8 +34,8 @@ def main():
     guideliner_tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
     guideliner = T5ForConditionalGeneration.from_pretrained("google/flan-t5-large")
 
-    blen_tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
-    blen_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/blenderbot-400M-distill")
+    blen_tokenizer = AutoTokenizer.from_pretrained("facebook/blenderbot-1B-distill")
+    blen_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/blenderbot-1B-distill")
 
     inst_tokenizer = AutoTokenizer.from_pretrained("prakharz/DIAL-BART0")
     inst_model = AutoModelForSeq2SeqLM.from_pretrained("prakharz/DIAL-BART0")
