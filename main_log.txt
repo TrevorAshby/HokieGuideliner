@@ -4120,3 +4120,111 @@ Hokiebot:  That's cool. Do you have any favorite artists or artists that you wou
 You: goodbye
 Hokiebot: Goodbye! Thanks for chatting!
 
+BLENDERBOT - PREV_TURNS:3 - 2023-06-23 12:27:55.094796
+BLENDERBOT - PREV_TURNS:3 - 2023-06-23 12:29:08.244226
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Hey, I'm Trevor.
+=== User Input: Hey, I'm Trevor. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}} ===
+Hokiebot:  Hi trevor! Do you have any favorite things to do with your family and friends?
+=== TIMING [tpc:1.3010339736938477, gdl:0.502342939376831, gen:0.35051584243774414, tot:2.153933525085449] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("Hey, I'm Trevor.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (' Hi trevor! Do you have any favorite things to do with your family and friends?', '')]] ===
+You: I like skateboarding
+=== User Input: I like skateboarding ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "outdoor activities", "interest": ["sport", "Skateboarding", "favorite thing to do with family and friends"]}} ===
+Hokiebot:  That's cool! What's your favorite thing you've ever done with your friends or family?
+=== TIMING [tpc:1.8719477653503418, gdl:0.7170531749725342, gen:0.3434414863586426, tot:2.9324867725372314] ===
+=== CONV_HISTORY [[(' Hi trevor! Do you have any favorite things to do with your family and friends?', ''), ('I like skateboarding', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "outdoor activities", "interest": ["sport", "Skateboarding", "favorite thing to do with family and friends"]}}'), (" That's cool! What's your favorite thing you've ever done with your friends or family?", '')]] ===
+You: I think camping is the best
+=== User Input: I think camping is the best ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "camping", "what is your favorite thing to do with family and friends?"}} ===
+Hokiebot:  Camping sounds like a lot of fun! Do you have any favorite spots to go camping?
+=== TIMING [tpc:1.2700161933898926, gdl:0.9506754875183105, gen:0.39087486267089844, tot:2.6116127967834473] ===
+=== CONV_HISTORY [[(" That's cool! What's your favorite thing you've ever done with your friends or family?", ''), ('I think camping is the best', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "camping", "what is your favorite thing to do with family and friends?"}}'), (' Camping sounds like a lot of fun! Do you have any favorite spots to go camping?', '')]] ===
+You: I like camping in Utah.
+=== User Input: I like camping in Utah. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "favorite camping spot", "location": "Utah", "when_interest): "yes"}} ===
+Hokiebot:  Have you ever been to the Appalachian National Scenic Trail in the Eastern United States?
+=== TIMING [tpc:0.8729157447814941, gdl:0.9228537082672119, gen:0.4264838695526123, tot:2.2222962379455566] ===
+=== CONV_HISTORY [[(' Camping sounds like a lot of fun! Do you have any favorite spots to go camping?', ''), ('I like camping in Utah.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "favorite camping spot", "location": "Utah", "when_interest): "yes"}}'), (' Have you ever been to the Appalachian National Scenic Trail in the Eastern United States?', '')]] ===
+You: No I haven't. Is it nice?
+=== User Input: No I haven't. Is it nice? ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "Appalachian National Scenic Trail", "interest": ["unknow"}} ===
+Hokiebot:  That's understandable. Have you been to any other national parks or beaches in the U.S.?
+=== TIMING [tpc:0.9697568416595459, gdl:0.850106954574585, gen:0.46264171600341797, tot:2.2825520038604736] ===
+=== CONV_HISTORY [[(' Have you ever been to the Appalachian National Scenic Trail in the Eastern United States?', ''), ("No I haven't. Is it nice?", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "Appalachian National Scenic Trail", "interest": ["unknow"}}'), (" That's understandable. Have you been to any other national parks or beaches in the U.S.?", '')]] ===
+You: I have been to Zion national park.
+=== User Input: I have been to Zion national park. ===
+=== Topic Pref: {"high-level": {"topic": "National Park", "if_interest": "yes"}, "low-level: {"topic: "Zion national park", "what's your opinion about it?"}} ===
+Hokiebot:  Zion National Park is beautiful! What was your favorite hiking or camping spot there?
+=== TIMING [tpc:0.8896639347076416, gdl:0.8916397094726562, gen:0.39849376678466797, tot:2.1798434257507324] ===
+=== CONV_HISTORY [[(" That's understandable. Have you been to any other national parks or beaches in the U.S.?", ''), ('I have been to Zion national park.', '{"high-level": {"topic": "National Park", "if_interest": "yes"}, "low-level: {"topic: "Zion national park", "what\'s your opinion about it?"}}'), (' Zion National Park is beautiful! What was your favorite hiking or camping spot there?', '')]] ===
+You: I can't remember.
+=== User Input: I can't remember. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "favorite hiking/camping spot", "middle_level": "unknow"}} ===
+Hokiebot:  That's too bad. Do you have any other hiking and camping activities you like to do?
+=== TIMING [tpc:0.8867273330688477, gdl:0.9526379108428955, gen:0.3786177635192871, tot:2.2180325984954834] ===
+=== CONV_HISTORY [[(' Zion National Park is beautiful! What was your favorite hiking or camping spot there?', ''), ("I can't remember.", '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "favorite hiking/camping spot", "middle_level": "unknow"}}'), (" That's too bad. Do you have any other hiking and camping activities you like to do?", '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "no"}} ===
+Hokiebot:  Have you ever been camping or hiking in the mountains or in the wilderness?
+=== TIMING [tpc:0.654998779296875, gdl:0.9120709896087646, gen:0.3616786003112793, tot:1.9287927150726318] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other hiking and camping activities you like to do?", ''), ('No.', '{"high-level": {"topic": "outdoor activities", "if_interest": "no"}}'), (' Have you ever been camping or hiking in the mountains or in the wilderness?', '')]] ===
+You: Hiking in the mountains yes.
+=== User Input: Hiking in the mountains yes. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "hiking in the mountains or in the wilderness"}} ===
+Hokiebot:  That's great! Do you have any other hiking or other outdoor activities that you enjoy doing?
+=== TIMING [tpc:0.831049919128418, gdl:1.1100282669067383, gen:0.39316511154174805, tot:2.3342878818511963] ===
+=== CONV_HISTORY [[(' Have you ever been camping or hiking in the mountains or in the wilderness?', ''), ('Hiking in the mountains yes.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "hiking in the mountains or in the wilderness"}}'), (" That's great! Do you have any other hiking or other outdoor activities that you enjoy doing?", '')]] ===
+You: I like swimming.
+=== User Input: I like swimming. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "hiking/outdoor activity", "low-level: "swimming"}} ===
+Hokiebot:  Swimming is such a great way to exercise. What's your favorite hike spot?
+=== TIMING [tpc:1.0412724018096924, gdl:0.6547815799713135, gen:0.36435961723327637, tot:2.0604586601257324] ===
+=== CONV_HISTORY [[(" That's great! Do you have any other hiking or other outdoor activities that you enjoy doing?", ''), ('I like swimming.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "hiking/outdoor activity", "low-level: "swimming"}}'), (" Swimming is such a great way to exercise. What's your favorite hike spot?", '')]] ===
+You: I like hiking in Utah.
+=== User Input: I like hiking in Utah. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking", "location": "favorite hike spot": "undecided"}, "low-interest": ["Utah", "Hiking in Utah", "yes"}} ===
+Hokiebot:  Do you have any tips for someone who doesn't enjoy hiking or swimming as much as you do?
+=== TIMING [tpc:1.0906603336334229, gdl:0.8749675750732422, gen:0.36093783378601074, tot:2.3266093730926514] ===
+=== CONV_HISTORY [[(" Swimming is such a great way to exercise. What's your favorite hike spot?", ''), ('I like hiking in Utah.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking", "location": "favorite hike spot": "undecided"}, "low-interest": ["Utah", "Hiking in Utah", "yes"}}'), (" Do you have any tips for someone who doesn't enjoy hiking or swimming as much as you do?", '')]] ===
+You: You have to get practice before it starts to get fun.
+=== User Input: You have to get practice before it starts to get fun. ===
+=== Topic Pref: {"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-school-age": "unknow"}} ===
+Hokiebot:  What are some of your favorite hiking/swimming activities that you enjoy doing at home?
+=== TIMING [tpc:0.6855335235595703, gdl:0.922644853591919, gen:0.40691161155700684, tot:2.015134334564209] ===
+=== CONV_HISTORY [[(" Do you have any tips for someone who doesn't enjoy hiking or swimming as much as you do?", ''), ('You have to get practice before it starts to get fun.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-school-age": "unknow"}}'), (' What are some of your favorite hiking/swimming activities that you enjoy doing at home?', '')]] ===
+You: I don't have a pool, so I can't do them at home. 
+=== User Input: I don't have a pool, so I can't do them at home.  ===
+=== Topic Pref: {"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle- level": {"level": "outdoor activities", "topic": ["hiking/swimming", "pools", "unknow"}} ===
+Hokiebot:  That's too bad. Do you have any other outdoor activities you like to do?
+=== TIMING [tpc:1.0725812911987305, gdl:0.8349246978759766, gen:0.3885531425476074, tot:2.296102285385132] ===
+=== CONV_HISTORY [[(' What are some of your favorite hiking/swimming activities that you enjoy doing at home?', ''), ("I don't have a pool, so I can't do them at home. ", '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle- level": {"level": "outdoor activities", "topic": ["hiking/swimming", "pools", "unknow"}}'), (" That's too bad. Do you have any other outdoor activities you like to do?", '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "no"}} ===
+Hokiebot:  Swimming is such a great way to stay in shape. Have you ever swam in the olympics?
+=== TIMING [tpc:0.4111015796661377, gdl:1.0599853992462158, gen:0.4335336685180664, tot:1.9046635627746582] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other outdoor activities you like to do?", ''), ('No.', '{"high-level": {"topic": "outdoor activities", "if_interest": "no"}}'), (' Swimming is such a great way to stay in shape. Have you ever swam in the olympics?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "no"}, "middle school sports": "Olympic sports", "low-level: "swimming in the olympics"}} ===
+Hokiebot:  That's too bad. Do you have any other hobbies that you like to do in your spare time?
+=== TIMING [tpc:0.8379471302032471, gdl:0.6248874664306641, gen:0.33579230308532715, tot:1.7986748218536377] ===
+=== CONV_HISTORY [[(' Swimming is such a great way to stay in shape. Have you ever swam in the olympics?', ''), ('No.', '{"high-level": {"topic": "sports", "if_interest": "no"}, "middle school sports": "Olympic sports", "low-level: "swimming in the olympics"}}'), (" That's too bad. Do you have any other hobbies that you like to do in your spare time?", '')]] ===
+You: I like to watch movies.
+=== User Input: I like to watch movies. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}} ===
+Hokiebot:  What are some of your favorite documentaries that you've watched in the past that you would recommend?
+=== TIMING [tpc:0.6758041381835938, gdl:0.9651837348937988, gen:0.2996952533721924, tot:1.9407281875610352] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other hobbies that you like to do in your spare time?", ''), ('I like to watch movies.', '{"high-level": {"topic": "movies", "if_interest": "yes"}}'), (" What are some of your favorite documentaries that you've watched in the past that you would recommend?", '')]] ===
+You: I like the video game documentary.
+=== User Input: I like the video game documentary. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle- level": {"level": "video game documentaries", "what's your favorite genre": "no"}} ===
+Hokiebot:  What other video games do you enjoy playing? Do you have any other favorite video games to play?
+=== TIMING [tpc:0.8822143077850342, gdl:1.3000638484954834, gen:0.36510252952575684, tot:2.54742431640625] ===
+=== CONV_HISTORY [[(" What are some of your favorite documentaries that you've watched in the past that you would recommend?", ''), ('I like the video game documentary.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle- level": {"level": "video game documentaries", "what\'s your favorite genre": "no"}}'), (' What other video games do you enjoy playing? Do you have any other favorite video games to play?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
