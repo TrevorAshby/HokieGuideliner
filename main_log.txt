@@ -853,6 +853,357 @@ Hokiebot:  That's a great name for a band! What other bands do you like to liste
 You: goodbye
 Hokiebot: Goodbye! Thanks for chatting!
 
+<<<<<<< HEAD
+BLENDERBOT - 2023-06-16 18:42:09.900240
+BLENDERBOT - 2023-06-16 18:44:53.858423
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Hi, I'm Trevor.
+=== User Input: Hi, I'm Trevor. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}} ===
+Hokiebot:  That sounds like a lot of fun. Do you have any favorite conversations you would like to share?
+=== TIMING [tpc:1.1553876399993896, gdl:0.9418525695800781, gen:0.47133731842041016, tot:2.5686981678009033] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ("Hi, I'm Trevor.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (' That sounds like a lot of fun. Do you have any favorite conversations you would like to share?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}} ===
+Hokiebot:  That's a good question. What is your favorite conversation you've ever had with a friend?
+=== TIMING [tpc:0.938605785369873, gdl:0.7204186916351318, gen:0.47736549377441406, tot:2.1364822387695312] ===
+=== CONV_HISTORY [[("Hi, I'm Trevor.", '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (' That sounds like a lot of fun. Do you have any favorite conversations you would like to share?', ''), ('No.', '{"high-level": {"topic": "conversation", "if_interest": "yes"}}'), (" That's a good question. What is your favorite conversation you've ever had with a friend?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-16 18:47:17.825448
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like skateboarding
+=== User Input: I like skateboarding ===
+=== Topic Pref: {"high-level": {"topic": "activity", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"] ===
+Hokiebot:  That sounds like a lot of fun! Do you have any favorite skateboards to recommend?
+=== TIMING [tpc:1.582815408706665, gdl:0.9340531826019287, gen:0.5281288623809814, tot:3.0451319217681885] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I like skateboarding', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (' That sounds like a lot of fun! Do you have any favorite skateboards to recommend?', '')]] ===
+You: I like Element skateboards.
+=== User Input: I like Element skateboards. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarding", "middle_level": "favorite skateboard brand": " Element skateboards"}} ===
+Hokiebot:  That's really cool! I've never heard of Element Skateboarders. What kind of activities do they like to do?
+=== TIMING [tpc:1.6197352409362793, gdl:0.8741607666015625, gen:0.5843944549560547, tot:3.078429937362671] ===
+=== CONV_HISTORY [[('I like skateboarding', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "low-level: {"topic: "skateboarding", "interest": ["Hokiebot"]'), (' That sounds like a lot of fun! Do you have any favorite skateboards to recommend?', ''), ('I like Element skateboards.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarding", "middle_level": "favorite skateboard brand": " Element skateboards"}}'), (" That's really cool! I've never heard of Element Skateboarders. What kind of activities do they like to do?", '')]] ===
+You: Element is a brand of skateboards.
+=== User Input: Element is a brand of skateboards. ===
+=== Topic Pref: {"high-level": {"topic": "board", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarder Activities", "middle_level": "type": "activity type": "Element Skateboarders"}} ===
+Hokiebot:  That sounds really fun! I'll have to check it out. Do you know if there are any skateparks around where you live?
+=== TIMING [tpc:1.4144043922424316, gdl:0.9984016418457031, gen:0.6276407241821289, tot:3.040567398071289] ===
+=== CONV_HISTORY [[('I like Element skateboards.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarding", "middle_level": "favorite skateboard brand": " Element skateboards"}}'), (" That's really cool! I've never heard of Element Skateboarders. What kind of activities do they like to do?", ''), ('Element is a brand of skateboards.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarder Activities", "middle_level": "type": "activity type": "Element Skateboarders"}}'), (" That sounds really fun! I'll have to check it out. Do you know if there are any skateparks around where you live?", '')]] ===
+You: Yeah, I like skating at the park in Springville, Utah.
+=== User Input: Yeah, I like skating at the park in Springville, Utah. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "Skateparks", "location": "unknow"}} ===
+Hokiebot:  That's awesome! Do you ever go to the skatepark to do tricks?
+=== TIMING [tpc:0.9841499328613281, gdl:1.1552836894989014, gen:0.49614477157592773, tot:2.6357007026672363] ===
+=== CONV_HISTORY [[('Element is a brand of skateboards.', '{"high-level": {"topic": "board", "if_interest": "yes"}, "middle-level: {"topic:" "Skateboarder Activities", "middle_level": "type": "activity type": "Element Skateboarders"}}'), (" That sounds really fun! I'll have to check it out. Do you know if there are any skateparks around where you live?", ''), ('Yeah, I like skating at the park in Springville, Utah.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "Skateparks", "location": "unknow"}}'), (" That's awesome! Do you ever go to the skatepark to do tricks?", '')]] ===
+You: I go there multiple times a week to practice tricks
+=== User Input: I go there multiple times a week to practice tricks ===
+=== Topic Pref: {"high-level": {"topic": "activity", "if_interest": "yes"}, "middle- level": {"level": "skatepark tricks", "how often do you go to the skatepark to practice tricks? "yes"}} ===
+Hokiebot:  That sounds like a lot of fun! What other kinds of tricks do you like to do?
+=== TIMING [tpc:1.1699998378753662, gdl:0.8518943786621094, gen:0.48024725914001465, tot:2.5022525787353516] ===
+=== CONV_HISTORY [[('Yeah, I like skating at the park in Springville, Utah.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "Skateparks", "location": "unknow"}}'), (" That's awesome! Do you ever go to the skatepark to do tricks?", ''), ('I go there multiple times a week to practice tricks', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "middle- level": {"level": "skatepark tricks", "how often do you go to the skatepark to practice tricks? "yes"}}'), (' That sounds like a lot of fun! What other kinds of tricks do you like to do?', '')]] ===
+You: I have been practicing kickflips.
+=== User Input: I have been practicing kickflips. ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickingflips and other kinds of tricks", "interest": ["unknow"}} ===
+Hokiebot:  That's really cool! I've never been able to do a kickflip. Do you have any tips?
+=== TIMING [tpc:3.4073407649993896, gdl:0.7410731315612793, gen:0.637976884841919, tot:4.78650426864624] ===
+=== CONV_HISTORY [[('I go there multiple times a week to practice tricks', '{"high-level": {"topic": "activity", "if_interest": "yes"}, "middle- level": {"level": "skatepark tricks", "how often do you go to the skatepark to practice tricks? "yes"}}'), (' That sounds like a lot of fun! What other kinds of tricks do you like to do?', ''), ('I have been practicing kickflips.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickingflips and other kinds of tricks", "interest": ["unknow"}}'), (" That's really cool! I've never been able to do a kickflip. Do you have any tips?", '')]] ===
+You: I have been watching youtube to help me. You should try that.
+=== User Input: I have been watching youtube to help me. You should try that. ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickflips tips": "unknow"}} ===
+Hokiebot:  I'll have to try that! Do you know any other tricks that I should try?
+=== TIMING [tpc:0.8698413372039795, gdl:0.9277324676513672, gen:0.5345020294189453, tot:2.332184314727783] ===
+=== CONV_HISTORY [[('I have been practicing kickflips.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickingflips and other kinds of tricks", "interest": ["unknow"}}'), (" That's really cool! I've never been able to do a kickflip. Do you have any tips?", ''), ('I have been watching youtube to help me. You should try that.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickflips tips": "unknow"}}'), (" I'll have to try that! Do you know any other tricks that I should try?", '')]] ===
+You: You should try learning a pop shove it.
+=== User Input: You should try learning a pop shove it. ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}, "low-level: {"topic: "pop shove", "interest": ["unknow"}} ===
+Hokiebot:  That's a great idea! I'll try that next time I'm at the park. Thanks for the tip!
+=== TIMING [tpc:0.9354016780853271, gdl:0.9928436279296875, gen:0.5205097198486328, tot:2.448863983154297] ===
+=== CONV_HISTORY [[('I have been watching youtube to help me. You should try that.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle- level": {"level": "kickflips tips": "unknow"}}'), (" I'll have to try that! Do you know any other tricks that I should try?", ''), ('You should try learning a pop shove it.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "low-level: {"topic: "pop shove", "interest": ["unknow"}}'), (" That's a great idea! I'll try that next time I'm at the park. Thanks for the tip!", '')]] ===
+You: What other activities do you like doing?
+=== User Input: What other activities do you like doing? ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}} ===
+Hokiebot:  That sounds like a lot of fun. Do you have any other tips for me to try out?
+=== TIMING [tpc:0.4964597225189209, gdl:1.1330695152282715, gen:0.4521961212158203, tot:2.0819058418273926] ===
+=== CONV_HISTORY [[('You should try learning a pop shove it.', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "low-level: {"topic: "pop shove", "interest": ["unknow"}}'), (" That's a great idea! I'll try that next time I'm at the park. Thanks for the tip!", ''), ('What other activities do you like doing?', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (' That sounds like a lot of fun. Do you have any other tips for me to try out?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "activities", "if_interest": "yes"}, "middle-level: {"topic: "other activities", "unknow": "no"}} ===
+Hokiebot:  I love trying new restaurants. What is your favorite type of food to eat at a restaurant?
+=== TIMING [tpc:1.4615693092346191, gdl:0.8126809597015381, gen:0.49918174743652344, tot:2.773538112640381] ===
+=== CONV_HISTORY [[('What other activities do you like doing?', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}}'), (' That sounds like a lot of fun. Do you have any other tips for me to try out?', ''), ('No.', '{"high-level": {"topic": "activities", "if_interest": "yes"}, "middle-level: {"topic: "other activities", "unknow": "no"}}'), (' I love trying new restaurants. What is your favorite type of food to eat at a restaurant?', '')]] ===
+You: I like eating pizza.
+=== User Input: I like eating pizza. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "cuisine preference": "unknow"}, "low-level: {"topic: "pizza", {"topic): "restaurant", "when_interest: "yes"}} ===
+Hokiebot:  That's a great idea. I'll have to try that. What's your favorite vegetarian dish?
+=== TIMING [tpc:1.623136281967163, gdl:0.9688246250152588, gen:0.5668973922729492, tot:3.159003496170044] ===
+=== CONV_HISTORY [[('No.', '{"high-level": {"topic": "activities", "if_interest": "yes"}, "middle-level: {"topic: "other activities", "unknow": "no"}}'), (' I love trying new restaurants. What is your favorite type of food to eat at a restaurant?', ''), ('I like eating pizza.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "cuisine preference": "unknow"}, "low-level: {"topic: "pizza", {"topic): "restaurant", "when_interest: "yes"}}'), (" That's a great idea. I'll have to try that. What's your favorite vegetarian dish?", '')]] ===
+You: I don't like vegetarian dishes.
+=== User Input: I don't like vegetarian dishes. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetarian dishes", "low_level": "no"}} ===
+Hokiebot:  That sounds like a good idea. Do you have any other favorite dishes that you would like to try?
+=== TIMING [tpc:0.9271340370178223, gdl:0.9564213752746582, gen:0.47559642791748047, tot:2.3592429161071777] ===
+=== CONV_HISTORY [[('I like eating pizza.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "cuisine preference": "unknow"}, "low-level: {"topic: "pizza", {"topic): "restaurant", "when_interest: "yes"}}'), (" That's a great idea. I'll have to try that. What's your favorite vegetarian dish?", ''), ("I don't like vegetarian dishes.", '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetarian dishes", "low_level": "no"}}'), (' That sounds like a good idea. Do you have any other favorite dishes that you would like to try?', '')]] ===
+You: I like burgers.
+=== User Input: I like burgers. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "meat dishes": "no"}} ===
+Hokiebot:  That's understandable. Have you ever tried a veggie burger? They're pretty good.
+=== TIMING [tpc:1.1963272094726562, gdl:0.8057174682617188, gen:0.5856025218963623, tot:2.587768316268921] ===
+=== CONV_HISTORY [[("I don't like vegetarian dishes.", '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetarian dishes", "low_level": "no"}}'), (' That sounds like a good idea. Do you have any other favorite dishes that you would like to try?', ''), ('I like burgers.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "meat dishes": "no"}}'), (" That's understandable. Have you ever tried a veggie burger? They're pretty good.", '')]] ===
+You: Ew, I like real burgers better.
+=== User Input: Ew, I like real burgers better. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-aged", "no"}} ===
+Hokiebot:  I can understand that. What's your favorite vegetarian dish that you've tried so far?
+=== TIMING [tpc:1.1676185131072998, gdl:1.0612423419952393, gen:0.5765266418457031, tot:2.805511951446533] ===
+=== CONV_HISTORY [[('I like burgers.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "meat dishes": "no"}}'), (" That's understandable. Have you ever tried a veggie burger? They're pretty good.", ''), ('Ew, I like real burgers better.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-aged", "no"}}'), (" I can understand that. What's your favorite vegetarian dish that you've tried so far?", '')]] ===
+You: I don't like vegetarian dishes.
+=== User Input: I don't like vegetarian dishes. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetarian dishes", "low_level": "no"}} ===
+Hokiebot:  That's a good idea. Do you have a favorite Chinese restaurant that you like to go to?
+=== TIMING [tpc:0.9000675678253174, gdl:1.0584375858306885, gen:0.5019867420196533, tot:2.4606354236602783] ===
+=== CONV_HISTORY [[('Ew, I like real burgers better.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-aged", "no"}}'), (" I can understand that. What's your favorite vegetarian dish that you've tried so far?", ''), ("I don't like vegetarian dishes.", '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetarian dishes", "low_level": "no"}}'), (" That's a good idea. Do you have a favorite Chinese restaurant that you like to go to?", '')]] ===
+You: I like going to Din Thai Fung.
+=== User Input: I like going to Din Thai Fung. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Chinese restaurant", "low-level: "Din Thai Fung", "what's the name": "dong thai fung"}} ===
+Hokiebot:  That sounds like a great idea. I'll have to check it out. What is your favorite Chinese dish?
+=== TIMING [tpc:1.2885375022888184, gdl:1.1145212650299072, gen:0.562964916229248, tot:2.9661529064178467] ===
+=== CONV_HISTORY [[("I don't like vegetarian dishes.", '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetarian dishes", "low_level": "no"}}'), (" That's a good idea. Do you have a favorite Chinese restaurant that you like to go to?", ''), ('I like going to Din Thai Fung.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Chinese restaurant", "low-level: "Din Thai Fung", "what\'s the name": "dong thai fung"}}'), (" That sounds like a great idea. I'll have to check it out. What is your favorite Chinese dish?", '')]] ===
+You: I like crab wontons.
+=== User Input: I like crab wontons. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "favorite dish": "crab wontons"}} ===
+Hokiebot:  I love crab too! It's one of the most popular seafood dishes in the world.
+=== TIMING [tpc:0.9300854206085205, gdl:0.4865567684173584, gen:0.5867671966552734, tot:2.0035462379455566] ===
+=== CONV_HISTORY [[('I like going to Din Thai Fung.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Chinese restaurant", "low-level: "Din Thai Fung", "what\'s the name": "dong thai fung"}}'), (" That sounds like a great idea. I'll have to check it out. What is your favorite Chinese dish?", ''), ('I like crab wontons.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "favorite dish": "crab wontons"}}'), (" I love crab too! It's one of the most popular seafood dishes in the world.", '')]] ===
+You: Do you like movies?
+=== User Input: Do you like movies? ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}} ===
+Hokiebot:  I do like movies, but I don't think I've ever seen a Chinese movie. Do you have any recommendations?
+=== TIMING [tpc:0.4842383861541748, gdl:0.8740170001983643, gen:0.5911235809326172, tot:1.9495322704315186] ===
+=== CONV_HISTORY [[('I like crab wontons.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "favorite dish": "crab wontons"}}'), (" I love crab too! It's one of the most popular seafood dishes in the world.", ''), ('Do you like movies?', '{"high-level": {"topic": "movie", "if_interest": "yes"}}'), (" I do like movies, but I don't think I've ever seen a Chinese movie. Do you have any recommendations?", '')]] ===
+You: I haven't seen any chinese movies either.
+=== User Input: I haven't seen any chinese movies either. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}, "low-level: {"topic: "chinese movies", "interest": ["unknow"}} ===
+Hokiebot:  I'll have to check that one out. I've heard of it, but never seen it.
+=== TIMING [tpc:1.0242598056793213, gdl:1.175344467163086, gen:0.7868716716766357, tot:2.986618757247925] ===
+=== CONV_HISTORY [[('Do you like movies?', '{"high-level": {"topic": "movie", "if_interest": "yes"}}'), (" I do like movies, but I don't think I've ever seen a Chinese movie. Do you have any recommendations?", ''), ("I haven't seen any chinese movies either.", '{"high-level": {"topic": "movies", "if_interest": "yes"}, "low-level: {"topic: "chinese movies", "interest": ["unknow"}}'), (" I'll have to check that one out. I've heard of it, but never seen it.", '')]] ===
+You: I didn't say a movie.
+=== User Input: I didn't say a movie. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle- level": {"level": "recommendation", "unknow": "no"}} ===
+Hokiebot:  That sounds like a good idea. I'll check it out. What other movies do you like to watch?
+=== TIMING [tpc:0.8962602615356445, gdl:1.192634105682373, gen:0.5022883415222168, tot:2.5912773609161377] ===
+=== CONV_HISTORY [[("I haven't seen any chinese movies either.", '{"high-level": {"topic": "movies", "if_interest": "yes"}, "low-level: {"topic: "chinese movies", "interest": ["unknow"}}'), (" I'll have to check that one out. I've heard of it, but never seen it.", ''), ("I didn't say a movie.", '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle- level": {"level": "recommendation", "unknow": "no"}}'), (" That sounds like a good idea. I'll check it out. What other movies do you like to watch?", '')]] ===
+You: I like watching batman.
+=== User Input: I like watching batman. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-ground": {"genre": "movie genre", "interest": ["Batman", "Batman", "...yes"}} ===
+Hokiebot:  That's a great idea. Do you have a favorite comic book movie that you would recommend?
+=== TIMING [tpc:1.5410897731781006, gdl:0.936229944229126, gen:0.5877985954284668, tot:3.0652592182159424] ===
+=== CONV_HISTORY [[("I didn't say a movie.", '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle- level": {"level": "recommendation", "unknow": "no"}}'), (" That sounds like a good idea. I'll check it out. What other movies do you like to watch?", ''), ('I like watching batman.', '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-ground": {"genre": "movie genre", "interest": ["Batman", "Batman", "...yes"}}'), (" That's a great idea. Do you have a favorite comic book movie that you would recommend?", '')]] ===
+You: The spiderman comics are really good.
+=== User Input: The spiderman comics are really good. ===
+=== Topic Pref: {"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic:" "comic books", "middle_level": "favorite movie", "low-level:" {"topic: "spiderman", "which is a favorite movie recommendation": "unknow"}} ===
+Hokiebot:  I'll have to check that out. Thanks for the recommendation. What's your favorite Batman movie?
+=== TIMING [tpc:1.638047218322754, gdl:0.7741661071777344, gen:0.5362081527709961, tot:2.9485409259796143] ===
+=== CONV_HISTORY [[('I like watching batman.', '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-ground": {"genre": "movie genre", "interest": ["Batman", "Batman", "...yes"}}'), (" That's a great idea. Do you have a favorite comic book movie that you would recommend?", ''), ('The spiderman comics are really good.', '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic:" "comic books", "middle_level": "favorite movie", "low-level:" {"topic: "spiderman", "which is a favorite movie recommendation": "unknow"}}'), (" I'll have to check that out. Thanks for the recommendation. What's your favorite Batman movie?", '')]] ===
+You: I like the dark knight.
+=== User Input: I like the dark knight. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle name": "Batman movie", "middle-name": "unknow"}} ===
+Hokiebot:  The Dark Knight was a great movie. It was directed by Christopher Nolan. Have you seen it?
+=== TIMING [tpc:1.1280853748321533, gdl:0.8267374038696289, gen:0.6212401390075684, tot:2.576202869415283] ===
+=== CONV_HISTORY [[('The spiderman comics are really good.', '{"high-level": {"topic": "movies", "if_interest": "yes"}, "middle-level: {"topic:" "comic books", "middle_level": "favorite movie", "low-level:" {"topic: "spiderman", "which is a favorite movie recommendation": "unknow"}}'), (" I'll have to check that out. Thanks for the recommendation. What's your favorite Batman movie?", ''), ('I like the dark knight.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle name": "Batman movie", "middle-name": "unknow"}}'), (' The Dark Knight was a great movie. It was directed by Christopher Nolan. Have you seen it?', '')]] ===
+You: Yes, it is my favorite.
+=== User Input: Yes, it is my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "Batman movie", "who starred in the movie, when was the movie released, and what year was the Dark Knight movie released? ===
+Hokiebot:  I haven't seen that one yet, but I've heard great things about it. Do you have any other favorite movies?
+=== TIMING [tpc:1.502058506011963, gdl:1.1587276458740234, gen:0.6142375469207764, tot:3.2751739025115967] ===
+=== CONV_HISTORY [[('I like the dark knight.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle name": "Batman movie", "middle-name": "unknow"}}'), (' The Dark Knight was a great movie. It was directed by Christopher Nolan. Have you seen it?', ''), ('Yes, it is my favorite.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "Batman movie", "who starred in the movie, when was the movie released, and what year was the Dark Knight movie released?'), (" I haven't seen that one yet, but I've heard great things about it. Do you have any other favorite movies?", '')]] ===
+You: I also like Star Wars.
+=== User Input: I also like Star Wars. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "favorite movie", "low-level", "topic": ["Star Wars", "yes"}} ===
+Hokiebot:  I've seen all of the Star Wars movies. What's your favorite part of the movie?
+=== TIMING [tpc:1.4927473068237305, gdl:1.1161670684814453, gen:0.44754695892333984, tot:3.0566067695617676] ===
+=== CONV_HISTORY [[('Yes, it is my favorite.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "Batman movie", "who starred in the movie, when was the movie released, and what year was the Dark Knight movie released?'), (" I haven't seen that one yet, but I've heard great things about it. Do you have any other favorite movies?", ''), ('I also like Star Wars.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "favorite movie", "low-level", "topic": ["Star Wars", "yes"}}'), (" I've seen all of the Star Wars movies. What's your favorite part of the movie?", '')]] ===
+You: I like when Obi Wan defeats Darth Maul.
+=== User Input: I like when Obi Wan defeats Darth Maul. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the movie": "favorite part": "Obi Wan defeats Darth Maul"}} ===
+Hokiebot:  I'll have to check those out. Have you seen The Force Awakens? It's one of my favorites.
+=== TIMING [tpc:1.9840989112854004, gdl:1.3357312679290771, gen:0.5785191059112549, tot:3.8985402584075928] ===
+=== CONV_HISTORY [[('I also like Star Wars.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "favorite movie", "low-level", "topic": ["Star Wars", "yes"}}'), (" I've seen all of the Star Wars movies. What's your favorite part of the movie?", ''), ('I like when Obi Wan defeats Darth Maul.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the movie": "favorite part": "Obi Wan defeats Darth Maul"}}'), (" I'll have to check those out. Have you seen The Force Awakens? It's one of my favorites.", '')]] ===
+You: Yes I have seen it, but I didn't like it very much.
+=== User Input: Yes I have seen it, but I didn't like it very much. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "Star Wars movies", "low-level: {"topic: "The Force Awakens", "why did you not like it", "what's your opinion": "no"}} ===
+Hokiebot:  That's understandable. It's not for everyone. Do you have any other favorite movies?
+=== TIMING [tpc:1.4166700839996338, gdl:1.3220434188842773, gen:0.5797207355499268, tot:3.318601131439209] ===
+=== CONV_HISTORY [[('I like when Obi Wan defeats Darth Maul.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the movie": "favorite part": "Obi Wan defeats Darth Maul"}}'), (" I'll have to check those out. Have you seen The Force Awakens? It's one of my favorites.", ''), ("Yes I have seen it, but I didn't like it very much.", '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "Star Wars movies", "low-level: {"topic: "The Force Awakens", "why did you not like it", "what\'s your opinion": "no"}}'), (" That's understandable. It's not for everyone. Do you have any other favorite movies?", '')]] ===
+You: I like watching Lord of the Rings.
+=== User Input: I like watching Lord of the Rings. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the Rings", "yes"}} ===
+Hokiebot:  I've never seen any of the LOTR movies. What's your favorite part of them?
+=== TIMING [tpc:0.7601325511932373, gdl:1.2040281295776367, gen:0.5833432674407959, tot:2.547602415084839] ===
+=== CONV_HISTORY [[("Yes I have seen it, but I didn't like it very much.", '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "Star Wars movies", "low-level: {"topic: "The Force Awakens", "why did you not like it", "what\'s your opinion": "no"}}'), (" That's understandable. It's not for everyone. Do you have any other favorite movies?", ''), ('I like watching Lord of the Rings.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the Rings", "yes"}}'), (" I've never seen any of the LOTR movies. What's your favorite part of them?", '')]] ===
+You: The fighting is really cool.
+=== User Input: The fighting is really cool. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the fighting", "favorite part": "LOTR movie", "low-level: "yes"}} ===
+Hokiebot:  That's cool. I like action movies too. What other movies do you like to watch?
+=== TIMING [tpc:1.0232133865356445, gdl:1.1990501880645752, gen:0.6979174613952637, tot:2.9203128814697266] ===
+=== CONV_HISTORY [[('I like watching Lord of the Rings.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the Rings", "yes"}}'), (" I've never seen any of the LOTR movies. What's your favorite part of them?", ''), ('The fighting is really cool.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the fighting", "favorite part": "LOTR movie", "low-level: "yes"}}'), (" That's cool. I like action movies too. What other movies do you like to watch?", '')]] ===
+You: That is all of the moveis that I like.
+=== User Input: That is all of the moveis that I like. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "interests": "unknow"}} ===
+Hokiebot:  That sounds interesting. I'll have to check it out. Do you have any other favorite movies?
+=== TIMING [tpc:1.8466615676879883, gdl:0.8510913848876953, gen:0.5089430809020996, tot:3.2068557739257812] ===
+=== CONV_HISTORY [[('The fighting is really cool.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle of the fighting", "favorite part": "LOTR movie", "low-level: "yes"}}'), (" That's cool. I like action movies too. What other movies do you like to watch?", ''), ('That is all of the moveis that I like.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "interests": "unknow"}}'), (" That sounds interesting. I'll have to check it out. Do you have any other favorite movies?", '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "unknow"}} ===
+Hokiebot:  That's a great movie. It's one of my favorites. What's your favorite movie of all time?
+=== TIMING [tpc:1.1347417831420898, gdl:0.7315261363983154, gen:0.5220599174499512, tot:2.388442039489746] ===
+=== CONV_HISTORY [[('That is all of the moveis that I like.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "interests": "unknow"}}'), (" That sounds interesting. I'll have to check it out. Do you have any other favorite movies?", ''), ('No.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "unknow"}}'), (" That's a great movie. It's one of my favorites. What's your favorite movie of all time?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - 2023-06-16 19:35:06.981704
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: i like watching tv
+=== User Input: i like watching tv ===
+=== Topic Pref: {"high-level": {"topic": "TV", "if_interest": "yes"}} ===
+Hokiebot:  That sounds interesting. What kind of shows do you like to watch? Do you have a favorite?
+=== TIMING [tpc:1.2058212757110596, gdl:0.6777300834655762, gen:0.4548380374908447, tot:2.338486671447754] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('i like watching tv', '{"high-level": {"topic": "TV", "if_interest": "yes"}}'), (' That sounds interesting. What kind of shows do you like to watch? Do you have a favorite?', '')]] ===
+You: my favorite show is the office
+=== User Input: my favorite show is the office ===
+=== Topic Pref: {"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show genre": "favorite show", "low-level:" "The Office", "how about you?"}} ===
+Hokiebot:  That's a great show! I've watched it a few times. Who is your favorite character on the show?
+=== TIMING [tpc:1.3014154434204102, gdl:0.7709615230560303, gen:0.47836780548095703, tot:2.5508995056152344] ===
+=== CONV_HISTORY [[('i like watching tv', '{"high-level": {"topic": "TV", "if_interest": "yes"}}'), (' That sounds interesting. What kind of shows do you like to watch? Do you have a favorite?', ''), ('my favorite show is the office', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show genre": "favorite show", "low-level:" "The Office", "how about you?"}}'), (" That's a great show! I've watched it a few times. Who is your favorite character on the show?", '')]] ===
+You: michael is my favorite character
+=== User Input: michael is my favorite character ===
+=== Topic Pref: {"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show character", "interest": ["michael", "michael"}} ===
+Hokiebot:  I will have to check it out. Do you like any other shows that are similar to the Office?
+=== TIMING [tpc:1.3024249076843262, gdl:0.7993345260620117, gen:0.47726964950561523, tot:2.579132556915283] ===
+=== CONV_HISTORY [[('my favorite show is the office', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show genre": "favorite show", "low-level:" "The Office", "how about you?"}}'), (" That's a great show! I've watched it a few times. Who is your favorite character on the show?", ''), ('michael is my favorite character', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show character", "interest": ["michael", "michael"}}'), (' I will have to check it out. Do you like any other shows that are similar to the Office?', '')]] ===
+You: yes i also like parks and recreation
+=== User Input: yes i also like parks and recreation ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "parks and recreation", "interest": ["yes"}} ===
+Hokiebot:  I love the office! It's one of my favorite shows of all time. What's your favorite episode?
+=== TIMING [tpc:1.0457878112792969, gdl:0.8011331558227539, gen:0.5009422302246094, tot:2.3479979038238525] ===
+=== CONV_HISTORY [[('michael is my favorite character', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show character", "interest": ["michael", "michael"}}'), (' I will have to check it out. Do you like any other shows that are similar to the Office?', ''), ('yes i also like parks and recreation', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "parks and recreation", "interest": ["yes"}}'), (" I love the office! It's one of my favorite shows of all time. What's your favorite episode?", '')]] ===
+You: my favorite episode is the very last episode
+=== User Input: my favorite episode is the very last episode ===
+=== Topic Pref: {"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "favorite episode", "middle_level": "favorite part", "low-level:" {"topic: "the very last episode of the Office episode. What's your favorite episode?"}} ===
+Hokiebot:  That's a great episode! I also really like the one where Jimmy Fallon hosts the show. Have you seen it?
+=== TIMING [tpc:1.6822500228881836, gdl:0.9665071964263916, gen:0.5906457901000977, tot:3.239504337310791] ===
+=== CONV_HISTORY [[('yes i also like parks and recreation', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "parks and recreation", "interest": ["yes"}}'), (" I love the office! It's one of my favorite shows of all time. What's your favorite episode?", ''), ('my favorite episode is the very last episode', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "favorite episode", "middle_level": "favorite part", "low-level:" {"topic: "the very last episode of the Office episode. What\'s your favorite episode?"}}'), (" That's a great episode! I also really like the one where Jimmy Fallon hosts the show. Have you seen it?", '')]] ===
+You: no
+=== User Input: no ===
+=== Topic Pref: {"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic: "TV show episode", "interest": ["Jimmy Fallon", "The Tonight Show", "Jimmy Fallon's show", "no"}} ===
+Hokiebot:  I haven't seen that one. I'll have to check it out. Do you have any other favorite shows?
+=== TIMING [tpc:1.708420753479004, gdl:1.0550751686096191, gen:0.5927853584289551, tot:3.356377363204956] ===
+=== CONV_HISTORY [[('my favorite episode is the very last episode', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "favorite episode", "middle_level": "favorite part", "low-level:" {"topic: "the very last episode of the Office episode. What\'s your favorite episode?"}}'), (" That's a great episode! I also really like the one where Jimmy Fallon hosts the show. Have you seen it?", ''), ('no', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic: "TV show episode", "interest": ["Jimmy Fallon", "The Tonight Show", "Jimmy Fallon\'s show", "no"}}'), (" I haven't seen that one. I'll have to check it out. Do you have any other favorite shows?", '')]] ===
+You: no
+=== User Input: no ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "favorite shows", "unknow": "no"}} ===
+Hokiebot:  I'll do that. What is your favorite episode of the tonight show that you have seen?
+=== TIMING [tpc:0.9070801734924316, gdl:0.5679752826690674, gen:0.46087026596069336, tot:1.9360206127166748] ===
+=== CONV_HISTORY [[('no', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic: "TV show episode", "interest": ["Jimmy Fallon", "The Tonight Show", "Jimmy Fallon\'s show", "no"}}'), (" I haven't seen that one. I'll have to check it out. Do you have any other favorite shows?", ''), ('no', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "favorite shows", "unknow": "no"}}'), (" I'll do that. What is your favorite episode of the tonight show that you have seen?", '')]] ===
+You: i like the episode when kelly clarkson was on
+=== User Input: i like the episode when kelly clarkson was on ===
+=== Topic Pref: {"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic: "TV show episode", "time": "unknow"}} ===
+Hokiebot:  That is a great show. I have watched it a few times. Have you seen any other shows like that?
+=== TIMING [tpc:2.1039011478424072, gdl:1.2500934600830078, gen:0.6445448398590088, tot:3.9986934661865234] ===
+=== CONV_HISTORY [[('no', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "favorite shows", "unknow": "no"}}'), (" I'll do that. What is your favorite episode of the tonight show that you have seen?", ''), ('i like the episode when kelly clarkson was on', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic: "TV show episode", "time": "unknow"}}'), (' That is a great show. I have watched it a few times. Have you seen any other shows like that?', '')]] ===
+You: i have also seen american idol
+=== User Input: i have also seen american idol ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "American Idol", "what else shows do you like?"}} ===
+Hokiebot:  That's a good show. Do you have any other favorite shows that you like to watch?
+=== TIMING [tpc:1.005284070968628, gdl:0.6656453609466553, gen:0.5088183879852295, tot:2.1798555850982666] ===
+=== CONV_HISTORY [[('i like the episode when kelly clarkson was on', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic: "TV show episode", "time": "unknow"}}'), (' That is a great show. I have watched it a few times. Have you seen any other shows like that?', ''), ('i have also seen american idol', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "American Idol", "what else shows do you like?"}}'), (" That's a good show. Do you have any other favorite shows that you like to watch?", '')]] ===
+You: i also like the voice
+=== User Input: i also like the voice ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "favorite shows", "interests": "unknow"}} ===
+Hokiebot:  I like The Voice too. It's a reality singing competition television series produced by NBC.
+=== TIMING [tpc:0.9695756435394287, gdl:0.8284182548522949, gen:0.678194522857666, tot:2.476282835006714] ===
+=== CONV_HISTORY [[('i have also seen american idol', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "American Idol", "what else shows do you like?"}}'), (" That's a good show. Do you have any other favorite shows that you like to watch?", ''), ('i also like the voice', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "favorite shows", "interests": "unknow"}}'), (" I like The Voice too. It's a reality singing competition television series produced by NBC.", '')]] ===
+You: yes. i like to watch singing competitions
+=== User Input: yes. i like to watch singing competitions ===
+=== Topic Pref: {"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show genre", "interest": ["The Voice", "The Voice reality singing competition television series", "TV series produced by NBC"]}} ===
+Hokiebot:  That's cool. What other shows do you like? I like the Voice, too.
+=== TIMING [tpc:1.9443614482879639, gdl:0.6936511993408203, gen:0.5641517639160156, tot:3.2023167610168457] ===
+=== CONV_HISTORY [[('i also like the voice', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "favorite shows", "interests": "unknow"}}'), (" I like The Voice too. It's a reality singing competition television series produced by NBC.", ''), ('yes. i like to watch singing competitions', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show genre", "interest": ["The Voice", "The Voice reality singing competition television series", "TV series produced by NBC"]}}'), (" That's cool. What other shows do you like? I like the Voice, too.", '')]] ===
+You: i do not like other shows
+=== User Input: i do not like other shows ===
+=== Topic Pref: {"high-level": {"topic": "TV series", "if_interest": "yes"}, "middle-level: {"topic:" "TV show preference", "middle_level": "no"}} ===
+Hokiebot:  Oh, I see. Do you have a favorite singer or songwriter that you like to listen to?
+=== TIMING [tpc:1.3509447574615479, gdl:0.6418802738189697, gen:0.5157110691070557, tot:2.5086445808410645] ===
+=== CONV_HISTORY [[('yes. i like to watch singing competitions', '{"high-level": {"topic": "TV shows", "if_interest": "yes"}, "middle-level: {"topic:" "TV show genre", "interest": ["The Voice", "The Voice reality singing competition television series", "TV series produced by NBC"]}}'), (" That's cool. What other shows do you like? I like the Voice, too.", ''), ('i do not like other shows', '{"high-level": {"topic": "TV series", "if_interest": "yes"}, "middle-level: {"topic:" "TV show preference", "middle_level": "no"}}'), (' Oh, I see. Do you have a favorite singer or songwriter that you like to listen to?', '')]] ===
+You: yes. i like the singer jack johnson
+=== User Input: yes. i like the singer jack johnson ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "singer", "middle name": "jack johnson"}} ===
+Hokiebot:  I've never heard of him, but I'll have to check him out. What's your favorite song by him?
+=== TIMING [tpc:1.1988728046417236, gdl:0.9496498107910156, gen:0.49678564071655273, tot:2.645439863204956] ===
+=== CONV_HISTORY [[('i do not like other shows', '{"high-level": {"topic": "TV series", "if_interest": "yes"}, "middle-level: {"topic:" "TV show preference", "middle_level": "no"}}'), (' Oh, I see. Do you have a favorite singer or songwriter that you like to listen to?', ''), ('yes. i like the singer jack johnson', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "singer", "middle name": "jack johnson"}}'), (" I've never heard of him, but I'll have to check him out. What's your favorite song by him?", '')]] ===
+You: my favorite song by him is do you remember
+=== User Input: my favorite song by him is do you remember ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  No, I don't remember that song. Who is it by, and what is it about?
+=== TIMING [tpc:1.1835346221923828, gdl:0.705146074295044, gen:0.4987635612487793, tot:2.3875439167022705] ===
+=== CONV_HISTORY [[('yes. i like the singer jack johnson', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "singer", "middle name": "jack johnson"}}'), (" I've never heard of him, but I'll have to check him out. What's your favorite song by him?", ''), ('my favorite song by him is do you remember', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" No, I don't remember that song. Who is it by, and what is it about?", '')]] ===
+You: it is by jack johnson and it is about memories with someone
+=== User Input: it is by jack johnson and it is about memories with someone ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "singer", "low-level:" {"topic: "jack johnson song, what's the meaning of the song", "who wrote it, what is the name of the singer, and when was the song released?"}} ===
+Hokiebot:  That sounds like a great song. Do you have any other favorite songs by Jack Johnson?
+=== TIMING [tpc:2.2951557636260986, gdl:0.9318089485168457, gen:0.4826521873474121, tot:3.7097983360290527] ===
+=== CONV_HISTORY [[('my favorite song by him is do you remember', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" No, I don't remember that song. Who is it by, and what is it about?", ''), ('it is by jack johnson and it is about memories with someone', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "singer", "low-level:" {"topic: "jack johnson song, what\'s the meaning of the song", "who wrote it, what is the name of the singer, and when was the song released?"}}'), (' That sounds like a great song. Do you have any other favorite songs by Jack Johnson?', '')]] ===
+You: i also like his song "traffic in the sky"
+=== User Input: i also like his song "traffic in the sky" ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-Level": {"": "Jack Johnson song name", "what else do you like about him?"}} ===
+Hokiebot:  I'll have to check that song out. I'm a big fan of Jazz.
+=== TIMING [tpc:1.2535490989685059, gdl:1.0001952648162842, gen:0.5943689346313477, tot:2.848224639892578] ===
+=== CONV_HISTORY [[('it is by jack johnson and it is about memories with someone', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "singer", "low-level:" {"topic: "jack johnson song, what\'s the meaning of the song", "who wrote it, what is the name of the singer, and when was the song released?"}}'), (' That sounds like a great song. Do you have any other favorite songs by Jack Johnson?', ''), ('i also like his song "traffic in the sky"', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-Level": {"": "Jack Johnson song name", "what else do you like about him?"}}'), (" I'll have to check that song out. I'm a big fan of Jazz.", '')]] ===
+You: cool. i do not like jazz
+=== User Input: cool. i do not like jazz ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle school", "low-level", "jazz": "no"}} ===
+Hokiebot:  I will do that. What is your favorite band or artist by an Indie Rock band?
+=== TIMING [tpc:0.8297955989837646, gdl:0.9371638298034668, gen:0.42586421966552734, tot:2.1929287910461426] ===
+=== CONV_HISTORY [[('i also like his song "traffic in the sky"', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-Level": {"": "Jack Johnson song name", "what else do you like about him?"}}'), (" I'll have to check that song out. I'm a big fan of Jazz.", ''), ('cool. i do not like jazz', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle school", "low-level", "jazz": "no"}}'), (' I will do that. What is your favorite band or artist by an Indie Rock band?', '')]] ===
+You: i really like the band Foster the People
+=== User Input: i really like the band Foster the People ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "indie rock", "band": "Foster the People", "who is your favorite band/artist by an Indie Rock band?"}} ===
+Hokiebot:  I have heard of them, but I have never listened to them. What kind of music do they play?
+=== TIMING [tpc:1.4349780082702637, gdl:1.1887993812561035, gen:0.5568437576293945, tot:3.1807167530059814] ===
+=== CONV_HISTORY [[('cool. i do not like jazz', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle school", "low-level", "jazz": "no"}}'), (' I will do that. What is your favorite band or artist by an Indie Rock band?', ''), ('i really like the band Foster the People', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "indie rock", "band": "Foster the People", "who is your favorite band/artist by an Indie Rock band?"}}'), (' I have heard of them, but I have never listened to them. What kind of music do they play?', '')]] ===
+You: indie music
+=== User Input: indie music ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  I will have to check them out. Do you have any other favorite bands or artists?
+=== TIMING [tpc:1.797621250152588, gdl:0.9860241413116455, gen:0.58955979347229, tot:3.3733415603637695] ===
+=== CONV_HISTORY [[('i really like the band Foster the People', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "indie rock", "band": "Foster the People", "who is your favorite band/artist by an Indie Rock band?"}}'), (' I have heard of them, but I have never listened to them. What kind of music do they play?', ''), ('indie music', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (' I will have to check them out. Do you have any other favorite bands or artists?', '')]] ===
+You: i really like the band Journey
+=== User Input: i really like the band Journey ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "band/artist": "journey", "band name": "unknow"}} ===
+Hokiebot:  I'll have to look them up. I'm always looking for new music to listen to.
+=== TIMING [tpc:1.7751212120056152, gdl:0.8665754795074463, gen:0.566523551940918, tot:3.2083094120025635] ===
+=== CONV_HISTORY [[('indie music', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (' I will have to check them out. Do you have any other favorite bands or artists?', ''), ('i really like the band Journey', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "band/artist": "journey", "band name": "unknow"}}'), (" I'll have to look them up. I'm always looking for new music to listen to.", '')]] ===
+You: they are good. i also like to play soccer
+=== User Input: they are good. i also like to play soccer ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school", "football", "unknow": "no"}} ===
+Hokiebot:  That sounds like a great way to find new music! Do you play any other instruments?
+=== TIMING [tpc:0.8121106624603271, gdl:1.1277759075164795, gen:0.6103174686431885, tot:2.550346851348877] ===
+=== CONV_HISTORY [[('i really like the band Journey', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "band/artist": "journey", "band name": "unknow"}}'), (" I'll have to look them up. I'm always looking for new music to listen to.", ''), ('they are good. i also like to play soccer', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school", "football", "unknow": "no"}}'), (' That sounds like a great way to find new music! Do you play any other instruments?', '')]] ===
+You: i play guitar
+=== User Input: i play guitar ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"": "instruments", "topic": ["guitar", "singer", "guitarist", "musician", "music genre": "unknow"}} ===
+Hokiebot:  That's really cool! What kind of music do you play on the guitar? Do you have a favorite band?
+=== TIMING [tpc:2.2111759185791016, gdl:0.9651901721954346, gen:0.5160040855407715, tot:3.692471981048584] ===
+=== CONV_HISTORY [[('they are good. i also like to play soccer', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school", "football", "unknow": "no"}}'), (' That sounds like a great way to find new music! Do you play any other instruments?', ''), ('i play guitar', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"": "instruments", "topic": ["guitar", "singer", "guitarist", "musician", "music genre": "unknow"}}'), (" That's really cool! What kind of music do you play on the guitar? Do you have a favorite band?", '')]] ===
+You: i play jack johnson
+=== User Input: i play jack johnson ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "guitarist", "fav band name": "jack johnson", "which band do you like?"}} ===
+Hokiebot:  I've heard of them! They're an American rock band formed in Los Angeles in 1962.
+=== TIMING [tpc:1.509986400604248, gdl:0.9707584381103516, gen:0.6617884635925293, tot:3.1426897048950195] ===
+=== CONV_HISTORY [[('i play guitar', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"": "instruments", "topic": ["guitar", "singer", "guitarist", "musician", "music genre": "unknow"}}'), (" That's really cool! What kind of music do you play on the guitar? Do you have a favorite band?", ''), ('i play jack johnson', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "guitarist", "fav band name": "jack johnson", "which band do you like?"}}'), (" I've heard of them! They're an American rock band formed in Los Angeles in 1962.", '')]] ===
+=======
 BLENDERBOT - 2023-06-15 11:31:39.697375
 Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
 You: Hey! I like to watch movies.
@@ -3609,6 +3960,7 @@ You: I can't drive.
 Hokiebot:  That's a great idea! What's your favorite podcast that you've listened to recently?
 === TIMING [tpc:0.6915283203125, gdl:0.8490517139434814, gen:0.3112142086029053, tot:1.8518388271331787] ===
 === CONV_HISTORY [[(" I'll have to check it out! Do you have any other podcasts you like to listen to while you drive?", ''), ("I can't drive.", '{"high-level": {"topic": "podcasts", "if_interest": "yes"}, "middle-level: {"topic: "driving", "reason": "no"}}'), (" That's a great idea! What's your favorite podcast that you've listened to recently?", '')]] ===
+>>>>>>> 25cafdbb91ea53186172b83d5baa5b55bca2d55e
 You: goodbye
 Hokiebot: Goodbye! Thanks for chatting!
 

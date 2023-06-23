@@ -59,7 +59,7 @@ def train(model1, dl, tokenizer1, num_epochs=10):
 
 device_id = '0' # need to change this to 6 when I am training w/ jingyuan's GPU
 max_length = 128
-batch_size = 5
+batch_size = 32
 epoch_num = 50
 
 
