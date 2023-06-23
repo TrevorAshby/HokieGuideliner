@@ -1,0 +1,125 @@
+1. 
+User: Hi, how's it going? 
+Chatbot: It's going well, thanks for asking. How about you? 
+User: I'm pretty good, just a bit tired. 
+Chatbot: I see, have you been sleeping well lately? 
+User: No, not really. I've been stressed with work. 
+Chatbot: Ah, I understand. [GUIDELINE] The user is stressed with work. Ask them if they have tried any stress-relieving techniques. | Have you tried any stress-reducing techniques that have worked for you?
+
+2. 
+User: Hey, what's up? 
+Chatbot: Not much, just chilling. How about you? 
+User: Same here, just killing time. 
+Chatbot: What do you usually like to do when you have free time? 
+User: I like to read or listen to music. 
+Chatbot: That's nice. [GUIDELINE] The user enjoys reading and listening to music. Ask them about their favorite books or music genres. | What kind of books or music do you enjoy?
+
+3. 
+User: Hi, how are you doing? 
+Chatbot: I'm doing well, thanks for asking. How about you? 
+User: To be honest, I'm feeling really anxious today. 
+Chatbot: I see, I'm sorry to hear that. Do you want to talk about what's making you anxious? 
+User: Not really, I just need to take a break. 
+Chatbot: I understand. [GUIDELINE] The user needs to take a break. Ask them if they have any hobbies that help them relax. | Do you have any hobbies that help you relax and take a break from stress?
+
+4. 
+User: Hey, have you seen any good movies lately? 
+Chatbot: Yeah, I actually just watched a really great action movie. How about you? 
+User: Same here, I saw a really funny comedy. 
+Chatbot: That sounds great. [GUIDELINE] The user enjoyed a comedy movie. Ask them who their favorite comedic actors are. | Who are some of your favorite comedic actors or actresses?
+
+5. 
+User: Hi there, what's new? 
+Chatbot: Not much, just trying to stay busy. How about you? 
+User: Same here, just trying to find things to do. 
+Chatbot: I see. [GUIDELINE] The user is looking for things to do. Ask them if they have any fun ideas in mind. | Do you have any fun activities or ideas in mind for what you want to do?
+
+6. 
+User: Hey, do you play any sports? 
+Chatbot: Not really, but I do like to go for a run every now and then. How about you? 
+User: I play basketball every week with some friends. 
+Chatbot: That's cool. [GUIDELINE] The user plays basketball. Ask them if they have a favorite move or strategy they like to use. | What's your favorite move or strategy to use when playing basketball?
+
+7. 
+User: Hi, how was your weekend? 
+Chatbot: It was pretty good, thanks for asking. How about yours? 
+User: It was alright, nothing too exciting. 
+Chatbot: I see. [GUIDELINE] The user had a boring weekend. Ask them if they have any upcoming plans or events they are looking forward to. | Do you have any exciting plans coming up that you're looking forward to?
+
+8. 
+User: Hey, do you like to cook? 
+Chatbot: Yes, I enjoy cooking. How about you? 
+User: I'm not very good at cooking, but I'm trying to learn. 
+Chatbot: That's great! [GUIDELINE] The user is trying to learn how to cook. Ask them if there are any specific dishes they want to learn how to make. | Is there a specific dish or type of cuisine that you want to learn how to cook?
+
+9. 
+User: Hi there, what have you been up to lately? 
+Chatbot: Not too much, just working and spending time with family. How about you? 
+User: Same here, just trying to balance work and personal life. 
+Chatbot: I understand. [GUIDELINE] The user is trying to balance work and personal life. Ask them if they have any tips or tricks for balancing both. | Do you have any tips or tricks for balancing work and personal life?
+
+10. 
+User: Hey, do you like to travel? 
+Chatbot: Yes, I love traveling and exploring new places. How about you? 
+User: I haven't traveled much, but I want to go to Japan someday. 
+Chatbot: That sounds amazing. [GUIDELINE] The user wants to go to Japan. Ask them what specifically they are interested in seeing or doing there. | What specifically are you interested in seeing or doing in Japan?
+
+11. 
+User: Hi, do you have any pets? 
+Chatbot: No, I don't have any pets currently. How about you? 
+User: I have a dog named Max, he's a golden retriever. 
+Chatbot: Oh, I love dogs! [GUIDELINE] The user has a golden retriever. Ask them what kind of activities Max likes to do. | What kind of activities or games does Max like to do?
+
+12. 
+User: Hey, have you read any good books lately? 
+Chatbot: Yes, I just finished a really interesting mystery novel. How about you? 
+User: Same here, I read a really good romance novel. 
+Chatbot: That's nice. [GUIDELINE] The user enjoyed a romance novel. Ask them who their favorite romance authors are. | Who are some of your favorite romance authors?
+
+13. 
+User: Hi there, do you like to exercise? 
+Chatbot: Yes, I try to exercise regularly. How about you? 
+User: I'm not very good at exercising, but I'm trying to get into it more. 
+Chatbot: That's great, keep it up! [GUIDELINE] The user is trying to get into exercising more. Ask them what types of exercises they are interested in trying. | What types of exercises interest you or do you want to try?
+
+14. 
+User: Hey, what kind of music do you listen to? 
+Chatbot: I like all kinds of music, but I especially love classic rock. How about you? 
+User: I love pop music, but I also like some hip hop. 
+Chatbot: That's cool. [GUIDELINE] The user likes pop and hip hop music. Ask them who their favorite pop or hip hop artists are. | Who are some of your favorite pop or hip hop artists?
+
+15. 
+User: Hi, do you have any siblings? 
+Chatbot: Yes, I have an older sister. How about you? 
+User: I have a younger brother and sister. 
+Chatbot: That must be nice. [GUIDELINE] The user has a younger brother and sister. Ask them what their favorite thing to do together is. | What's your favorite thing to do together with your brother and sister?
+
+16. 
+User: Hey, what's your favorite food? 
+Chatbot: I love pizza, it's always been one of my favorites. How about you? 
+User: I love sushi, it's so delicious. 
+Chatbot: That's awesome. [GUIDELINE] The user loves sushi. Ask them what their favorite type of sushi roll is. | What's your favorite type of sushi roll?
+
+17. 
+User: Hi there, have you been on any vacations recently? 
+Chatbot: No, I haven't been on vacation in a while. How about you? 
+User: I went to Hawaii last month, it was amazing. 
+Chatbot: Wow, that sounds incredible. [GUIDELINE] The user went to Hawaii. Ask them what their favorite part of the trip was. | What was your favorite part about Hawaii?
+
+18. 
+User: Hey, do you like to go to concerts? 
+Chatbot: Yes, I love going to concerts and seeing musicians perform live. How about you? 
+User: I've only been to a couple, but they were really fun. 
+Chatbot: That's cool. [GUIDELINE] The user enjoys going to concerts. Ask them who their favorite musician to see live is. | Who is your favorite musician to see live?
+
+19. 
+User: Hi, have you been reading any good books lately? 
+Chatbot: Yes, I just started a new sci-fi novel. How about you? 
+User: I'm reading a biography right now about Einstein. 
+Chatbot: That's really interesting. [GUIDELINE] The user is reading a biography. Ask them who their favorite historical figure is. | Who is your favorite historical figure and why?
+
+20. 
+User: Hey, what's your favorite movie? 
+Chatbot: That's a tough one, but I really love The Godfather. How about you? 
+User: I love Inception, it's so mind-bending. 
+Chatbot: That's a great one too. [GUIDELINE] The user likes Inception. Ask them what their favorite scene from the movie is. | What's your favorite scene from Inception?

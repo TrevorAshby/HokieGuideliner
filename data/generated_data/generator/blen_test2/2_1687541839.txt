@@ -1,0 +1,179 @@
+1. 
+a. Hi, how was your weekend?
+b. It was good, thanks for asking. I went for a hike and saw some beautiful scenery.
+c. That sounds amazing! Have you done a lot of hiking before?
+d. Yes, I love hiking. Getting out in nature is always a great way to recharge.
+e. That's awesome. Do you have any other favorite outdoor activities?
+[GUIDELINE] The user loves outdoor activities. Ask them about what other activities they enjoy.
+Optimal response: Yes, I also enjoy camping and kayaking. Have you ever tried either of those?
+
+2. 
+a. Hey, how was your day at work today?
+b. It was pretty busy, but I managed to get everything done on time.
+c. That's great to hear! Do you work in a field you're passionate about?
+d. Yes, I love what I do. Helping people is very fulfilling.
+e. That's wonderful. What drew you to this particular field?
+[GUIDELINE] The user is passionate about their job. Ask them about what drew them to it.
+Optimal response: I've always been interested in healthcare and helping others. I felt like this was the perfect way to combine those interests.
+
+3. 
+a. Have you been on any trips lately?
+b. Yeah, I went to Europe last month and had an amazing time.
+c. Sounds like an incredible experience. What was your favorite part of the trip?
+d. Definitely all the different cuisines. I tried so many new dishes.
+e. That's great! Are you a foodie?
+[GUIDELINE] The user enjoys trying different cuisines. Ask them about their favorite type of food.
+Optimal response: Yes, I love exploring new foods. My favorite type of cuisine is Mediterranean. What about you?
+
+4. 
+a. Hey, did you catch the game last night?
+b. Yeah, it was intense. I can't believe our team pulled through in the end.
+c. That's really exciting! Do you follow sports pretty closely?
+d. Yes, I'm a huge fan of the local teams. I try to catch all their games.
+e. That's awesome. What's your favorite sport to watch?
+[GUIDELINE] The user is a big sports fan. Ask them about what other sports they like.
+Optimal response: I love football and basketball as well. How about you?
+
+5. 
+a. What have you been up to lately?
+b. Not too much, just enjoying some downtime and reading some good books.
+c. Sounds relaxing. What book are you currently reading?
+d. "The Alchemist". It's really inspiring and thought-provoking.
+e. That's great! Do you have any other books you would recommend?
+[GUIDELINE] The user enjoys reading. Ask them about some of their favorite books.
+Optimal response: Yes, I also love "To Kill a Mockingbird" and "The Great Gatsby". Have you read either of those? 
+
+6.
+a. Hey there! How's your day been so far?
+b. It's been pretty good, thanks for asking. Just trying to stay productive.
+c. That's great! What kind of projects are you working on?
+d. Right now, I'm working on a big presentation for work and trying to learn a new skill in my free time.
+e. That's impressive. What skill are you trying to learn?
+[GUIDELINE] The user is trying to learn a new skill. Ask them about what skill they're interested in.
+Optimal response: I'm trying to learn how to play the guitar. It's definitely challenging but also really rewarding.
+
+7.
+a. Have you seen any good movies lately?
+b. Yeah, I saw "Parasite" last weekend and it was really good.
+c. I've heard great things about that movie! What did you like about it?
+d. The storyline was really unique and it kept me engaged the entire time.
+e. That's awesome. Do you have any other movie recommendations?
+[GUIDELINE] The user is a movie buff. Ask them about some other movies they would recommend.
+Optimal response: Yes, another favorite of mine is "The Shawshank Redemption". Have you seen that one?
+
+8.
+a. What have you been listening to lately?
+b. I've been really into jazz music lately. It's so soothing and relaxing.
+c. That's awesome! Do you have any favorite jazz artists?
+d. Yeah, I really like Miles Davis and John Coltrane.
+e. Nice choices. Do you play any musical instruments yourself?
+[GUIDELINE] The user enjoys jazz music. Ask them if they play any instruments themselves.
+Optimal response: Yes, I've been playing the saxophone for a few years now. It's definitely challenging but also really fun.
+
+9.
+a. Hey, what did you do over the weekend?
+b. I went to a concert with some friends. It was really fun!
+c. That sounds great. Who did you see in concert?
+d. We saw our favorite band, The Black Keys.
+e. That's awesome. Do you have any other favorite bands or musicians?
+[GUIDELINE] The user enjoys going to see live music. Ask them about some other bands they like.
+Optimal response: Yes, I also love Fleetwood Mac and Radiohead. Have you seen either of those bands in concert?
+
+10.
+a. How's your day going so far?
+b. It's going okay. I'm just feeling a bit overwhelmed with everything I have to do.
+c. I can understand that. Have you tried any mindfulness or stress-reducing techniques?
+d. Yeah, I've been trying to meditate every morning and it's been really helpful.
+e. That's great! Do you have any other self-care tips you would recommend?
+[GUIDELINE] The user is interested in self-care and wellness. Ask them about some other tips they have.
+Optimal response: Yes, I also find that doing yoga and getting enough sleep are really important for overall well-being.
+
+11.
+a. What's new with you?
+b. Not too much. Just trying to stay busy with work and some personal projects.
+c. That's cool. What kind of personal projects are you working on?
+d. Right now, I'm trying to learn how to cook some new dishes and also work on some writing projects.
+e. That's impressive. What kind of writing do you do?
+[GUIDELINE] The user is working on writing projects. Ask them about what they're writing.
+Optimal response: I'm working on a few different things right now, including a novel and some short stories. It's definitely a challenge but also really rewarding.
+
+12.
+a. Have you traveled anywhere interesting lately?
+b. Yeah, I went to Japan last month and it was amazing.
+c. That sounds incredible! What were some of your favorite parts of the trip?
+d. Definitely all the different foods, and also the beautiful temples and scenery.
+e. That's awesome. Do you have any other travel plans coming up?
+[GUIDELINE] The user enjoys traveling. Ask them about any upcoming trips they have planned.
+Optimal response: Yes, I'm planning a trip to Europe later this year. I can't wait to see all the different countries and cultures.
+
+13.
+a. Hey, how was your day today?
+b. It was pretty good. Just trying to stay productive at work.
+c. I can understand that. What kind of work do you do?
+d. I work in marketing for a tech company.
+e. That sounds interesting. Do you have any favorite campaigns you've worked on?
+[GUIDELINE] The user works in marketing. Ask them about some of their favorite projects they've worked on.
+Optimal response: Yeah, one of my favorites was a campaign we did for a new app launch. It was really successful and I got to work with a great team.
+
+14.
+a. What have you been up to lately?
+b. Not too much, just trying to catch up on some reading and spend time with family and friends.
+c. That sounds nice. What kind of books do you like to read?
+d. I like to read mostly fiction, sci-fi, and historical novels.
+e. That's great. Do you have any favorite authors in those genres?
+[GUIDELINE] The user enjoys reading fiction, sci-fi, and historical novels. Ask them about some of their favorite authors.
+Optimal response: Yes, for sci-fi I love Isaac Asimov and Margaret Atwood. For historical novels I love Philippa Gregory and Ken Follett.
+
+15.
+a. Have you seen any good shows or movies lately?
+b. Yeah, I watched "The Witcher" on Netflix and it was really good.
+c. I've heard great things about that show! What did you like about it?
+d. I thought the storyline was really engaging and the acting was great.
+e. That's awesome. Do you have any other show recommendations?
+[GUIDELINE] The user enjoys watching shows on Netflix. Ask them about some other shows they would recommend.
+Optimal response: Yeah, I would definitely recommend "Stranger Things" and "Narcos". Both are really well-done and engaging.
+
+16.
+a. What have you been up to lately?
+b. Not too much, just trying to get back into a workout routine and stay active.
+c. That's great. What kind of workouts do you like to do?
+d. I like to do a mix of weightlifting and cardio, and I also enjoy hiking and yoga.
+e. That's awesome. Do you have any fitness goals you're trying to achieve?
+[GUIDELINE] The user enjoys working out and staying active. Ask them about their fitness goals.
+Optimal response: Yes, I'm trying to build more muscle and also increase my endurance for long-distance hikes. It's definitely a challenge but also really rewarding.
+
+17.
+a. Hey, what did you do over the weekend?
+b. I went to a museum and saw an amazing exhibit on ancient history.
+c. That sounds so cool. What did you learn from the exhibit?
+d. I learned a lot about the ancient Egyptians and their customs and beliefs.
+e. That's fascinating. Do you have any other favorite historical periods or civilizations?
+[GUIDELINE] The user enjoys learning about history and ancient civilizations. Ask them about some other periods or civilizations they're interested in.
+Optimal response: Yes, I'm also really fascinated by ancient Rome and Greece. I love learning about their mythology and art.
+
+18.
+a. How's your day been going so far?
+b. It's been pretty stressful, to be honest. I have a lot of deadlines coming up.
+c. I can understand that. Have you tried any stress-reducing techniques?
+d. Yeah, I've been trying to do yoga and also take breaks to walk or meditate.
+e. That's great. Do you have any other stress-relief tips you would recommend?
+[GUIDELINE] The user is interested in stress-reducing techniques. Ask them about some other tips they have.
+Optimal response: Yes, I also find that eating healthy and getting enough sleep are really important for managing stress.
+
+19.
+a. What have you been up to lately?
+b. Not too much, just trying to practice some self-care and focus on my mental health.
+c. That's really important. Do you have any specific self-care routines you like to follow?
+d. Yeah, I try to meditate every day and also do yoga and journaling.
+e. That's awesome. Do you have any other mental health tips you would recommend?
+[GUIDELINE] The user is interested in mental health and self-care. Ask them about some other tips they have.
+Optimal response: Yes, I also find that talking to a therapist or counselor can be really helpful, as well as practicing gratitude and positive affirmations.
+
+20.
+a. Have you been to any good restaurants lately?
+b. Yeah, I went to this really amazing sushi place last week and it was delicious.
+c. That sounds great. Do you have any other favorite types of cuisine?
+d. I love all kinds of food, but I have a special place in my heart for Italian food.
+e. That's awesome. Do you have any favorite Italian dishes?
+[GUIDELINE] The user loves Italian cuisine. Ask them about some of their favorite dishes.
+Optimal response: Yes, I love lasagna and also gnocchi with pesto sauce. What about you?

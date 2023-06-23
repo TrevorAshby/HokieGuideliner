@@ -1,0 +1,138 @@
+1. 
+<s>Hi, how are you doing today?</s> 
+<s>I'm doing pretty well.</s> 
+<s>That's great to hear! Have you been up to anything exciting lately?</s> 
+<s>Just been catching up on some reading, actually. </s> 
+<s>What kind of books have you been reading? [GUIDELINE] The user has been reading books. Ask about their favorite one. | That sounds like a great way to spend your time. What's your favorite book that you've read recently?
+
+2. 
+<s>Hi, how are you doing today?</s>
+<s>Not too great, actually. I just found out my cat passed away.</s>
+<s>Oh no, I'm so sorry to hear that. They say pets are like family members. What were some of your cat's favorite things to do? </s>
+<s>She loved to curl up on my lap and get pets. [GUIDELINE] The user is grieving over the loss of their cat. Offer words of comfort. | Losing a pet can be such a hard thing, but the love they give us lasts forever. Know that you will always have the memories of the good times you shared with her.
+
+3. 
+<s>Hey there, how's it going?</s>
+<s>I'm doing pretty well, thanks for asking. How about you?</s>
+<s>I'm good, thanks. Have you picked up any new hobbies lately?</s>
+<s>Actually, I've been trying to get into painting lately. </s>
+<s>That sounds cool. Have you figured out what kind of painting you like to do yet? [GUIDELINE] The user is trying out painting as a new hobby. Ask them about their preferred paint style. | I think painting can be such a great way to relax. What's your preferred painting style?
+
+4. 
+<s>Hi there! What has your week been like so far?</s>
+<s>It's been pretty busy with work and everything. How about yours?</s>
+<s>It's been pretty good. Have you been watching any new shows lately?</s>
+<s>Yeah, actually. I just started watching a new crime drama series.</s>
+<s>Crime dramas can be so exciting. Who are some of the main characters in the show? [GUIDELINE] The user is interested in crime dramas. Ask about the characters in the show. | That sounds interesting. Who are some of the main characters in the show?
+
+5. 
+<s>Hi! It's great to see you again. Have you been up to anything fun since we last talked?</s>
+<s>I actually went on a hiking trip with some friends. It was really beautiful.</s>
+<s>That sounds lovely. Where did you guys go? </s>
+<s>We went to a national park nearby and hiked up a mountain trail.</s>
+<s>What kind of wildlife did you see on the hike? [GUIDELINE] The user went on a hiking trip and visited a national park. Ask about the wildlife they saw. | National parks can be so beautiful. Did you get to see any interesting wildlife on the hike?
+
+6. 
+<s>Hey there! How's your day going so far?</s>
+<s>It's been going pretty well. How about yours?</s>
+<s>I'm doing okay. Have you been cooking up anything new in the kitchen?</s>
+<s>Actually, I've been experimenting with some Asian-inspired stir-fry dishes.</s>
+<s>That sounds delicious. What ingredients have you been using? [GUIDELINE] The user has been experimenting with Asian-inspired dishes. Ask them about the ingredients. | Asian cuisine can be so flavorful. What ingredients have you been using in your stir-fry dishes?
+
+7. 
+<s>Hey, how's it going?</s>
+<s>Not great, to be honest. I just got some unfortunate news.</s>
+<s>Oh no, what happened?</s>
+<s>My grandma passed away yesterday.</s>
+<s>I'm so sorry to hear that. Is there anything I can do to help you or your family during this time? [GUIDELINE] The user is grieving over the loss of their grandmother. Offer words of comfort and ask how you can help. | Losing someone you love can be so difficult. Please know that I'm here for you and your family, and let me know if there's anything I can do to help.
+
+8. 
+<s>How's your day been going so far?</s>
+<s>It's been pretty busy with work. How about yours?</s>
+<s>Good, thanks. Have you been listening to any new music lately?</s>
+<s>Actually, I just discovered this new folk band that I've been really enjoying.</s>
+<s>That sounds neat. Do they have any popular songs that I might know? [GUIDELINE] The user has just discovered a new folk band. Ask about their popular songs. | I love finding new bands to listen to. Do they have any popular songs that I might know?
+
+9. 
+<s>Hey there, how are you doing?</s>
+<s>Not too bad. How about yourself?</s>
+<s>I'm good, thanks. Have you been keeping up with the Olympics?</s>
+<s>Yeah, I've been catching some of it on TV. </s>
+<s>What's been your favorite event to watch so far? [GUIDELINE] The user has been watching the Olympics. Ask about their favorite event. | I love watching the Olympics too. What's been your favorite event to watch so far?
+
+10. 
+<s>Hi there! What have you been up to lately?</s>
+<s>I've just been working on a new garden in my backyard.</s>
+<s>That's cool! What kind of plants have you been growing?</s>
+<s>I've been trying out some new heirloom tomato plants.</s>
+<s>I bet those are really tasty. Have you had any success with them yet? [GUIDELINE] The user has been growing heirloom tomatoes in their garden. Ask about their success with them. | I've always wanted to do some gardening myself. Have you had any success with your heirloom tomato plants yet?
+
+11. 
+<s>Hey, how's it going?</s>
+<s>Pretty well actually. I just finished a great book yesterday.</s>
+<s>That's awesome! What was the book about?</s>
+<s>It was a historical fiction novel set in England during the 1500s.</s>
+<s>That sounds really interesting. Who was the main character in the book? [GUIDELINE] The user just finished a historical fiction novel. Ask about the main character. | Historical fiction can be so engaging. Who was the main character in the book?
+
+12. 
+<s>Hi there! What have you been up to lately?</s>
+<s>Just checking out some new restaurants around town.</s>
+<s>That's cool. Have you found any favorites so far?</s>
+<s>Yeah, there's this one Italian place that has amazing pasta.</s>
+<s>That sounds delicious. What's your favorite thing on the menu there? [GUIDELINE] The user has been checking out new restaurants in town. Ask about their favorite dish. | Trying out new restaurants can be so much fun. What's your favorite thing on the menu at that Italian place?
+
+13. 
+<s>Hey! What have you been doing recently?</s>
+<s>I've actually been learning to play guitar lately.</s>
+<s>That's awesome! What kind of music have you been practicing?</s>
+<s>Mostly classic rock songs so far.</s>
+<s>What's been the most challenging song to learn so far? [GUIDELINE] The user has been learning to play guitar and has been practicing classic rock songs. Ask about the most challenging song. | Learning a new instrument can be so rewarding. What's been the most challenging song to learn so far?
+
+14. 
+<s>Hey there, how's it going?</s>
+<s>Not too bad. How about yourself?</s>
+<s>Pretty good! Have you been watching any good movies lately?</s>
+<s>Yeah, actually. I just watched this really cool sci-fi movie.</s>
+<s>Sci-fi can be so mind-bending. What was the movie about? [GUIDELINE] The user has watched a sci-fi movie. Ask about the plot. | I love getting lost in a good sci-fi movie. What was the movie about?
+
+15. 
+<s>Hello! What have you been doing lately?</s>
+<s>Not too much, just catching up on some housework.</s>
+<s>That's important stuff too. Do you have a favorite cleaning product?</s>
+<s>Actually, I've been using this natural cleaner that's really effective.</s>
+<s>That sounds great. What kind of natural cleaner is it? [GUIDELINE] The user has been using a natural cleaner. Ask about what kind it is. | Natural cleaning products can be so helpful. What kind of natural cleaner have you been using?
+
+16. 
+<s>Hey! What's been going on in your life lately?</s>
+<s>Been doing a lot of hiking and exploring new hiking trails.</s>
+<s>That sounds like a great way to get exercise. What's been your favorite trail so far?</s>
+<s>I really enjoyed this one trail that had a great view of the sunset.</s>
+<s>Sunsets on a hike can be so beautiful. What else did you see on the trail? [GUIDELINE] The user has been exploring new hiking trails. Ask about what else they saw on the favorite trail. | Hiking can be such a great way to enjoy nature. What else did you see on the trail with the sunset view?
+
+17. 
+<s>Hi there! What have you been up to lately?</s>
+<s>Just reading up on some new cooking techniques online.</s>
+<s>That sounds interesting. What's been the most useful tip you've learned so far?</s>
+<s>I realized that I've been using too much oil in my cooking, so I'm trying to cut back on that.</s>
+<s>That's a great tip! What other tips have you found helpful for cooking? [GUIDELINE] The user has been reading up on new cooking techniques online. Ask about other helpful tips they've found. | Cooking can be such a fun and creative activity. What other tips have you found helpful for cooking?
+
+18. 
+<s>Hey there! What's been going on with you lately?</s>
+<s>Not too much, just spending some time outdoors and enjoying the fresh air.</s>
+<s>That's great. What kind of outdoor activities have you been doing?</s>
+<s>I've just been taking some walks around the neighborhood and enjoying the sunshine.</s>
+<s>It's always nice to get some fresh air and sunshine. What have you enjoyed most about your walks? [GUIDELINE] The user has been spending time outdoors and taking walks. Ask about what they've enjoyed most. | Spending time outdoors can be so restorative. What have you enjoyed most about your walks?
+
+19. 
+<s>Hey! What have you been up to lately?</s>
+<s>Just been trying to learn some new languages in my spare time.</s>
+<s>That's cool! What languages have you been practicing?</s>
+<s>I've been working on Spanish and French so far.</s>
+<s>Learning new languages can be so fascinating. What have you found most challenging about these languages? [GUIDELINE] The user has been trying to learn new languages. Ask about what's been most challenging. | Learning a new language can be such a rewarding experience, but can also be challenging. What have you found most challenging about learning Spanish and French so far?
+
+20. 
+<s>Hi there! What have you been up to lately?</s>
+<s>Just been catching up on some reading lately.</s>
+<s>That's great. Have you been reading any books you'd recommend?</s>
+<s>Actually, I just finished this really interesting non-fiction book about psychology.</s>
+<s>Psychology can be so fascinating. What was the book about specifically? [GUIDELINE] The user has been reading a non-fiction book on psychology. Ask about what the book was about. | Psychology is such an interesting field of study. What was the book about specifically?

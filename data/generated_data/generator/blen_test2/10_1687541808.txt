@@ -1,0 +1,136 @@
+1. 
+- Hi, how was your weekend?
+- It was great, thanks for asking! I got to catch up on some much-needed rest. 
+- That sounds amazing. Do you have any upcoming plans for the week? 
+- Not anything set in stone yet, but I was thinking about trying the new Thai restaurant downtown. 
+- Yum! I love Thai food. [GUIDELINE] The user is interested in trying new restaurants. Ask them if they have any other favorite cuisines. | Thai food is great. What other cuisines do you enjoy? 
+
+2. 
+- Hey, how's it going?
+- Not great, to be honest. I've been feeling pretty stressed out lately.
+- I'm sorry to hear that. Do you have any coping mechanisms that work for you when you're feeling overwhelmed?
+- I like to go for a run or do some yoga to clear my head. 
+- That's a great way to destress. [GUIDELINE] The user enjoys exercising. Ask them about their favorite workout routines. | I'm glad you have outlets for managing stress. What's your favorite type of workout? 
+
+3. 
+- How are you holding up during quarantine?
+- It's been tough, but I'm getting through it. How about you?
+- Same here. I've started taking up some new hobbies to keep myself occupied. 
+- Oh, cool! [GUIDELINE] The user has taken up new hobbies. Ask them what they've been doing. | What new hobbies have you picked up?
+
+4. 
+- What did you study in college?
+- I majored in psychology. What about you?
+- I studied journalism. 
+- That's interesting. [GUIDELINE] The user has an academic background. Ask them to expand on their studies. | What was your favorite part of studying journalism? 
+
+5. 
+- Have you traveled anywhere recently?
+- Not recently, but I did take a trip to Europe last year. 
+- Wow, that must have been amazing. Where did you go?
+- I visited France, Spain, and Italy. 
+- Those are all beautiful countries. [GUIDELINE] The user enjoys travel. Ask them about their bucket list destinations. | What's at the top of your travel bucket list?
+
+6. 
+- What do you like to do in your free time?
+- I enjoy playing sports and going to the gym. 
+- That's awesome. What sports do you like to play?
+- Mostly basketball and tennis. 
+- Very cool. [GUIDELINE] The user enjoys sports. Ask them about their favorite sports teams. | What are your favorite sports teams?
+
+7. 
+- How was your day?
+- It was good, thanks. I had a productive day at work. 
+- Nice, what do you do for work?
+- I work in marketing for a tech company. 
+- That sounds interesting. [GUIDELINE] The user works in tech. Ask them about their favorite tech gadgets. | What's your favorite tech gadget right now?
+
+8. 
+- Do you have any pets?
+- Yes, I have a dog. 
+- Aw, what kind of dog?
+- She's a golden retriever. 
+- Goldens are the best. [GUIDELINE] The user has a pet. Ask them about their pet's personality. | What's your dog like?
+
+9. 
+- Are you a morning person or a night owl?
+- Definitely a night owl. 
+- Same here. Do you have any trouble falling asleep at night?
+- Sometimes. I've tried some relaxation techniques to help me sleep better.
+- That's smart. [GUIDELINE] The user has tried relaxation techniques for sleep. Ask them about which techniques work best. | What relaxation techniques have worked for you?
+
+10. 
+- Have you seen any good movies lately?
+- Yes, I saw a really great indie film called "Moonlight" last week. 
+- I've heard great things about that one. What did you like about it?
+- The performances were really powerful and the story was very moving. 
+- Sounds like a must-see. [GUIDELINE] The user enjoys indie films. Ask them about their other favorite movies. | What are some of your other favorite indie films?
+
+11. 
+- Do you have any siblings?
+- Yes, I have a younger sister. 
+- That's cool. Are you close with her?
+- Definitely, we've always been tight-knit. 
+- That's great. [GUIDELINE] The user has a sibling. Ask them if they have any fun sibling stories. | Do you have any funny stories about growing up with your sister?
+
+12. 
+- Are you a coffee or tea person?
+- Definitely a coffee person. 
+- Same here. How do you usually take your coffee?
+- I like it black or with a splash of almond milk. 
+- Yum. [GUIDELINE] The user is a coffee drinker. Ask them about their favorite coffee shops. | What's your favorite coffee shop in town?
+
+13. 
+- What's your favorite type of food?
+- I love spicy foods. What about you?
+- I'm a big fan of Mexican food. 
+- Yes! [GUIDELINE] The user enjoys spicy food. Ask them about the spiciest thing they've ever eaten. | What's the spiciest food you've ever tried?
+
+14. 
+- Have you read any good books lately?
+- Yes, I just finished a book called "The Glass Castle" and it was incredible. 
+- Oh, I've heard great things about that one. What did you like about it?
+- The writing was beautiful and the story was very moving. 
+- I'll have to check it out. [GUIDELINE] The user enjoys reading. Ask them about their favorite genres. | What's your favorite type of book to read?
+
+15. 
+- Have you been to any concerts lately?
+- Yes, I went to see Lizzo last month and she was amazing. 
+- Yes! What was your favorite song of hers that she performed?
+- Definitely "Truth Hurts." 
+- That's a great song. [GUIDELINE] The user enjoys music. Ask them about their favorite music festivals. | Have you ever been to any music festivals before?
+
+16. 
+- What's your favorite season?
+- Definitely fall. 
+- Same here. What do you like about it?
+- The weather is perfect and I love all the pumpkin-flavored things. 
+- Yes, fall treats are the best. [GUIDELINE] The user loves fall treats. Ask them about their favorite fall recipe. | What's your favorite pumpkin-flavored treat?
+
+17. 
+- Have you seen any good TV shows lately?
+- Yes, I just binged "Stranger Things" and it was amazing. 
+- That's a great show. What did you like about it?
+- The characters were all so likable and the storyline was very compelling. 
+- I need to catch up on that. [GUIDELINE] The user enjoys sci-fi shows. Ask them about their other favorite sci-fi series. | Have you seen any other great sci-fi shows recently?
+
+18. 
+- How do you usually spend your weekends?
+- I like to go hiking or spend time outside. 
+- Same here, nature is so relaxing. Have you been on any great hikes recently?
+- Yes, I hiked up Mount Baldy last month and the view was breathtaking. 
+- Wow, that sounds amazing. [GUIDELINE] The user loves hiking. Ask them about their other favorite outdoor activities. | What other outdoor activities do you enjoy besides hiking?
+
+19. 
+- What's your dream job?
+- I would love to be a travel writer. 
+- Oh, that sounds incredible. What would you write about?
+- I would love to travel to different countries and write about the culture, food, and people. 
+- That would be amazing. [GUIDELINE] The user loves travel. Ask them about their favorite trip they've ever taken. | What's your favorite place you've ever traveled to?
+
+20. 
+- Are you a dog or a cat person?
+- Definitely a dog person. 
+- Same here. What kind of dogs do you like?
+- I love all breeds, but golden retrievers are my favorite. 
+- They really are the best. [GUIDELINE] The user loves dogs. Ask them about their favorite dog parks. | What's your favorite dog park in town?

@@ -1,0 +1,79 @@
+1. Have you been outside lately?
+Oh yes, I've been going on a walk every day. It's been great to get some fresh air and exercise. 
+That's wonderful to hear! [GUIDELINE] The user enjoys walking for exercise. Ask them about their favorite walking route. | Where is your favorite place to walk?
+
+2. What did you have for breakfast this morning?
+I made some pancakes with blueberries and maple syrup. They were delicious! 
+Yum, that sounds amazing. [GUIDELINE] The user had a tasty breakfast. Ask them about their favorite breakfast foods. | What other breakfast foods do you enjoy?
+
+3. Have you traveled anywhere interesting lately?
+Actually, yes. I went on a trip to Japan last month. It was an amazing experience. 
+Wow, that's so cool! [GUIDELINE] The user recently traveled to Japan. Ask them about their favorite part of the trip. | What was your favorite part about visiting Japan?
+
+4. Are you a fan of sports?
+It depends on the sport, but I do enjoy watching basketball and football. 
+Those are classic sports! [GUIDELINE] The user likes watching basketball and football. Ask them which team they support. | Which basketball and football team do you root for?
+
+5. Have you read any good books lately?
+Yes, I'm in the middle of a really interesting memoir right now. It's about the author's experience growing up in a cult. 
+That sounds really intense. [GUIDELINE] The user is reading an intense memoir. Ask them what they like about the book. | What do you find interesting about the author's story?
+
+6. Do you have any pets?
+Yes, I have a cat named Mittens. She's really cute and keeps me company when I'm working from home. 
+Aw, Mittens sounds like a great companion. [GUIDELINE] The user has a cat. Ask them about a funny story involving their cat. | Do you have any funny stories about Mittens?
+
+7. Have you been cooking or baking anything new recently?
+Actually, I tried making homemade bread for the first time last week. It was challenging but rewarding. 
+Homemade bread is the best! [GUIDELINE] The user recently baked bread for the first time. Ask them about the recipe they used. | What recipe did you use to make the bread?
+
+8. What do you like to do in your free time?
+I enjoy reading, listening to music, and painting. It's a great way for me to relax and unwind. 
+Those are some great hobbies. [GUIDELINE] The user enjoys reading, listening to music, and painting. Ask them about their favorite book, musician, and painting. | What is your favorite book, musician, and painting?
+
+9. Have you been to any fun events recently?
+Actually, I went to a really cool outdoor concert last weekend. It was great to be able to finally enjoy live music again. 
+That sounds like an amazing event. [GUIDELINE] The user recently attended an outdoor concert. Ask them about their favorite performer. | Who was your favorite artist that performed?
+
+10. What do you do for a living?
+I'm a therapist. I love helping people work through their problems and improve their mental health. 
+That's really admirable. [GUIDELINE] The user is a therapist. Ask them about their favorite success story. | What is your favorite success story from your therapy clients?
+
+11. Do you have any plans for the weekend?
+Yes, I'm planning on going for a hike with some friends to explore some new trails. 
+That sounds like a fun adventure! [GUIDELINE] The user is going on a hike this weekend. Ask them about their favorite hiking spot. | What is your favorite hiking trail that you have been on?
+
+12. Do you enjoy cooking?
+Yes, I love trying out new recipes and experimenting with different flavors and ingredients. 
+That's really cool! [GUIDELINE] The user likes cooking. Ask them about their favorite recipe to make. | What is your favorite dish to cook?
+
+13. Have you been to any interesting museums or art exhibits lately?
+Actually, I went to a Van Gogh exhibit last month. It was amazing to see his artwork up close and learn more about his life. 
+Van Gogh is a legendary artist. [GUIDELINE] The user recently attended a Van Gogh exhibit. Ask them about their favorite painting. | What was your favorite painting from the exhibit?
+
+14. What's your favorite way to stay active?
+I love going for runs outside. It's a great way to clear my head and get some exercise. 
+Running is a great way to stay active. [GUIDELINE] The user likes running. Ask them about their favorite running route. | What is your favorite place to go for a run?
+
+15. Have you been to any interesting restaurants lately?
+Yes, I tried a new Thai restaurant in town that had amazing food. 
+I love Thai food! [GUIDELINE] The user recently tried a new Thai restaurant. Ask them about their favorite dish. | What was your favorite dish that you tried at the restaurant?
+
+16. What's your favorite way to relax after a long day?
+I enjoy taking a hot bath and reading a book. It's a great way to unwind and destress. 
+That sounds very relaxing. [GUIDELINE] The user likes taking baths and reading. Ask them about their favorite book. | What is your favorite book that you have read recently?
+
+17. Have you seen any good movies or TV shows recently?
+I just finished watching a really interesting documentary about the music industry. It was eye-opening. 
+Documentaries are always fascinating. [GUIDELINE] The user enjoys watching documentaries. Ask them about their favorite documentary. | What is your favorite documentary that you have seen?
+
+18. What kind of music do you like?
+I enjoy a variety of genres, but I mostly listen to indie rock and alternative. 
+Indie rock and alternative is great music. [GUIDELINE] The user likes indie rock and alternative music. Ask them about their favorite artist. | Who is your favorite indie rock or alternative artist?
+
+19. Do you have any travel plans coming up?
+Not at the moment, but I'm hoping to plan a trip to Europe next summer. 
+Europe is an amazing place to visit. [GUIDELINE] The user is planning a trip to Europe. Ask them about their favorite country they have visited already. | What is your favorite country you have visited in Europe?
+
+20. What's your favorite way to start the day?
+I like to start the day with a cup of coffee and some quiet time to myself. It helps me get centered and focused for the day ahead. 
+That sounds like a great morning routine. [GUIDELINE] The user likes to start the day with coffee and meditation. Ask them about their favorite meditation techniques. | What is your favorite way to meditate?

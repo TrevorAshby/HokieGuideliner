@@ -1,0 +1,40 @@
+1. 
+<s>Hey, how's your day going so far?</s> <s>It's been alright, just busy with work. How about yours?</s> <s>Not too bad, just trying to stay productive. [GUIDELINE] The user mentions being busy with work. Ask them about what their job is. | What kind of work do you do?
+2. 
+<s>Have you heard about the new restaurant that opened up downtown?</s> <s>No, tell me more about it.</s> <s>They specialize in authentic sushi and Japanese cuisine. [GUIDELINE] The user is interested in trying new food. Ask them about their favorite type of cuisine. | That sounds delicious! What kind of food do you normally enjoy eating?
+3. 
+<s>What have you been up to lately?</s> <s>Just been studying for final exams next week. How about you?</s> <s>Same here, it's been stressful. [GUIDELINE] The user mentions they are studying for exams. Ask them about their major. | What are you studying in college?
+4. 
+<s>Do you have any plans for the weekend?</s> <s>Not really, probably just going to catch up on some reading. What about you?</s> <s>I was thinking about going to the beach, but the weather doesn't look too promising. [GUIDELINE] The user mentions wanting to go to the beach. Ask them about their favorite beach. | I love the beach too! What's your favorite beach to visit?
+5. 
+<s>Hey, have you watched any good movies or shows lately?</s> <s>Actually, I just saw a really good romantic comedy on Netflix. How about you?</s> <s>I've been watching a lot of crime documentaries lately. [GUIDELINE] The user is interested in crime documentaries. Ask them about their favorite one. | Crime documentaries can be really interesting. What's your favorite one that you've seen so far?
+6. 
+<s>Have you been keeping up with any sports lately?</s> <s>Yeah, I've been watching the NBA playoffs. How about you?</s> <s>I'm more of a baseball fan, I've been following the MLB season. [GUIDELINE] The user is interested in baseball. Ask them about their favorite team. | I love watching baseball too. Who's your favorite team?
+7. 
+<s>What kind of music do you like listening to?</s> <s>I'm really into indie rock and alternative music. How about you?</s> <s>I'm more of a hip-hop and R&B person. [GUIDELINE] The user is interested in hip-hop and R&B music. Ask them about their favorite artist. | Hip-hop and R&B can be really great. Who's your favorite artist in that genre?
+8. 
+<s>Hey, have you been to any cool places recently?</s> <s>Yeah, actually I just went on a hiking trip in the mountains. How about you?</s> <s>I went to a really nice beach resort last month. [GUIDELINE] The user is interested in traveling. Ask them about their dream destination. | That sounds really fun. Where would be your dream place to visit?
+9. 
+<s>How do you usually spend your weekends?</s> <s>I like to relax and catch up on sleep. What about you?</s> <s>I usually try to stay active and do some outdoor activities. [GUIDELINE] The user mentions liking outdoor activities. Ask them about their favorite one. | Outdoor activities can be really fun. What's your favorite activity to do outside?
+10. 
+<s>Do you have any pets?</s> <s>Yes, I have a dog named Max. How about you?</s> <s>No, but I've always wanted a cat. [GUIDELINE] The user mentions wanting a cat. Ask them about what breed they prefer. | Cats can be really cute companions. What kind of cat breed do you like? 
+11. 
+<s>Have you seen any good art exhibits lately?</s> <s>Actually, I went to a really cool gallery show last weekend. How about you?</s> <s>I haven't been to any art exhibits recently, but I'm thinking about going to a museum soon. [GUIDELINE] The user is interested in visiting a museum. Ask them about their favorite one. | Museums can be really interesting. What's your favorite one that you've visited?
+12. 
+<s>What do you usually do for exercise?</s> <s>I like to do yoga and go for runs. How about you?</s> <s>I like to lift weights and do some cardio exercises. [GUIDELINE] The user mentions lifting weights. Ask them about their favorite exercise routine. | Lifting weights can be really challenging. What's your favorite weightlifting exercise to do?
+13. 
+<s>Hey, have you been to any good concerts lately?</s> <s>Yeah, I saw one of my favorite bands last month. How about you?</s> <s>I haven't been to any concerts in a while, but I'm thinking about going to a music festival this summer. [GUIDELINE] The user is interested in attending a music festival. Ask them about which one they want to go to. | Music festivals can be really fun. Which one are you planning on going to?
+14. 
+<s>What kind of books do you enjoy reading?</s> <s>I like reading historical fiction and memoirs. How about you?</s> <s>I like to read science fiction and fantasy novels. [GUIDELINE] The user is interested in science fiction and fantasy. Ask them about their favorite book. | Science fiction and fantasy can be really imaginative. What's your favorite book in that genre?
+15. 
+<s>What do you like to do in your free time?</s> <s>I enjoy playing video games and watching movies. How about you?</s> <s>I like to do some gardening and cook new recipes. [GUIDELINE] The user mentions cooking new recipes. Ask them about their favorite dish to make. | Cooking can be really fun. What's your favorite dish that you've made recently?
+16. 
+<s>Have you been keeping up with any fashion trends lately?</s> <s>Yeah, I've been really into oversized jackets and sneakers. How about you?</s> <s>I like to keep it casual with jeans and t-shirts. [GUIDELINE] The user is interested in casual wear. Ask them about their favorite t-shirt brand. | Casual wear can be really comfortable. What's your favorite t-shirt brand to wear?
+17. 
+<s>Do you play any sports?</s> <s>I like to play tennis in my free time. How about you?</s> <s>I enjoy playing basketball with some friends. [GUIDELINE] The user mentions playing basketball. Ask them about their favorite basketball team. | Basketball can be really fun to play. What's your favorite basketball team to watch?
+18. 
+<s>Have you been to any good concerts lately?</s> <s>Yeah, I saw one of my favorite bands last month. How about you?</s> <s>I haven't been to any concerts in a while, but I'm planning on seeing a jazz performance soon. [GUIDELINE] The user is interested in jazz performances. Ask them about their favorite jazz musician. | Jazz performances can be really cool. Who's your favorite jazz musician?
+19. 
+<s>What kind of podcasts do you usually listen to?</s> <s>I like listening to true crime podcasts and interviews. How about you?</s> <s>I like to listen to motivational and self-help podcasts. [GUIDELINE] The user is interested in self-help podcasts. Ask them about their favorite one. | Self-help podcasts can be really inspiring. What's your favorite podcast in that genre?
+20. 
+<s>What's your favorite type of weather?</s> <s>I like when it's sunny and warm outside. How about you?</s> <s>I love when it's snowing and cold outside. [GUIDELINE] The user mentions liking snow and cold weather. Ask them about their favorite winter activity. | Cold weather can be really refreshing. What's your favorite winter activity to do?

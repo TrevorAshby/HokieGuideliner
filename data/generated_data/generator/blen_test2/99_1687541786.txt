@@ -1,0 +1,60 @@
+1. Hi, how's your day going?
+I'm doing great! I just got back from a weekend trip. 
+Wow, where did you go? [GUIDELINE] The user mentions a recent trip they took. Ask them about where they went. 
+2. How was your weekend?
+It was hectic, I had a lot of errands to run. 
+I know how that feels. What did you do to relax afterwards? [GUIDELINE] The user had a busy weekend. Ask them what they did to unwind. 
+3. Have you started making summer plans yet?
+Yes, I'm hoping to take a road trip with some friends. 
+That sounds exciting! Any particular destination in mind? [GUIDELINE] The user mentions a summer road trip. Ask them where they are planning to go. 
+4. Did you catch the latest episode of that show?
+No, I haven't had the chance to watch TV lately. 
+It happens! What have you been up to instead? [GUIDELINE] The user mentions they haven't been watching TV. Ask them what they have been doing. 
+5. Have you been to any good restaurants lately?
+Yes, I discovered a great Italian place last week. 
+Oh wow, what dishes did you try? [GUIDELINE] The user mentions a recent restaurant experience. Ask them about the dishes they enjoyed. 
+6. Are you more of a morning or night person?
+I'm definitely a night owl. 
+Me too! What do you usually do at night? [GUIDELINE] The user is a night owl. Ask them about their nighttime routine. 
+7. How's work been going?
+It's been going well, thanks for asking. 
+Glad to hear it! Anything new happening at work? [GUIDELINE] The user mentions work. Ask them about anything new going on. 
+8. What are your weekend plans?
+I'm planning on going to the beach with some friends. 
+Sounds fun! Do you like swimming in the ocean or just lounging on the sand? [GUIDELINE] The user mentions plans to go to the beach. Ask them about their beach preferences. 
+9. How's your sister been doing?
+She's doing great, she just got a promotion at work. 
+Wow, congrats to her! What's her new job title? [GUIDELINE] The user mentions their sister's promotion. Ask them about her new job title. 
+10. Do you have any pets?
+Yes, I have a dog named Max. 
+Aww, what breed is he? [GUIDELINE] The user mentions having a dog. Ask them about the breed of their pet. 
+11. Have you tried that new restaurant yet?
+No, I haven't had the chance to go. 
+It's worth a visit! Have you heard any reviews about it? [GUIDELINE] The user mentions not having tried a new restaurant. Ask them if they have heard any reviews. 
+12. Did you pick up any new hobbies during quarantine?
+Yes, I started learning how to knit. 
+That's awesome! How is that going for you so far? [GUIDELINE] The user mentions picking up a new hobby during quarantine. Ask them about how it's going. 
+13. Is there anything new happening in your life?
+Well, I just moved into a new apartment. 
+Exciting! What's your favorite thing about your new place? [GUIDELINE]. The user mentions moving into a new apartment. Ask them about what they like most about it. 
+14. How do you usually like to spend your weekends?
+I like to go on hikes and explore new trails. 
+That sounds like a great way to stay active! Have you discovered any new hikes lately? [GUIDELINE] The user mentions enjoying hiking. Ask them about any recent hikes they have done. 
+15. Have you read any good books lately?
+Yes, I just finished a really good mystery novel. 
+That's great! Who was the author? [GUIDELINE] The user mentions reading a mystery novel. Ask them about the author. 
+16. Are you a sports fan?
+Not really, I prefer to watch movies or TV shows. 
+I get that! What's your favorite movie or TV show? [GUIDELINE] The user mentions not being interested in sports. Ask them about their favorite movie or TV show. 
+17. Do you have any plans for the holidays yet?
+Yes, I'm going to visit my family for Thanksgiving. 
+That's great! How far away do they live? [GUIDELINE] The user mentions plans for the holidays. Ask them how far their family lives. 
+18. How was your day today?
+It was busy, I had a lot of meetings at work. 
+I know how that feels. Did anything interesting happen during your meetings? [GUIDELINE] The user mentions having a busy day with work meetings. Ask them about anything interesting that happened. 
+19. Do you like to cook?
+Yes, I love trying out new recipes in the kitchen. 
+That's awesome! What's your favorite dish to cook? [GUIDELINE] The user mentions enjoying cooking. Ask them about their favorite dish. 
+20. Have you been to any concerts lately?
+No, I haven't had the chance to go to any concerts in a while. 
+It's been tough with COVID restrictions. Who's the last band or artist you saw perform live? [GUIDELINE] The user mentions not having been to a concert lately. Ask them about the last live performance they saw.

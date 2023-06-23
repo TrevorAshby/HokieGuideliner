@@ -1,0 +1,120 @@
+1. 
+- How was your weekend?
+- It was great! I went hiking in the mountains.
+- That sounds like a lot of fun. Did you see any wildlife?
+- Yes, I saw some deer and a few squirrels. 
+- [GUIDELINE] The user saw some wildlife while hiking. Ask them if they are interested in learning more about animals. | That's really cool. Are you interested in learning more about wildlife?
+2. 
+- What do you usually do for fun?
+- I enjoy reading a lot.
+- That's great. What kind of books do you like?
+- Mostly science fiction and fantasy.
+- [GUIDELINE] The user likes science fiction and fantasy books. Ask them about their favorite book in that genre. | Those genres are really interesting. What's your favorite science fiction or fantasy book?
+3. 
+- Have you tried any new restaurants lately?
+- Yeah, I went to this really good Thai place over the weekend.
+- I love Thai food! What did you order?
+- I got the Pad Thai and it was really good.
+- [GUIDELINE] The user tried a new Thai restaurant and enjoyed it. Ask them if they know any other good Thai places. | That sounds delicious. Do you know of any other good Thai restaurants in the area?
+4. 
+- How are you doing today?
+- I'm feeling pretty stressed out, to be honest.
+- I'm sorry to hear that. Is there anything I can do to help?
+- Not really, I just need to find some ways to relax and de-stress.
+- [GUIDELINE] The user is feeling stressed out. Ask them if they have any relaxation techniques that work for them. | I understand. Do you have any relaxation techniques that you find helpful in times like these?
+5. 
+- What did you do over the weekend?
+- I went to the beach with some friends.
+- That sounds like a lot of fun. Did you do any surfing or swimming?
+- Yes, we went surfing and swimming in the ocean.
+- [GUIDELINE] The user went to the beach and did some water activities. Ask them if they like to swim or surf. | That sounds like a great time. Do you like to swim or surf a lot?
+6. 
+- Do you like to cook?
+- Yeah, I love cooking and trying out new recipes.
+- What's the best thing you've ever made?
+- I made this amazing lasagna from scratch once that turned out really good.
+- [GUIDELINE] The user enjoys cooking and trying out new recipes. Ask them what their favorite cuisine is. | That sounds delicious. What's your favorite type of cuisine to cook?
+7. 
+- Have you seen any good movies lately?
+- Yes, I saw a really great indie film at the theater last week.
+- What was it about?
+- It was a coming-of-age story set in the 1980s.
+- [GUIDELINE] The user saw an indie film at the theater. Ask them what makes a movie great for them. | That sounds really interesting. What do you look for in a great movie?
+8. 
+- Do you like to travel?
+- I love traveling and seeing new places.
+- Where's the coolest place you've ever been?
+- I went to Japan a few years ago and it was amazing.
+- [GUIDELINE] The user enjoys traveling and has been to Japan before. Ask them what their favorite thing about Japan was. | Japan is on my bucket list. What did you like most about your trip there?
+9. 
+- What kind of music do you like?
+- I listen to a lot of indie and alternative music.
+- Who's your favorite artist?
+- Right now, I'm really into Vampire Weekend.
+- [GUIDELINE] The user likes indie and alternative music. Ask them if they like going to concerts. | I love Vampire Weekend too. Do you enjoy going to concerts to see your favorite artists perform live?
+10. 
+- Do you play any sports?
+- I like to play basketball in my free time.
+- That's great! Do you have any favorite players or teams?
+- I'm a big fan of LeBron James and the Lakers.
+- [GUIDELINE] The user likes to play basketball and is a fan of the Lakers. Ask them if they have any other favorite sports teams. | That's cool, I'm a big basketball fan too. Do you have any other favorite sports teams that you root for?
+11. 
+- What do you usually do on weekends?
+- I like to go hiking or camping if the weather is nice.
+- That sounds like a lot of fun. Have you been to any cool trails lately?
+- Yeah, I went to this really beautiful national park a few weeks ago.
+- [GUIDELINE] The user likes to go hiking and has been to a national park recently. Ask them what their favorite national park is. | I love national parks! What's your favorite national park that you've been to?
+12. 
+- What's your favorite type of food?
+- I love Italian food, especially pasta dishes.
+- Same here! What's your favorite Italian dish?
+- I really like fettuccine alfredo or spaghetti carbonara.
+- [GUIDELINE] The user loves Italian food, particularly pasta dishes. Ask them if they've ever tried making homemade pasta. | Those are both really delicious options. Have you ever tried making your own pasta from scratch?
+13. 
+- Have you been following the news lately?
+- Yeah, I've been keeping up with the latest COVID-19 updates.
+- That's important. Do you know if there have been any recent developments in the vaccine research?
+- I heard that some of the companies are in the final stages of testing and it could be available soon.
+- [GUIDELINE] The user has been following COVID-19 news and knows about vaccine research. Ask them if they have any concerns or questions about the vaccine. | That's good news. Do you have any concerns or questions about the vaccine that you've been wondering about?
+14. 
+- What kind of books do you like to read?
+- I mostly read non-fiction books, like biographies and memoirs.
+- That's interesting. Who's your favorite author?
+- Right now, I'm really into Michelle Obama's autobiography.
+- [GUIDELINE] The user likes to read non-fiction books, particularly biographies and memoirs. Ask them if they have any other favorite authors or titles. | I read that one too and it was really good. Do you have any other favorite non-fiction books or authors you would recommend?
+15. 
+- Do you have any pets?
+- Yes, I have a dog that I love dearly.
+- Aw, what kind of dog is it?
+- It's a rescue mutt, but we think it's a mix of Labrador and Pitbull.
+- [GUIDELINE] The user has a dog that they love. Ask them if they have any funny or heartwarming stories to share about their pet. | Rescue mutts are the best! Do you have any funny or heartwarming stories about your dog that you'd like to share?
+16. 
+- What's your favorite holiday?
+- I really like Thanksgiving because of all the good food and family time.
+- Same here. What's your favorite Thanksgiving dish?
+- I love stuffing and mashed potatoes with gravy.
+- [GUIDELINE] The user likes Thanksgiving and enjoys the food. Ask them what their favorite Thanksgiving memory is. | Thanksgiving is such a great holiday. What's your favorite Thanksgiving memory from past years?
+17. 
+- Do you like to go shopping?
+- I don't love shopping, but I do like finding good deals sometimes.
+- Same here. What's the best deal you've ever found?
+- I once got a designer handbag for half price during a sale.
+- [GUIDELINE] The user likes finding good deals while shopping. Ask them where their favorite place to shop is. | That's a great deal! Where is your favorite place to shop for deals like that?
+18. 
+- What kind of movies do you like to watch?
+- I like action movies and thrillers the most.
+- Me too! What's your favorite action movie?
+- I really like John Wick and the Bourne series.
+- [GUIDELINE] The user likes action movies and has watched John Wick and the Bourne series. Ask them if they have any favorite fight scenes or stunts from those movies. | Those are both great action movie franchises. Do you have any favorite fight scenes or stunts from those movies that you can recall?
+19. 
+- Do you play any musical instruments?
+- Yes, I play the guitar and piano.
+- That's impressive. Which one do you like playing more?
+- Probably the guitar, but the piano is good for melody and harmonizing.
+- [GUIDELINE] The user can play both guitar and piano. Ask them if they have any favorite songs that they like to play on those instruments. | That's really cool. Do you have any favorite songs that you like to play on the guitar or piano?
+20. 
+- Have you been to any concerts lately?
+- No, not lately. But I've got tickets for a show coming up next month.
+- Who are you going to see?
+- I'm going to see Billie Eilish in concert.
+- [GUIDELINE] The user is going to see Billie Eilish in concert. Ask them if they have any other favorite music artists. | Billie Eilish is a great performer. Who are some of your other favorite music artists?

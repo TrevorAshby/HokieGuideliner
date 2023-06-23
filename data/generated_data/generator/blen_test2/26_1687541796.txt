@@ -1,0 +1,95 @@
+1. 
+- Hey, have you seen any good movies lately?
+- Yes, I just watched 'The Shawshank Redemption' last night. Have you seen it? 
+- No, I have not. [GUIDELINE] The user has not seen the same movie. Ask them about their favorite movie instead. | That's interesting. What is your all-time favorite movie?
+
+2. 
+- Do you have any pets at home?
+- Yes, I foster cats and dogs from time to time. [GUIDELINE] The user fosters pets. Ask them how they got into fostering. | That's amazing! How did you get into pet fostering?
+
+3. 
+- Have you been traveling lately?
+- Not really, with the pandemic going on. How about you?
+- Same here. [GUIDELINE] The user is not traveling during the pandemic. Ask them about a favorite trip they've taken in the past. | I know right? Where is the favorite place you've ever travelled?
+
+4. 
+- What kind of books do you enjoy reading?
+- I mainly read mystery novels. [GUIDELINE] The user enjoys mystery novels. Ask them about their favorite mystery author. | Ah, that's my favorite genre too! Who's your favorite mystery author?
+
+5. 
+- Hey, do you like watching sports?
+- I don't watch sports much, but I do enjoy playing tennis. [GUIDELINE] The user prefers playing sports rather than watching them. Ask them about their favorite tennis player. | That's cool! Who's your favorite tennis player?
+
+6. 
+- Have you tried out any new recipes recently?
+- Yes, I tried making homemade pizza last weekend. It turned out delicious!
+- That sounds amazing. [GUIDELINE] The user made homemade pizza. Ask them about the toppings they used. | That sounds really yummy! What kind of toppings did you use for your pizza?
+
+7. 
+- What do you usually do in your free time?
+- I like to read books or play the guitar. What about you?
+- I usually watch movies or TV shows. [GUIDELINE] The user likes watching movies or TV shows. Ask them about their favorite show/movie. | Cool. What is one of your favorite shows or movies that you've watched recently?
+
+8. 
+- Hi! How are you today?
+- I'm good, thanks for asking. How about you?
+- I'm doing well too, thank you. [GUIDELINE] Both the user and chatbot are doing well. Ask them what they have planned for the rest of the day. | That's good to hear. What are you planning on doing for the rest of the day?
+
+9. 
+- Have you ever been to a music festival before? 
+- Yes, I went to Coachella a few years ago. 
+- Oh wow, that's really cool. [GUIDELINE] The user has been to a music festival. Ask them about their favorite performance. | That sounds amazing! What was the best performance you saw there?
+
+10. 
+- Do you have a favorite type of cuisine? 
+- I absolutely love Thai food. 
+- Thai food is amazing, I agree. [GUIDELINE] The user likes Thai food. Ask them about their favorite Thai dish. | Thai food is so flavorful. What's your favorite Thai dish?
+
+11. 
+- What's your opinion on social media?
+- I think social media can be beneficial, as long as people use it responsibly. [GUIDELINE] The user thinks social media can be beneficial. Ask them about their reasoning. | That's a fair point. What makes you think social media can be beneficial?
+
+12. 
+- Have you ever traveled alone before?
+- I haven't before, but I think it would be an interesting experience. How about you?
+- Yeah, I've traveled on my own a few times. [GUIDELINE] The chatbot has traveled alone before. Ask them about their favorite experience traveling solo. | That's really cool! What was your favorite experience traveling solo?
+
+13. 
+- Hey, do you like playing any instruments?
+- Yes, I play the piano and the guitar. What about you?
+- I used to play the violin, but I haven't in a while. [GUIDELINE] The user used to play the violin. Ask them why they stopped playing. | That's interesting. What made you stop playing the violin?
+
+14. 
+- How do you like to stay active?
+- I enjoy jogging and playing basketball. How about you?
+- I like to take dance classes or go to the gym. [GUIDELINE] The user takes dance classes or goes to the gym. Ask them about their favorite type of dance. | That's cool! What's your favorite type of dance to do?
+
+15. 
+- Have you ever been skydiving before?
+- No, I haven't. But I've always wanted to try it.
+- It's definitely a thrilling experience! [GUIDELINE] The chatbot has been skydiving before. Ask them about the view from the top. | I totally agree, it's scary but amazing. What did you think of the view from up there?
+
+16. 
+- What kind of music do you listen to when you're working out?
+- I like listening to upbeat pop and hip-hop music. What about you?
+- I usually listen to rock or heavy metal. [GUIDELINE] The user prefers rock or heavy metal music for working out. Ask them about their favorite band. | Nice! What's your favorite band in that genre?
+
+17. 
+- Hey, do you like watching documentaries?
+- Yes, I love learning new things. What about you?
+- Same here! [GUIDELINE] Both the user and chatbot enjoy watching documentaries. Ask them about their favorite one. | That's awesome to hear! What's your favorite documentary that you've watched?
+
+18. 
+- Have you ever gone camping before?
+- Yes, I've been camping multiple times. It's one of my favorite things to do.
+- I've never been before, but it sounds like fun. [GUIDELINE] The user has not gone camping before. Ask them what they think would be their favorite part about camping. | You should try it sometime, it's amazing! What's something that you think you would enjoy the most about camping?
+
+19. 
+- Do you have a favorite author?
+- I really enjoy reading books by Stephen King. 
+- Stephen King is a great author. [GUIDELINE] The user likes Stephen King's books. Ask them about their favorite Stephen King book. | Yes, he is! What's your favorite book that he's written?
+
+20. 
+- Have you ever taken any language classes before?
+- Yeah, I took Spanish classes in high school. 
+- That's really cool. [GUIDELINE] The user has taken Spanish classes before. Ask them about how they became interested in learning Spanish. | Spanish is such a useful language to know. What made you want to learn it?

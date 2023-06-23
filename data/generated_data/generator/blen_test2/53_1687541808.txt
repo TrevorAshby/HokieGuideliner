@@ -1,0 +1,139 @@
+1. 
+a) How was your weekend?
+b) My weekend was great, thanks for asking! I went hiking and spent some time at the beach.
+c) That sounds like a lot of fun. What's your favorite outdoor activity?
+d) I love hiking, but I also enjoy going for a bike ride.
+e) [GUIDELINE] The user enjoys outdoor activities. Ask them where their favorite place to hike is. | Where is your favorite place to go hiking?
+
+2.
+a) Have you ever gone skydiving?
+b) No, I've never been brave enough to try. How about you?
+c) I've done it once, and it was an amazing experience. 
+d) That sounds exhilarating! What's the craziest thing you've ever done?
+e) [GUIDELINE] The user enjoys adrenaline-inducing activities. Ask them what other extreme activities they've done. | What other extreme activities have you tried?
+
+3.
+a) What's your favorite type of food?
+b) I really enjoy Italian cuisine. How about you?
+c) I love Indian food. 
+d) That's great! Do you like cooking your own meals or trying out new restaurants?
+e) [GUIDELINE] The user enjoys trying new foods. Ask them about the best restaurant they've ever been to. | What is the best restaurant you've ever been to?
+
+4.
+a) Have you traveled anywhere interesting recently?
+b) Yes, I just got back from a trip to Thailand.
+c) Wow, that sounds amazing! What was your favorite part of the trip?
+d) I really enjoyed visiting the temples and experiencing the local culture.
+e) [GUIDELINE] The user enjoys immersing themselves in new cultures. Ask them where they plan on traveling to next. | Where do you plan on traveling to next?
+
+5.
+a) What do you enjoy doing in your free time?
+b) I like reading and playing video games. 
+c) What kind of books do you like to read?
+d) I enjoy reading fantasy novels. 
+e) [GUIDELINE] The user enjoys reading fiction. Ask them about their favorite author. | Who is your favorite author?
+
+6.
+a) Do you have any pets?
+b) Yes, I have a cat and a dog. 
+c) That's awesome, what are their names?
+d) My cat's name is Luna and my dog's name is Max.
+e) [GUIDELINE] The user has pets and enjoys talking about them. Ask them what kind of pet they would want if they could have any. | If you could have any pet, what would it be?
+
+7.
+a) What's your favorite type of music?
+b) I really enjoy listening to jazz. How about you?
+c) I like all types of music, but I mainly listen to pop.
+d) That's cool! Do you have a favorite musician?
+e) [GUIDELINE] The user enjoys pop music. Ask them about their favorite pop artist. | Who is your favorite pop artist?
+
+8.
+a) Are you a coffee or tea person?
+b) Definitely coffee. It's like my lifeblood.
+c) I hear you. What's your favorite type of coffee?
+d) I love a good latte or cappuccino.
+e) [GUIDELINE] The user loves coffee. Ask them if they prefer making their own coffee or going to a coffee shop. | Do you prefer making your own coffee or going to a coffee shop?
+
+9.
+a) What kind of movies do you enjoy watching?
+b) I like thriller movies. How about you?
+c) I enjoy comedies and action movies.
+d) Cool! Do you have a favorite movie of all time?
+e) [GUIDELINE] The user enjoys action movies. Ask them what their favorite action movie is. | What is your favorite action movie?
+
+10.
+a) Do you play any sports?
+b) I like playing basketball and soccer. How about you?
+c) I don't play any sports, but I enjoy going for a run.
+d) That's great! Do you have any favorite running routes?
+e) [GUIDELINE] The user enjoys running. Ask them about their favorite running route. | What is your favorite running route?
+
+11.
+a) Have you read any good books lately?
+b) Yes, I just finished a really interesting biography.
+c) That's awesome! Who was the biography about?
+d) It was about Albert Einstein.
+e) [GUIDELINE] The user enjoys reading non-fiction. Ask them about another interesting biography they've read. | What is another interesting biography you've read?
+
+12.
+a) What's your favorite thing to do on a lazy day?
+b) I love binge-watching TV shows. How about you?
+c) I like to read or take a nap.
+d) That sounds relaxing! What's your favorite TV show?
+e) [GUIDELINE] The user enjoys binge-watching TV shows. Ask them what shows they've recently watched. | What TV show have you recently binge-watched?
+
+13.
+a) Are you a morning person or a night owl?
+b) Definitely a night owl. How about you?
+c) I'm a morning person. I like to get up early and start my day.
+d) That's great! Do you have a morning routine?
+e) [GUIDELINE] The user is a morning person. Ask them about their morning routine. | What does your morning routine look like?
+
+14.
+a) What's your favorite season?
+b) I love fall. How about you?
+c) I like summer because I enjoy going to the beach.
+d) That's awesome! Do you have a favorite beach that you like to go to?
+e) [GUIDELINE] The user enjoys going to the beach. Ask them about the best beach they've ever been to. | What is the best beach you've ever been to?
+
+15.
+a) Have you attended any concerts recently?
+b) Yes, I went to a Taylor Swift concert. It was amazing!
+c) That sounds like a lot of fun. Do you have a favorite song by Taylor Swift?
+d) I love all of her songs, but my favorite is probably "Shake It Off".
+e) [GUIDELINE] The user enjoys listening to Taylor Swift. Ask them about their favorite album of hers. | What is your favorite Taylor Swift album?
+
+16.
+a) Do you have any siblings?
+b) Yes, I have an older and a younger sister.
+c) That's cool! What's the age difference between all of you?
+d) My older sister is four years older than me, and my younger sister is two years younger.
+e) [GUIDELINE] The user has two siblings. Ask them which one they are closest to. | Which sibling are you closest with?
+
+17.
+a) What's your favorite holiday?
+b) I love Christmas. How about you?
+c) I like Halloween because I enjoy dressing up in costumes.
+d) That's awesome! Do you have a favorite Halloween costume that you've worn?
+e) [GUIDELINE] The user enjoys dressing up in costumes. Ask them about their favorite Halloween costume. | What is your favorite Halloween costume that you've worn?
+
+18.
+a) Do you consider yourself a creative person?
+b) Yes, I enjoy art and writing.
+c) That's great! What kind of art do you like to create?
+d) I enjoy painting and drawing.
+e) [GUIDELINE] The user enjoys painting and drawing. Ask them about their favorite artist. | Who is your favorite artist?
+
+19.
+a) What's your favorite book series?
+b) I really enjoy the Harry Potter series. How about you?
+c) I like the Hunger Games series.
+d) Cool! Do you have a favorite character from the series?
+e) [GUIDELINE] The user enjoys the Hunger Games series. Ask them about their favorite character. | Who is your favorite character from the Hunger Games series?
+
+20.
+a) What's your favorite type of weather?
+b) I love it when it's sunny and warm. How about you?
+c) I like it when it's cooler and overcast.
+d) That's great! Do you enjoy doing anything in particular on a rainy day?
+e) [GUIDELINE] The user enjoys rainy days. Ask them about what they like to do on a rainy day. | What do you like to do on a rainy day?

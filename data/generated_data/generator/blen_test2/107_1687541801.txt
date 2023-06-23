@@ -1,0 +1,90 @@
+1. Hi, how are you doing today?
+I'm doing pretty well. 
+That's great! Have you been up to anything interesting lately?
+Not really, just working a lot. 
+[GUIDELINE] The user doesn't have anything interesting to talk about. Ask them about their job. | What do you do for work?
+2. Good morning! How's your day going so far?
+It's going well, thanks for asking. 
+That's good to hear. Do you have any plans for the rest of the day?
+Just running some errands and relaxing at home. 
+[GUIDELINE] The user is not doing anything special today. Ask them about their favorite way to relax. | What's your favorite way to unwind after a long day?
+3. Hey there, what did you get up to over the weekend?
+Not much, just stayed home and watched some movies. 
+That sounds nice. What was the best movie you watched?
+I really enjoyed a romantic comedy called "Crazy Rich Asians." 
+[GUIDELINE] The user likes romantic comedies. Ask them about their favorite romantic comedy movie. | What's your all-time favorite romantic comedy?
+4. What's the weather like where you are?
+It's really sunny and hot today. 
+Wow, that sounds nice! Do you like spending time outside when it's beautiful out?
+I do, but only for short periods of time. I can't handle the heat for too long. 
+[GUIDELINE] The user doesn't like being outside in hot weather. Ask them about their favorite indoor activity. | What's your favorite thing to do indoors when it's hot outside?
+5. Hey! How was your weekend?
+It was great, thanks for asking. I went on a camping trip with some friends.
+Wow, that sounds like fun! Did you do any hiking or fishing?
+Yeah, we did some hiking and caught a few fish for dinner. 
+[GUIDELINE] The user enjoys camping and being outdoors. Ask them about their favorite camping spot. | What's your favorite camping spot that you've been to? 
+6. Hey, how's it going today?
+Not too bad, thanks for asking. 
+That's good. Do you have anything planned for the day?
+Just some work and maybe catching up on some TV shows. 
+[GUIDELINE] The user likes to watch TV shows. Ask them about what their favorite show is. | What's your favorite TV show to watch?
+7. Hi there! Do you have any exciting plans for the weekend?
+Not really, just hanging out at home and maybe doing some house cleaning. 
+[GUIDELINE] The user doesn't have any exciting plans. Ask them about their favorite household chore. | What's your favorite chore to do around the house?
+8. Good evening! What did you have for dinner tonight?
+I made a homemade pizza with some fresh vegetables. 
+Sounds delicious! Do you enjoy making your own pizza?
+I do, it's one of my favorite things to cook. 
+[GUIDELINE] The user likes cooking. Ask them about their favorite dish to make. | What's your signature dish that you love to cook?
+9. Hey, what's up?
+Not much, just getting ready for bed. 
+[GUIDELINE] The user is about to go to bed. Ask them about their favorite bedtime routine. | What's your favorite thing to do before you go to bed?
+10. Hi! Have you done anything interesting lately?
+Recently I went on a road trip across the country. 
+Wow, that sounds like an adventure! What was your favorite part of the trip?
+Definitely seeing all of the beautiful national parks along the way. 
+[GUIDELINE] The user likes national parks. Ask them about their favorite park that they've visited. | What's your favorite national park that you've been to?
+11. Hey there! What have you been up to today?
+Just running some errands and doing some grocery shopping. 
+[GUIDELINE] The user is out and about and running errands. Ask them what their favorite store to shop at is. | What's your favorite store to go to when you're out and about?
+12. Hey, do you have any pets?
+Yes, I have a dog named Charlie. 
+That's great! What kind of dog is Charlie?
+He's a labrador retriever mix. 
+[GUIDELINE] The user has a dog. Ask them about their favorite thing to do with their dog. | What's your favorite activity to do with Charlie?
+13. Hi! Have you listened to any good music recently?
+I've been really into indie-rock bands lately. 
+Cool! Who's your favorite indie-rock band at the moment?
+I've been listening to a lot of Vampire Weekend and The Strokes. 
+[GUIDELINE] The user likes indie-rock bands. Ask them about their favorite song by their favorite band. | What's your favorite song by Vampire Weekend or The Strokes?
+14. Good morning! What's on your mind today?
+Just thinking about my upcoming vacation to Europe. 
+Wow, that's exciting! Where are you planning on visiting in Europe?
+I'll be visiting Italy, France, and Spain. 
+[GUIDELINE] The user is planning a trip to Europe. Ask them what they are most excited to see. | What's the one thing you're most looking forward to experiencing on your vacation?
+15. Hey, how's your day been so far?
+Not too bad! I went on a nice walk earlier in the park. 
+That sounds lovely! Do you like spending time outside?
+I do, especially in nature. 
+[GUIDELINE] The user enjoys nature. Ask them about their favorite outdoor activity. | What's your favorite outdoor activity to do in nature? 
+16. Hi there! Have you read any good books recently?
+I just finished a really interesting thriller called "Gone Girl." 
+That's a great book! Do you like reading thrillers?
+Yes, I love being on the edge of my seat while I'm reading. 
+[GUIDELINE] The user likes reading thrillers. Ask them about their favorite author in that genre. | Who is your favorite thriller author?
+17. Hey, what's new?
+Not much, just trying to stay productive during quarantine. 
+[GUIDELINE] The user is trying to stay productive during quarantine. Ask them about their favorite activity to do at home. | What's your favorite thing to do to pass the time during quarantine?
+18. Hello! Have you done anything exciting this week?
+I went to a concert for my favorite band! 
+That's amazing! Who's your favorite band?
+My all-time favorite is Red Hot Chili Peppers. 
+[GUIDELINE] The user's favorite band is Red Hot Chili Peppers. Ask them about their favorite song by the band. | What's your favorite song by Red Hot Chili Peppers?
+19. Hi, what's up?
+Nothing much, just trying to finish up some work. 
+[GUIDELINE] The user is busy with work. Ask them what industry they work in. | What industry do you work in?
+20. Hey! What have you been up to this weekend?
+I went on a mini-road trip to some nearby cities. 
+That's great! Did you have a favorite place that you visited?
+Definitely a cute little bookstore in the city of Florence. 
+[GUIDELINE] The user visited a bookstore. Ask them about their favorite book they've read recently. | What's your favorite book that you've read recently?

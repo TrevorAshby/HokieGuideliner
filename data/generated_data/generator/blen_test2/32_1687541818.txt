@@ -1,0 +1,153 @@
+1. 
+- How was your weekend?
+- It was pretty good, thanks for asking. I went to a concert with some friends.
+- Really? Who did you see?
+- We saw Taylor Swift. She was amazing! 
+[GUIDELINE] The user went to a concert over the weekend. Ask them about their favorite song from the show. | What was your favorite song that she performed?
+
+2. 
+- Have you been on any trips lately?
+- I actually just got back from a week-long camping trip in the mountains.
+- That sounds like fun! Did you see any wildlife while you were there?
+- We saw a family of deer! It was amazing to see them up close in their natural habitat. 
+[GUIDELINE] The user saw some wildlife while on a camping trip. Ask them about their favorite animal sighting. | What was your favorite animal that you saw on the trip?
+
+3. 
+- How was your day today?
+- It was good, busy as usual. How was your day?
+- Eh, it was alright. I had to go to a meeting that lasted forever.
+- That doesn't sound very fun. Do you have any plans for the evening to unwind?
+- Yeah, I'm planning on watching a movie and relaxing. 
+[GUIDELINE] The user plans to unwind by watching a movie. Ask them about their favorite movie genre. | What kind of movie are you planning on watching?
+
+4. 
+- Have you tried any new restaurants recently?
+- Actually, yes! I went to a new Italian place downtown and it was amazing.
+- That's great to hear! What did you have?
+- I had the spaghetti carbonara, it was so delicious.
+- Yum, I love carbonara! 
+[GUIDELINE] The user tried a new Italian restaurant and liked it. Ask them about the ambiance of the place. | What was the atmosphere like at the restaurant?
+
+5. 
+- How has your week been so far?
+- It's been okay, pretty busy with work. How about you?
+- Same here, but I did get to go to a really cool exhibit at the museum this weekend.
+- Oh, that sounds interesting! What exhibit did you see?
+- I saw an exhibit on Egyptian artifacts, it was really fascinating. 
+[GUIDELINE] The user went to a museum exhibit about Egyptian artifacts. Ask them about the most interesting piece they saw. | What was the most interesting artifact that you saw at the exhibit?
+
+6. 
+- What have you been up to lately?
+- Not too much, just trying to squeeze in some exercise whenever I can.
+- That's great! What kind of workouts do you do?
+- I like to mix it up with some yoga, running, and weightlifting. 
+[GUIDELINE] The user enjoys exercising with a variety of different workouts. Ask them which workout is their favorite. | What's your favorite type of exercise to do?
+
+7. 
+- Have you read any good books recently?
+- Yes, I just finished a really good mystery novel.
+- Oh, what was it about?
+- It was about a detective who solves a murder case in a small town. 
+[GUIDELINE] The user finished reading a mystery novel. Ask them about who their favorite author is in that genre. | Who's your favorite mystery author?
+
+8. 
+- How's your day going so far?
+- It's been good, thanks for asking. How's yours?
+- It's been a bit hectic, but I did get to try a new coffee shop this morning.
+- Nice, did you like it?
+- Yes, the coffee was great and the atmosphere was really cozy. 
+[GUIDELINE] The user tried a new coffee shop with a cozy atmosphere. Ask them what their favorite drink was. | What was your favorite drink that you had at the coffee shop?
+
+9. 
+- Have you been to any concerts lately?
+- Actually, yeah! I went to a small indie show last weekend.
+- That sounds cool, who did you see?
+- I saw a band called The Shins.
+- I love The Shins! 
+[GUIDELINE] The user saw The Shins in concert. Ask them about their favorite song by the band. | What's your favorite song by The Shins?
+
+10. 
+- Have you seen any good movies lately?
+- I actually just saw a really good thriller movie.
+- Ooh, what was it called?
+- It was called "Gone Girl".
+- I've heard of that one, was it suspenseful?
+[GUIDELINE] The user saw a suspenseful movie called "Gone Girl". Ask them about the plot. | What was the main plot of the movie?
+
+11. 
+- How has your week been so far?
+- It's been pretty stressful, but I'm trying to manage.
+- Yeah, I know how that is. Do you have any hobbies to help you unwind?
+- I like to paint in my free time, it's really therapeutic for me. 
+[GUIDELINE] The user finds painting to be therapeutic. Ask them about their favorite medium to use. | What's your favorite type of paint to work with?
+
+12. 
+- Have you been watching any good TV shows lately?
+- Yes, I just started watching a really interesting sci-fi series.
+- Cool, what's it called?
+- It's called "Stranger Things".
+- I've heard of that one, is it any good?
+[GUIDELINE] The user started watching "Stranger Things". Ask them about what makes the show interesting. | What do you find most interesting about the series?
+
+13. 
+- How's your day going so far?
+- It's been good, pretty productive. How's yours?
+- It's been alright, I had to deal with some car trouble this morning.
+- Bummer, what happened?
+- My tire went flat on the way to work. 
+[GUIDELINE] The user had car trouble on their way to work. Ask them if they were able to fix it. | Were you able to fix the tire yourself or did you have to get help?
+
+14. 
+- Have you been to any sporting events recently?
+- Yes, I actually went to a soccer game last weekend.
+- That sounds fun, who was playing?
+- It was a local team, and they won! It was really exciting.
+- Nice, do you like soccer?
+[GUIDELINE] The user went to a soccer game and had a good time. Ask them if they play the sport themselves. | Do you ever play soccer yourself?
+
+15. 
+- Have you tried any new hobbies recently?
+- I've been trying to get into gardening lately.
+- Oh, that's interesting! What kind of plants have you been working with?
+- I've been mostly growing herbs like rosemary, basil, and thyme. 
+[GUIDELINE] The user has taken up gardening as a new hobby. Ask them about their favorite thing they've grown so far. | What's your favorite plant that you've grown in your garden?
+
+16. 
+- What have you been up to lately?
+- Just trying to get some home improvement projects done.
+- That's cool, have you finished any projects recently?
+- I actually just finished painting my bedroom last weekend.
+- Nice! What color did you choose?
+[GUIDELINE] The user painted their bedroom over the weekend. Ask them about the color they chose. | What color did you decide on for your bedroom?
+
+17. 
+- Have you been to any good restaurants recently?
+- Yes, I went to a really fancy steakhouse last weekend.
+- Wow, that sounds expensive!
+- Yeah, it was definitely a splurge, but the steak was amazing.
+- I bet! Do you like your steak rare or well-done?
+[GUIDELINE] The user went to a fancy steakhouse recently. Ask them how they prefer their steak cooked. | How do you like your steak prepared?
+
+18. 
+- Have you seen any good art exhibits lately?
+- Yes, I went to a modern art exhibit last weekend.
+- Cool! What kind of art was featured in the exhibit?
+- There were a lot of abstract pieces that were really interesting to look at.
+- Nice, do you like abstract art?
+[GUIDELINE] The user saw an exhibit of abstract art. Ask them about their favorite piece from the exhibit. | What was your favorite piece of art that you saw?
+
+19. 
+- How's your day going so far?
+- It's been pretty busy, but I just had a really good lunch break.
+- Oh yeah? What did you have for lunch?
+- I tried a new sushi place and it was amazing!
+- Yum, I love sushi. Do you have a favorite kind of roll?
+[GUIDELINE] The user tried a new sushi place for lunch. Ask them what their favorite kind of sushi is. | What's your go-to sushi roll?
+
+20. 
+- Have you been to any good concerts lately?
+- Yes, I went to a music festival over the weekend.
+- That sounds like a lot of fun! Who did you see perform?
+- There were a lot of great acts, but my favorite was definitely Childish Gambino.
+- Oh, I love Childish Gambino! 
+[GUIDELINE] The user saw Childish Gambino perform at a music festival. Ask them about their favorite song that he played. | What was your favorite song that he performed?

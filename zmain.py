@@ -50,7 +50,7 @@ def main():
     topic_detector.load_state_dict(torch.load('./model/DIAL-BART0_9_checkpoint.pt'))
     guideliner.load_state_dict(torch.load('./model/guideliner.pt'))
     blen_model.load_state_dict(torch.load('./model/blenderbot.pt'))
-    inst_model.load_state_dict(torch.load('./model/intructdialogue.pt'))
+    inst_model.load_state_dict(torch.load('./model/intructdialogue_V4.pt'))
 
     topic_detector.to(device)
     guideliner.to(device)

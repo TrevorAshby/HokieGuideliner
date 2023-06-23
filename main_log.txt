@@ -3612,3 +3612,159 @@ Hokiebot:  That's a great idea! What's your favorite podcast that you've listene
 You: goodbye
 Hokiebot: Goodbye! Thanks for chatting!
 
+BLENDERBOT - PREV_TURNS:3 - 2023-06-23 12:12:19.425921
+BLENDERBOT - PREV_TURNS:3 - 2023-06-23 12:13:37.219144
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: hi i like apples
+=== User Input: hi i like apples ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "apples", "interest": ["yes"}} ===
+Hokiebot:  I love apples too! What's your favorite type of food to cook and recipe?
+=== TIMING [tpc:1.2830698490142822, gdl:0.7529692649841309, gen:0.3841512203216553, tot:2.420232057571411] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('hi i like apples', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "apples", "interest": ["yes"}}'), (" I love apples too! What's your favorite type of food to cook and recipe?", '')]] ===
+You: i like making steak
+=== User Input: i like making steak ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-Level": {"type": "cooking and recipe": "no"}} ===
+Hokiebot:  That sounds delicious! Do you have any other favorite recipes that you'd like to try?
+=== TIMING [tpc:1.1407949924468994, gdl:1.1180849075317383, gen:0.3250699043273926, tot:2.5839931964874268] ===
+=== CONV_HISTORY [[(" I love apples too! What's your favorite type of food to cook and recipe?", ''), ('i like making steak', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-Level": {"type": "cooking and recipe": "no"}}'), (" That sounds delicious! Do you have any other favorite recipes that you'd like to try?", '')]] ===
+You: no
+=== User Input: no ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle- level": {"level": "cooking and recipe sharing": "no"}} ===
+Hokiebot:  That's too bad. Have you ever tried making a steak with mashed potatoes instead of pasta?
+=== TIMING [tpc:1.1698875427246094, gdl:1.0766260623931885, gen:0.39916086196899414, tot:2.6457180976867676] ===
+=== CONV_HISTORY [[(" That sounds delicious! Do you have any other favorite recipes that you'd like to try?", ''), ('no', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle- level": {"level": "cooking and recipe sharing": "no"}}'), (" That's too bad. Have you ever tried making a steak with mashed potatoes instead of pasta?", '')]] ===
+You: yes. i love mashed potatoes
+=== User Input: yes. i love mashed potatoes ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "steak", "low-cost": "mashed potatoes", "how about making a steak with mashed potatoes instead of pasta?"}} ===
+Hokiebot:  What's your favorite topping to put on a burger? I like to put cheese on mine.
+=== TIMING [tpc:1.0446398258209229, gdl:0.830115556716919, gen:0.4863307476043701, tot:2.3611302375793457] ===
+=== CONV_HISTORY [[(" That's too bad. Have you ever tried making a steak with mashed potatoes instead of pasta?", ''), ('yes. i love mashed potatoes', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "steak", "low-cost": "mashed potatoes", "how about making a steak with mashed potatoes instead of pasta?"}}'), (" What's your favorite topping to put on a burger? I like to put cheese on mine.", '')]] ===
+You: i like cheese and bacon on my burgers
+=== User Input: i like cheese and bacon on my burgers ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": {"level": "pizza toppings", "topic": ["macaroni and cheese", "bacon", "chicken", "cheeseburger", "butter", "dish preference": "unknow"}} ===
+Hokiebot:  That sounds delicious! Do you put any vegetables or condiments on your burgers?
+=== TIMING [tpc:1.3044178485870361, gdl:1.278843641281128, gen:0.38297390937805176, tot:2.9662787914276123] ===
+=== CONV_HISTORY [[(" What's your favorite topping to put on a burger? I like to put cheese on mine.", ''), ('i like cheese and bacon on my burgers', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": {"level": "pizza toppings", "topic": ["macaroni and cheese", "bacon", "chicken", "cheeseburger", "butter", "dish preference": "unknow"}}'), (' That sounds delicious! Do you put any vegetables or condiments on your burgers?', '')]] ===
+You: lettuce and ketchup
+=== User Input: lettuce and ketchup ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetables, condiments, lettuce and ketchup", "low_level": "no"}} ===
+Hokiebot:  Pizza is one of my favorite foods! What's your favorite pizza place to get pizza?
+=== TIMING [tpc:1.0744168758392334, gdl:0.9535293579101562, gen:0.46761441230773926, tot:2.495603084564209] ===
+=== CONV_HISTORY [[(' That sounds delicious! Do you put any vegetables or condiments on your burgers?', ''), ('lettuce and ketchup', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "vegetables, condiments, lettuce and ketchup", "low_level": "no"}}'), (" Pizza is one of my favorite foods! What's your favorite pizza place to get pizza?", '')]] ===
+You: i like Pizza Hut
+=== User Input: i like Pizza Hut ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "pizza place", "topic": ["Pizza Hut", "Pizza Republic", "Dish", "Yum Yum", "yes"}} ===
+Hokiebot:  That's a great idea! Do you have any other favorite pizza places to get burgers?
+=== TIMING [tpc:1.0522346496582031, gdl:0.953862190246582, gen:0.371687650680542, tot:2.37782883644104] ===
+=== CONV_HISTORY [[(" Pizza is one of my favorite foods! What's your favorite pizza place to get pizza?", ''), ('i like Pizza Hut', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "pizza place", "topic": ["Pizza Hut", "Pizza Republic", "Dish", "Yum Yum", "yes"}}'), (" That's a great idea! Do you have any other favorite pizza places to get burgers?", '')]] ===
+You:  no
+=== User Input:  no ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-tier": {"level": "fast food", "topic": ["burger place", "pizza", "restaurant", "cuisine": "no"}} ===
+Hokiebot:  Pizza hut is a great place to get italian food. Have you tried any of their specialty dishes?
+=== TIMING [tpc:1.3461596965789795, gdl:1.20741605758667, gen:0.4765317440032959, tot:3.030150890350342] ===
+=== CONV_HISTORY [[(" That's a great idea! Do you have any other favorite pizza places to get burgers?", ''), (' no', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-tier": {"level": "fast food", "topic": ["burger place", "pizza", "restaurant", "cuisine": "no"}}'), (' Pizza hut is a great place to get italian food. Have you tried any of their specialty dishes?', '')]] ===
+You: i like their chicken alfredo
+=== User Input: i like their chicken alfredo ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "pizza dish", "amount": "unknow"}} ===
+Hokiebot:  That's unfortunate. Do you have any other local restaurants that you like to go to?
+=== TIMING [tpc:0.8600654602050781, gdl:1.066551923751831, gen:0.4458136558532715, tot:2.37247371673584] ===
+=== CONV_HISTORY [[(' Pizza hut is a great place to get italian food. Have you tried any of their specialty dishes?', ''), ('i like their chicken alfredo', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "pizza dish", "amount": "unknow"}}'), (" That's unfortunate. Do you have any other local restaurants that you like to go to?", '')]] ===
+You: yes, i like mcdonald's
+=== User Input: yes, i like mcdonald's ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "low-level: {"topic: "McDonald's", "which is a fast food restaurant in the US", "low_level": "unknow"}} ===
+Hokiebot:  What's your favorite fast food restaurant that you've ever been to? I've heard good things about Pizza Hut.
+=== TIMING [tpc:0.9424409866333008, gdl:0.8416566848754883, gen:0.5217514038085938, tot:2.3058927059173584] ===
+=== CONV_HISTORY [[(" That's unfortunate. Do you have any other local restaurants that you like to go to?", ''), ("yes, i like mcdonald's", '{"high-level": {"topic": "food", "if_interest": "yes"}, "low-level: {"topic: "McDonald\'s", "which is a fast food restaurant in the US", "low_level": "unknow"}}'), (" What's your favorite fast food restaurant that you've ever been to? I've heard good things about Pizza Hut.", '')]] ===
+You: McDonald's is my favorite
+=== User Input: McDonald's is my favorite ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "fast food restaurant", "topic": ["Pizza Hut", "McDonald's", "Pizza", "Dish", "Korean food", "Thai food"], "low-level: {"topic: "fast-food restaurant"}} ===
+Hokiebot:  That sounds delicious! Do you have any other favorite thai food restaurants that you recommend trying out?
+=== TIMING [tpc:1.7070105075836182, gdl:0.9440314769744873, gen:0.3547790050506592, tot:3.0058646202087402] ===
+=== CONV_HISTORY [[(" What's your favorite fast food restaurant that you've ever been to? I've heard good things about Pizza Hut.", ''), ("McDonald's is my favorite", '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "fast food restaurant", "topic": ["Pizza Hut", "McDonald\'s", "Pizza", "Dish", "Korean food", "Thai food"], "low-level: {"topic: "fast-food restaurant"}}'), (' That sounds delicious! Do you have any other favorite thai food restaurants that you recommend trying out?', '')]] ===
+You: Panda Express
+=== User Input: Panda Express ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "Thai food", "low-cost restaurant": "Pandoori Express", "what's the name": "panda express"}} ===
+Hokiebot:  I'll have to try that out! What's your favorite italian or Chinese dish to try?
+=== TIMING [tpc:1.0015177726745605, gdl:0.897986888885498, gen:0.39560389518737793, tot:2.295151710510254] ===
+=== CONV_HISTORY [[(' That sounds delicious! Do you have any other favorite thai food restaurants that you recommend trying out?', ''), ('Panda Express', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "Thai food", "low-cost restaurant": "Pandoori Express", "what\'s the name": "panda express"}}'), (" I'll have to try that out! What's your favorite italian or Chinese dish to try?", '')]] ===
+You: I love orange chicken
+=== User Input: I love orange chicken ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-Level": {"level": "dish", "topic": ["Italian or Chinese dish", "orange chicken", "pandemic"], "low-level: {"topic: "panda express restaurant", "when_restaurant": "unknow"}} ===
+Hokiebot:  That's a great idea! Do you have any other favorite Chinese or Chinese dishes that you recommend trying out?
+=== TIMING [tpc:1.3534369468688965, gdl:0.9259436130523682, gen:0.34381103515625, tot:2.623234748840332] ===
+=== CONV_HISTORY [[(" I'll have to try that out! What's your favorite italian or Chinese dish to try?", ''), ('I love orange chicken', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-Level": {"level": "dish", "topic": ["Italian or Chinese dish", "orange chicken", "pandemic"], "low-level: {"topic: "panda express restaurant", "when_restaurant": "unknow"}}'), (" That's a great idea! Do you have any other favorite Chinese or Chinese dishes that you recommend trying out?", '')]] ===
+You: Beef and broccoli is tasty
+=== User Input: Beef and broccoli is tasty ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Chinese food preference", "amount": "unknow"}} ===
+Hokiebot:  That sounds delicious! I'll have to try that next time I go to a Chinese restaurant!
+=== TIMING [tpc:0.6845924854278564, gdl:0.885357141494751, gen:0.4880187511444092, tot:2.0580103397369385] ===
+=== CONV_HISTORY [[(" That's a great idea! Do you have any other favorite Chinese or Chinese dishes that you recommend trying out?", ''), ('Beef and broccoli is tasty', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Chinese food preference", "amount": "unknow"}}'), (" That sounds delicious! I'll have to try that next time I go to a Chinese restaurant!", '')]] ===
+You: yes you should! do you like music
+=== User Input: yes you should! do you like music ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+Hokiebot:  I love music! What's your favorite type of music to listen to when you go out to eat?
+=== TIMING [tpc:0.40488100051879883, gdl:0.6894629001617432, gen:0.3434104919433594, tot:1.4377987384796143] ===
+=== CONV_HISTORY [[(" That sounds delicious! I'll have to try that next time I go to a Chinese restaurant!", ''), ('yes you should! do you like music', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" I love music! What's your favorite type of music to listen to when you go out to eat?", '')]] ===
+You: rock n roll
+=== User Input: rock n roll ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "rock n roll", "what's your favorite genre", "when you go out to eat, do you like rock n roll?"}} ===
+Hokiebot:  Classic rock is great! Do you have a favorite classic rock band or song that you would recommend listening to?
+=== TIMING [tpc:1.1059443950653076, gdl:1.0698771476745605, gen:0.35315608978271484, tot:2.5290210247039795] ===
+=== CONV_HISTORY [[(" I love music! What's your favorite type of music to listen to when you go out to eat?", ''), ('rock n roll', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "rock n roll", "what\'s your favorite genre", "when you go out to eat, do you like rock n roll?"}}'), (' Classic rock is great! Do you have a favorite classic rock band or song that you would recommend listening to?', '')]] ===
+You: I like the band Journey
+=== User Input: I like the band Journey ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"level": "rock n roll band/song recommendation", "low-level: {"topic: "Journey", "band name": "unknow"}} ===
+Hokiebot:  That's a great band! Who is your favorite member of the band and what's your favorite song by them?
+=== TIMING [tpc:0.978947639465332, gdl:1.013202428817749, gen:0.425128698348999, tot:2.417320728302002] ===
+=== CONV_HISTORY [[(' Classic rock is great! Do you have a favorite classic rock band or song that you would recommend listening to?', ''), ('I like the band Journey', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"level": "rock n roll band/song recommendation", "low-level: {"topic: "Journey", "band name": "unknow"}}'), (" That's a great band! Who is your favorite member of the band and what's your favorite song by them?", '')]] ===
+You: Steve Perry and my favorite song is Open Arms
+=== User Input: Steve Perry and my favorite song is Open Arms ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "music artist", "middle name": "Steve Perry, Opher Arms", "low-level:" {"topic:" "open arms", "who is your favorite member", "what song", "why", "unknow": "no"}} ===
+Hokiebot:  Do you have any other favorite bands in that genre that you would recommend listening to?
+=== TIMING [tpc:1.409172534942627, gdl:1.3136134147644043, gen:0.3459312915802002, tot:3.0687575340270996] ===
+=== CONV_HISTORY [[(" That's a great band! Who is your favorite member of the band and what's your favorite song by them?", ''), ('Steve Perry and my favorite song is Open Arms', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "music artist", "middle name": "Steve Perry, Opher Arms", "low-level:" {"topic:" "open arms", "who is your favorite member", "what song", "why", "unknow": "no"}}'), (' Do you have any other favorite bands in that genre that you would recommend listening to?', '')]] ===
+You: Queen is really good too
+=== User Input: Queen is really good too ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "band", "interest": ["Queen", "Ozzy", "The Beatles", "Imagine Dragons", "Kendrick Lamar", "Daft Punk", "Queen's Got Mail"], "low-level: {"topic: "music genre", "low_level": "unknow"}} ===
+Hokiebot:  Have you heard of any other bands or artists that you might like to listen to in the same genre?
+=== TIMING [tpc:1.5786607265472412, gdl:1.0202903747558594, gen:0.4161875247955322, tot:3.0154335498809814] ===
+=== CONV_HISTORY [[(' Do you have any other favorite bands in that genre that you would recommend listening to?', ''), ('Queen is really good too', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "band", "interest": ["Queen", "Ozzy", "The Beatles", "Imagine Dragons", "Kendrick Lamar", "Daft Punk", "Queen\'s Got Mail"], "low-level: {"topic: "music genre", "low_level": "unknow"}}'), (' Have you heard of any other bands or artists that you might like to listen to in the same genre?', '')]] ===
+You: REO speedwagon
+=== User Input: REO speedwagon ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "rock band", "low-level:" {"topic:" "Reo speedwagon", "middle_level": "unknow"}} ===
+Hokiebot:  Do you have any other favorite musicians or bands that you would like to talk about?
+=== TIMING [tpc:0.982755184173584, gdl:1.0364344120025635, gen:0.38579463958740234, tot:2.405027151107788] ===
+=== CONV_HISTORY [[(' Have you heard of any other bands or artists that you might like to listen to in the same genre?', ''), ('REO speedwagon', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "rock band", "low-level:" {"topic:" "Reo speedwagon", "middle_level": "unknow"}}'), (' Do you have any other favorite musicians or bands that you would like to talk about?', '')]] ===
+You: no
+=== User Input: no ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "no"}} ===
+Hokiebot:  What are some classic rock bands or classic rock groups that you like to listen to? 
+=== TIMING [tpc:0.793792724609375, gdl:1.0294430255889893, gen:0.3323476314544678, tot:2.1556270122528076] ===
+=== CONV_HISTORY [[(' Do you have any other favorite musicians or bands that you would like to talk about?', ''), ('no', '{"high-level": {"topic": "music", "if_interest": "no"}}'), (' What are some classic rock bands or classic rock groups that you like to listen to? ', '')]] ===
+You: i want to change the subject
+=== User Input: i want to change the subject ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "no"}, "middle-ground": "classic rock bands or classic rock groups", "no"}} ===
+Hokiebot:  Classic rock is a great genre of music. What's your favorite band or band?
+=== TIMING [tpc:0.7420945167541504, gdl:1.0524766445159912, gen:0.4141256809234619, tot:2.208739995956421] ===
+=== CONV_HISTORY [[(' What are some classic rock bands or classic rock groups that you like to listen to? ', ''), ('i want to change the subject', '{"high-level": {"topic": "music", "if_interest": "no"}, "middle-ground": "classic rock bands or classic rock groups", "no"}}'), (" Classic rock is a great genre of music. What's your favorite band or band?", '')]] ===
+You: i do not want to talk about music anymore
+=== User Input: i do not want to talk about music anymore ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "no"}} ===
+Hokiebot:  That's understandable. Do you have any classic rock bands or artists that you would recommend listening to?
+=== TIMING [tpc:0.6393270492553711, gdl:0.8806593418121338, gen:0.3123500347137451, tot:1.832378625869751] ===
+=== CONV_HISTORY [[(" Classic rock is a great genre of music. What's your favorite band or band?", ''), ('i do not want to talk about music anymore', '{"high-level": {"topic": "music", "if_interest": "no"}}'), (" That's understandable. Do you have any classic rock bands or artists that you would recommend listening to?", '')]] ===
+You: i want to talk about sports
+=== User Input: i want to talk about sports ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}} ===
+Hokiebot:  What's your favorite classic rock band or artist that you might like to listen to right now?
+=== TIMING [tpc:0.3657500743865967, gdl:1.0186090469360352, gen:0.313417911529541, tot:1.697819471359253] ===
+=== CONV_HISTORY [[(" That's understandable. Do you have any classic rock bands or artists that you would recommend listening to?", ''), ('i want to talk about sports', '{"high-level": {"topic": "sports", "if_interest": "yes"}}'), (" What's your favorite classic rock band or artist that you might like to listen to right now?", '')]] ===
+You: no
+=== User Input: no ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "no"}, "middle- level": {"level": "sport", "topic": ["basketball", "soccer"], "if-interest": "[unknow"}} ===
+Hokiebot:  That's cool. Do you have any favorite artists or artists that you would recommend listening to?
+=== TIMING [tpc:0.9718368053436279, gdl:1.1925439834594727, gen:0.4234776496887207, tot:2.5879015922546387] ===
+=== CONV_HISTORY [[(" What's your favorite classic rock band or artist that you might like to listen to right now?", ''), ('no', '{"high-level": {"topic": "music", "if_interest": "no"}, "middle- level": {"level": "sport", "topic": ["basketball", "soccer"], "if-interest": "[unknow"}}'), (" That's cool. Do you have any favorite artists or artists that you would recommend listening to?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+

@@ -10,7 +10,7 @@ save_dir = './data/generated_data'
 print("===== You loaded the {} API key =====".format(openai.api_key))
 
 def sample_conv(file_id):
-    example='''{}'''.format(open('./data/chatgptprompt_instruct.txt', 'r').read())
+    example='''{}'''.format(open('./data/chatgptprompt_blender2.txt', 'r').read())
     print("===== THE PROMPT YOU ARE USING =====")
     print(example)
     print("====================================")
@@ -31,6 +31,6 @@ def sample_conv(file_id):
         f.write(response['choices'][0]['message']['content'])
     time.sleep(1)
 
-ls = [*range(114)]
-with Pool(114) as p:
+ls = [*range(110)]
+with Pool(110) as p:
     p.map(sample_conv, ls)
