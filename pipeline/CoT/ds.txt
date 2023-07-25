@@ -1,3 +1,8 @@
+[]| "Books"
+[Books]| "Reading" 
+[]| "Music"
+[]| "Sports"
+[Literature]| "Non-Fiction" 
 [Technology, Smartphones, Apple]| "iPhone 12 Pro Max"
 [Animals, Mammals, Cats]| "Siamese Cat"
 [Art, Renaissance, Paintings]| "Mona Lisa" (by Leonardo da Vinci)
