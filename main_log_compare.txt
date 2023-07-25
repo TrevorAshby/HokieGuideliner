@@ -1,0 +1,125 @@
+BLENDERBOT - PREV_TURNS:3 - 2023-06-25 17:28:52.094057
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like Rock n Roll music.
+=== User Input: I like Rock n Roll music. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-class": "rock n roll", "low-level: {"topic: "Rock n Roll", "what's your favorite genre": "unknow"}} ===
+=== Guideline: The user does not like rock music but does like indie pop. Ask them about their favorite indie pop artist. ===
+Hokiebot:  Do you have any indie rock artists that you would recommend for someone who doesn't like the genre? === Blen400M:  Rock n roll is a great genre of music. Do you have any favorite bands?
+=== TIMING [tpc:1.3932321071624756, gdl:0.6731464862823486, gen:0.7377557754516602, tot:2.8042514324188232] ===
+=== CONV_HISTORY [[('', ''), ('I like Rock n Roll music.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-class": "rock n roll", "low-level: {"topic: "Rock n Roll", "what\'s your favorite genre": "unknow"}}'), (" Do you have any indie rock artists that you would recommend for someone who doesn't like the genre?", '')]] ===
+You: I like Imagine Dragons.
+=== User Input: I like Imagine Dragons. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "indie rock", "middle level": "band name": "Imagine Dragons"}} ===
+=== Guideline: The user dislikes indie rock music. They specifically like the band Imagine Dragons. Talk to the user about other indie rock bands they might like. ===
+Hokiebot:  That's too bad. Do you have any other bands that you would recommend listening to? === Blen400M:  I've never heard of them. I'll have to check them out. What kind of music do they play?
+=== TIMING [tpc:0.9083988666534424, gdl:0.8940885066986084, gen:0.6508924961090088, tot:2.4535019397735596] ===
+=== CONV_HISTORY [[(" Do you have any indie rock artists that you would recommend for someone who doesn't like the genre?", ''), ('I like Imagine Dragons.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "indie rock", "middle level": "band name": "Imagine Dragons"}}'), (" That's too bad. Do you have any other bands that you would recommend listening to?", '')]] ===
+You: No, I don't want to talk about music anymore.
+=== User Input: No, I don't want to talk about music anymore. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in discussing music, but they do like indie rock. Ask them about other bands that they might like to recommend. ===
+Hokiebot:  Do you have any other indie bands or bands you would recommend listening to?  === Blen400M:  I can understand that. I'm not a big fan of their music either. What do you like about them?
+=== TIMING [tpc:0.6511149406433105, gdl:0.8094785213470459, gen:0.7811119556427002, tot:2.2418205738067627] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other bands that you would recommend listening to?", ''), ("No, I don't want to talk about music anymore.", '{"high-level": {"topic": "music", "if_interest": "no"}}'), (' Do you have any other indie bands or bands you would recommend listening to? ', '')]] ===
+You: None. I do not have any more recommendations.
+=== User Input: None. I do not have any more recommendations. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in talking about music. Ask them about another genre they might like to explore. ===
+Hokiebot:  Do you have any other genres that you would recommend them to explore?  I'm always looking for new music to listen to. === Blen400M:  I have never heard of them. What kind of music do they play? Are they a pop punk band?
+=== TIMING [tpc:0.8876068592071533, gdl:0.6007661819458008, gen:0.7795817852020264, tot:2.2680718898773193] ===
+=== CONV_HISTORY [[(' Do you have any other indie bands or bands you would recommend listening to? ', ''), ('None. I do not have any more recommendations.', '{"high-level": {"topic": "music", "if_interest": "no"}}'), (" Do you have any other genres that you would recommend them to explore?  I'm always looking for new music to listen to.", '')]] ===
+You: I like classical music.
+=== User Input: I like classical music. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-class", "yes"}} ===
+=== Guideline: The user does not like classical music. Ask them what their favorite composer is. ===
+Hokiebot:  That's a tough one. Do you have any suggestions for someone who might be a favorite? === Blen400M:  I love classical as well.  It's one of my favorite genres of music.  What's your favorite composer?
+=== TIMING [tpc:0.9230930805206299, gdl:0.4706079959869385, gen:0.7924816608428955, tot:2.1863017082214355] ===
+=== CONV_HISTORY [[(" Do you have any other genres that you would recommend them to explore?  I'm always looking for new music to listen to.", ''), ('I like classical music.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-class", "yes"}}'), (" That's a tough one. Do you have any suggestions for someone who might be a favorite?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-06-25 17:32:51.670666
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Hi, what is your favorite video game?
+=== User Input: Hi, what is your favorite video game? ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}} ===
+=== Guideline: The user likes playing video games. Ask them about their favorite games and recommend similar games to them. ===
+Hokiebot:  What are some of your favorite video games and do you have any recommendations for someone who likes video games? === Blen400M:  I don't really have a favorite, but I do play a lot of Call of Duty.
+=== TIMING [tpc:1.1750454902648926, gdl:0.6022632122039795, gen:0.7302353382110596, tot:2.507657766342163] ===
+=== CONV_HISTORY [[('', ''), ('Hi, what is your favorite video game?', '{"high-level": {"topic": "video games", "if_interest": "yes"}}'), (' What are some of your favorite video games and do you have any recommendations for someone who likes video games?', '')]] ===
+You: goodbye.
+=== User Input: goodbye. ===
+=== Topic Pref: {"high-level": {"topic": "farewell", "if_interest": "yes"}} ===
+=== Guideline: The user likes playing video games. Ask them what their favorite video game is and recommend other games in the same genre. ===
+Hokiebot:  Video games are a great way to pass the time. What's your favorite game in the genre? === Blen400M:  I don't really have a favorite, but I do know that video games have been around since the early 1950s.
+=== TIMING [tpc:0.3577885627746582, gdl:0.7105123996734619, gen:0.6816775798797607, tot:1.7500956058502197] ===
+=== CONV_HISTORY [[(' What are some of your favorite video games and do you have any recommendations for someone who likes video games?', ''), ('goodbye.', '{"high-level": {"topic": "farewell", "if_interest": "yes"}}'), (" Video games are a great way to pass the time. What's your favorite game in the genre?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-06-25 17:33:47.420855
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like video games.
+=== User Input: I like video games. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}} ===
+=== Guideline: The user likes playing video games, especially strategy-based games. Ask them about their favorite strategy games and suggest some new ones for them to try. ===
+Hokiebot:  That's cool. What's your favorite strategy game and why do you like it so much? === Blen400M:  Video games are a great way to pass the time. What kind of games do you like?
+=== TIMING [tpc:0.8673892021179199, gdl:0.8537602424621582, gen:0.6442756652832031, tot:2.365540027618408] ===
+=== CONV_HISTORY [[('', ''), ('I like video games.', '{"high-level": {"topic": "video games", "if_interest": "yes"}}'), (" That's cool. What's your favorite strategy game and why do you like it so much?", '')]] ===
+You: I do not like strategy games.
+=== User Input: I do not like strategy games. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle level": {" topic": "strategy game", "reason": "no"}} ===
+=== Guideline: The user does not like strategy games. They like adventure games and RPGs. Ask them about their favorite ones and recommend similar games. ===
+Hokiebot:  Adventure games are great! What's your favorite RPG that you've played recently? === Blen400M:  I see. Do you have a favorite genre of video games that you like to play?
+=== TIMING [tpc:0.7435715198516846, gdl:0.780158281326294, gen:0.7376224994659424, tot:2.26147198677063] ===
+=== CONV_HISTORY [[(" That's cool. What's your favorite strategy game and why do you like it so much?", ''), ('I do not like strategy games.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle level": {" topic": "strategy game", "reason": "no"}}'), (" Adventure games are great! What's your favorite RPG that you've played recently?", '')]] ===
+You: I don't like adventure games.
+=== User Input: I don't like adventure games. ===
+=== Topic Pref: {"high-level": {"topic": "RPGs", "if_interest": "no"}} ===
+=== Guideline: The user does not like strategy games. They do like adventure games. Ask them about their favorite ones and recommend similar games. ===
+Hokiebot:  Adventure games are great! What's your favorite adventure game that you've played? === Blen400M:  Have you ever played Dungeons and Dragons? It's a role-playing game.
+=== TIMING [tpc:0.6622481346130371, gdl:0.7029681205749512, gen:0.7383427619934082, tot:2.103675127029419] ===
+=== CONV_HISTORY [[(" Adventure games are great! What's your favorite RPG that you've played recently?", ''), ("I don't like adventure games.", '{"high-level": {"topic": "RPGs", "if_interest": "no"}}'), (" Adventure games are great! What's your favorite adventure game that you've played?", '')]] ===
+You: I do not like adventure games.
+=== User Input: I do not like adventure games. ===
+=== Topic Pref: {"high-level": {"topic": "game", "if_interest": "no"}, "middle-level: {"topic:" "adventure games"}, "low-level:" {"topic: "no"}} ===
+=== Guideline: The user does not like adventure games. They enjoy playing sports games, specifically basketball and soccer. Ask them about other sports they enjoy playing or other teams they support. ===
+Hokiebot:  Adventure games can be a lot of fun. What other sports do you enjoy playing and what other teams do you support? === Blen400M:  I'm not a big fan of them either, but they're fun to play with friends. What kind of games do you like?
+=== TIMING [tpc:0.7614626884460449, gdl:0.9044594764709473, gen:0.7741320133209229, tot:2.440176010131836] ===
+=== CONV_HISTORY [[(" Adventure games are great! What's your favorite adventure game that you've played?", ''), ('I do not like adventure games.', '{"high-level": {"topic": "game", "if_interest": "no"}, "middle-level: {"topic:" "adventure games"}, "low-level:" {"topic: "no"}}'), (' Adventure games can be a lot of fun. What other sports do you enjoy playing and what other teams do you support?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-06-25 17:35:48.588238
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like playing sports.
+=== User Input: I like playing sports. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}} ===
+=== Guideline: The user likes playing sports. They specifically like basketball and soccer. Ask them about any other sports they like playing or watching. ===
+Hokiebot:  That's great! What other sports do you like to play or watch? Do you have a favorite team? === Blen400M:  What kind of sports do you like to play? I'm a big fan of soccer.
+=== TIMING [tpc:0.846590518951416, gdl:0.723003625869751, gen:0.6609127521514893, tot:2.2306225299835205] ===
+=== CONV_HISTORY [[('', ''), ('I like playing sports.', '{"high-level": {"topic": "sports", "if_interest": "yes"}}'), (" That's great! What other sports do you like to play or watch? Do you have a favorite team?", '')]] ===
+You: I like football. Specifically the kansas city chiefs.
+=== User Input: I like football. Specifically the kansas city chiefs. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "interest": ["Kansas city chiefs", "football", "Kansas state", "yes"}} ===
+=== Guideline: The user likes watching football and basketball. Ask them about their favorite team in each sport. ===
+Hokiebot:  Football and basketball are great sports to watch. Who is your favorite team and why do you like them so much? === Blen400M:  I love the Kansas City Chiefs! They are my favorite team in the National Football League.
+=== TIMING [tpc:0.8919370174407959, gdl:0.5441417694091797, gen:0.7278656959533691, tot:2.1640677452087402] ===
+=== CONV_HISTORY [[(" That's great! What other sports do you like to play or watch? Do you have a favorite team?", ''), ('I like football. Specifically the kansas city chiefs.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "interest": ["Kansas city chiefs", "football", "Kansas state", "yes"}}'), (' Football and basketball are great sports to watch. Who is your favorite team and why do you like them so much?', '')]] ===
+You: I like the kansas city chiefs because of patrick mahomes
+=== User Input: I like the kansas city chiefs because of patrick mahomes ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "sports team", "reason": "why do you like the kansas city chiefs because of patrick mahomes"}} ===
+=== Guideline: The user likes watching football and basketball. Ask them about their favorite teams and players in each sport. ===
+Hokiebot:  Who is your favorite team and who are your favorite players on the NBA or Basketball? === Blen400M:  Patriots are a great team. They have been around since 1967 and have won seven Super Bowls.
+=== TIMING [tpc:0.9413232803344727, gdl:0.5933830738067627, gen:0.6905391216278076, tot:2.2253646850585938] ===
+=== CONV_HISTORY [[(' Football and basketball are great sports to watch. Who is your favorite team and why do you like them so much?', ''), ('I like the kansas city chiefs because of patrick mahomes', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "sports team", "reason": "why do you like the kansas city chiefs because of patrick mahomes"}}'), (' Who is your favorite team and who are your favorite players on the NBA or Basketball?', '')]] ===
+You: I do not like Basketball.
+=== User Input: I do not like Basketball. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic:" "NBA", "middle school basketball", "low-level:" {"topic: "Basketball", "reason": "no"}} ===
+=== Guideline: The user is not interested in basketball, but they do like soccer. They are not interested in any other sports. Discuss other sports that the user might enjoy instead. ===
+Hokiebot:  That's interesting. What other sports do you like to watch instead of soccer or basketball? === Blen400M:  Do you have a favorite NBA team? The Kansas City Royals are my favorite.
+=== TIMING [tpc:0.8986668586730957, gdl:0.9006350040435791, gen:0.7789266109466553, tot:2.5783536434173584] ===
+=== CONV_HISTORY [[(' Who is your favorite team and who are your favorite players on the NBA or Basketball?', ''), ('I do not like Basketball.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic:" "NBA", "middle school basketball", "low-level:" {"topic: "Basketball", "reason": "no"}}'), (" That's interesting. What other sports do you like to watch instead of soccer or basketball?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+

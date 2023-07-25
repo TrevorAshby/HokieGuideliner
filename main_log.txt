@@ -4228,3 +4228,9 @@ Hokiebot:  What other video games do you enjoy playing? Do you have any other fa
 You: goodbye
 Hokiebot: Goodbye! Thanks for chatting!
 
+BLENDERBOT - PREV_TURNS:3 - 2023-06-25 17:10:01.194211
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Hi, I'm Trevor.
+=== User Input: Hi, I'm Trevor. ===
+=== Topic Pref: {"high-level": {"topic": "conversation", "if_interest": "yes"}} ===
+=== Guideline: The user loves talking to friends and family about their favorite food to eat. ===BLENDERBOT - PREV_TURNS:3 - 2023-06-25 17:11:39.497782

@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, T5ForConditionalGeneration
 
 def main():
     START_MSG = "Hello! I am Hokiebot. I love to have conversations. Say something to me..."
-    CONV_HISTORY = [(START_MSG, '')]
+    CONV_HISTORY = [('', '')]
     MAX_CONV_TURNS = 3 # set to 0 if you just want user input passed through.
 
 
@@ -16,7 +16,7 @@ def main():
 
     device_id = '0'
     device = torch.device('cuda:'+device_id)
-    log = open('./main_log.txt', 'a+')
+    log = open('./main_log_compare.txt', 'a+')
 
     generator_used = 'BLENDERBOT'
 
@@ -124,7 +124,7 @@ def main():
         if COUT_LOGGING:
             print("=== Guideline: {} ===".format(guideline))
 
-        log.write("=== Guideline: {} ===".format(guideline))
+        log.write("=== Guideline: {} ===\n".format(guideline))
 
         # using the guideline generate using one of the models
         generated_response = ''
@@ -141,13 +141,13 @@ def main():
         else:
             blend_in_str = user_response
 
-        blend_in_str += ' [GUIDELINE] ' + guideline
-        blend_in_ids = blen_tokenizer([blend_in_str], max_length=128, return_tensors='pt', truncation=True)
+        blend_in_str2 = ' [GUIDELINE] ' + guideline
+        blend_in_ids = blen_tokenizer([blend_in_str2], max_length=128, return_tensors='pt', truncation=True)
         blend_example = blen_model.generate(**blend_in_ids.to(device), max_length=60)
         blend_response = blen_tokenizer.batch_decode(blend_example, skip_special_tokens=True)[0]
         generated_response = blend_response
 
-        comp_in_ids = comp_tokenizer([user_response], max_length=128, return_tensors='pt', truncate=True)
+        comp_in_ids = comp_tokenizer([blend_in_str], max_length=128, return_tensors='pt', truncation=True)
         comp_example = comp_model.generate(**comp_in_ids.to(device), max_length=60)
         comp_response = comp_tokenizer.batch_decode(comp_example, skip_special_tokens=True)[0]
 
