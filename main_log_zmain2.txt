@@ -1,0 +1,187 @@
+BLENDERBOT - PREV_TURNS:3 - 2023-07-29 10:30:43.263146
+BLENDERBOT - PREV_TURNS:3 - 2023-07-29 10:32:48.348306
+BLENDERBOT - PREV_TURNS:3 - 2023-07-29 10:33:35.879393
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like to go swimming.
+=== User Input: I like to go swimming. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "low-interest": ["swimming", "yes"}} ===
+Hokiebot:  That's awesome! What other sports do you like to play and what's your favorite sport to play?
+=== TIMING [tpc:2.585726022720337, gdl:0.7593250274658203, gen:0.35326075553894043, tot:3.6983799934387207] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I like to go swimming.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "low-interest": ["swimming", "yes"}}'), (" That's awesome! What other sports do you like to play and what's your favorite sport to play?", '')]] ===
+You: My favorite sport to play is football.
+=== User Input: My favorite sport to play is football. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school": "favorite sport": "football"}} ===
+Hokiebot:  Football and basketball are great sports to play. Do you have a favorite team and team?
+=== TIMING [tpc:0.8396725654602051, gdl:0.6829745769500732, gen:0.3340167999267578, tot:1.8567087650299072] ===
+=== CONV_HISTORY [[(" That's awesome! What other sports do you like to play and what's your favorite sport to play?", ''), ('My favorite sport to play is football.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school": "favorite sport": "football"}}'), (' Football and basketball are great sports to play. Do you have a favorite team and team?', '')]] ===
+You: My favorite team is the Kansas City Chiefs.
+=== User Input: My favorite team is the Kansas City Chiefs. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "low-level:" {"topic:" "Kansas City Chiefs", "team_name": "favorite team"}} ===
+Hokiebot:  That's awesome! Who is your favorite player or player on the chiefs team? 
+=== TIMING [tpc:1.36580228805542, gdl:0.8895862102508545, gen:0.5445582866668701, tot:2.8000190258026123] ===
+=== CONV_HISTORY [[(' Football and basketball are great sports to play. Do you have a favorite team and team?', ''), ('My favorite team is the Kansas City Chiefs.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "low-level:" {"topic:" "Kansas City Chiefs", "team_name": "favorite team"}}'), (" That's awesome! Who is your favorite player or player on the chiefs team? ", '')]] ===
+You: Patrick Mahomes is the best quarterback to ever play the game. He is my favorite.
+=== User Input: Patrick Mahomes is the best quarterback to ever play the game. He is my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic:" "quarterback", "low-level:" {"topic: "Patrick Mahomes"}} ===
+Hokiebot:  Patriots are a great team! Do you have any other favorite players or quarterbacks?
+=== TIMING [tpc:1.4025483131408691, gdl:0.9228925704956055, gen:0.47019529342651367, tot:2.795689821243286] ===
+=== CONV_HISTORY [[(" That's awesome! Who is your favorite player or player on the chiefs team? ", ''), ('Patrick Mahomes is the best quarterback to ever play the game. He is my favorite.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic:" "quarterback", "low-level:" {"topic: "Patrick Mahomes"}}'), (' Patriots are a great team! Do you have any other favorite players or quarterbacks?', '')]] ===
+You: I don't like Joe Burrow from the Bengals, but I respect him because he is a good player.
+=== User Input: I don't like Joe Burrow from the Bengals, but I respect him because he is a good player. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "quarterback", "low-level:" {"topic:" "Joe Burrow from the Bengals, but I respect him because he is a good player"}} ===
+Hokiebot:  That's understandable. Who is your favorite player or player on the Green Babies team?
+=== TIMING [tpc:2.4524054527282715, gdl:1.0122497081756592, gen:0.42948079109191895, tot:3.894207239151001] ===
+=== CONV_HISTORY [[(' Patriots are a great team! Do you have any other favorite players or quarterbacks?', ''), ("I don't like Joe Burrow from the Bengals, but I respect him because he is a good player.", '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "quarterback", "low-level:" {"topic:" "Joe Burrow from the Bengals, but I respect him because he is a good player"}}'), (" That's understandable. Who is your favorite player or player on the Green Babies team?", '')]] ===
+You: The Green Babies is not a real football team.
+=== User Input: The Green Babies is not a real football team. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "no"}, "middle-ranking": "football team"}} ===
+Hokiebot:  What other sports do you enjoy playing or do you have any other favorite teams that you like to play?
+=== TIMING [tpc:1.188309669494629, gdl:0.9831361770629883, gen:0.35767698287963867, tot:2.5291810035705566] ===
+=== CONV_HISTORY [[(" That's understandable. Who is your favorite player or player on the Green Babies team?", ''), ('The Green Babies is not a real football team.', '{"high-level": {"topic": "sports", "if_interest": "no"}, "middle-ranking": "football team"}}'), (' What other sports do you enjoy playing or do you have any other favorite teams that you like to play?', '')]] ===
+You: I only like to play football. No other sports.
+=== User Input: I only like to play football. No other sports. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "no"}} ===
+Hokiebot:  That's understandable. Do you have a favorite team that you play football or any other other sports?
+=== TIMING [tpc:0.912243127822876, gdl:1.2117702960968018, gen:0.5177335739135742, tot:2.641813278198242] ===
+=== CONV_HISTORY [[(' What other sports do you enjoy playing or do you have any other favorite teams that you like to play?', ''), ('I only like to play football. No other sports.', '{"high-level": {"topic": "sports", "if_interest": "no"}}'), (" That's understandable. Do you have a favorite team that you play football or any other other sports?", '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic:" "football team", "IF_not": "no"}} ===
+Hokiebot:  Who is your favorite basketball player or player and why do you like them so much?  
+=== TIMING [tpc:0.9992492198944092, gdl:0.9137969017028809, gen:0.49148058891296387, tot:2.4045894145965576] ===
+=== CONV_HISTORY [[(" That's understandable. Do you have a favorite team that you play football or any other other sports?", ''), ('No.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic:" "football team", "IF_not": "no"}}'), (' Who is your favorite basketball player or player and why do you like them so much?  ', '')]] ===
+You: I don't like basketball.
+=== User Input: I don't like basketball. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "no"}, "middle school sports", "low-level", "basketball", "no"}} ===
+Hokiebot:  What other sports do you enjoy playing or do you have any other favorite sports that you like to play?
+=== TIMING [tpc:0.9612290859222412, gdl:0.8068766593933105, gen:0.4183363914489746, tot:2.186490058898926] ===
+=== CONV_HISTORY [[(' Who is your favorite basketball player or player and why do you like them so much?  ', ''), ("I don't like basketball.", '{"high-level": {"topic": "sports", "if_interest": "no"}, "middle school sports", "low-level", "basketball", "no"}}'), (' What other sports do you enjoy playing or do you have any other favorite sports that you like to play?', '')]] ===
+You: I don't like to play any other sports.
+=== User Input: I don't like to play any other sports. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "no"}} ===
+Hokiebot:  That's too bad. Do you have a favorite sport or activity that you do enjoy playing?
+=== TIMING [tpc:0.8705439567565918, gdl:1.1509976387023926, gen:0.5227982997894287, tot:2.5444443225860596] ===
+=== CONV_HISTORY [[(' What other sports do you enjoy playing or do you have any other favorite sports that you like to play?', ''), ("I don't like to play any other sports.", '{"high-level": {"topic": "sports", "if_interest": "no"}}'), (" That's too bad. Do you have a favorite sport or activity that you do enjoy playing?", '')]] ===
+You: I like to go swimming.
+=== User Input: I like to go swimming. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "favorite sport", "low_level": "swimming"}} ===
+Hokiebot:  What other sports do you enjoy playing or do you have any other recreational activities that you enjoy doing?
+=== TIMING [tpc:1.14732027053833, gdl:1.130295753479004, gen:0.43295907974243164, tot:2.7106516361236572] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have a favorite sport or activity that you do enjoy playing?", ''), ('I like to go swimming.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "favorite sport", "low_level": "swimming"}}'), (' What other sports do you enjoy playing or do you have any other recreational activities that you enjoy doing?', '')]] ===
+You: I like to go swimming.
+=== User Input: I like to go swimming. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle- level": {"level": "swimming", "what else do you like to do besides swimming? ===
+Hokiebot:  That's great! Have you ever swam in a lake or a river or ocean?
+=== TIMING [tpc:1.2238781452178955, gdl:0.9607889652252197, gen:0.43404269218444824, tot:2.618776321411133] ===
+=== CONV_HISTORY [[(' What other sports do you enjoy playing or do you have any other recreational activities that you enjoy doing?', ''), ('I like to go swimming.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle- level": {"level": "swimming", "what else do you like to do besides swimming?'), (" That's great! Have you ever swam in a lake or a river or ocean?", '')]] ===
+You: Yes, swimming in the ocean is the best!
+=== User Input: Yes, swimming in the ocean is the best! ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle- level": {"level": "Olympics", "what's your preference": "unknow"}} ===
+Hokiebot:  Do you have a favorite type of swimming or do you prefer to swim in lakes or rivers?
+=== TIMING [tpc:1.0284523963928223, gdl:0.7852303981781006, gen:0.46235227584838867, tot:2.276092529296875] ===
+=== CONV_HISTORY [[(" That's great! Have you ever swam in a lake or a river or ocean?", ''), ('Yes, swimming in the ocean is the best!', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle- level": {"level": "Olympics", "what\'s your preference": "unknow"}}'), (' Do you have a favorite type of swimming or do you prefer to swim in lakes or rivers?', '')]] ===
+You: I like swimming long distance.
+=== User Input: I like swimming long distance. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-distance": "no"}} ===
+Hokiebot:  Have you ever swam in a lake or a river or a body of salt water?
+=== TIMING [tpc:1.0827069282531738, gdl:0.9328873157501221, gen:0.45360231399536133, tot:2.4692533016204834] ===
+=== CONV_HISTORY [[(' Do you have a favorite type of swimming or do you prefer to swim in lakes or rivers?', ''), ('I like swimming long distance.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-distance": "no"}}'), (' Have you ever swam in a lake or a river or a body of salt water?', '')]] ===
+You: Yes. I have swam in all of them.
+=== User Input: Yes. I have swam in all of them. ===
+=== Topic Pref: {"high-level": {"topic": "swimming", "if_interest": "yes"}, "middle-level: {"topic:" "type of swimming", "how often do you swam in a lake, river, river or body of salt water", "what's your favorite type of water? "yes"}} ===
+Hokiebot:  That's really cool! Do you have any favorite lakes or rivers that you like to swim in?
+=== TIMING [tpc:1.6313562393188477, gdl:1.0474653244018555, gen:0.5873737335205078, tot:3.266263484954834] ===
+=== CONV_HISTORY [[(' Have you ever swam in a lake or a river or a body of salt water?', ''), ('Yes. I have swam in all of them.', '{"high-level": {"topic": "swimming", "if_interest": "yes"}, "middle-level: {"topic:" "type of swimming", "how often do you swam in a lake, river, river or body of salt water", "what\'s your favorite type of water? "yes"}}'), (" That's really cool! Do you have any favorite lakes or rivers that you like to swim in?", '')]] ===
+You: I really like swimming in lake mead.
+=== User Input: I really like swimming in lake mead. ===
+=== Topic Pref: {"high-level": {"topic": "swimming", "if_interest": "yes"}, "middle- level": {"type": "favorite lake", "amount": "unknow"}} ===
+Hokiebot:  What's your favorite lake or river that you've been to in Saline Mead?
+=== TIMING [tpc:1.386317253112793, gdl:0.6574745178222656, gen:0.3217475414276123, tot:2.3655989170074463] ===
+=== CONV_HISTORY [[(" That's really cool! Do you have any favorite lakes or rivers that you like to swim in?", ''), ('I really like swimming in lake mead.', '{"high-level": {"topic": "swimming", "if_interest": "yes"}, "middle- level": {"type": "favorite lake", "amount": "unknow"}}'), (" What's your favorite lake or river that you've been to in Saline Mead?", '')]] ===
+You: I am not sure where that is?
+=== User Input: I am not sure where that is? ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "favorite lake or river visited", "low-level: "Saline Mead"}} ===
+Hokiebot:  That's too bad. Do you have any other favorite lakes or rivers you've swam in?
+=== TIMING [tpc:1.3038265705108643, gdl:1.0328071117401123, gen:0.49477124214172363, tot:2.831468105316162] ===
+=== CONV_HISTORY [[(" What's your favorite lake or river that you've been to in Saline Mead?", ''), ('I am not sure where that is?', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "favorite lake or river visited", "low-level: "Saline Mead"}}'), (" That's too bad. Do you have any other favorite lakes or rivers you've swam in?", '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "swimming in lakes/rivers", "unknow": "no"}} ===
+Hokiebot:  What's your favorite lake or river that you've been in that you don't like?
+=== TIMING [tpc:1.0686075687408447, gdl:1.0302586555480957, gen:0.4577758312225342, tot:2.5567033290863037] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other favorite lakes or rivers you've swam in?", ''), ('No.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "swimming in lakes/rivers", "unknow": "no"}}'), (" What's your favorite lake or river that you've been in that you don't like?", '')]] ===
+You: I don't like swimming in Utah Lake. It is very muddy.
+=== User Input: I don't like swimming in Utah Lake. It is very muddy. ===
+=== Topic Pref: {"high-level": {"topic": "swimming", "if_interest": "no"}, "middle-ground": {"level": "favorite lake or river that you don't like"}, "low-level: {"topic: "Utah Lake", "reason": "it's muddy", "why do you like it?"}} ===
+Hokiebot:  That's understandable. Have you ever been hiking in any other lakes or rivers?
+=== TIMING [tpc:1.6264078617095947, gdl:0.8580808639526367, gen:0.4843451976776123, tot:2.9688944816589355] ===
+=== CONV_HISTORY [[(" What's your favorite lake or river that you've been in that you don't like?", ''), ("I don't like swimming in Utah Lake. It is very muddy.", '{"high-level": {"topic": "swimming", "if_interest": "no"}, "middle-ground": {"level": "favorite lake or river that you don\'t like"}, "low-level: {"topic: "Utah Lake", "reason": "it\'s muddy", "why do you like it?"}}'), (" That's understandable. Have you ever been hiking in any other lakes or rivers?", '')]] ===
+You: Hiking in lakes or rivers? No. I only swim in them. I hike in the mountains.
+=== User Input: Hiking in lakes or rivers? No. I only swim in them. I hike in the mountains. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": "hiking in lakes or rivers", "low-interest": ["museums", "mountain hiking"], "unknow": "no"}} ===
+Hokiebot:  I love hiking too! Do you have any favorite trails or cities that you've hiked in?
+=== TIMING [tpc:1.3976349830627441, gdl:0.7595920562744141, gen:0.5234456062316895, tot:2.68074893951416] ===
+=== CONV_HISTORY [[(" That's understandable. Have you ever been hiking in any other lakes or rivers?", ''), ('Hiking in lakes or rivers? No. I only swim in them. I hike in the mountains.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": "hiking in lakes or rivers", "low-interest": ["museums", "mountain hiking"], "unknow": "no"}}'), (" I love hiking too! Do you have any favorite trails or cities that you've hiked in?", '')]] ===
+You: I like hiking in Colorado.
+=== User Input: I like hiking in Colorado. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"state": "favorite state", "location": "unknow"}} ===
+Hokiebot:  Have you ever been to the Appalachian National Scenic Trail in Georgia?
+=== TIMING [tpc:1.3853554725646973, gdl:1.0534024238586426, gen:0.5877077579498291, tot:3.026543378829956] ===
+=== CONV_HISTORY [[(" I love hiking too! Do you have any favorite trails or cities that you've hiked in?", ''), ('I like hiking in Colorado.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"state": "favorite state", "location": "unknow"}}'), (' Have you ever been to the Appalachian National Scenic Trail in Georgia?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level: {"topic:" "outdoor activities", "middle_level": "favorite trail", "low-level:" {"topic: "Appalachian National Scenic Trail in Georgia", "unknow": "no"}} ===
+Hokiebot:  That's too bad. Have you been to any other national parks in the United States?
+=== TIMING [tpc:1.6773138046264648, gdl:0.7760484218597412, gen:0.3150029182434082, tot:2.768437385559082] ===
+=== CONV_HISTORY [[(' Have you ever been to the Appalachian National Scenic Trail in Georgia?', ''), ('No.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level: {"topic:" "outdoor activities", "middle_level": "favorite trail", "low-level:" {"topic: "Appalachian National Scenic Trail in Georgia", "unknow": "no"}}'), (" That's too bad. Have you been to any other national parks in the United States?", '')]] ===
+You: I have hiked in Yellowstone. It is very pretty.
+=== User Input: I have hiked in Yellowstone. It is very pretty. ===
+=== Topic Pref: {"high-level": {"topic": "National Park", "if_interest": "yes"}, "low-level: {"topic: "Yellowstone National Park, National Scenic Trail"}} ===
+Hokiebot:  I would love to hike in a national park one day. What's your favorite national park in the US?
+=== TIMING [tpc:1.1967525482177734, gdl:1.0073285102844238, gen:0.522291898727417, tot:2.726449966430664] ===
+=== CONV_HISTORY [[(" That's too bad. Have you been to any other national parks in the United States?", ''), ('I have hiked in Yellowstone. It is very pretty.', '{"high-level": {"topic": "National Park", "if_interest": "yes"}, "low-level: {"topic: "Yellowstone National Park, National Scenic Trail"}}'), (" I would love to hike in a national park one day. What's your favorite national park in the US?", '')]] ===
+You: Bryce Canyon is my favorite.
+=== User Input: Bryce Canyon is my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "National Park", "if_interest": "yes"}, "middle-ground": {"level": "favorite park", "topic": ["Bryce Canyon", "Yellowstone", "Grand Canyon"], "how about you?"}} ===
+Hokiebot:  That sounds like a great hike! Do you have any favorite hiking trails that you recommend visiting?
+=== TIMING [tpc:1.9915821552276611, gdl:0.8574066162109375, gen:0.49167776107788086, tot:3.340738534927368] ===
+=== CONV_HISTORY [[(" I would love to hike in a national park one day. What's your favorite national park in the US?", ''), ('Bryce Canyon is my favorite.', '{"high-level": {"topic": "National Park", "if_interest": "yes"}, "middle-ground": {"level": "favorite park", "topic": ["Bryce Canyon", "Yellowstone", "Grand Canyon"], "how about you?"}}'), (' That sounds like a great hike! Do you have any favorite hiking trails that you recommend visiting?', '')]] ===
+You: No. But if you go to a national park, I am sure it will have good hiking.
+=== User Input: No. But if you go to a national park, I am sure it will have good hiking. ===
+=== Topic Pref: {"high-level": {"topic": "national park", "if_interest": "yes"}} ===
+Hokiebot:  That's a great idea! What's your favorite national park you've visited so far?
+=== TIMING [tpc:1.0034470558166504, gdl:0.9083375930786133, gen:0.44744324684143066, tot:2.359292984008789] ===
+=== CONV_HISTORY [[(' That sounds like a great hike! Do you have any favorite hiking trails that you recommend visiting?', ''), ('No. But if you go to a national park, I am sure it will have good hiking.', '{"high-level": {"topic": "national park", "if_interest": "yes"}}'), (" That's a great idea! What's your favorite national park you've visited so far?", '')]] ===
+You: Bryce Canyon.
+=== User Input: Bryce Canyon. ===
+=== Topic Pref: {"high-level": {"topic": "national park", "if_interest": "yes"}, "middle-ground": {"level": "favorite national park"}} ===
+Hokiebot:  Have you ever been to Yosemite National Park? It's the most visited national park in the world!
+=== TIMING [tpc:1.6448173522949219, gdl:1.2590622901916504, gen:0.4760594367980957, tot:3.3800148963928223] ===
+=== CONV_HISTORY [[(" That's a great idea! What's your favorite national park you've visited so far?", ''), ('Bryce Canyon.', '{"high-level": {"topic": "national park", "if_interest": "yes"}, "middle-ground": {"level": "favorite national park"}}'), (" Have you ever been to Yosemite National Park? It's the most visited national park in the world!", '')]] ===
+You: No I haven't.
+=== User Input: No I haven't. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "favorite national park", "topic": ["Yosemite National Park", "Bryce Canyon", "Yellowstone National Park"], "low-level: {"topic: "visit to Yosemite National Park"}} ===
+Hokiebot:  Do you have any other national parks in your area that you would recommend hiking in?
+=== TIMING [tpc:1.787755012512207, gdl:1.1539125442504883, gen:0.38854026794433594, tot:3.3302698135375977] ===
+=== CONV_HISTORY [[(" Have you ever been to Yosemite National Park? It's the most visited national park in the world!", ''), ("No I haven't.", '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "favorite national park", "topic": ["Yosemite National Park", "Bryce Canyon", "Yellowstone National Park"], "low-level: {"topic: "visit to Yosemite National Park"}}'), (' Do you have any other national parks in your area that you would recommend hiking in?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "National Park", "if_interest": "no"}} ===
+Hokiebot:  Have you ever been to Yellowstone National Park in Wyoming or Montana?
+=== TIMING [tpc:0.8910410404205322, gdl:0.6003298759460449, gen:0.45677971839904785, tot:1.9482097625732422] ===
+=== CONV_HISTORY [[(' Do you have any other national parks in your area that you would recommend hiking in?', ''), ('No.', '{"high-level": {"topic": "National Park", "if_interest": "no"}}'), (' Have you ever been to Yellowstone National Park in Wyoming or Montana?', '')]] ===
+You: Yes I have. I said it was my favorite.
+=== User Input: Yes I have. I said it was my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "National Park", "if_interest": "yes"}, "middle-ground": {"level": "Yellowstone National Park in Wyoming or Montana", "which is your favorite park", "yes"}} ===
+Hokiebot:  Do you have any favorite national parks or national park locations that you would recommend visiting?
+=== TIMING [tpc:1.1833465099334717, gdl:1.2933290004730225, gen:0.4556856155395508, tot:2.932429313659668] ===
+=== CONV_HISTORY [[(' Have you ever been to Yellowstone National Park in Wyoming or Montana?', ''), ('Yes I have. I said it was my favorite.', '{"high-level": {"topic": "National Park", "if_interest": "yes"}, "middle-ground": {"level": "Yellowstone National Park in Wyoming or Montana", "which is your favorite park", "yes"}}'), (' Do you have any favorite national parks or national park locations that you would recommend visiting?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "National Park", "if_interest": "yes"}, "middle-level: {"topic:" "favorite national park", "unknow": "no"}} ===
+Hokiebot:  Have you ever visited any other National Parks or National Forests?
+=== TIMING [tpc:1.0094709396362305, gdl:1.3857007026672363, gen:0.4620664119720459, tot:2.857313394546509] ===
+=== CONV_HISTORY [[(' Do you have any favorite national parks or national park locations that you would recommend visiting?', ''), ('No.', '{"high-level": {"topic": "National Park", "if_interest": "yes"}, "middle-level: {"topic:" "favorite national park", "unknow": "no"}}'), (' Have you ever visited any other National Parks or National Forests?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
