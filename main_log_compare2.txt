@@ -1,0 +1,1283 @@
+BLENDERBOT - PREV_TURNS:3 - 2023-08-05 23:30:46.653307
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather was very nice today.
+=== User Input: The weather was very nice today. ===
+=== Topic Pref: {"high-level": {"topic": "weather", "if_interest": "yes"}} ===
+=== Guideline: The user likes sunny and warm days with a gentle breeze. They prefer wearing a hat and sunglasses in sunny days. Ask them what their favorite outdoor activities are during sunny days. ===
+Hokiebot:  That's interesting. What are some of the activities that you like to do on a sunny day? === Blen400M:  Yes, it was. It was a nice change of pace from the cold weather we've been having.
+=== TIMING [tpc:1.5767130851745605, gdl:1.2344729900360107, gen:0.7644593715667725, tot:3.5757811069488525] ===
+=== CONV_HISTORY [[('', ''), ('The weather was very nice today.', '{"high-level": {"topic": "weather", "if_interest": "yes"}}'), (" That's interesting. What are some of the activities that you like to do on a sunny day?", '')]] ===
+You: I like playing football.
+=== User Input: I like playing football. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "low-interest": {"level": ["football", "football"}} ===
+=== Guideline: The user likes playing sports. They specifically like football. Talk to them about their favorite team and what they think about the current season. ===
+Hokiebot:  Football is a great sport to watch. Who is your favorite football team and why do you like them so much? === Blen400M:  That sounds like a lot of fun. Do you play for a team or just for fun?
+=== TIMING [tpc:1.0002985000610352, gdl:0.7945151329040527, gen:0.8197066783905029, tot:2.6146399974823] ===
+=== CONV_HISTORY [[(" That's interesting. What are some of the activities that you like to do on a sunny day?", ''), ('I like playing football.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "low-interest": {"level": ["football", "football"}}'), (' Football is a great sport to watch. Who is your favorite football team and why do you like them so much?', '')]] ===
+You: My favorite football team is the Kansas City Chiefs. I like them because I grew up watching them when I was a kid.
+=== User Input: My favorite football team is the Kansas City Chiefs. I like them because I grew up watching them when I was a kid. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school": "favorite team": "the Kansas City Chiefs", "why do you like them so much?"}} ===
+=== Guideline: The user is a big fan of the Kansas City Chiefs and they are their favorite team. Talk to them about other football teams they might enjoy watching. ===
+Hokiebot:  That's cool! Do you have any other favorite football teams that you'd like to talk about? === Blen400M:  That's cool. I don't really have a favorite team, but I do like watching the Super Bowl.
+=== TIMING [tpc:1.244307518005371, gdl:0.8433351516723633, gen:0.7856383323669434, tot:2.873422384262085] ===
+=== CONV_HISTORY [[(' Football is a great sport to watch. Who is your favorite football team and why do you like them so much?', ''), ('My favorite football team is the Kansas City Chiefs. I like them because I grew up watching them when I was a kid.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-school": "favorite team": "the Kansas City Chiefs", "why do you like them so much?"}}'), (" That's cool! Do you have any other favorite football teams that you'd like to talk about?", '')]] ===
+You: I have recently taken interest in the Carolina Panthers.
+=== User Input: I have recently taken interest in the Carolina Panthers. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "middle_level": "favorite team": "carolina panthers", "interest": {"if_not": "no"}} ===
+=== Guideline: The user is not interested in talking about sports, but they do enjoy watching the Carolina Panthers. Ask them about their favorite Carolina Panthers players or other teams they enjoy watching. ===
+Hokiebot:  Do you have a favorite team or any other team that you enjoy watching?  I'm not a big sports fan either. === Blen400M:  I'm not too familiar with them, but I know they're an American professional football team based in Pittsburgh, Pennsylvania.
+=== TIMING [tpc:1.3710658550262451, gdl:0.9573409557342529, gen:1.2246744632720947, tot:3.5532238483428955] ===
+=== CONV_HISTORY [[(" That's cool! Do you have any other favorite football teams that you'd like to talk about?", ''), ('I have recently taken interest in the Carolina Panthers.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "middle_level": "favorite team": "carolina panthers", "interest": {"if_not": "no"}}'), (" Do you have a favorite team or any other team that you enjoy watching?  I'm not a big sports fan either.", '')]] ===
+You: I enjoy watching the Seattle Mariners as well. However, they are a baseball team.
+=== User Input: I enjoy watching the Seattle Mariners as well. However, they are a baseball team. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "baseball team", "interest": ["Seattle Mariners", "Marlions", "yes"}} ===
+=== Guideline: The user is not a big fan but they do enjoy watching the Seattle Mariners. They do not like watching the Carolina Panthers. Ask them what other sports teams they enjoy watching or why they enjoy watching sports. ===
+Hokiebot:  Do you have any other sports that you like to watch or why do you enjoy watching other sports? === Blen400M:  I've never heard of them.  Do they play in the National Basketball Association?
+=== TIMING [tpc:1.434114694595337, gdl:1.228271484375, gen:0.7794158458709717, tot:3.4419405460357666] ===
+=== CONV_HISTORY [[(" Do you have a favorite team or any other team that you enjoy watching?  I'm not a big sports fan either.", ''), ('I enjoy watching the Seattle Mariners as well. However, they are a baseball team.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "baseball team", "interest": ["Seattle Mariners", "Marlions", "yes"}}'), (' Do you have any other sports that you like to watch or why do you enjoy watching other sports?', '')]] ===
+You: No. Just the ones I mentioned before.
+=== User Input: No. Just the ones I mentioned before. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in watching baseball, but they do enjoy watching the Seattle Mariners. Ask them about their favorite teams and players, and suggest some other sports they might enjoy watching. ===
+Hokiebot:  That's cool. Do you have any other favorite teams or players that you'd recommend them to watch? === Blen400M:  I see. I'm not a big fan of baseball, but I do enjoy watching college football.
+=== TIMING [tpc:1.3931190967559814, gdl:1.0883715152740479, gen:0.793787956237793, tot:3.2754151821136475] ===
+=== CONV_HISTORY [[(' Do you have any other sports that you like to watch or why do you enjoy watching other sports?', ''), ('No. Just the ones I mentioned before.', '{"high-level": {"topic": "sports", "if_interest": "no"}}'), (" That's cool. Do you have any other favorite teams or players that you'd recommend them to watch?", '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "favorite team", "interests": "no"}} ===
+=== Guideline: The user is not interested in sports. They are interested in talking about cultures and traditions. Suggest other cultures or traditions that you may be interested in. ===
+Hokiebot:  Do you have any other cultural traditions you would like to share with me about them?  === Blen400M:  I'm a big fan of the Seattle Seahawks. They're my favorite team in the National Basketball Association.
+=== TIMING [tpc:0.9455885887145996, gdl:0.8612174987792969, gen:1.0015671253204346, tot:2.8085076808929443] ===
+=== CONV_HISTORY [[(" That's cool. Do you have any other favorite teams or players that you'd recommend them to watch?", ''), ('No.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "favorite team", "interests": "no"}}'), (' Do you have any other cultural traditions you would like to share with me about them? ', '')]] ===
+You: I think that American BBQs are really fun.
+=== User Input: I think that American BBQs are really fun. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "cooking", "middle name": "American BBQs", "low-level: "yes"}} ===
+=== Guideline: The user is not interested in cooking, but they enjoy baking desserts, specifically American desserts. Ask them about their favorite dessert to bake and suggest some new desserts they might like to try. ===
+Hokiebot:  That's cool. What's your favorite American desert that you've baked and tried? === Blen400M:  Yes, I love BBQ.  It is one of the most popular foods in the world.
+=== TIMING [tpc:1.094702959060669, gdl:1.0566575527191162, gen:0.7916927337646484, tot:2.9432058334350586] ===
+=== CONV_HISTORY [[(' Do you have any other cultural traditions you would like to share with me about them? ', ''), ('I think that American BBQs are really fun.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "cooking", "middle name": "American BBQs", "low-level: "yes"}}'), (" That's cool. What's your favorite American desert that you've baked and tried?", '')]] ===
+You: Apple Pie is a favorite of mine!
+=== User Input: Apple Pie is a favorite of mine! ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "desserts and baked goods", "middle_level": "favorite American dish": "apple pie", "how about you?"}} ===
+=== Guideline: The user is interested in baking and cooking. They love baking desserts and their favorite is ice cream. Ask them what other dessert they enjoy baking. ===
+Hokiebot:  What other deserts do they like to bake and do you have any other favorites? === Blen400M:  I love apple pie! It's one of my favorite desserts. Do you have a favorite kind of pie?
+=== TIMING [tpc:1.341839075088501, gdl:0.8240780830383301, gen:0.8387830257415771, tot:3.0048468112945557] ===
+=== CONV_HISTORY [[(" That's cool. What's your favorite American desert that you've baked and tried?", ''), ('Apple Pie is a favorite of mine!', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "desserts and baked goods", "middle_level": "favorite American dish": "apple pie", "how about you?"}}'), (' What other deserts do they like to bake and do you have any other favorites?', '')]] ===
+You: I also like Cherry Pie.
+=== User Input: I also like Cherry Pie. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "favorite American dish", "low-ranking": {"if_not": "Cherry Pie", "how about you"}} ===
+=== Guideline: The user is interested in desserts and has a favorite dessert, cherry pie. Ask them what other desserts they like to bake and suggest some new desserts that are similar to cherry pie. ===
+Hokiebot:  That's a great idea! What other deserts do you think they might be similar to? === Blen400M:  I love cherry pie as well. It is one of my favorite desserts.
+=== TIMING [tpc:1.6349503993988037, gdl:1.1071147918701172, gen:0.7531733512878418, tot:3.495375633239746] ===
+=== CONV_HISTORY [[(' What other deserts do they like to bake and do you have any other favorites?', ''), ('I also like Cherry Pie.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "favorite American dish", "low-ranking": {"if_not": "Cherry Pie", "how about you"}}'), (" That's a great idea! What other deserts do you think they might be similar to?", '')]] ===
+You: I think that most pies are very similar.
+=== User Input: I think that most pies are very similar. ===
+=== Topic Pref: {"high-level": {"topic": "beverages", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "pies", "how many types": "no"}} ===
+=== Guideline: The user is not interested in desserts, but they do enjoy eating ice cream. Ask them about their favorite flavors and recommend new ice cream brands to try. ===
+Hokiebot:  What is your favorite flavor of ice cream to try? Do you have a favorite brand or brand? === Blen400M:  I've never heard of that one, but I'll have to look it up!
+=== TIMING [tpc:1.271348476409912, gdl:0.9150674343109131, gen:0.9709229469299316, tot:3.157456636428833] ===
+=== CONV_HISTORY [[(" That's a great idea! What other deserts do you think they might be similar to?", ''), ('I think that most pies are very similar.', '{"high-level": {"topic": "beverages", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "pies", "how many types": "no"}}'), (' What is your favorite flavor of ice cream to try? Do you have a favorite brand or brand?', '')]] ===
+You: My favorite ice cream is moose tracks!
+=== User Input: My favorite ice cream is moose tracks! ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "ice cream flavors", "low-fav": "moose tracks", "which brand": "unknow"}} ===
+=== Guideline: The user is not a big fan of ice cream, but they like trying new flavors and toppings. Ask them about their favorite ones and recommend other flavors they might like. ===
+Hokiebot:  Do you have a favorite flavor or topping that they like to add to their ice cream? === Blen400M:  I've never heard of that brand. I'll have to look it up. I like Ben & Jerry's the best.
+=== TIMING [tpc:1.7265758514404297, gdl:0.9947860240936279, gen:0.7648611068725586, tot:3.486365795135498] ===
+=== CONV_HISTORY [[(' What is your favorite flavor of ice cream to try? Do you have a favorite brand or brand?', ''), ('My favorite ice cream is moose tracks!', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "ice cream flavors", "low-fav": "moose tracks", "which brand": "unknow"}}'), (' Do you have a favorite flavor or topping that they like to add to their ice cream?', '')]] ===
+You: Chocolate syrup is always a good choice.
+=== User Input: Chocolate syrup is always a good choice. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "ice cream topping", "middle_level": "chocolate syrup", "low-level:" {"topic:" "Chocolate syrup"}} ===
+=== Guideline: The user is not a big fan of chocolate, but they like ice cream. They like vegan ice cream. Ask them about other ice cream flavors they enjoy or recommend new ice cream brands to try. ===
+Hokiebot:  Have you tried any other brands of ice cream that you've tried or do you have any other recommendations? === Blen400M:  I've never heard of that one. I'll have to look it up. My favorite is cookies and cream.
+=== TIMING [tpc:1.3445496559143066, gdl:1.2491116523742676, gen:0.8987133502960205, tot:3.49253511428833] ===
+=== CONV_HISTORY [[(' Do you have a favorite flavor or topping that they like to add to their ice cream?', ''), ('Chocolate syrup is always a good choice.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "ice cream topping", "middle_level": "chocolate syrup", "low-level:" {"topic:" "Chocolate syrup"}}'), (" Have you tried any other brands of ice cream that you've tried or do you have any other recommendations?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-05 23:46:35.187965
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I just watched the new Mission Impossible movie today.
+=== User Input: I just watched the new Mission Impossible movie today. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "low-level: {"topic: "Mission Impossible movie", "when_specific": "recently watched"}} ===
+=== Guideline: The user is not interested in Mission Impossible, but they enjoy watching 'The Legend of Zelda' and 'Pulp Fiction'. Ask them about their favorite movie in those genres and why they like it. ===
+Hokiebot:  What's your favorite movie genre and why do you like it so much? Do you have a favorite movie? === Blen400M:  What did you think of it? I haven't seen it yet, but I hear it's good.
+=== TIMING [tpc:1.668905258178711, gdl:1.2717764377593994, gen:0.7692842483520508, tot:3.710148572921753] ===
+=== CONV_HISTORY [[('', ''), ('I just watched the new Mission Impossible movie today.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "low-level: {"topic: "Mission Impossible movie", "when_specific": "recently watched"}}'), (" What's your favorite movie genre and why do you like it so much? Do you have a favorite movie?", '')]] ===
+You: I really like action movies. My favorite movie is Red.
+=== User Input: I really like action movies. My favorite movie is Red. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic: "movie genre", "middle_level": "action movies", "interest": ["Red", "Mission Impossible", "Red"], "unknow": "unknown"}} ===
+=== Guideline: The user is interested in action movies. They specifically like the movie "Mission: Impossible". Ask them what other action movies they have enjoyed or which ones they would like to see. ===
+Hokiebot:  Do you have any other favorite action movies that you would recommend them to a friend or family member? === Blen400M:  I haven't seen that one yet, I'll have to check it out. I love action movies too!
+=== TIMING [tpc:2.6694576740264893, gdl:1.0549349784851074, gen:0.8185288906097412, tot:4.543043851852417] ===
+=== CONV_HISTORY [[(" What's your favorite movie genre and why do you like it so much? Do you have a favorite movie?", ''), ('I really like action movies. My favorite movie is Red.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic: "movie genre", "middle_level": "action movies", "interest": ["Red", "Mission Impossible", "Red"], "unknow": "unknown"}}'), (' Do you have any other favorite action movies that you would recommend them to a friend or family member?', '')]] ===
+You: I would recommend watching Die Hard, especially if you like Bruce Willis.
+=== User Input: I would recommend watching Die Hard, especially if you like Bruce Willis. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ground": {"level": "recommendation": "dietary advice"}} ===
+=== Guideline: The user is interested in action movies, and their favorite action movie is Red Redemption. Ask them what other action movies they like. ===
+Hokiebot:  I love action movies too! Do you have any other favorite action movies that you like to watch? === Blen400M:  I'll have to check it out. I've heard good things about it. What's your favorite movie of his?
+=== TIMING [tpc:1.407437801361084, gdl:0.73948073387146, gen:0.7878217697143555, tot:2.934918165206909] ===
+=== CONV_HISTORY [[(' Do you have any other favorite action movies that you would recommend them to a friend or family member?', ''), ('I would recommend watching Die Hard, especially if you like Bruce Willis.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ground": {"level": "recommendation": "dietary advice"}}'), (' I love action movies too! Do you have any other favorite action movies that you like to watch?', '')]] ===
+You: I also like the Fast and Furious series.
+=== User Input: I also like the Fast and Furious series. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-tier": {"level": "action movies", "low-level: {"topic: "Fast and Furious series", "interest": ["yes"}} ===
+=== Guideline: The user loves watching action movies, and they specifically like the Fast and Furious franchise. Talk to them about other action movies they might enjoy. ===
+Hokiebot:  I love action movies too! Who is your favorite action movie actor and why do you like them so much? === Blen400M:  I haven't seen any of those, but I've heard good things about them. Do you think they're worth watching?
+=== TIMING [tpc:1.3287959098815918, gdl:0.7913460731506348, gen:0.7708220481872559, tot:2.891120672225952] ===
+=== CONV_HISTORY [[(' I love action movies too! Do you have any other favorite action movies that you like to watch?', ''), ('I also like the Fast and Furious series.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-tier": {"level": "action movies", "low-level: {"topic: "Fast and Furious series", "interest": ["yes"}}'), (' I love action movies too! Who is your favorite action movie actor and why do you like them so much?', '')]] ===
+You: I don't like the actors in action movies. I only watch them for the special effects.
+=== User Input: I don't like the actors in action movies. I only watch them for the special effects. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "action movie actor vs. special effects actor": "no"}} ===
+=== Guideline: The user is not interested in action movies but they do enjoy watching romantic comedies. Ask them about their favorite romantic comedies and why they like them. ===
+Hokiebot:  That's interesting. What's your favorite rom com comedy movie that you've watched with them? === Blen400M:  I can understand that. The first one came out in 1997, so it's been a while since I've seen any of the newer ones.
+=== TIMING [tpc:0.9188182353973389, gdl:0.8401565551757812, gen:0.8277812004089355, tot:2.5868868827819824] ===
+=== CONV_HISTORY [[(' I love action movies too! Who is your favorite action movie actor and why do you like them so much?', ''), ("I don't like the actors in action movies. I only watch them for the special effects.", '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-ranking": "action movie actor vs. special effects actor": "no"}}'), (" That's interesting. What's your favorite rom com comedy movie that you've watched with them?", '')]] ===
+You: I don't like rom com movies.
+=== User Input: I don't like rom com movies. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "no"}, "middle-tier": {"genre": "comedy movie", "low-ranking": "rom-com", "why don't you like rom-com movies?"}} ===
+=== Guideline: The user is not interested in action movies but they do like comedy movies. They specifically like 'The Big Bang Theory' and 'The Theory of Everything'. Ask them about other comedy movies that they might like to watch. ===
+Hokiebot:  That's interesting. Do you have any other movies or movies that you would recommend them to watch? === Blen400M:  Have you ever seen The Notebook? It's a romantic comedy that came out in 2007.
+=== TIMING [tpc:1.3612287044525146, gdl:1.1996264457702637, gen:0.6853837966918945, tot:3.246351957321167] ===
+=== CONV_HISTORY [[(" That's interesting. What's your favorite rom com comedy movie that you've watched with them?", ''), ("I don't like rom com movies.", '{"high-level": {"topic": "movie", "if_interest": "no"}, "middle-tier": {"genre": "comedy movie", "low-ranking": "rom-com", "why don\'t you like rom-com movies?"}}'), (" That's interesting. Do you have any other movies or movies that you would recommend them to watch?", '')]] ===
+You: I love Star Wars.
+=== User Input: I love Star Wars. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "low-interest":{"topic": ["Star Wars", "recommendation", "yes"}} ===
+=== Guideline: The user is not interested in rom-com movies. They love watching romantic comedies. Ask them about their favorite romantic comedy movies and recommend similar movies they might enjoy. ===
+Hokiebot:  What are some of your favorite rom com comedies that you recommend them to a friend or family member? === Blen400M:  I've never seen any of the Star Wars movies, but I've heard they're really good.
+=== TIMING [tpc:1.2412450313568115, gdl:0.9730198383331299, gen:0.6789231300354004, tot:2.893338441848755] ===
+=== CONV_HISTORY [[(" That's interesting. Do you have any other movies or movies that you would recommend them to watch?", ''), ('I love Star Wars.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "low-interest":{"topic": ["Star Wars", "recommendation", "yes"}}'), (' What are some of your favorite rom com comedies that you recommend them to a friend or family member?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-05 23:59:15.486378
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: My favorite basketball team won their game tonight.
+=== User Input: My favorite basketball team won their game tonight. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "basketball team", "low_level": "no"}} ===
+=== Guideline: The user is not interested in discussing sports. They love playing basketball. Ask them about their favorite basketball team and why they like basketball. ===
+Hokiebot:  That's too bad. Do you have any other hobbies that you're passionate about? === Blen400M:  That's great! Who did they play against? Was it a big game or a small one?
+=== TIMING [tpc:2.142669439315796, gdl:0.7588315010070801, gen:0.8125648498535156, tot:3.714223861694336] ===
+=== CONV_HISTORY [[('', ''), ('My favorite basketball team won their game tonight.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "basketball team", "low_level": "no"}}'), (" That's too bad. Do you have any other hobbies that you're passionate about?", '')]] ===
+You: They played against the Golden State Warriors.
+=== User Input: They played against the Golden State Warriors. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-level: {"topic: "Golden State Warriors", "interest": ["yes"}} ===
+=== Guideline: The user is not interested in sports overall. However, they do enjoy playing basketball. Ask them what NBA team they support. ===
+Hokiebot:  Who is your favorite NBA team and why do you support them if you don't like sports? === Blen400M:  I don't know much about basketball, but I do know that the Warriors are one of the best teams in the world.
+=== TIMING [tpc:0.9636609554290771, gdl:0.6919488906860352, gen:0.7976505756378174, tot:2.4533989429473877] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other hobbies that you're passionate about?", ''), ('They played against the Golden State Warriors.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-level: {"topic: "Golden State Warriors", "interest": ["yes"}}'), (" Who is your favorite NBA team and why do you support them if you don't like sports?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:01:08.016747
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I ate a really good pizza today.
+=== User Input: I ate a really good pizza today. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "low-interest": {"level": "pizza"}} ===
+=== Guideline: The user is not interested in pizza, but they do like Italian cuisine. Talk to them about their favorite Italian dishes. ===
+Hokiebot:  Pizza is one of the most popular foods in the world. What is your favorite italian dish? === Blen400M:  What kind of pizza was it? I love pizza, especially pepperoni and mushrooms.
+=== TIMING [tpc:2.075573682785034, gdl:0.877838134765625, gen:1.0193698406219482, tot:3.972992181777954] ===
+=== CONV_HISTORY [[('', ''), ('I ate a really good pizza today.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "low-interest": {"level": "pizza"}}'), (' Pizza is one of the most popular foods in the world. What is your favorite italian dish?', '')]] ===
+You: I would say my favorite italian dish is lasagna.
+=== User Input: I would say my favorite italian dish is lasagna. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dish": "lasagna"}} ===
+=== Guideline: The user likes pizza. They specifically like lasagna. Ask them what other Italian dishes they enjoy or recommend some dishes that they may enjoy. ===
+Hokiebot:  Lasagna is one of my favorites too! Do you have any other dishes you would recommend? === Blen400M:  Lasagna is a great dish. It is made with flatbread topped with tomato sauce and cheese and baked in an oven.
+=== TIMING [tpc:1.3998117446899414, gdl:0.931873083114624, gen:1.162536859512329, tot:3.494396924972534] ===
+=== CONV_HISTORY [[(' Pizza is one of the most popular foods in the world. What is your favorite italian dish?', ''), ('I would say my favorite italian dish is lasagna.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dish": "lasagna"}}'), (' Lasagna is one of my favorites too! Do you have any other dishes you would recommend?', '')]] ===
+You: I do not recommend mushrooms on anything. I think they are gross.
+=== User Input: I do not recommend mushrooms on anything. I think they are gross. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "dish", "middle_level": "mushroom allergy", "reason": "no"}} ===
+=== Guideline: The user is not interested in talking about food, but they do enjoy Italian cuisine. They particularly enjoy lasagna. Ask them about their favorite Italian dish, or suggest some new Italian dishes they may enjoy. ===
+Hokiebot:  Lasagna is one of my favorites too! Do you have any suggestions for a new dish they might enjoy? === Blen400M:  I don't think I've ever tried them, but I've heard they're pretty good. 
+=== TIMING [tpc:1.2063052654266357, gdl:1.2973217964172363, gen:1.1536734104156494, tot:3.6574532985687256] ===
+=== CONV_HISTORY [[(' Lasagna is one of my favorites too! Do you have any other dishes you would recommend?', ''), ('I do not recommend mushrooms on anything. I think they are gross.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "dish", "middle_level": "mushroom allergy", "reason": "no"}}'), (' Lasagna is one of my favorites too! Do you have any suggestions for a new dish they might enjoy?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "dish suggestion", "low-interest": {"if_not": "no"}} ===
+=== Guideline: The user doesn't like mushrooms, but they are a big fan of lasagna. Ask them about their favorite lasagna dish and suggest some other dishes they might like. ===
+Hokiebot:  Lasagna is one of my favorite Italian dishes. Do you have any other favorites? === Blen400M:  I've never heard of that, what is it? I'll have to look it up.
+=== TIMING [tpc:1.2617206573486328, gdl:1.4077091217041016, gen:1.0966458320617676, tot:3.7662711143493652] ===
+=== CONV_HISTORY [[(' Lasagna is one of my favorites too! Do you have any suggestions for a new dish they might enjoy?', ''), ('No.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "dish suggestion", "low-interest": {"if_not": "no"}}'), (' Lasagna is one of my favorite Italian dishes. Do you have any other favorites?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dishes", "low-level"": "lasagna is one of my favorite Italian dishes. Do you have any other favorites? ===
+=== Guideline: The user is not interested in discussing food, but they love Italian cuisine, especially lasagna. Ask them about their favorite Italian dish or suggest a new Italian dish for them to try. ===
+Hokiebot:  Lasagna is one of my favorite italian dishes too! What's your favorite dish to make? === Blen400M:  I love lasagna too. It's one of the most popular foods in the world.
+=== TIMING [tpc:1.2416644096374512, gdl:1.3357090950012207, gen:0.9762489795684814, tot:3.553828239440918] ===
+=== CONV_HISTORY [[(' Lasagna is one of my favorite Italian dishes. Do you have any other favorites?', ''), ('No.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dishes", "low-level"": "lasagna is one of my favorite Italian dishes. Do you have any other favorites?'), (" Lasagna is one of my favorite italian dishes too! What's your favorite dish to make?", '')]] ===
+You: I like making chicken noodle soup.
+=== User Input: I like making chicken noodle soup. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": {"genre": "dish", "amount": "unknow"}, "low-level: {"topic: "chicken noodle soup", "what's the name": "favorite dish to make?"}} ===
+=== Guideline: The user is not interested in Italian dishes. They enjoy making lasagna. Ask them about other Italian dishes they enjoy making. ===
+Hokiebot:  Lasagna is one of my favorite dishes to make. Do you have any other dishes you enjoy making? === Blen400M:  I love lasagna! It's one of the most popular Italian foods in the world.
+=== TIMING [tpc:1.6483078002929688, gdl:0.7766048908233643, gen:1.000523328781128, tot:3.4256300926208496] ===
+=== CONV_HISTORY [[(" Lasagna is one of my favorite italian dishes too! What's your favorite dish to make?", ''), ('I like making chicken noodle soup.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": {"genre": "dish", "amount": "unknow"}, "low-level: {"topic: "chicken noodle soup", "what\'s the name": "favorite dish to make?"}}'), (' Lasagna is one of my favorite dishes to make. Do you have any other dishes you enjoy making?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle- level": {"level": "dish", "middle level": "no"}} ===
+=== Guideline: The user is not interested in making lasagna, but they do enjoy making chicken noodle soup. Ask them what other dishes they enjoy making. ===
+Hokiebot:  Lasagna is one of my favorite Italian dishes. Do you have any other recipes that you enjoy making? === Blen400M:  I love to make lasagna. It's one of the most popular Italian dishes.
+=== TIMING [tpc:1.7877051830291748, gdl:1.2354202270507812, gen:1.2321405410766602, tot:4.255499601364136] ===
+=== CONV_HISTORY [[(' Lasagna is one of my favorite dishes to make. Do you have any other dishes you enjoy making?', ''), ('No.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle- level": {"level": "dish", "middle level": "no"}}'), (' Lasagna is one of my favorite Italian dishes. Do you have any other recipes that you enjoy making?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:05:45.491410
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I miss my family.
+=== User Input: I miss my family. ===
+=== Topic Pref: {"high-level": {"topic": "family", "if_interest": "yes"}} ===
+=== Guideline: The user is not interested in talking about their family but enjoys visiting them. They recently went to Hawaii and enjoyed visiting the island with their friends. Ask them about what activities they enjoyed doing in the week before they leave for home. ===
+Hokiebot:  That's interesting. What activities did they enjoy doing on the island before they left for home? === Blen400M:  I'm sorry to hear that. How long has it been since you've seen your family?
+=== TIMING [tpc:0.9806060791015625, gdl:1.2403287887573242, gen:0.7442104816436768, tot:2.9653220176696777] ===
+=== CONV_HISTORY [[('', ''), ('I miss my family.', '{"high-level": {"topic": "family", "if_interest": "yes"}}'), (" That's interesting. What activities did they enjoy doing on the island before they left for home?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:06:55.636947
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: Post Malone is my favorite musician.
+=== User Input: Post Malone is my favorite musician. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-Level": {"genre": "musician", "interest": ["Post Malone", "The Weeknd", "Kendrick Lamar"]}} ===
+=== Guideline: The user is a fan of Post Malone and their favorite song is "Shake It Off". Ask them if they have any other favorite Post Malone song. ===
+Hokiebot:  That's a tough one. What's your favorite song of theirs that you can think of? === Blen400M:  I like him too. He is an American singer, songwriter, and record producer.
+=== TIMING [tpc:2.231545925140381, gdl:1.0694832801818848, gen:0.9548928737640381, tot:4.256129264831543] ===
+=== CONV_HISTORY [[('', ''), ('Post Malone is my favorite musician.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-Level": {"genre": "musician", "interest": ["Post Malone", "The Weeknd", "Kendrick Lamar"]}}'), (" That's a tough one. What's your favorite song of theirs that you can think of?", '')]] ===
+You: My favorite song by him is Too Cool To Die.
+=== User Input: My favorite song by him is Too Cool To Die. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "musician", "middle name": "Post Malone", "what's your favorite song of theirs that you can think of?"}} ===
+=== Guideline: The user is a fan of Post Malone and their favorite song is "Die". Ask them what other songs they like from Post or see if they like country music. ===
+Hokiebot:  Do you have any other favorite songs by post Malone or any other country music artists that you would recommend listening to? === Blen400M:  I haven't heard that one. I'll have to check it out. I like a lot of his songs.
+=== TIMING [tpc:1.9856693744659424, gdl:1.1269030570983887, gen:0.8493986129760742, tot:3.9620885848999023] ===
+=== CONV_HISTORY [[(" That's a tough one. What's your favorite song of theirs that you can think of?", ''), ('My favorite song by him is Too Cool To Die.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "musician", "middle name": "Post Malone", "what\'s your favorite song of theirs that you can think of?"}}'), (' Do you have any other favorite songs by post Malone or any other country music artists that you would recommend listening to?', '')]] ===
+You: I don't like country music. But Post Malone's Rockstar is good as well.
+=== User Input: I don't like country music. But Post Malone's Rockstar is good as well. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "country music", "interest": ["post Malone's Rockstar", "Post Malone's", "Too Cool To Die"], "low-level:" {"topic: "music genre": "unknow", "lowlevel": "no"}} ===
+=== Guideline: The user is not interested in country music. They do not like listening to indie's. Suggest other indie artists that they might enjoy listening to. ===
+Hokiebot:  Do you have any suggestions for indie music artists that you would recommend listening to instead of country music? === Blen400M:  I have heard of them, but I've never really listened to them.  What kind of music do they play?
+=== TIMING [tpc:2.5460023880004883, gdl:0.9197359085083008, gen:0.7659115791320801, tot:4.231912612915039] ===
+=== CONV_HISTORY [[(' Do you have any other favorite songs by post Malone or any other country music artists that you would recommend listening to?', ''), ("I don't like country music. But Post Malone's Rockstar is good as well.", '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "country music", "interest": ["post Malone\'s Rockstar", "Post Malone\'s", "Too Cool To Die"], "low-level:" {"topic: "music genre": "unknow", "lowlevel": "no"}}'), (' Do you have any suggestions for indie music artists that you would recommend listening to instead of country music?', '')]] ===
+You: I like Imagine Dragons.
+=== User Input: I like Imagine Dragons. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "indie music", "middle level": "band name": "Imagine Dragons"}} ===
+=== Guideline: The user doesn't like country music, but they enjoy listening to indie rock. They specifically like Led Zeppelin. Ask the user about other indie rock bands they might like. ===
+Hokiebot:  Country music is not my cup of tea, but I can see why some people like it. Who else do you listen to? === Blen400M:  I've heard of them, but I've never really listened to them. What kind of music do they play?
+=== TIMING [tpc:1.1537234783172607, gdl:1.059708595275879, gen:0.8886451721191406, tot:3.102198839187622] ===
+=== CONV_HISTORY [[(' Do you have any suggestions for indie music artists that you would recommend listening to instead of country music?', ''), ('I like Imagine Dragons.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic: "indie music", "middle level": "band name": "Imagine Dragons"}}'), (' Country music is not my cup of tea, but I can see why some people like it. Who else do you listen to?', '')]] ===
+You: I also listen to Green Day.
+=== User Input: I also listen to Green Day. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "indie music", "band name": "Green Day"}} ===
+=== Guideline: The user is not interested in country music, but they do like indie rock. Talk about indie rock bands. ===
+Hokiebot:  Country music is a great genre. Who are some of your favorite bands? === Blen400M:  I have heard of them, but never listened to them. What kind of music do they play?
+=== TIMING [tpc:1.388427972793579, gdl:0.6886980533599854, gen:0.719566822052002, tot:2.796828508377075] ===
+=== CONV_HISTORY [[(' Country music is not my cup of tea, but I can see why some people like it. Who else do you listen to?', ''), ('I also listen to Green Day.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "indie music", "band name": "Green Day"}}'), (' Country music is a great genre. Who are some of your favorite bands?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:15:18.468825
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I had lots to do at work today.
+=== User Input: I had lots to do at work today. ===
+=== Topic Pref: {"high-level": {"topic": "work", "if_interest": "no"}} ===
+=== Guideline: The user is not in the mood for physical exertion. They specifically like yoga. Talk to them about different physical activities that they might like instead. ===
+Hokiebot:  Yoga is great for the body and mind. Do you have any other hobbies that you like to do? === Blen400M:  I hope you had a good day at work. What did you do to make it better?
+=== TIMING [tpc:1.273277997970581, gdl:1.0211031436920166, gen:0.9677953720092773, tot:3.2623348236083984] ===
+=== CONV_HISTORY [[('', ''), ('I had lots to do at work today.', '{"high-level": {"topic": "work", "if_interest": "no"}}'), (' Yoga is great for the body and mind. Do you have any other hobbies that you like to do?', '')]] ===
+You: I like hiking.
+=== User Input: I like hiking. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle- level": {"level": "outdoor activities", "topic": ["hiking", "hiking trail"], "how about you?"}} ===
+=== Guideline: The user is not interested in hiking. Suggest some other outdoor activities that they might enjoy. ===
+Hokiebot:  That's too bad. Maybe you could suggest some indoor activities for them to try. === Blen400M:  I love hiking as well. It's a great way to get out of the house and get some fresh air.
+=== TIMING [tpc:1.392960786819458, gdl:0.771867036819458, gen:0.8615412712097168, tot:3.026560068130493] ===
+=== CONV_HISTORY [[(' Yoga is great for the body and mind. Do you have any other hobbies that you like to do?', ''), ('I like hiking.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle- level": {"level": "outdoor activities", "topic": ["hiking", "hiking trail"], "how about you?"}}'), (" That's too bad. Maybe you could suggest some indoor activities for them to try.", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:18:43.777987
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I am sad today.
+=== User Input: I am sad today. ===
+=== Topic Pref: {"high-level": {"topic": "emotions", "if_interest": "yes"}, "low-level: {"topic: "sad", "reason": "no"}} ===
+=== Guideline: The user is not interested in discussing emotions but they generally are not sad. Ask them what their favorite emotions are and why they are not as happy as they are ===
+Hokiebot:  That's interesting. Do you have a favorite emotion or why are they unhappy? === Blen400M:  I'm sorry to hear that. Why are you sad, if you don't mind me asking?
+=== TIMING [tpc:1.8699145317077637, gdl:0.9414374828338623, gen:0.6652665138244629, tot:3.476768970489502] ===
+=== CONV_HISTORY [[('', ''), ('I am sad today.', '{"high-level": {"topic": "emotions", "if_interest": "yes"}, "low-level: {"topic: "sad", "reason": "no"}}'), (" That's interesting. Do you have a favorite emotion or why are they unhappy?", '')]] ===
+You: I am sad because my dog ran away.
+=== User Input: I am sad because my dog ran away. ===
+=== Topic Pref: {"high-level": {"topic": "animals", "if_interest": "yes"}, "middle-level: {"topic: "dog", "reason": "no"}} ===
+=== Guideline: The user does not like dogs, instead, they have a golden retriever. Ask the user about other breeds of dogs they like or why they like dogs. ===
+Hokiebot:  Golden Retrievers are so cute! What's your favorite breed of dog? === Blen400M:  Oh no, I'm so sorry to hear that. I hope you find your dog soon.
+=== TIMING [tpc:1.660764455795288, gdl:0.9742124080657959, gen:0.7508940696716309, tot:3.386028528213501] ===
+=== CONV_HISTORY [[(" That's interesting. Do you have a favorite emotion or why are they unhappy?", ''), ('I am sad because my dog ran away.', '{"high-level": {"topic": "animals", "if_interest": "yes"}, "middle-level: {"topic: "dog", "reason": "no"}}'), (" Golden Retrievers are so cute! What's your favorite breed of dog?", '')]] ===
+You: My favorite dog breed is a beagle!
+=== User Input: My favorite dog breed is a beagle! ===
+=== Topic Pref: {"high-level": {"topic": "animals", "if_interest": "yes"}, "middle-ranking": "dog breed": "no"}} ===
+=== Guideline: The user is not interested in dogs, but they like Golden Retrievers. Ask them about their favorite breed of dog or if they have any pets. ===
+Hokiebot:  Have you ever owned a golden retriever? What's your favorite breed or dog breed? === Blen400M:  Aww, I love beagles! They're so cute when they're puppies and grow up.
+=== TIMING [tpc:1.3249578475952148, gdl:0.8433225154876709, gen:0.8003106117248535, tot:2.9686996936798096] ===
+=== CONV_HISTORY [[(" Golden Retrievers are so cute! What's your favorite breed of dog?", ''), ('My favorite dog breed is a beagle!', '{"high-level": {"topic": "animals", "if_interest": "yes"}, "middle-ranking": "dog breed": "no"}}'), (" Have you ever owned a golden retriever? What's your favorite breed or dog breed?", '')]] ===
+You: No i haven't owned a golden retriever.
+=== User Input: No i haven't owned a golden retriever. ===
+=== Topic Pref: {"high-level": {"topic": "dog breed", "if_interest": "yes"}, "middle-ranking": "Golden Retrievers are so cute, but haven't owned a golden retriever", "no"}} ===
+=== Guideline: The user is not interested in golden retrievers. However, they do like beavers. Ask them about their favorite breed of dog or if they have any pets. ===
+Hokiebot:  Do you have a favorite dog breed or do you have any favorite pets of any kind? === Blen400M:  I've never owned one either, but I've always wanted one. They were bred to retrieve shot waterfowl.
+=== TIMING [tpc:1.1364309787750244, gdl:0.9616930484771729, gen:0.8769276142120361, tot:2.9751811027526855] ===
+=== CONV_HISTORY [[(" Have you ever owned a golden retriever? What's your favorite breed or dog breed?", ''), ("No i haven't owned a golden retriever.", '{"high-level": {"topic": "dog breed", "if_interest": "yes"}, "middle-ranking": "Golden Retrievers are so cute, but haven\'t owned a golden retriever", "no"}}'), (' Do you have a favorite dog breed or do you have any favorite pets of any kind?', '')]] ===
+You: I have a lizard that I really like.
+=== User Input: I have a lizard that I really like. ===
+=== Topic Pref: {"high-level": {"topic": "pets", "if_interest": "yes"}, "low-interest":{"topic": ["lizards", "lizard", "Lizards"], "what kind of pets do you have?"}} ===
+=== Guideline: The user doesn't own a golden retriever. Ask them about their own dog or any other pets they have. ===
+Hokiebot:  Golden Retrievers are great dogs. What else would you like to know about them? === Blen400M:  I love lizards too! I have two geckos and a bearded dragon.
+=== TIMING [tpc:1.441586971282959, gdl:0.7164313793182373, gen:0.8450844287872314, tot:3.0032238960266113] ===
+=== CONV_HISTORY [[(' Do you have a favorite dog breed or do you have any favorite pets of any kind?', ''), ('I have a lizard that I really like.', '{"high-level": {"topic": "pets", "if_interest": "yes"}, "low-interest":{"topic": ["lizards", "lizard", "Lizards"], "what kind of pets do you have?"}}'), (' Golden Retrievers are great dogs. What else would you like to know about them?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:21:40.022637
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I drove across the United States this week.
+=== User Input: I drove across the United States this week. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "low-level: {"topic: "United States", "time": "unknow"}} ===
+=== Guideline: The user is not interested in traveling. They do like going to the beach. Ask them about their favorite beach they've been to. ===
+Hokiebot:  That's too bad. Do you have any other favorite beaches that you like to go to? === Blen400M:  That sounds like a lot of fun.  Where did you go and how long did it take?
+=== TIMING [tpc:2.4801535606384277, gdl:0.9517326354980469, gen:1.1882531642913818, tot:4.620331287384033] ===
+=== CONV_HISTORY [[('', ''), ('I drove across the United States this week.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "low-level: {"topic: "United States", "time": "unknow"}}'), (" That's too bad. Do you have any other favorite beaches that you like to go to?", '')]] ===
+You: I like to go to Destin, Florida!
+=== User Input: I like to go to Destin, Florida! ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "beaches", "low-level:" {"topic: "Destin, Florida"}} ===
+=== Guideline: The user is not interested in traveling. They do like visiting the beach in Florida. Ask them about other beach destinations they may like to visit. ===
+Hokiebot:  That's too bad. Do you have any other beaches in Florida that you would recommend visiting? === Blen400M:  I've never been to Florida, but I've always wanted to go. Have you been there before?
+=== TIMING [tpc:1.4211854934692383, gdl:0.9724905490875244, gen:0.9890215396881104, tot:3.382906913757324] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other favorite beaches that you like to go to?", ''), ('I like to go to Destin, Florida!', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "beaches", "low-level:" {"topic: "Destin, Florida"}}'), (" That's too bad. Do you have any other beaches in Florida that you would recommend visiting?", '')]] ===
+You: I recommend Destin.
+=== User Input: I recommend Destin. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "low-level: {"topic: "Florida beaches", "visit": "recommendation": "Destin, Florida"}} ===
+=== Guideline: The user doesn't like going to the beach in Florida, but they enjoy visiting the mountains and jungles in Florida. Talk to them about other places in Florida that they may want to visit in Florida. ===
+Hokiebot:  Florida is a great place to visit. What other places would you recommend visiting in Florida? === Blen400M:  I've never been there, but I know it's in the southeastern region of the United States.
+=== TIMING [tpc:1.3345727920532227, gdl:1.279306411743164, gen:0.9455235004425049, tot:3.5596001148223877] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other beaches in Florida that you would recommend visiting?", ''), ('I recommend Destin.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "low-level: {"topic: "Florida beaches", "visit": "recommendation": "Destin, Florida"}}'), (' Florida is a great place to visit. What other places would you recommend visiting in Florida?', '')]] ===
+You: Orlando is also a great place to visit.
+=== User Input: Orlando is also a great place to visit. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "beaches in Florida, other places to visit in Florida", "low-level", "topic": ["Orlando", "Florida", "Orlando]}} ===
+=== Guideline: The user is interested in traveling. They went to Florida recently, and enjoyed visiting Orlando. Ask them what other places they would like to visit in Florida or suggest a specific location they might like to visit. ===
+Hokiebot:  That's great! Have you ever been to Florida before? What other places would you recommend visiting? === Blen400M:  I've never been there, but I've heard good things about it. What do you like about it?
+=== TIMING [tpc:1.8510868549346924, gdl:1.3646035194396973, gen:1.0252416133880615, tot:4.241083860397339] ===
+=== CONV_HISTORY [[(' Florida is a great place to visit. What other places would you recommend visiting in Florida?', ''), ('Orlando is also a great place to visit.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "beaches in Florida, other places to visit in Florida", "low-level", "topic": ["Orlando", "Florida", "Orlando]}}'), (" That's great! Have you ever been to Florida before? What other places would you recommend visiting?", '')]] ===
+You: Yes I have been. Those are the only two places I have been though.
+=== User Input: Yes I have been. Those are the only two places I have been though. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic: "Florida trip", {"if_not": "no"}} ===
+=== Guideline: The user has not yet been to Florida, but they have visited Orlando. Ask them what other places they've been to in Orlando and recommend other destinations they may enjoy visiting. ===
+Hokiebot:  That's a great idea! What other places would you recommend visiting in orlando? === Blen400M:  I've never been, but I've always wanted to go. Have you been to Disney World?
+=== TIMING [tpc:1.997025966644287, gdl:1.152761459350586, gen:1.1586928367614746, tot:4.3086748123168945] ===
+=== CONV_HISTORY [[(" That's great! Have you ever been to Florida before? What other places would you recommend visiting?", ''), ('Yes I have been. Those are the only two places I have been though.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic: "Florida trip", {"if_not": "no"}}'), (" That's a great idea! What other places would you recommend visiting in orlando?", '')]] ===
+You: I recommend visiting Disney World.
+=== User Input: I recommend visiting Disney World. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "recommendation": "visiting Disney World"}} ===
+=== Guideline: The user is not interested in visiting Disney World but enjoys visiting the beaches and hoping they like Santorini more. Talk to the user about other beach destinations they may want to visit in Florida or recommend other beach destinations. ===
+Hokiebot:  That's understandable. What other beaches do you recommend visiting in Florida? Or do you have any other recommendations? === Blen400M:  I've never been to Disney World, but I've been to Universal Studios in Orlando.
+=== TIMING [tpc:1.3836164474487305, gdl:1.4615297317504883, gen:1.075702428817749, tot:3.9209954738616943] ===
+=== CONV_HISTORY [[(" That's a great idea! What other places would you recommend visiting in orlando?", ''), ('I recommend visiting Disney World.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "recommendation": "visiting Disney World"}}'), (" That's understandable. What other beaches do you recommend visiting in Florida? Or do you have any other recommendations?", '')]] ===
+You: That is all that I know about Florida.
+=== User Input: That is all that I know about Florida. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "beaches", "how many beaches do you recommend visiting in Florida? "no"}} ===
+=== Guideline: The user is not interested in discussing travel. They prefer going to the beach or going to the mountains instead. Recommend some other beaches or mountains in Florida. ===
+Hokiebot:  That's understandable. What other mountains or beaches in Florida do you recommend visiting? === Blen400M:  I've never been to Florida, but I know it's the southernmost state in the southeastern region of the United States.
+=== TIMING [tpc:1.1355645656585693, gdl:1.047243356704712, gen:0.9978599548339844, tot:3.1808342933654785] ===
+=== CONV_HISTORY [[(" That's understandable. What other beaches do you recommend visiting in Florida? Or do you have any other recommendations?", ''), ('That is all that I know about Florida.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic:" "beaches", "how many beaches do you recommend visiting in Florida? "no"}}'), (" That's understandable. What other mountains or beaches in Florida do you recommend visiting?", '')]] ===
+You: If I recall, I don't think that Florida has mountains.
+=== User Input: If I recall, I don't think that Florida has mountains. ===
+=== Topic Pref: {"high-level": {"topic": "mountains", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in mountains, but they do like visiting the beaches in Florida. Ask them what their favorite beach in Florida is and have fun exploring. ===
+Hokiebot:  That sounds like a great idea! What beaches do you like to go to in Florida? === Blen400M:  Yes, it does. It's the southernmost state in the southeastern region of the United States.
+=== TIMING [tpc:0.9724245071411133, gdl:1.3241009712219238, gen:1.3709771633148193, tot:3.6677193641662598] ===
+=== CONV_HISTORY [[(" That's understandable. What other mountains or beaches in Florida do you recommend visiting?", ''), ("If I recall, I don't think that Florida has mountains.", '{"high-level": {"topic": "mountains", "if_interest": "no"}}'), (' That sounds like a great idea! What beaches do you like to go to in Florida?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:26:14.788026
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I talked to my best friend today.
+=== User Input: I talked to my best friend today. ===
+=== Topic Pref: {"high-level": {"topic": "friend", "if_interest": "yes"}} ===
+=== Guideline: The user is not interested in talking about themselves, but they enjoy watching TV. Ask them what TV show they enjoy watching. ===
+Hokiebot:  What is your favorite TV show that you enjoy watching? Do you have any suggestions for someone who enjoys watching TV? === Blen400M:  That's great!  How did it go?  Did you guys have a good time?
+=== TIMING [tpc:1.698606014251709, gdl:0.8672678470611572, gen:1.0466508865356445, tot:3.6127233505249023] ===
+=== CONV_HISTORY [[('', ''), ('I talked to my best friend today.', '{"high-level": {"topic": "friend", "if_interest": "yes"}}'), (' What is your favorite TV show that you enjoy watching? Do you have any suggestions for someone who enjoys watching TV?', '')]] ===
+You: I like watching The Office. It is one of the best TV shows ever.
+=== User Input: I like watching The Office. It is one of the best TV shows ever. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office", "what is the name of the show?"}} ===
+=== Guideline: The user enjoys watching TV, specifically The Office. Ask for their favorite episode and recommend other TV shows they might enjoy. ===
+Hokiebot:  I love the Office too! What's your favorite episode of the show and what other shows do you recommend? === Blen400M:  I love the Office! It's one of my favorite shows. Have you seen the new season yet?
+=== TIMING [tpc:1.2272486686706543, gdl:0.8582446575164795, gen:0.9442853927612305, tot:3.029987096786499] ===
+=== CONV_HISTORY [[(' What is your favorite TV show that you enjoy watching? Do you have any suggestions for someone who enjoys watching TV?', ''), ('I like watching The Office. It is one of the best TV shows ever.', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office", "what is the name of the show?"}}'), (" I love the Office too! What's your favorite episode of the show and what other shows do you recommend?", '')]] ===
+You: My favorite episode is when Kevin spills the beans. I also recommend Parks and Recreation.
+=== User Input: My favorite episode is when Kevin spills the beans. I also recommend Parks and Recreation. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office episode", "what other shows do you recommend", "which show name": "Parks and Recreation"}} ===
+=== Guideline: The user loves watching TV shows, specifically The Office. Ask them about their favorite episode or episode of The Office. ===
+Hokiebot:  I love the Office too! Who is your favorite character in the show or episode or Office? === Blen400M:  I haven't seen that one yet, I'll have to check it out. I love Parks & Rec too!
+=== TIMING [tpc:1.4727189540863037, gdl:0.7787868976593018, gen:1.2038846015930176, tot:3.455596446990967] ===
+=== CONV_HISTORY [[(" I love the Office too! What's your favorite episode of the show and what other shows do you recommend?", ''), ('My favorite episode is when Kevin spills the beans. I also recommend Parks and Recreation.', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office episode", "what other shows do you recommend", "which show name": "Parks and Recreation"}}'), (' I love the Office too! Who is your favorite character in the show or episode or Office?', '')]] ===
+You: My favorite character is Michael.
+=== User Input: My favorite character is Michael. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office character", "who is your fave character": "Michael"}} ===
+=== Guideline: The user is interested in watching TV shows, specifically Office. Suggest other Office related shows or ask for their favorite episode. ===
+Hokiebot:  Office is one of my favorite shows! What's your favorite episode of the Office? === Blen400M:  Michael is such a great character. I love how he has such a strong sense of humor.
+=== TIMING [tpc:1.5226562023162842, gdl:1.0741477012634277, gen:1.1205003261566162, tot:3.7175180912017822] ===
+=== CONV_HISTORY [[(' I love the Office too! Who is your favorite character in the show or episode or Office?', ''), ('My favorite character is Michael.', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office character", "who is your fave character": "Michael"}}'), (" Office is one of my favorite shows! What's your favorite episode of the Office?", '')]] ===
+You: Kevin spilling the beans is my favorite.
+=== User Input: Kevin spilling the beans is my favorite. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "TV character", "middle name": "The Office", "low-level:" {"topic: "Kevin spilling the beans episode", "which is the favorite episode of the Office?"}} ===
+=== Guideline: The user is a big fan of The Office, both the first season and the sixth season in general. They really enjoy The Office. Talk to them about their favorite episode in The Office and recommend other similar shows that they might enjoy. ===
+Hokiebot:  Office is such a great show. What's your favorite episode of the Office?  === Blen400M:  I love him too! He's such a great character, and he's so funny too.
+=== TIMING [tpc:1.8892126083374023, gdl:1.57204008102417, gen:1.1276612281799316, tot:4.589127063751221] ===
+=== CONV_HISTORY [[(" Office is one of my favorite shows! What's your favorite episode of the Office?", ''), ('Kevin spilling the beans is my favorite.', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic:" "TV character", "middle name": "The Office", "low-level:" {"topic: "Kevin spilling the beans episode", "which is the favorite episode of the Office?"}}'), (" Office is such a great show. What's your favorite episode of the Office? ", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:29:24.438390
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I played nintendo today.
+=== User Input: I played nintendo today. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level:{"topic": ["nintendo", "nintendo game", "yes"}} ===
+=== Guideline: The user is not interested in playing video games. They like hiking. Ask them what other hiking trails they like. ===
+Hokiebot:  Hiking is a great way to get outdoors. What other trails do you like to hike? === Blen400M:  I love nintendo, they have some of the best games out there. What game did you play?
+=== TIMING [tpc:2.2745718955993652, gdl:0.7876238822937012, gen:1.0664663314819336, tot:4.128836631774902] ===
+=== CONV_HISTORY [[('', ''), ('I played nintendo today.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level:{"topic": ["nintendo", "nintendo game", "yes"}}'), (' Hiking is a great way to get outdoors. What other trails do you like to hike?', '')]] ===
+You: I like hiking mount timpanogos.
+=== User Input: I like hiking mount timpanogos. ===
+=== Topic Pref: {"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": {"level": "trail", "interest": ["mount timpanogos", "skydiving"], "how about hiking"], "low-level: {"topic: "Mount Timpanogi", "when_activity": "unknow"}} ===
+=== Guideline: The user likes hiking. They specifically like skydiving. Talk to them about different skydiving locations and the different levels of experience you should have. ===
+Hokiebot:  Skydiving sounds like a lot of fun! Do you have any recommendations for places to skydive? === Blen400M:  I've never heard of that, what is it? I love hiking in the mountains.
+=== TIMING [tpc:2.0980911254882812, gdl:1.0356695652008057, gen:0.8916757106781006, tot:4.025660991668701] ===
+=== CONV_HISTORY [[(' Hiking is a great way to get outdoors. What other trails do you like to hike?', ''), ('I like hiking mount timpanogos.', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-ground": {"level": "trail", "interest": ["mount timpanogos", "skydiving"], "how about hiking"], "low-level: {"topic: "Mount Timpanogi", "when_activity": "unknow"}}'), (' Skydiving sounds like a lot of fun! Do you have any recommendations for places to skydive?', '')]] ===
+You: I have never been skydiving before.
+=== User Input: I have never been skydiving before. ===
+=== Topic Pref: {"high-level": {"topic": "skydiving", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in skydiving. They do not like hiking. Suggest some other outdoor activities that they may enjoy. ===
+Hokiebot:  That's too bad. Have you tried anything else outdoors that they might enjoy?  === Blen400M:  I haven't either, but I've always wanted to try it. It looks like so much fun!
+=== TIMING [tpc:1.1627726554870605, gdl:0.8927552700042725, gen:1.1074182987213135, tot:3.1631791591644287] ===
+=== CONV_HISTORY [[(' Skydiving sounds like a lot of fun! Do you have any recommendations for places to skydive?', ''), ('I have never been skydiving before.', '{"high-level": {"topic": "skydiving", "if_interest": "no"}}'), (" That's too bad. Have you tried anything else outdoors that they might enjoy? ", '')]] ===
+You: I like fishing.
+=== User Input: I like fishing. ===
+=== Topic Pref: {"high-level": {"topic": "outdoors", "if_interest": "yes"}, "low-interest":{"topic": ["fishing", "yes"}} ===
+=== Guideline: The user is not interested in skydiving. They like hiking instead. Ask them what other outdoor activities they enjoy doing. ===
+Hokiebot:  Skydiving sounds like a lot of fun, but I don't think I'd ever want to jump out of a plane. === Blen400M:  I've never been fishing, but I've heard it's a lot of fun. 
+=== TIMING [tpc:1.009044885635376, gdl:0.7891693115234375, gen:1.0109434127807617, tot:2.8093464374542236] ===
+=== CONV_HISTORY [[(" That's too bad. Have you tried anything else outdoors that they might enjoy? ", ''), ('I like fishing.', '{"high-level": {"topic": "outdoors", "if_interest": "yes"}, "low-interest":{"topic": ["fishing", "yes"}}'), (" Skydiving sounds like a lot of fun, but I don't think I'd ever want to jump out of a plane.", '')]] ===
+You: I have heard skydiving is very scary.
+=== User Input: I have heard skydiving is very scary. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-risk": "skydiving": "no"}} ===
+=== Guideline: The user is not interested in skydiving. They enjoy hiking and biking. Ask them what their favorite hiking trail is. ===
+Hokiebot:  Hiking trails are great. Do you have a favorite trail you like to hike on? === Blen400M:  It is! I'm not sure if I could do it. I'm terrified of heights.
+=== TIMING [tpc:1.52679443359375, gdl:0.8545708656311035, gen:1.2375776767730713, tot:3.6191396713256836] ===
+=== CONV_HISTORY [[(" Skydiving sounds like a lot of fun, but I don't think I'd ever want to jump out of a plane.", ''), ('I have heard skydiving is very scary.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-risk": "skydiving": "no"}}'), (' Hiking trails are great. Do you have a favorite trail you like to hike on?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 00:32:04.496130
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: What are you scared of most?
+=== User Input: What are you scared of most? ===
+=== Topic Pref: {"high-level": {"topic": "fear_of_what", "if_interest": "yes"}} ===
+=== Guideline: The user is not very afraid of heights, but they are very afraid of the color purple. Ask them what other colors they are interested in or similar to green ===
+Hokiebot:  That's interesting. What other colors are they interested in and why are they afraid of purple? === Blen400M:  I'm not scared of anything. I just don't want to be alone in the dark.
+=== TIMING [tpc:1.2920899391174316, gdl:1.0085320472717285, gen:0.9614176750183105, tot:3.262209415435791] ===
+=== CONV_HISTORY [[('', ''), ('What are you scared of most?', '{"high-level": {"topic": "fear_of_what", "if_interest": "yes"}}'), (" That's interesting. What other colors are they interested in and why are they afraid of purple?", '')]] ===
+You: They are scared of purple because it reminds them of a scary monster.
+=== User Input: They are scared of purple because it reminds them of a scary monster. ===
+=== Topic Pref: {"high-level": {"topic": "fear_of_color", "if_interest": "yes"}, "middle- level": {"color": "purple", "reason": "they are scared of purple because it reminds them of a scary monster"}} ===
+=== Guideline: The user is not interested in talking about colors, but they are interested in purple. Ask them what their favorite color is and what their favorite memories of purple are. ===
+Hokiebot:  Purple is a great color. What's your favorite memory of purple, and why do you like it so much? === Blen400M:  That makes sense. Do you have any pets? I have a dog and a cat.
+=== TIMING [tpc:1.6843798160552979, gdl:1.1687791347503662, gen:1.131403923034668, tot:3.9847264289855957] ===
+=== CONV_HISTORY [[(" That's interesting. What other colors are they interested in and why are they afraid of purple?", ''), ('They are scared of purple because it reminds them of a scary monster.', '{"high-level": {"topic": "fear_of_color", "if_interest": "yes"}, "middle- level": {"color": "purple", "reason": "they are scared of purple because it reminds them of a scary monster"}}'), (" Purple is a great color. What's your favorite memory of purple, and why do you like it so much?", '')]] ===
+You: My favorite memory of purple is from the kid's TV show barney. I like it because it is a unique color.
+=== User Input: My favorite memory of purple is from the kid's TV show barney. I like it because it is a unique color. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-schooler", "favorite memory": "barney", "why do you like it so much": "because it is unique color"}} ===
+=== Guideline: The user is not interested in talking about TV shows, but they do enjoy watching horror shows. They specifically like the TV show 'Barney and Friends'. Talk to them about other TV shows with the character Barney that they might like. ===
+Hokiebot:  That's really interesting! What other shows do they like to watch with Barney and friends? === Blen400M:  That's a good one! I like that it's one of the three primary colours of pigments in painting.
+=== TIMING [tpc:1.466418743133545, gdl:1.5039427280426025, gen:0.9453575611114502, tot:3.9159111976623535] ===
+=== CONV_HISTORY [[(" Purple is a great color. What's your favorite memory of purple, and why do you like it so much?", ''), ("My favorite memory of purple is from the kid's TV show barney. I like it because it is a unique color.", '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-schooler", "favorite memory": "barney", "why do you like it so much": "because it is unique color"}}'), (" That's really interesting! What other shows do they like to watch with Barney and friends?", '')]] ===
+You: I also like watching Ninja Turtles.
+=== User Input: I also like watching Ninja Turtles. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "animals", "middle name": "favorite character", "interest": ["Barney", "Turtles"], "low-level", "yes"}} ===
+=== Guideline: The user is interested in talking about animals. They specifically like 'The Legend of Zelda: Ocarina of Time' and 'More importantly, they like watching 'The Legend of Zelda: Ocar ===
+Hokiebot:  Animals are fascinating. Do you have any favorite animals or zelda? === Blen400M:  I've never seen that show, but I've heard of it. What's it about?
+=== TIMING [tpc:1.5162239074707031, gdl:1.51918625831604, gen:0.9445686340332031, tot:3.980158805847168] ===
+=== CONV_HISTORY [[(" That's really interesting! What other shows do they like to watch with Barney and friends?", ''), ('I also like watching Ninja Turtles.', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "animals", "middle name": "favorite character", "interest": ["Barney", "Turtles"], "low-level", "yes"}}'), (' Animals are fascinating. Do you have any favorite animals or zelda?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 10:42:11.241861
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather was nice outside today.
+=== User Input: The weather was nice outside today. ===
+=== Topic Pref: {"high-level": {"topic": "weather", "if_interest": "yes"}} ===
+=== Guideline: The user enjoys sunny and warm weather outside. They like going to the beach every day. Ask them what their favorite beach is and what their favorite activities are during those activities. ===
+Hokiebot:  Do you have any favorite beaches or activities that you like to do when you go? === Blen400M:  Yes, it was.  I love the cooler weather.  Do you have any plans for the weekend?
+=== TIMING [tpc:2.1839840412139893, gdl:1.039454698562622, gen:0.6965765953063965, tot:3.9201605319976807] ===
+=== CONV_HISTORY [[('', ''), ('The weather was nice outside today.', '{"high-level": {"topic": "weather", "if_interest": "yes"}}'), (' Do you have any favorite beaches or activities that you like to do when you go?', '')]] ===
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 10:44:18.107044
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: The weather was nice outside today.
+=== User Input: The weather was nice outside today. ===
+=== Topic Pref: {"high-level": {"topic": "weather", "if_interest": "yes"}} ===
+=== Guideline: The user enjoys sunny and warm weather outside. They like going to the beach every day. Ask them what their favorite beach is and what their favorite activities are during those activities. ===
+Hokiebot:  Do you have any favorite beaches or activities that you like to do when you go? === Blen400M:  Yes, it was.  I love the cooler weather.  Do you have any plans for the weekend?
+=== TIMING [tpc:1.9392175674438477, gdl:1.1846647262573242, gen:0.8743305206298828, tot:3.998398542404175] ===
+=== CONV_HISTORY [[('', ''), ('The weather was nice outside today.', '{"high-level": {"topic": "weather", "if_interest": "yes"}}'), (' Do you have any favorite beaches or activities that you like to do when you go?', '')]] ===
+You: I like playing volleyball.
+=== User Input: I like playing volleyball. ===
+=== Topic Pref: {"high-level": {"topic": "beaches", "if_interest": "yes"}, "middle-level: {"topic:" "volleyball", "interest": ["yes"}} ===
+=== Guideline: The user likes going to the beach. They specifically like the beach. Ask them about their favorite beach they've been to or another beach they might like to visit. ===
+Hokiebot:  The beach is a great place to relax. What beach do you like to go to the most? === Blen400M:  That sounds like a lot of fun. Do you play on a team or just for fun?
+=== TIMING [tpc:0.9746079444885254, gdl:0.9185054302215576, gen:0.7933814525604248, tot:2.6866488456726074] ===
+=== CONV_HISTORY [[(' Do you have any favorite beaches or activities that you like to do when you go?', ''), ('I like playing volleyball.', '{"high-level": {"topic": "beaches", "if_interest": "yes"}, "middle-level: {"topic:" "volleyball", "interest": ["yes"}}'), (' The beach is a great place to relax. What beach do you like to go to the most?', '')]] ===
+You: My favorite beach is Virginia Beach.
+=== User Input: My favorite beach is Virginia Beach. ===
+=== Topic Pref: {"high-level": {"topic": "beach", "if_interest": "yes"}, "middle-level: {"topic: "virginia beach"}} ===
+=== Guideline: The user likes to play beach volleyball. They specifically like Virginia Beach. Share some other beach activities that they might enjoy. ===
+Hokiebot:  That's cool! What other activities do you like to do on the beach?  === Blen400M:  I have never been there, but I have heard good things about it. It is located in the southeastern region of the United States.
+=== TIMING [tpc:1.6166505813598633, gdl:0.6805391311645508, gen:0.93392014503479, tot:3.231301784515381] ===
+=== CONV_HISTORY [[(' The beach is a great place to relax. What beach do you like to go to the most?', ''), ('My favorite beach is Virginia Beach.', '{"high-level": {"topic": "beach", "if_interest": "yes"}, "middle-level: {"topic: "virginia beach"}}'), (" That's cool! What other activities do you like to do on the beach? ", '')]] ===
+You: I also like to surf!
+=== User Input: I also like to surf! ===
+=== Topic Pref: {"high-level": {"topic": "beach", "if_interest": "yes"}, "low-interest": {"level": "surfing", "how about you?"}} ===
+=== Guideline: The user is interested in talking about beaches. They like Virginia Beach and its activities. Ask them what they like to do or see if they have any favorite activities to do there. ===
+Hokiebot:  That sounds like a great idea! What activities do they enjoy doing at the beach? === Blen400M:  I've never been surfing, but I've always wanted to try it. Have you ever surfed in Hawaii?
+=== TIMING [tpc:0.87544846534729, gdl:1.0013480186462402, gen:0.7668435573577881, tot:2.6437699794769287] ===
+=== CONV_HISTORY [[(" That's cool! What other activities do you like to do on the beach? ", ''), ('I also like to surf!', '{"high-level": {"topic": "beach", "if_interest": "yes"}, "low-interest": {"level": "surfing", "how about you?"}}'), (' That sounds like a great idea! What activities do they enjoy doing at the beach?', '')]] ===
+You: I like swimming as well.
+=== User Input: I like swimming as well. ===
+=== Topic Pref: {"high-level": {"topic": "beach activities", "if_interest": "yes"}, "middle- level": {"level": "swimming", "how about you?"}} ===
+=== Guideline: The user likes to swim. They specifically like swimming long distances. Ask them about their favorite swimming locations and if they have any favorite swimming tips. ===
+Hokiebot:  That's really cool! Do you have any tips for someone who wants to learn to swim? === Blen400M:  I love swimming too! It's one of my favorite recreational activities. 
+=== TIMING [tpc:1.2484769821166992, gdl:0.8405191898345947, gen:0.7491722106933594, tot:2.838332414627075] ===
+=== CONV_HISTORY [[(' That sounds like a great idea! What activities do they enjoy doing at the beach?', ''), ('I like swimming as well.', '{"high-level": {"topic": "beach activities", "if_interest": "yes"}, "middle- level": {"level": "swimming", "how about you?"}}'), (" That's really cool! Do you have any tips for someone who wants to learn to swim?", '')]] ===
+You: I would say to practice at the pool before swimming in the ocean.
+=== User Input: I would say to practice at the pool before swimming in the ocean. ===
+=== Topic Pref: {"high-level": {"topic": "beach activities", "if_interest": "yes"}, "low-level: {"topic: "swimming tips", "middle-level:" {"topic:" "pool", "when_to_swimming": "unknow"}} ===
+=== Guideline: The user is not interested in swimming, but they like to watch TV. Suggest a TV show they might want to watch or ask them about their favourite TV shows in that genre. ===
+Hokiebot:  Swimming is a great way to stay in shape. What is your favorite TV show? === Blen400M:  I think that's a good idea. I think it's important to be able to hold your breath underwater so you don't drown.
+=== TIMING [tpc:1.6116559505462646, gdl:1.262711763381958, gen:1.1112618446350098, tot:3.9858174324035645] ===
+=== CONV_HISTORY [[(" That's really cool! Do you have any tips for someone who wants to learn to swim?", ''), ('I would say to practice at the pool before swimming in the ocean.', '{"high-level": {"topic": "beach activities", "if_interest": "yes"}, "low-level: {"topic: "swimming tips", "middle-level:" {"topic:" "pool", "when_to_swimming": "unknow"}}'), (' Swimming is a great way to stay in shape. What is your favorite TV show?', '')]] ===
+You: My favorite TV show is the Office.
+=== User Input: My favorite TV show is the Office. ===
+=== Topic Pref: {"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office", "interest": ["yes"}} ===
+=== Guideline: The user is not interested in swimming. They enjoy going to the beach. Ask them about their favorite beach they've been to. ===
+Hokiebot:  That's unfortunate. Do you have any other favorite beaches that you like to go to? === Blen400M:  I have never seen that show. I have heard it is good though. What do you like about it?
+=== TIMING [tpc:1.2631175518035889, gdl:0.7303562164306641, gen:0.7316136360168457, tot:2.725250720977783] ===
+=== CONV_HISTORY [[(' Swimming is a great way to stay in shape. What is your favorite TV show?', ''), ('My favorite TV show is the Office.', '{"high-level": {"topic": "TV show", "if_interest": "yes"}, "middle-level: {"topic: "The Office", "interest": ["yes"}}'), (" That's unfortunate. Do you have any other favorite beaches that you like to go to?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 10:56:04.928473
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I played mario kart today.
+=== User Input: I played mario kart today. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level: {"topic: "mario kart", "when was this game played?"}} ===
+=== Guideline: The user is not interested in video games, but they do like playing sports games. They specifically like FIFA and World Cup. Ask them about any other sports games they like or why they enjoy playing video games as a hobby. ===
+Hokiebot:  That's interesting. Do you have any other hobbies that you like to play video games with them? === Blen400M:  Mario Kart is such a fun game, I love playing it with my brothers and sisters.
+=== TIMING [tpc:2.9851131439208984, gdl:1.2982707023620605, gen:0.753483772277832, tot:5.0370635986328125] ===
+=== CONV_HISTORY [[('', ''), ('I played mario kart today.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level: {"topic: "mario kart", "when was this game played?"}}'), (" That's interesting. Do you have any other hobbies that you like to play video games with them?", '')]] ===
+You: I like to play soccer.
+=== User Input: I like to play soccer. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest":{"topic": ["soccer", "soccer"], "interest": ["yes"}} ===
+=== Guideline: The user is interested in video games. They like soccer and basketball. Ask them about their favorite teams or players. ===
+Hokiebot:  Who is your favorite soccer team or basketball team and who are your favorite players or players? === Blen400M:  I've never played soccer, but I've heard it's a lot of fun. What position do you play?
+=== TIMING [tpc:1.1212437152862549, gdl:0.797919511795044, gen:1.0343008041381836, tot:2.95365571975708] ===
+=== CONV_HISTORY [[(" That's interesting. Do you have any other hobbies that you like to play video games with them?", ''), ('I like to play soccer.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest":{"topic": ["soccer", "soccer"], "interest": ["yes"}}'), (' Who is your favorite soccer team or basketball team and who are your favorite players or players?', '')]] ===
+You: I like Lionel Messe. He is the best player to ever live.
+=== User Input: I like Lionel Messe. He is the best player to ever live. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "soccer team/basketball team", "middle_level": "favorite player": "Lionel Messe"}} ===
+=== Guideline: The user is interested in talking about soccer. They love playing for the Lions. Ask them what other soccer teams they support or which players they support. ===
+Hokiebot:  Who is your favorite soccer team and why do you support them? Do you have a favorite team? === Blen400M:  I have never heard of him.  Who is he?  Is he a professional soccer player?
+=== TIMING [tpc:1.5142507553100586, gdl:0.8250682353973389, gen:0.7689492702484131, tot:3.1084282398223877] ===
+=== CONV_HISTORY [[(' Who is your favorite soccer team or basketball team and who are your favorite players or players?', ''), ('I like Lionel Messe. He is the best player to ever live.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "soccer team/basketball team", "middle_level": "favorite player": "Lionel Messe"}}'), (' Who is your favorite soccer team and why do you support them? Do you have a favorite team?', '')]] ===
+You: My favorite team is Bayern Munchen.
+=== User Input: My favorite team is Bayern Munchen. ===
+=== Topic Pref: {"high-level": {"topic": "soccer team", "if_interest": "yes"}, "middle-ranking": {"team": "Bayern Munchen"}} ===
+=== Guideline: The user is interested in soccer and their favorite team is Bayern Munich. Ask them about their favorite players or teams they support. ===
+Hokiebot:  Do you have a favorite soccer team or favorite player or team that you support?   === Blen400M:  I have heard of them but I don't know much about them. What do you like about them?
+=== TIMING [tpc:1.1645865440368652, gdl:0.8423490524291992, gen:1.0398495197296143, tot:3.0469770431518555] ===
+=== CONV_HISTORY [[(' Who is your favorite soccer team and why do you support them? Do you have a favorite team?', ''), ('My favorite team is Bayern Munchen.', '{"high-level": {"topic": "soccer team", "if_interest": "yes"}, "middle-ranking": {"team": "Bayern Munchen"}}'), (' Do you have a favorite soccer team or favorite player or team that you support?  ', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 11:00:06.264728
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I have a pet dog that I really love.
+=== User Input: I have a pet dog that I really love. ===
+=== Topic Pref: {"high-level": {"topic": "pet", "if_interest": "yes"}, "low_level":{"topic": ["dog", "favorite pet", "yes"}} ===
+=== Guideline: The user has a pet dog. Talk to them about their experiences owning a dog and discussing possible new dog breeds they might want to try. ===
+Hokiebot:  That's a great idea! What kind of dog do you have and what breeds would you like to try? === Blen400M:  I love dogs too! What kind of dog do you have? Do you take it for walks?
+=== TIMING [tpc:2.270972728729248, gdl:0.8423635959625244, gen:0.8040006160736084, tot:3.917464256286621] ===
+=== CONV_HISTORY [[('', ''), ('I have a pet dog that I really love.', '{"high-level": {"topic": "pet", "if_interest": "yes"}, "low_level":{"topic": ["dog", "favorite pet", "yes"}}'), (" That's a great idea! What kind of dog do you have and what breeds would you like to try?", '')]] ===
+You: I think owning a poodle could be fun.
+=== User Input: I think owning a poodle could be fun. ===
+=== Topic Pref: {"high-level": {"topic": "pets", "if_interest": "yes"}, "middle- level": {"level": "dog breed", "interest": ["poodle", "poodle"}} ===
+=== Guideline: The user loves dogs and specifically likes poodles. Talk to them about different breeds and ask if they have any pets. ===
+Hokiebot:  Poodles are so cute! What's your favorite breed of poodle and why do you like them so much? === Blen400M:  I love poodles! They're so smart and easy to train. Do you have any other pets?
+=== TIMING [tpc:1.2123727798461914, gdl:0.7793178558349609, gen:0.8013534545898438, tot:2.7931675910949707] ===
+=== CONV_HISTORY [[(" That's a great idea! What kind of dog do you have and what breeds would you like to try?", ''), ('I think owning a poodle could be fun.', '{"high-level": {"topic": "pets", "if_interest": "yes"}, "middle- level": {"level": "dog breed", "interest": ["poodle", "poodle"}}'), (" Poodles are so cute! What's your favorite breed of poodle and why do you like them so much?", '')]] ===
+You: I like Labordoodles.
+=== User Input: I like Labordoodles. ===
+=== Topic Pref: {"high-level": {"topic": "pets", "if_interest": "yes"}, "middle-ranking": {"level": "dog breed", "topic": ["Poodles", "Labordoodles"], "if-interest": ["yes"}} ===
+=== Guideline: The user is interested in discussing pets. They specifically like golden retrievers, bulldogs, and bulldog breeds. Ask them about their favorite dog breed and suggest some fun activities they can do with their dog. ===
+Hokiebot:  That sounds like a lot of fun! What's your favorite breed of dog and what activities do you like to do with your dog? === Blen400M:  I love Labradors too! They're the second most popular dog breed in the US after the Golden Retriever.
+=== TIMING [tpc:1.2731139659881592, gdl:1.1275341510772705, gen:0.93703293800354, tot:3.337806463241577] ===
+=== CONV_HISTORY [[(" Poodles are so cute! What's your favorite breed of poodle and why do you like them so much?", ''), ('I like Labordoodles.', '{"high-level": {"topic": "pets", "if_interest": "yes"}, "middle-ranking": {"level": "dog breed", "topic": ["Poodles", "Labordoodles"], "if-interest": ["yes"}}'), (" That sounds like a lot of fun! What's your favorite breed of dog and what activities do you like to do with your dog?", '')]] ===
+You: My favorite breed is a German Shepherd, and I love going hiking with my dog.
+=== User Input: My favorite breed is a German Shepherd, and I love going hiking with my dog. ===
+=== Topic Pref: {"high-level": {"topic": "poodles", "if_interest": "yes"}, "middle-level: {"topic: "dog breed and activities", "interest": ["German Shepherd", "Hiking", "German Shepherd"], "if-interest":"yes"}} ===
+=== Guideline: The user loves hiking with a dog. Talk about other activities they enjoy doing while hiking. ===
+Hokiebot:  Dogs are the best! What's your favorite hiking activity to do with your dog? === Blen400M:  I love German shepherds! They're so smart and trainable. Do you have any other pets?
+=== TIMING [tpc:1.400055170059204, gdl:0.5535986423492432, gen:1.0418977737426758, tot:2.9957404136657715] ===
+=== CONV_HISTORY [[(" That sounds like a lot of fun! What's your favorite breed of dog and what activities do you like to do with your dog?", ''), ('My favorite breed is a German Shepherd, and I love going hiking with my dog.', '{"high-level": {"topic": "poodles", "if_interest": "yes"}, "middle-level: {"topic: "dog breed and activities", "interest": ["German Shepherd", "Hiking", "German Shepherd"], "if-interest":"yes"}}'), (" Dogs are the best! What's your favorite hiking activity to do with your dog?", '')]] ===
+You: I love backpacking on long trips with my dog.
+=== User Input: I love backpacking on long trips with my dog. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking activities with dog, backpacking with dog", "how about you?"}} ===
+=== Guideline: The user loves hiking with a dog. Ask them about their favorite hiking destination. ===
+Hokiebot:  I love hiking too! What's your favorite hike you've ever done with your dog? === Blen400M:  That sounds like a lot of fun! Do you take your dog with you on long hikes?
+=== TIMING [tpc:2.1651501655578613, gdl:0.48818325996398926, gen:0.7125759124755859, tot:3.366084575653076] ===
+=== CONV_HISTORY [[(" Dogs are the best! What's your favorite hiking activity to do with your dog?", ''), ('I love backpacking on long trips with my dog.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking activities with dog, backpacking with dog", "how about you?"}}'), (" I love hiking too! What's your favorite hike you've ever done with your dog?", '')]] ===
+You: My favorite hike with my dog was Havasupai.
+=== User Input: My favorite hike with my dog was Havasupai. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-level: {"topic: "Havasupai hike", "when_it_appear": "unknow"}} ===
+=== Guideline: The user loves hiking with a dog. They prefer not to hike. They prefer mountain hikes and rock climbies. Talk to them about their favorite mountain climbing site. ===
+Hokiebot:  That's really cool! Do you have any favorite hiking trails or rock climbing spots in your area? === Blen400M:  I've never heard of that one. What is it about? Is it a long hike?
+=== TIMING [tpc:1.2374846935272217, gdl:1.1203596591949463, gen:0.9193177223205566, tot:3.277313709259033] ===
+=== CONV_HISTORY [[(" I love hiking too! What's your favorite hike you've ever done with your dog?", ''), ('My favorite hike with my dog was Havasupai.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-level: {"topic: "Havasupai hike", "when_it_appear": "unknow"}}'), (" That's really cool! Do you have any favorite hiking trails or rock climbing spots in your area?", '')]] ===
+You: I enjoy hiking cascade falls.
+=== User Input: I enjoy hiking cascade falls. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking trail/rock climbing/scuba diving", "low-level: {"topic: "cascade falls", "interest": ["yes"}} ===
+=== Guideline: The user is interested in outdoor activities, specifically rock climbing. They have a favorite rock climbing spot, located in the mountainous area of Havasupai, California. Ask them about other rock climbing spots they may like. ===
+Hokiebot:  Rock climbing sounds like a lot of fun. Do you have any other spots you'd recommend? === Blen400M:  I haven't been to a casino in a long time. I used to go all the time when I was younger.
+=== TIMING [tpc:1.8130536079406738, gdl:1.465510368347168, gen:1.0012621879577637, tot:4.27995228767395] ===
+=== CONV_HISTORY [[(" That's really cool! Do you have any favorite hiking trails or rock climbing spots in your area?", ''), ('I enjoy hiking cascade falls.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking trail/rock climbing/scuba diving", "low-level: {"topic: "cascade falls", "interest": ["yes"}}'), (" Rock climbing sounds like a lot of fun. Do you have any other spots you'd recommend?", '')]] ===
+You: I also recommend Zions National Park.
+=== User Input: I also recommend Zions National Park. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking trails/rock climbing spots in your area", "interest": ["Zions National Park", "Rock Climbing", "Zions Canyon National Park"], "low-level:"}} ===
+=== Guideline: The user enjoys rock climbing. They particularly enjoy going down falls. Ask the user about their favorite rock to climb at. ===
+Hokiebot:  Who is your favorite rock climber and why do you enjoy climbing down falls so much? === Blen400M:  I've never been there, but it's on my bucket list. Have you been before?
+=== TIMING [tpc:1.920562744140625, gdl:0.854262113571167, gen:0.9291541576385498, tot:3.7041661739349365] ===
+=== CONV_HISTORY [[(" Rock climbing sounds like a lot of fun. Do you have any other spots you'd recommend?", ''), ('I also recommend Zions National Park.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "hiking trails/rock climbing spots in your area", "interest": ["Zions National Park", "Rock Climbing", "Zions Canyon National Park"], "low-level:"}}'), (' Who is your favorite rock climber and why do you enjoy climbing down falls so much?', '')]] ===
+You: I don't enjoy rock climbing.
+=== User Input: I don't enjoy rock climbing. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "rock climbing", "reason": "no"}} ===
+=== Guideline: The user is not interested in rock climbing. They do not like hiking. They prefer mountain bike trails and generally being on the move. Ask them about their favorite mountain bike trail. ===
+Hokiebot:  That's unfortunate. Do you have any other hobbies that you like to do? === Blen400M:  I have never been to Zion National park, but I have been to the Grand Tetons in Wyoming. Have you ever been there?
+=== TIMING [tpc:0.971005916595459, gdl:1.1553010940551758, gen:1.060840368270874, tot:3.1872875690460205] ===
+=== CONV_HISTORY [[(' Who is your favorite rock climber and why do you enjoy climbing down falls so much?', ''), ("I don't enjoy rock climbing.", '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle- level": {"level": "rock climbing", "reason": "no"}}'), (" That's unfortunate. Do you have any other hobbies that you like to do?", '')]] ===
+You: I like playing basketball.
+=== User Input: I like playing basketball. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": ["basketball", "yes"}} ===
+=== Guideline: The user is not interested in rock climbing. They do, however, like to play basketball. Ask them what other activities they like to do to play basketball. ===
+Hokiebot:  Rock climbing sounds like a lot of fun! Do you have any other hobbies that you enjoy doing? === Blen400M:  Basketball is a fun sport to play. I like to play it too. What position do you play?
+=== TIMING [tpc:0.9025871753692627, gdl:1.0328092575073242, gen:0.9628810882568359, tot:2.8984079360961914] ===
+=== CONV_HISTORY [[(" That's unfortunate. Do you have any other hobbies that you like to do?", ''), ('I like playing basketball.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": ["basketball", "yes"}}'), (' Rock climbing sounds like a lot of fun! Do you have any other hobbies that you enjoy doing?', '')]] ===
+You: I like playing basketball.
+=== User Input: I like playing basketball. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": {"level": "basketball", "interest": ["yes"}} ===
+=== Guideline: The user is interested in talking about hobbies. They like to play basketball. Ask them what their favorite basketball position is and what team they support. ===
+Hokiebot:  That's cool. What's your favorite basketball team and who is your favorite player on the team? === Blen400M:  Basketball is a great sport to play. It's one of the most popular sports in the world.
+=== TIMING [tpc:0.8943655490875244, gdl:0.770550012588501, gen:0.7757525444030762, tot:2.4408087730407715] ===
+=== CONV_HISTORY [[(' Rock climbing sounds like a lot of fun! Do you have any other hobbies that you enjoy doing?', ''), ('I like playing basketball.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": {"level": "basketball", "interest": ["yes"}}'), (" That's cool. What's your favorite basketball team and who is your favorite player on the team?", '')]] ===
+You: My favorite basketball team is the Denver Nuggets. My favorite player on the team is Jokic.
+=== User Input: My favorite basketball team is the Denver Nuggets. My favorite player on the team is Jokic. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "basketball team", "middle school sports", "interest": ["Nuggets", "Jokic", "favorite player"], "low-level:"}} ===
+=== Guideline: The user is interested in talking about sports and specifically basketball. They enjoy watching the Denver Nuggets play. Ask them about their favorite team or player, or suggest watching a game together. ===
+Hokiebot:  That's cool. Do you have any favorite teams or players that you'd like to talk about? === Blen400M:  I'm a big fan of the Los Angeles Lakers. They were founded in 1961.
+=== TIMING [tpc:2.029329538345337, gdl:1.0218992233276367, gen:0.6920769214630127, tot:3.7434372901916504] ===
+=== CONV_HISTORY [[(" That's cool. What's your favorite basketball team and who is your favorite player on the team?", ''), ('My favorite basketball team is the Denver Nuggets. My favorite player on the team is Jokic.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "basketball team", "middle school sports", "interest": ["Nuggets", "Jokic", "favorite player"], "low-level:"}}'), (" That's cool. Do you have any favorite teams or players that you'd like to talk about?", '')]] ===
+You: I liked the Miami Heat when Dwayne Wade played for them.
+=== User Input: I liked the Miami Heat when Dwayne Wade played for them. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "basketball team", "middle school basketball team": "Dwayne Wade played for the Miami Heat, do you like him?"}} ===
+=== Guideline: The user is interested in talking about sports and specifically basketball. They enjoy watching the Miami Heat play. Ask them about their favorite players or teams and suggest some other sports they might enjoy watching. ===
+Hokiebot:  Do you have any other favorite sports teams or teams that you would recommend them to watch?  === Blen400M:  I'm not a big fan of the Heat, but I do like the Celtics.
+=== TIMING [tpc:1.4460322856903076, gdl:0.9544675350189209, gen:0.8726048469543457, tot:3.273237705230713] ===
+=== CONV_HISTORY [[(" That's cool. Do you have any favorite teams or players that you'd like to talk about?", ''), ('I liked the Miami Heat when Dwayne Wade played for them.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "basketball team", "middle school basketball team": "Dwayne Wade played for the Miami Heat, do you like him?"}}'), (' Do you have any other favorite sports teams or teams that you would recommend them to watch? ', '')]] ===
+You: The Kansas City Chiefs are fun to watch.
+=== User Input: The Kansas City Chiefs are fun to watch. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "middle_level": "team name": "The Kansas City Chiefs"}} ===
+=== Guideline: The user is interested in talking about sports. They specifically enjoy watching the Miami Heat. Ask them what other basketball teams they enjoy watching or why they enjoy watching the Miami Bulls. ===
+Hokiebot:  Do you have any other favorite basketball teams or why do you like the Bulls so much? === Blen400M:  I'm not a big fan of the NFL, but I do enjoy watching the National Basketball Association.
+=== TIMING [tpc:1.4164466857910156, gdl:0.9226260185241699, gen:0.8921849727630615, tot:3.2314136028289795] ===
+=== CONV_HISTORY [[(' Do you have any other favorite sports teams or teams that you would recommend them to watch? ', ''), ('The Kansas City Chiefs are fun to watch.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "middle_level": "team name": "The Kansas City Chiefs"}}'), (' Do you have any other favorite basketball teams or why do you like the Bulls so much?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 11:20:58.040363
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I ate some really good pizza today.
+=== User Input: I ate some really good pizza today. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "low-interest": {"level": "pizza"}} ===
+=== Guideline: The user is not interested in pizza, but they do like Italian cuisine. Talk to them about their favorite Italian dishes. ===
+Hokiebot:  Pizza is one of the most popular foods in the world. What is your favorite italian dish? === Blen400M:  I love pizza! What kind did you have? I like mine with vegetables, meats, and condiments.
+=== TIMING [tpc:2.2704951763153076, gdl:0.701958179473877, gen:0.8879585266113281, tot:3.860560655593872] ===
+=== CONV_HISTORY [[('', ''), ('I ate some really good pizza today.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "low-interest": {"level": "pizza"}}'), (' Pizza is one of the most popular foods in the world. What is your favorite italian dish?', '')]] ===
+You: I love spaghetti.
+=== User Input: I love spaghetti. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dish": "spaghetti"}} ===
+=== Guideline: The user loves pizza. They specifically love Sangria. Ask them about other Italian dishes they enjoy or recommend some Italian dishes that they may enjoy. ===
+Hokiebot:  Pizza is my favorite too! Do you have any other dishes you would recommend for them to try? === Blen400M:  Italian cuisine is known for its regional diversity. What kind of toppings did you have on your pizza?
+=== TIMING [tpc:1.2966334819793701, gdl:0.7875404357910156, gen:0.815809965133667, tot:2.9001622200012207] ===
+=== CONV_HISTORY [[(' Pizza is one of the most popular foods in the world. What is your favorite italian dish?', ''), ('I love spaghetti.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dish": "spaghetti"}}'), (' Pizza is my favorite too! Do you have any other dishes you would recommend for them to try?', '')]] ===
+You: I think that you should try lasagna.
+=== User Input: I think that you should try lasagna. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "dish recommendation", "amount": "unknow"}, "low-interest": ["lasagna", "spaghetti", "pizza", "lasagna"], "low-$9": "no"}} ===
+=== Guideline: The user is not interested in lasagna, but they do like making lasagna from scratch. Ask them about their favorite Italian dishes or suggest a new one to try. ===
+Hokiebot:  Lasagna is one of my favorite dishes! What's your favorite italian dish to make? === Blen400M:  Lasagna is one of my favorites! I love how it can be topped with vegetables, meats, and condiments.
+=== TIMING [tpc:1.7976441383361816, gdl:0.9527688026428223, gen:1.160435438156128, tot:3.9109911918640137] ===
+=== CONV_HISTORY [[(' Pizza is my favorite too! Do you have any other dishes you would recommend for them to try?', ''), ('I think that you should try lasagna.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "dish recommendation", "amount": "unknow"}, "low-interest": ["lasagna", "spaghetti", "pizza", "lasagna"], "low-$9": "no"}}'), (" Lasagna is one of my favorite dishes! What's your favorite italian dish to make?", '')]] ===
+You: I like making chicken alfredo.
+=== User Input: I like making chicken alfredo. ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dish": "chicken alfredo"}} ===
+=== Guideline: The user is not interested in lasagna, but they do like making lasagna from scratch. Ask them about their favorite Italian dish or if they have any recommendations for easy vegetarian lasagna. ===
+Hokiebot:  Lasagna is one of my favorite italian dishes. Do you have any suggestions? === Blen400M:  I've never had it, but I've heard it's really good. Do you make it from scratch?
+=== TIMING [tpc:1.868053913116455, gdl:1.0766010284423828, gen:0.9082520008087158, tot:3.853102207183838] ===
+=== CONV_HISTORY [[(" Lasagna is one of my favorite dishes! What's your favorite italian dish to make?", ''), ('I like making chicken alfredo.', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "Italian dish": "chicken alfredo"}}'), (' Lasagna is one of my favorite italian dishes. Do you have any suggestions?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:02:21.821046
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I have to complete my chores today before I play with friends.
+=== User Input: I have to complete my chores today before I play with friends. ===
+=== Topic Pref: {"high-level": {"topic": "chores", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in playing video games. They like hiking and swimming. Ask them about their favorite outdoor activities that they enjoy doing. ===
+Hokiebot:  That's too bad. Do you have any other hobbies that you enjoy doing with them? === Blen400M:  That sounds like a lot of work. What are you going to do with the extra time?
+=== TIMING [tpc:1.1510505676269531, gdl:0.8154840469360352, gen:0.8028430938720703, tot:2.769526720046997] ===
+=== CONV_HISTORY [[('', ''), ('I have to complete my chores today before I play with friends.', '{"high-level": {"topic": "chores", "if_interest": "no"}}'), (" That's too bad. Do you have any other hobbies that you enjoy doing with them?", '')]] ===
+You: I like to play video games with my friends.
+=== User Input: I like to play video games with my friends. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "video games", "interest": ["yes"}} ===
+=== Guideline: The user is not interested in video games. However, they do enjoy playing board games, particularly the set Builders' Club board game. Ask them what other board games they enjoy playing or other games in similar genre they may ===
+Hokiebot:  Board games can be a lot of fun. What other types of board games do you enjoy playing? === Blen400M:  That sounds like a lot of fun. What kind of video games do you enjoy playing with your friends?
+=== TIMING [tpc:0.8869156837463379, gdl:1.1574609279632568, gen:0.7755041122436523, tot:2.820014238357544] ===
+=== CONV_HISTORY [[(" That's too bad. Do you have any other hobbies that you enjoy doing with them?", ''), ('I like to play video games with my friends.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic:" "video games", "interest": ["yes"}}'), (' Board games can be a lot of fun. What other types of board games do you enjoy playing?', '')]] ===
+You: I like strategy games.
+=== User Input: I like strategy games. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "board games", "interest": ["board game genre": "strategy games"], "if-interest":  "yes"}} ===
+=== Guideline: The user likes playing board games, specifically strategy games with friends. Ask them what their favorite strategy games are. ===
+Hokiebot:  What's your favorite strategy game that you and your friends like to play with friends and friends? === Blen400M:  Have you ever played Monopoly? It's one of the most popular board games in the world.
+=== TIMING [tpc:1.3439009189605713, gdl:0.6322352886199951, gen:0.7619919776916504, tot:2.7382524013519287] ===
+=== CONV_HISTORY [[(' Board games can be a lot of fun. What other types of board games do you enjoy playing?', ''), ('I like strategy games.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "board games", "interest": ["board game genre": "strategy games"], "if-interest":  "yes"}}'), (" What's your favorite strategy game that you and your friends like to play with friends and friends?", '')]] ===
+You: I like to play Risk.
+=== User Input: I like to play Risk. ===
+=== Topic Pref: {"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level:"topic": ["Risk", "Friends", "Risk game", "favorite strategy game"], "low-level: {"topic: "Rise of the Planet of the Apes", "lowlevel": "unknow"}} ===
+=== Guideline: The user is interested in strategy games, talk to them about their favorite ones and suggest new ones for them to explore. ===
+Hokiebot:  What's your favorite strategy game and why do you want to try a new one for them? === Blen400M:  I've never played risk, but I know it's a board game. What's it like?
+=== TIMING [tpc:1.9170558452606201, gdl:0.6382591724395752, gen:0.7614970207214355, tot:3.316934108734131] ===
+=== CONV_HISTORY [[(" What's your favorite strategy game that you and your friends like to play with friends and friends?", ''), ('I like to play Risk.', '{"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level:"topic": ["Risk", "Friends", "Risk game", "favorite strategy game"], "low-level: {"topic: "Rise of the Planet of the Apes", "lowlevel": "unknow"}}'), (" What's your favorite strategy game and why do you want to try a new one for them?", '')]] ===
+You: My favorite strategy game is Risk. I don't like playing any new games.
+=== User Input: My favorite strategy game is Risk. I don't like playing any new games. ===
+=== Topic Pref: {"high-level": {"topic": "games", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in playing video games. Ask them what other video games they enjoy playing. ===
+Hokiebot:  Do you have any other hobbies that you enjoy playing with other people or do you just not want to play video games? === Blen400M:  Have you ever played Monopoly? It's one of the most popular board games in the world.
+=== TIMING [tpc:1.1961479187011719, gdl:0.5499069690704346, gen:0.7479603290557861, tot:2.494141101837158] ===
+=== CONV_HISTORY [[(" What's your favorite strategy game and why do you want to try a new one for them?", ''), ("My favorite strategy game is Risk. I don't like playing any new games.", '{"high-level": {"topic": "games", "if_interest": "no"}}'), (' Do you have any other hobbies that you enjoy playing with other people or do you just not want to play video games?', '')]] ===
+You: I like playing basketball.
+=== User Input: I like playing basketball. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": ["basketball", "yes"}} ===
+=== Guideline: The user is not interested in playing video games. Suggest a new strategy video game to them. ===
+Hokiebot:  Have you tried any other strategy video games to get them interested in the game you're trying to teach them? === Blen400M:  I love playing basketball as well. It's one of my favorite games to play with friends.
+=== TIMING [tpc:0.96573805809021, gdl:0.6170017719268799, gen:0.7640018463134766, tot:2.346891164779663] ===
+=== CONV_HISTORY [[(' Do you have any other hobbies that you enjoy playing with other people or do you just not want to play video games?', ''), ('I like playing basketball.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": ["basketball", "yes"}}'), (" Have you tried any other strategy video games to get them interested in the game you're trying to teach them?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:08:25.811221
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I have a lot of cleaning to do today.
+=== User Input: I have a lot of cleaning to do today. ===
+=== Topic Pref: {"high-level": {"topic": "cleaning", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in cleaning, but they do enjoy doing some housework. Ask them about their favorite housework-related memory. ===
+Hokiebot:  That's a good idea. What's the best housework memory that you can think of? === Blen400M:  Cleaning is always a good thing to do. What are you going to do to clean?
+=== TIMING [tpc:1.2579593658447266, gdl:0.7667686939239502, gen:0.9685313701629639, tot:2.9934029579162598] ===
+=== CONV_HISTORY [[('', ''), ('I have a lot of cleaning to do today.', '{"high-level": {"topic": "cleaning", "if_interest": "no"}}'), (" That's a good idea. What's the best housework memory that you can think of?", '')]] ===
+You: I always remember when I did yard work with my dad.
+=== User Input: I always remember when I did yard work with my dad. ===
+=== Topic Pref: {"high-level": {"topic": "housework", "if_interest": "yes"}, "middle-level: {"topic: "household chores memory": "maintaining the housework chores with your dad"}} ===
+=== Guideline: The user does not enjoy doing housework, but they do enjoy doing chores like mowing the lawn. Ask them about other chores they like to do or if they have any tips for increasing productivity while doing housework. ===
+Hokiebot:  That's unfortunate. Have you tried telling them that you don't enjoy doing it? === Blen400M:  That sounds like a great memory. I wish I had a good memory like that.
+=== TIMING [tpc:1.4103868007659912, gdl:1.227006196975708, gen:0.8661673069000244, tot:3.503840446472168] ===
+=== CONV_HISTORY [[(" That's a good idea. What's the best housework memory that you can think of?", ''), ('I always remember when I did yard work with my dad.', '{"high-level": {"topic": "housework", "if_interest": "yes"}, "middle-level: {"topic: "household chores memory": "maintaining the housework chores with your dad"}}'), (" That's unfortunate. Have you tried telling them that you don't enjoy doing it?", '')]] ===
+You: I actually think that yard work is fun.
+=== User Input: I actually think that yard work is fun. ===
+=== Topic Pref: {"high-level": {"topic": "housework", "if_interest": "yes"}, "middle-level: {"topic:" "yard work", "middle_level": "fun fact": "no"}} ===
+=== Guideline: The user is not interested in doing yard work, but they do like doing painting and home renovations. Ask them about their favorite home improvement or renovation project that they've completed. ===
+Hokiebot:  That's cool. Do you have any favorite home remodel projects that you've done? === Blen400M:  It can be, but it can be tedious at times. What do you like to do in your spare time?
+=== TIMING [tpc:1.069115161895752, gdl:0.9870927333831787, gen:0.7798936367034912, tot:2.8362526893615723] ===
+=== CONV_HISTORY [[(" That's unfortunate. Have you tried telling them that you don't enjoy doing it?", ''), ('I actually think that yard work is fun.', '{"high-level": {"topic": "housework", "if_interest": "yes"}, "middle-level: {"topic:" "yard work", "middle_level": "fun fact": "no"}}'), (" That's cool. Do you have any favorite home remodel projects that you've done?", '')]] ===
+You: I have rebuilt our deck, that was a lot of fun.
+=== User Input: I have rebuilt our deck, that was a lot of fun. ===
+=== Topic Pref: {"high-level": {"topic": "home remodel", "if_interest": "yes"}, "low-level: {"topic: "rebuilt deck", "why was that a fun project?"}} ===
+=== Guideline: The user is interested in talking about home remodels. They recently completed one of their own, and they enjoyed it a lot. Ask them what other home remodel projects they've done or which ones they would like to do in the future. ===
+Hokiebot:  That's great! Do you have any other projects that you're interested in doing as well? === Blen400M:  That sounds like it would be fun. Did you do it yourself or hire someone to do it?
+=== TIMING [tpc:1.2077629566192627, gdl:1.4065966606140137, gen:0.7885684967041016, tot:3.4030442237854004] ===
+=== CONV_HISTORY [[(" That's cool. Do you have any favorite home remodel projects that you've done?", ''), ('I have rebuilt our deck, that was a lot of fun.', '{"high-level": {"topic": "home remodel", "if_interest": "yes"}, "low-level: {"topic: "rebuilt deck", "why was that a fun project?"}}'), (" That's great! Do you have any other projects that you're interested in doing as well?", '')]] ===
+You: I want to build a swingset in my backyard.
+=== User Input: I want to build a swingset in my backyard. ===
+=== Topic Pref: {"high-level": {"topic": "home remodel", "if_interest": "yes"}, "low-level: {"topic: "swimming", "interest": ["build a swingset", "build a playground", "yes"}} ===
+=== Guideline: The user likes to swim. They specifically like swimming in the freestyle. Ask them about their favorite swimming locations and what they like to do at the beach. ===
+Hokiebot:  Swimming is a great way to exercise. Do you have a favorite beach you like to go to? === Blen400M:  That sounds like it would be really fun! What kind of swingsets do you want to make?
+=== TIMING [tpc:1.2035624980926514, gdl:0.8668410778045654, gen:0.7012863159179688, tot:2.771840810775757] ===
+=== CONV_HISTORY [[(" That's great! Do you have any other projects that you're interested in doing as well?", ''), ('I want to build a swingset in my backyard.', '{"high-level": {"topic": "home remodel", "if_interest": "yes"}, "low-level: {"topic: "swimming", "interest": ["build a swingset", "build a playground", "yes"}}'), (' Swimming is a great way to exercise. Do you have a favorite beach you like to go to?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:12:55.164759
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like listening to music.
+=== User Input: I like listening to music. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}} ===
+=== Guideline: The user likes listening to music. They specifically like jazz music. They also like listening to The Roll Cubs. Recommend some other jazz musicians that they might like. ===
+Hokiebot:  Have you ever heard of the Rolling Cubs? They're a great American Jazz band. === Blen400M:  What kind of music do you like to listen to? I like all kinds of music. 
+=== TIMING [tpc:1.3630218505859375, gdl:1.0572404861450195, gen:0.7637100219726562, tot:3.1841118335723877] ===
+=== CONV_HISTORY [[('', ''), ('I like listening to music.', '{"high-level": {"topic": "music", "if_interest": "yes"}}'), (" Have you ever heard of the Rolling Cubs? They're a great American Jazz band.", '')]] ===
+You: No I haven't heard of them. Are they good?
+=== User Input: No I haven't heard of them. Are they good? ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "jazz band", "middle_level": "not sure"}} ===
+=== Guideline: The user is not interested in any jazz musicians. Their favorite jazz artist is The Rolling Cubs. Ask them to recommend other jazz artists they might enjoy. ===
+Hokiebot:  That's too bad. Jazz is a great genre of music. What other artists do you enjoy listening to? === Blen400M:  They're pretty good. They were formed in 1962 in Chicago, Illinois.
+=== TIMING [tpc:1.187636137008667, gdl:0.8378825187683105, gen:0.7931520938873291, tot:2.8187904357910156] ===
+=== CONV_HISTORY [[(" Have you ever heard of the Rolling Cubs? They're a great American Jazz band.", ''), ("No I haven't heard of them. Are they good?", '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-level: {"topic:" "jazz band", "middle_level": "not sure"}}'), (" That's too bad. Jazz is a great genre of music. What other artists do you enjoy listening to?", '')]] ===
+You: I like listening to rock music. 
+=== User Input: I like listening to rock music.  ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "rock music", "what genre": "unknow"}} ===
+=== Guideline: The user is not interested in jazz music but they do enjoy listening to indie rock. Ask them what their favorite indie rock band is. ===
+Hokiebot:  That's cool. What's your favorite band that you've listened to in that genre? === Blen400M:  I love rock music too! I like a lot of different genres, but my favorite is jazz. Do you have a favorite band?
+=== TIMING [tpc:0.9671206474304199, gdl:0.768930196762085, gen:0.9428560733795166, tot:2.679058074951172] ===
+=== CONV_HISTORY [[(" That's too bad. Jazz is a great genre of music. What other artists do you enjoy listening to?", ''), ('I like listening to rock music. ', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "rock music", "what genre": "unknow"}}'), (" That's cool. What's your favorite band that you've listened to in that genre?", '')]] ===
+You: My favorite band is Journey
+=== User Input: My favorite band is Journey ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"level": "rock music", "topic": ["Journey", "The Beatles", "Jazz", "Rihanna"], "low-level", "yes"}} ===
+=== Guideline: The user is interested in talking about music. They like listening to the Beatles. Ask them who their favorite Beatles song is. ===
+Hokiebot:  Who is your favorite beatles song and who is the best Beatle song of theirs? === Blen400M:  I've never heard of them. I'll have to check them out. What kind of music do they play?
+=== TIMING [tpc:1.7953591346740723, gdl:0.6902880668640137, gen:0.6949176788330078, tot:3.1807138919830322] ===
+=== CONV_HISTORY [[(" That's cool. What's your favorite band that you've listened to in that genre?", ''), ('My favorite band is Journey', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"level": "rock music", "topic": ["Journey", "The Beatles", "Jazz", "Rihanna"], "low-level", "yes"}}'), (' Who is your favorite beatles song and who is the best Beatle song of theirs?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:25:09.863797
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: It is rainy today
+=== User Input: It is rainy today ===
+=== Topic Pref: {"high-level": {"topic": "weather", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in discussing weather. They love hiking and camping. Talk to them about different camping and hiking locations. ===
+Hokiebot:  That's understandable. Do you have any hiking or camping locations in mind? === Blen400M:  Do you live in a place where it rains a lot? It's been raining a lot here lately.
+=== TIMING [tpc:1.4856805801391602, gdl:0.6952693462371826, gen:0.9849057197570801, tot:3.1659982204437256] ===
+=== CONV_HISTORY [[('', ''), ('It is rainy today', '{"high-level": {"topic": "weather", "if_interest": "no"}}'), (" That's understandable. Do you have any hiking or camping locations in mind?", '')]] ===
+You: I love camping in Virginia.
+=== User Input: I love camping in Virginia. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking/camping", "location": "virginia"}} ===
+=== Guideline: The user is not interested in hiking or camping but loves outdoor activities, specifically camping in Virginia. Talk to the user about their favorite locations and activities in the desert. ===
+Hokiebot:  What are some of your favorite hiking and camping activities that you like to do? === Blen400M:  Have you ever been to the Appalachian National Scenic Trail in Georgia?
+=== TIMING [tpc:1.6382689476013184, gdl:0.8850884437561035, gen:0.8392574787139893, tot:3.362736225128174] ===
+=== CONV_HISTORY [[(" That's understandable. Do you have any hiking or camping locations in mind?", ''), ('I love camping in Virginia.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking/camping", "location": "virginia"}}'), (' What are some of your favorite hiking and camping activities that you like to do?', '')]] ===
+You: I love sitting around the campfire.
+=== User Input: I love sitting around the campfire. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "camping", "interest": ["campfire", "sit around the campfire]}, "middle_level": "favorite activity": "unknow"}} ===
+=== Guideline: The user loves hiking and camping and specifically likes hiking in Virginia. Talk to them about different hiking or camping locations in Virginia and recommend new activities they may enjoy. ===
+Hokiebot:  That sounds like a great idea! Do you have any suggestions for hiking locations or activities that they might enjoy? === Blen400M:  Have you ever been to the Appalachian National Scenic Trail in Georgia?
+=== TIMING [tpc:1.7047338485717773, gdl:0.8736190795898438, gen:0.9200031757354736, tot:3.498555898666382] ===
+=== CONV_HISTORY [[(' What are some of your favorite hiking and camping activities that you like to do?', ''), ('I love sitting around the campfire.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-level: {"topic: "camping", "interest": ["campfire", "sit around the campfire]}, "middle_level": "favorite activity": "unknow"}}'), (' That sounds like a great idea! Do you have any suggestions for hiking locations or activities that they might enjoy?', '')]] ===
+You: Hiking to a lake is a fun place to hike
+=== User Input: Hiking to a lake is a fun place to hike ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking to a lake is a fun place to hike, do you agree?"}} ===
+=== Guideline: The user likes hiking. They specifically like hiking mountains. Share some recommendations that you might find interesting. ===
+Hokiebot:  What are some of your favorite hiking trails that you've hiked in the mountains? === Blen400M:  I love hiking in the woods. It's a great way to get away from the city.
+=== TIMING [tpc:1.159428596496582, gdl:0.5866489410400391, gen:0.7256007194519043, tot:2.4718079566955566] ===
+=== CONV_HISTORY [[(' That sounds like a great idea! Do you have any suggestions for hiking locations or activities that they might enjoy?', ''), ('Hiking to a lake is a fun place to hike', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking to a lake is a fun place to hike, do you agree?"}}'), (" What are some of your favorite hiking trails that you've hiked in the mountains?", '')]] ===
+You: I love hiking in the Cascades in Washington.
+=== User Input: I love hiking in the Cascades in Washington. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking trail", "location": "Cascades in Washington, Washington State, National Park Service": "unknow"}} ===
+=== Guideline: The user loves hiking in the mountains. They specifically like hiking in the Cascades in Washington. Ask them about their favorite hiking trail and why they like it. ===
+Hokiebot:  That's really cool! Do you have a favorite trail in Washington that you like to hike on? === Blen400M:  I've never been to Washington, but I've always wanted to go hiking on the Appalachian National Scenic Trail.
+=== TIMING [tpc:1.3275794982910156, gdl:0.8864734172821045, gen:0.8858554363250732, tot:3.1000266075134277] ===
+=== CONV_HISTORY [[(" What are some of your favorite hiking trails that you've hiked in the mountains?", ''), ('I love hiking in the Cascades in Washington.', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "middle-ground": {"level": "hiking trail", "location": "Cascades in Washington, Washington State, National Park Service": "unknow"}}'), (" That's really cool! Do you have a favorite trail in Washington that you like to hike on?", '')]] ===
+You: My favorite trail is in Mount Rainier National Park
+=== User Input: My favorite trail is in Mount Rainier National Park ===
+=== Topic Pref: {"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level: {"topic:" "favorite hiking trail", "middle_level": "Mount Rainier National Park", "low-level:" {"topic: "favorite trail", {"if_not": "unknow"}} ===
+=== Guideline: The user loves hiking in the mountains. They specifically like hiking in Mount Rainier National Park. Talk to them about other hiking trails in Mount Rainier National Park. ===
+Hokiebot:  That's awesome! Have you ever hiked in any other national parks in the US? === Blen400M:  I've never been to Mountain Rain but I've heard it's beautiful. Have you ever hiked on the Appalachian National Scenic Trail?
+=== TIMING [tpc:1.6047477722167969, gdl:0.8662161827087402, gen:1.03373122215271, tot:3.5048136711120605] ===
+=== CONV_HISTORY [[(" That's really cool! Do you have a favorite trail in Washington that you like to hike on?", ''), ('My favorite trail is in Mount Rainier National Park', '{"high-level": {"topic": "hiking", "if_interest": "yes"}, "middle-level: {"topic:" "favorite hiking trail", "middle_level": "Mount Rainier National Park", "low-level:" {"topic: "favorite trail", {"if_not": "unknow"}}'), (" That's awesome! Have you ever hiked in any other national parks in the US?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:34:48.284879
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I love to bake
+=== User Input: I love to bake ===
+=== Topic Pref: {"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle-level: {"topic: "baking", "interest": ["yes"}} ===
+=== Guideline: The user loves baking and their specialty is banana bread. Ask them what other types of treats they enjoy baking and recommend new recipes or products if they desire. ===
+Hokiebot:  Banana bread is one of my favorites! What other recipes do you recommend? === Blen400M:  What kind of baking do you like to do? I like baking cakes and cookies.
+=== TIMING [tpc:3.4255785942077637, gdl:0.868563175201416, gen:0.8935074806213379, tot:5.18786358833313] ===
+=== CONV_HISTORY [[('', ''), ('I love to bake', '{"high-level": {"topic": "hobby", "if_interest": "yes"}, "middle-level: {"topic: "baking", "interest": ["yes"}}'), (' Banana bread is one of my favorites! What other recipes do you recommend?', '')]] ===
+You: I recommend chocolate cake
+=== User Input: I recommend chocolate cake ===
+=== Topic Pref: {"high-level": {"topic": "baking", "if_interest": "yes"}, "middle-level: {"topic: "food and beverage preference", "low-cost recipe": "chocolate cake", "how about you"}} ===
+=== Guideline: The user loves baking cakes. They specifically love making chocolate cake. Ask them what other types of chocolate cake they enjoy making. ===
+Hokiebot:  Do you have any other cake recipes that they enjoy baking that you would like to share with them? === Blen400M:  I love chocolate cake! It's one of the most popular desserts in the world!
+=== TIMING [tpc:1.4034733772277832, gdl:0.6919875144958496, gen:0.811453104019165, tot:2.9070513248443604] ===
+=== CONV_HISTORY [[(' Banana bread is one of my favorites! What other recipes do you recommend?', ''), ('I recommend chocolate cake', '{"high-level": {"topic": "baking", "if_interest": "yes"}, "middle-level: {"topic: "food and beverage preference", "low-cost recipe": "chocolate cake", "how about you"}}'), (' Do you have any other cake recipes that they enjoy baking that you would like to share with them?', '')]] ===
+You: My mom's brownie recipe is delicious.
+=== User Input: My mom's brownie recipe is delicious. ===
+=== Topic Pref: {"high-level": {"topic": "baking", "if_interest": "yes"}, "low-level: {"topic: "brownie recipe", {"topic): "mum's brownie recipe"}} ===
+=== Guideline: The user is interested in baking and specifically enjoys baking chocolate cake. They also enjoy making other types of chocolate cake. Share some other chocolate cake recipes that they might like. ===
+Hokiebot:  Chocolate cake is one of my favorite desserts. What other recipes do you have in mind? === Blen400M:  I love brownies! They are my favorite dessert. What is your favorite type of brownie?
+=== TIMING [tpc:1.058258056640625, gdl:0.9234750270843506, gen:0.7825140953063965, tot:2.764378070831299] ===
+=== CONV_HISTORY [[(' Do you have any other cake recipes that they enjoy baking that you would like to share with them?', ''), ("My mom's brownie recipe is delicious.", '{"high-level": {"topic": "baking", "if_interest": "yes"}, "low-level: {"topic: "brownie recipe", {"topic): "mum\'s brownie recipe"}}'), (' Chocolate cake is one of my favorite desserts. What other recipes do you have in mind?', '')]] ===
+You: I like making cherry pie.
+=== User Input: I like making cherry pie. ===
+=== Topic Pref: {"high-level": {"topic": "baking", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "type": "chocolate cake", "low-interest": {"if_boring": "no"}} ===
+=== Guideline: The user is not interested in baking, but they enjoy baking chocolate cake. Talk to them about the different types of chocolate cake and the various desserts they enjoy baking. ===
+Hokiebot:  Chocolate cake is one of my favorites! What is your favorite type of cake to bake? === Blen400M:  I've never heard of that. What's in it? I love brownies with whipped cream.
+=== TIMING [tpc:3.1612067222595215, gdl:0.9090721607208252, gen:0.9080162048339844, tot:4.978445053100586] ===
+=== CONV_HISTORY [[(' Chocolate cake is one of my favorite desserts. What other recipes do you have in mind?', ''), ('I like making cherry pie.', '{"high-level": {"topic": "baking", "if_interest": "yes"}, "middle-level: {"topic: "desserts", "middle_level": "type": "chocolate cake", "low-interest": {"if_boring": "no"}}'), (' Chocolate cake is one of my favorites! What is your favorite type of cake to bake?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:41:44.597078
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I went fishing today with my cousin!
+=== User Input: I went fishing today with my cousin! ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-interest":{"topic": ["fishing", "cousin", "yes"}} ===
+=== Guideline: The user is not interested in fishing. They specifically like playing video games. Ask them what video games they have been playing and what they like to play with. ===
+Hokiebot:  What video games have they been playing lately and what do you think they like playing with them? === Blen400M:  That sounds like a lot of fun! What kind of fishing did you do? Fly fishing?
+=== TIMING [tpc:1.9100182056427002, gdl:0.8666439056396484, gen:0.9771080017089844, tot:3.7539143562316895] ===
+=== CONV_HISTORY [[('', ''), ('I went fishing today with my cousin!', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}, "low-interest":{"topic": ["fishing", "cousin", "yes"}}'), (' What video games have they been playing lately and what do you think they like playing with them?', '')]] ===
+You: They don't like playing video games.
+=== User Input: They don't like playing video games. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in video games. They do like hiking. Ask them what other outdoor activities they like to do during the week. ===
+Hokiebot:  Hiking sounds like a great activity. What other activities do you enjoy doing outdoors? === Blen400M:  I don't think I've ever heard of that game. What kind of game is it?
+=== TIMING [tpc:0.8553473949432373, gdl:0.7536885738372803, gen:0.7095999717712402, tot:2.318767786026001] ===
+=== CONV_HISTORY [[(' What video games have they been playing lately and what do you think they like playing with them?', ''), ("They don't like playing video games.", '{"high-level": {"topic": "video games", "if_interest": "no"}}'), (' Hiking sounds like a great activity. What other activities do you enjoy doing outdoors?', '')]] ===
+You: I don't like doing anything outdoors except fishing.
+=== User Input: I don't like doing anything outdoors except fishing. ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "no"}, "low-interest": ["fishing", "no"}} ===
+=== Guideline: The user is not interested in video games. However, they do enjoy hiking. Ask them what their favorite hiking route is. ===
+Hokiebot:  Hiking is a great way to get outdoors. Do you have a favorite hike route? === Blen400M:  I enjoy fishing as well. What do you like to do when you go fishing?
+=== TIMING [tpc:1.3680198192596436, gdl:0.682725191116333, gen:0.7720968723297119, tot:2.8230252265930176] ===
+=== CONV_HISTORY [[(' Hiking sounds like a great activity. What other activities do you enjoy doing outdoors?', ''), ("I don't like doing anything outdoors except fishing.", '{"high-level": {"topic": "outdoor activities", "if_interest": "no"}, "low-interest": ["fishing", "no"}}'), (' Hiking is a great way to get outdoors. Do you have a favorite hike route?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:45:51.330273
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: My favorite sport is baseball
+=== User Input: My favorite sport is baseball ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle school sports", "unknow": "baseball"}} ===
+=== Guideline: The user is not interested in discussing sports, but they like playing basketball. Ask them what other sports they enjoy playing or watching. ===
+Hokiebot:  What other sports do you enjoy watching or do you have any other hobbies that you enjoy? === Blen400M:  Baseball is one of my favorites as well. It is played on a rectangular field with nine players on each team.
+=== TIMING [tpc:1.6547009944915771, gdl:0.892305850982666, gen:1.1328258514404297, tot:3.680001974105835] ===
+=== CONV_HISTORY [[('', ''), ('My favorite sport is baseball', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle school sports", "unknow": "baseball"}}'), (' What other sports do you enjoy watching or do you have any other hobbies that you enjoy?', '')]] ===
+You: I also like watching football
+=== User Input: I also like watching football ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football", "interest":  "yes"}} ===
+=== Guideline: The user is interested in watching sports, specifically football. They like watching the Green Bay Packers. Ask them about other sports they enjoy watching or suggest some other sports they may enjoy. ===
+Hokiebot:  That's cool! What other sports do you like to watch or do you have a favorite team? === Blen400M:  Baseball is one of my favorite sports to watch as well. Do you have a favorite team?
+=== TIMING [tpc:0.920203447341919, gdl:1.1760613918304443, gen:0.9350111484527588, tot:3.031425714492798] ===
+=== CONV_HISTORY [[(' What other sports do you enjoy watching or do you have any other hobbies that you enjoy?', ''), ('I also like watching football', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football", "interest":  "yes"}}'), (" That's cool! What other sports do you like to watch or do you have a favorite team?", '')]] ===
+You: My favorite team is the Kansas City Chiefs
+=== User Input: My favorite team is the Kansas City Chiefs ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "low-level:" {"topic:" "The Kansas City Chiefs", "team_name": "favorites"}} ===
+=== Guideline: The user is interested in talking about sports and their favorite team is the Kansas City Chiefs. They enjoy watching them play. Talk to them about other sports they enjoy watching or suggest some other sports they may enjoy. ===
+Hokiebot:  That's cool. What other sports do you like to watch or do you have a favorite team? === Blen400M:  I'm not a big fan of the NFL, but I do enjoy watching the Super Bowl every once in a while.
+=== TIMING [tpc:1.541322946548462, gdl:1.381025791168213, gen:0.9341206550598145, tot:3.856684684753418] ===
+=== CONV_HISTORY [[(" That's cool! What other sports do you like to watch or do you have a favorite team?", ''), ('My favorite team is the Kansas City Chiefs', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "football team", "low-level:" {"topic:" "The Kansas City Chiefs", "team_name": "favorites"}}'), (" That's cool. What other sports do you like to watch or do you have a favorite team?", '')]] ===
+You: My favorite baseball team is the Seattle Mariners
+=== User Input: My favorite baseball team is the Seattle Mariners ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "baseball team", "middle_level": "favorite team": "Seattle Mariners"}} ===
+=== Guideline: The user is interested in talking about sports and their favorite team is the Kansas City Chiefs. They love watching The Lions. Ask them what other sports they enjoy watching. ===
+Hokiebot:  Who is your favorite team and why do you like the chiefs and the lions? === Blen400M:  I'm not a big fan of baseball, but I do know that they are an American professional baseball team based in Washington, D.C.
+=== TIMING [tpc:1.7340986728668213, gdl:1.1539175510406494, gen:1.1679356098175049, tot:4.056089639663696] ===
+=== CONV_HISTORY [[(" That's cool. What other sports do you like to watch or do you have a favorite team?", ''), ('My favorite baseball team is the Seattle Mariners', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle-level: {"topic: "baseball team", "middle_level": "favorite team": "Seattle Mariners"}}'), (' Who is your favorite team and why do you like the chiefs and the lions?', '')]] ===
+You: I want to learn to play baseball
+=== User Input: I want to learn to play baseball ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "middle school sports": "learn to play baseball"}} ===
+=== Guideline: The user is interested in learning about sports and specifically likes baseball and football. They do not like to play football or basketball. Talk to them about their favorite teams and players or suggest some other sports they may enjoy. ===
+Hokiebot:  That's interesting. Do you have any other sports or sports that you would recommend them to play? === Blen400M:  The mariners are an american professional baseball team based in seattle, oregon
+=== TIMING [tpc:1.226762294769287, gdl:1.3713858127593994, gen:0.8062467575073242, tot:3.404581308364868] ===
+=== CONV_HISTORY [[(' Who is your favorite team and why do you like the chiefs and the lions?', ''), ('I want to learn to play baseball', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "middle school sports": "learn to play baseball"}}'), (" That's interesting. Do you have any other sports or sports that you would recommend them to play?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:52:50.830137
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I love Italian food
+=== User Input: I love Italian food ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-class": "Italian food"}} ===
+=== Guideline: The user loves Italian food and their favorite Italian dish is spaghetti carbonara. Ask them what other Italian dishes they enjoy eating and recommend some dishes that are easy for them to enjoy. ===
+Hokiebot:  That's a great idea! Do you have any other dishes you would recommend them to try? === Blen400M:  I do too! It's one of the most popular cuisines in the world.
+=== TIMING [tpc:1.6542282104492188, gdl:1.216597080230713, gen:1.0190606117248535, tot:3.890029191970825] ===
+=== CONV_HISTORY [[('', ''), ('I love Italian food', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-class": "Italian food"}}'), (" That's a great idea! Do you have any other dishes you would recommend them to try?", '')]] ===
+You: I would recommend chicken parmesan
+=== User Input: I would recommend chicken parmesan ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "Italian food", "low-cost": "recommendation": "chicken parmesan"}} ===
+=== Guideline: The user loves Italian food, talk to them about their favorite Italian dishes and suggest new dishes they may enjoy. ===
+Hokiebot:  That sounds like a great idea! What's your favorite italian dish to recommend them to them? === Blen400M:  Chicken Parmesan is one of my favorites! I love how it can be made with a variety of meats and vegetables.
+=== TIMING [tpc:1.5747909545898438, gdl:0.7442846298217773, gen:1.1316797733306885, tot:3.4509434700012207] ===
+=== CONV_HISTORY [[(" That's a great idea! Do you have any other dishes you would recommend them to try?", ''), ('I would recommend chicken parmesan', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "Italian food", "low-cost": "recommendation": "chicken parmesan"}}'), (" That sounds like a great idea! What's your favorite italian dish to recommend them to them?", '')]] ===
+You: I am hungry
+=== User Input: I am hungry ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "Italian dish", "low-interest": {"if_not": "no"}} ===
+=== Guideline: The user is not interested in discussing food, but they do enjoy Italian cuisine. Talk to them about their favorite Italian dishes and suggest new ones to try. ===
+Hokiebot:  That sounds like a great idea! What's your favorite italian dish to try out? === Blen400M:  Chicken Parmesan is one of my favorite Italian dishes. 
+=== TIMING [tpc:1.1491618156433105, gdl:1.0489444732666016, gen:0.8889269828796387, tot:3.0871686935424805] ===
+=== CONV_HISTORY [[(" That sounds like a great idea! What's your favorite italian dish to recommend them to them?", ''), ('I am hungry', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-level: {"topic: "Italian dish", "low-interest": {"if_not": "no"}}'), (" That sounds like a great idea! What's your favorite italian dish to try out?", '')]] ===
+You: My favorite italian dish to try is lasagna
+=== User Input: My favorite italian dish to try is lasagna ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-Level": {"level": "Italian dish", "topic": ["lasagna", "dish", "lasagna recipe"], "if-interest":"}} ===
+=== Guideline: The user is not interested in talking about food, but they do enjoy trying new dishes. They have tried a lasagna before. ===
+Hokiebot:  Lasagna is one of my favorite Italian dishes! What was your favorite dish that they tried? === Blen400M:  Lasagna is one of my favorite Italian dishes as well. It's one of the most popular foods in the world.
+=== TIMING [tpc:1.6861493587493896, gdl:0.7209160327911377, gen:0.8232240676879883, tot:3.230435848236084] ===
+=== CONV_HISTORY [[(" That sounds like a great idea! What's your favorite italian dish to try out?", ''), ('My favorite italian dish to try is lasagna', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-Level": {"level": "Italian dish", "topic": ["lasagna", "dish", "lasagna recipe"], "if-interest":"}}'), (' Lasagna is one of my favorite Italian dishes! What was your favorite dish that they tried?', '')]] ===
+You: Lasagna
+=== User Input: Lasagna ===
+=== Topic Pref: {"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "lasagna dish", "low-level: {"topic: "Lasagna"}} ===
+=== Guideline: The user loves lasagna. Ask them about their favorite Italian dishes and suggest some new ones to try. ===
+Hokiebot:  Lasagna is one of my favorites too! What's your favorite italian dish to try? === Blen400M:  I love lasagne too! It's one of the most popular foods in the world!
+=== TIMING [tpc:1.6759634017944336, gdl:0.5800497531890869, gen:0.7440938949584961, tot:3.0002267360687256] ===
+=== CONV_HISTORY [[(' Lasagna is one of my favorite Italian dishes! What was your favorite dish that they tried?', ''), ('Lasagna', '{"high-level": {"topic": "food", "if_interest": "yes"}, "middle-ranking": "lasagna dish", "low-level: {"topic: "Lasagna"}}'), (" Lasagna is one of my favorites too! What's your favorite italian dish to try?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 15:55:37.796778
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like to go outside
+=== User Input: I like to go outside ===
+=== Topic Pref: {"high-level": {"topic": "outdoor activities", "if_interest": "yes"}} ===
+=== Guideline: The user enjoys outdoor activities, with a preference for going to the beach. Ask them about their favorite beach activity. ===
+Hokiebot:  That's a good idea. Do you have any suggestions for beaches that they like to go to? === Blen400M:  What do you like to do when you go outside? I like going to the beach.
+=== TIMING [tpc:1.324376106262207, gdl:0.8513815402984619, gen:1.0502874851226807, tot:3.2261719703674316] ===
+=== CONV_HISTORY [[('', ''), ('I like to go outside', '{"high-level": {"topic": "outdoor activities", "if_interest": "yes"}}'), (" That's a good idea. Do you have any suggestions for beaches that they like to go to?", '')]] ===
+You: My favorite beaches are in Florida
+=== User Input: My favorite beaches are in Florida ===
+=== Topic Pref: {"high-level": {"topic": "beaches", "if_interest": "yes"}, "low-interest": {"if_not": "Florida"}} ===
+=== Guideline: The user likes going to the beach. They specifically like the beach in Florida. Ask them what their favorite beach is in Florida is. ===
+Hokiebot:  Florida beaches are beautiful. Do you have any favorite beaches in Florida that you like to go to? === Blen400M:  I've never been to Florida, but I've always wanted to go. What's your favorite beach?
+=== TIMING [tpc:1.3037660121917725, gdl:0.9289345741271973, gen:1.0943260192871094, tot:3.327200174331665] ===
+=== CONV_HISTORY [[(" That's a good idea. Do you have any suggestions for beaches that they like to go to?", ''), ('My favorite beaches are in Florida', '{"high-level": {"topic": "beaches", "if_interest": "yes"}, "low-interest": {"if_not": "Florida"}}'), (' Florida beaches are beautiful. Do you have any favorite beaches in Florida that you like to go to?', '')]] ===
+You: My favorite beach in Florida is Miramar Beach in Destin
+=== User Input: My favorite beach in Florida is Miramar Beach in Destin ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic: "beaches", "low-level:" {"topic:" "Miramar Beach in Destin"}} ===
+=== Guideline: The user likes going to the beach in Florida. They specifically like Miramar Beach in Destin. Share some information about other beach destinations in Florida that they may want to visit. ===
+Hokiebot:  What other beaches in Florida do you have in mind that they might be interested in visiting? === Blen400M:  I have never been to Miami Beach, but I have been to Destin, Florida.
+=== TIMING [tpc:1.459148645401001, gdl:1.1983985900878906, gen:0.9980111122131348, tot:3.6556918621063232] ===
+=== CONV_HISTORY [[(' Florida beaches are beautiful. Do you have any favorite beaches in Florida that you like to go to?', ''), ('My favorite beach in Florida is Miramar Beach in Destin', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic: "beaches", "low-level:" {"topic:" "Miramar Beach in Destin"}}'), (' What other beaches in Florida do you have in mind that they might be interested in visiting?', '')]] ===
+You: St. Augastine has beautiful beaches too.
+=== User Input: St. Augastine has beautiful beaches too. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "beaches in Florida": "St. Augastine, Miramar Beach, Destin, etc.", "low-level:"}} ===
+=== Guideline: The user is interested in talking about beaches in Florida. Ask them about their favorite beach in the state and recommend some other beach activities they might enjoy. ===
+Hokiebot:  That sounds like a great idea! What other beaches do you recommend visiting in Florida? === Blen400M:  I have never been to that beach, but I have been to Miami Beach which is the most populous city in Florida.
+=== TIMING [tpc:2.269477367401123, gdl:0.9695475101470947, gen:1.0121700763702393, tot:4.2513298988342285] ===
+=== CONV_HISTORY [[(' What other beaches in Florida do you have in mind that they might be interested in visiting?', ''), ('St. Augastine has beautiful beaches too.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-ground": {"level": "beaches in Florida": "St. Augastine, Miramar Beach, Destin, etc.", "low-level:"}}'), (' That sounds like a great idea! What other beaches do you recommend visiting in Florida?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 16:16:13.935635
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I want to watch a movie tonight
+=== User Input: I want to watch a movie tonight ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}} ===
+=== Guideline: The user is interested in watching movies. They enjoyed watching 'The Shawshank Redemption'. Ask them about other movies that they enjoyed or recommend some new movies that they may like. ===
+Hokiebot:  That's a great movie! What other movies do you recommend them to watch or recommend to them? === Blen400M:  What kind of movie are you going to watch? I love going to the theater to see new movies.
+=== TIMING [tpc:1.8168210983276367, gdl:1.502650499343872, gen:0.926886796951294, tot:4.246504068374634] ===
+=== CONV_HISTORY [[('', ''), ('I want to watch a movie tonight', '{"high-level": {"topic": "movie", "if_interest": "yes"}}'), (" That's a great movie! What other movies do you recommend them to watch or recommend to them?", '')]] ===
+You: I like action movies
+=== User Input: I like action movies ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle- level": {"genre": "action movies", "what else movies do you recommend to watch or recommend to them?"}} ===
+=== Guideline: The user likes action movies. Recommend some other action movies that they might enjoy. ===
+Hokiebot:  I love action movies too! What's your favorite action movie that you've seen in recent years? === Blen400M:  I love action movies too! What's your favorite movie of all time? Mine is The Godfather Part II.
+=== TIMING [tpc:1.2860279083251953, gdl:0.7011713981628418, gen:0.9247317314147949, tot:2.912156105041504] ===
+=== CONV_HISTORY [[(" That's a great movie! What other movies do you recommend them to watch or recommend to them?", ''), ('I like action movies', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle- level": {"genre": "action movies", "what else movies do you recommend to watch or recommend to them?"}}'), (" I love action movies too! What's your favorite action movie that you've seen in recent years?", '')]] ===
+You: My favorite action movie that I have seen recently is Red. Bruce Willis is in it.
+=== User Input: My favorite action movie that I have seen recently is Red. Bruce Willis is in it. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic: "movie actor", "middle_level": "favorite movie", "low-level", "topic": ["Red", "Bruce Willis", "Black Mirror"], "low"-level": ["yes"}} ===
+=== Guideline: The user is interested in action movies, and their favorite movie in that genre is Red. They have seen 'The Dark Knight' and 'Terminator 2' recently. Ask them about other action movies that they might like. ===
+Hokiebot:  Red is such a great movie! What's your favorite action movie that you've seen recently? === Blen400M:  I haven't seen that one yet, I'll have to check it out. Have you seen any other action movies lately?
+=== TIMING [tpc:2.2528297901153564, gdl:1.5084142684936523, gen:0.9885034561157227, tot:4.749951601028442] ===
+=== CONV_HISTORY [[(" I love action movies too! What's your favorite action movie that you've seen in recent years?", ''), ('My favorite action movie that I have seen recently is Red. Bruce Willis is in it.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic: "movie actor", "middle_level": "favorite movie", "low-level", "topic": ["Red", "Bruce Willis", "Black Mirror"], "low"-level": ["yes"}}'), (" Red is such a great movie! What's your favorite action movie that you've seen recently?", '')]] ===
+You: Red is the only one I have seen recently. Do you recommend any good action movies?
+=== User Input: Red is the only one I have seen recently. Do you recommend any good action movies? ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "middlelevel": "recommendation": "unknow"}} ===
+=== Guideline: The user is not interested in action movies but they enjoy watching romantic comedies. They recently watched "The Notebook". Ask them what other romantic comedies they've watched or why they like romantic comedies. ===
+Hokiebot:  The Notebook is one of my favorites! Have you seen any other romance comedies? === Blen400M:  I love action movies! My favorite movie of all time is The Godfather Part II. Have you seen it?
+=== TIMING [tpc:1.3492600917816162, gdl:1.3487558364868164, gen:0.930234432220459, tot:3.6284055709838867] ===
+=== CONV_HISTORY [[(" Red is such a great movie! What's your favorite action movie that you've seen recently?", ''), ('Red is the only one I have seen recently. Do you recommend any good action movies?', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "movie genre", "middlelevel": "recommendation": "unknow"}}'), (' The Notebook is one of my favorites! Have you seen any other romance comedies?', '')]] ===
+You: I do not like romantic comedies
+=== User Input: I do not like romantic comedies ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "romantic comedies", "low_level": "no"}} ===
+=== Guideline: The user is not interested in romantic comedies, but they do enjoy watching action movies. They recently watched 'The Notebook' and enjoyed it. Ask them what other action movies they've watched or if they have any recommendations. ===
+Hokiebot:  The Notebook is a great movie. Have you seen any other action/comedies that you would recommend? === Blen400M:  I'm not a big fan of them either, but I think they're fun to watch with friends.
+=== TIMING [tpc:1.0324814319610596, gdl:1.1990470886230469, gen:0.7210869789123535, tot:2.95280122756958] ===
+=== CONV_HISTORY [[(' The Notebook is one of my favorites! Have you seen any other romance comedies?', ''), ('I do not like romantic comedies', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle-level: {"topic:" "romantic comedies", "low_level": "no"}}'), (' The Notebook is a great movie. Have you seen any other action/comedies that you would recommend?', '')]] ===
+You: A really good one is Guardians of the Galaxy.
+=== User Input: A really good one is Guardians of the Galaxy. ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "low-level: {"topic: "Guardians of the Galaxy", "middle-level:" {"topic:" "action/comedy movie", "how about you", "what genre": "unknow"}} ===
+=== Guideline: The user dislikes romantic comedies. They enjoyed watching The Notebook. Ask them what other romantic comedies they've seen or recommend a new movie in the same genre. ===
+Hokiebot:  Have you ever seen "The Notebook"? It's one of my all-time favorites. === Blen400M:  I haven't seen that one yet, but I've heard good things about it. I'll have to check it out.
+=== TIMING [tpc:1.6141510009765625, gdl:1.1653800010681152, gen:0.8962047100067139, tot:3.6759419441223145] ===
+=== CONV_HISTORY [[(' The Notebook is a great movie. Have you seen any other action/comedies that you would recommend?', ''), ('A really good one is Guardians of the Galaxy.', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "low-level: {"topic: "Guardians of the Galaxy", "middle-level:" {"topic:" "action/comedy movie", "how about you", "what genre": "unknow"}}'), (' Have you ever seen "The Notebook"? It\'s one of my all-time favorites.', '')]] ===
+You: I do not like the Notebook
+=== User Input: I do not like the Notebook ===
+=== Topic Pref: {"high-level": {"topic": "movie", "if_interest": "yes"}, "middle level": {"level": "The Notebook", "why does the Notebook not like "Guardians of the Galaxy": "no"}} ===
+=== Guideline: The user is not interested in comedy movies but enjoys the book The Notebook. Ask them what they liked or disliked about it. ===
+Hokiebot:  That's a great movie! What's your favorite comedy movie that you've seen in the theatre? === Blen400M:  I can understand that. It's not for everyone. Have you seen The Notebook? It's a romantic comedy.
+=== TIMING [tpc:1.162017583847046, gdl:0.7083299160003662, gen:0.8757126331329346, tot:2.7462193965911865] ===
+=== CONV_HISTORY [[(' Have you ever seen "The Notebook"? It\'s one of my all-time favorites.', ''), ('I do not like the Notebook', '{"high-level": {"topic": "movie", "if_interest": "yes"}, "middle level": {"level": "The Notebook", "why does the Notebook not like "Guardians of the Galaxy": "no"}}'), (" That's a great movie! What's your favorite comedy movie that you've seen in the theatre?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 16:49:18.169263
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I want to become an astronaut.
+=== User Input: I want to become an astronaut. ===
+=== Topic Pref: {"high-level": {"topic": "job", "if_interest": "yes"}, "low_level":{"topic": ["astronaut", "want to become an astronaut"], "if-interest": {"if_not": "unknow"}} ===
+=== Guideline: The user wants to become an astronaut. They want to become the first person to do so. Ask them what their favorite astronautic experience has been. ===
+Hokiebot:  That's a great goal! What's your favorite experience so far that you can share with them? === Blen400M:  Astronauts are so cool. I would love to be a space explorer.
+=== TIMING [tpc:2.100836992263794, gdl:0.9742827415466309, gen:0.8837544918060303, tot:3.959003448486328] ===
+=== CONV_HISTORY [[('', ''), ('I want to become an astronaut.', '{"high-level": {"topic": "job", "if_interest": "yes"}, "low_level":{"topic": ["astronaut", "want to become an astronaut"], "if-interest": {"if_not": "unknow"}}'), (" That's a great goal! What's your favorite experience so far that you can share with them?", '')]] ===
+You: I loved going to the space center to look at what astronauts do!
+=== User Input: I loved going to the space center to look at what astronauts do! ===
+=== Topic Pref: {"high-level": {"topic": "astronomy", "if_interest": "yes"}, "middle- level": {"level": "experience sharing with astronauts", "what you can share with them": "interesting fact", "low-level: "going to the space center to look at what astronauts do"}} ===
+=== Guideline: The user wants to become an astronaut. They want to become partners. Ask them what other experiences they have had as an astronaut. ===
+Hokiebot:  Do you have any other experiences you would like to share with me about the experience you had? === Blen400M:  That sounds like a lot of fun! I hope you get to do that someday!
+=== TIMING [tpc:1.933563232421875, gdl:0.710155725479126, gen:0.8520965576171875, tot:3.4959590435028076] ===
+=== CONV_HISTORY [[(" That's a great goal! What's your favorite experience so far that you can share with them?", ''), ('I loved going to the space center to look at what astronauts do!', '{"high-level": {"topic": "astronomy", "if_interest": "yes"}, "middle- level": {"level": "experience sharing with astronauts", "what you can share with them": "interesting fact", "low-level: "going to the space center to look at what astronauts do"}}'), (' Do you have any other experiences you would like to share with me about the experience you had?', '')]] ===
+You: My favorite part was looking at all of the technology that is used to fly to the moon.
+=== User Input: My favorite part was looking at all of the technology that is used to fly to the moon. ===
+=== Topic Pref: {"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic: "experience", "reason": "space exploration", "low-level:" "yes"}} ===
+=== Guideline: The user is interested in talking about space exploration. Share some information about their own experiences or learn about different types of exploration. ===
+Hokiebot:  That's really cool! Do you have any specific topics that you're interested in learning more about? === Blen400M:  I have never been to the Moon, but I would love to go one day.
+=== TIMING [tpc:1.4080169200897217, gdl:0.6682701110839844, gen:0.8372900485992432, tot:2.9137232303619385] ===
+=== CONV_HISTORY [[(' Do you have any other experiences you would like to share with me about the experience you had?', ''), ('My favorite part was looking at all of the technology that is used to fly to the moon.', '{"high-level": {"topic": "travel", "if_interest": "yes"}, "middle-level: {"topic: "experience", "reason": "space exploration", "low-level:" "yes"}}'), (" That's really cool! Do you have any specific topics that you're interested in learning more about?", '')]] ===
+You: I want to learn more about mars.
+=== User Input: I want to learn more about mars. ===
+=== Topic Pref: {"high-level": {"topic": "science", "if_interest": "yes"}, "middle-level: {"topic: "mars", "interest": ["Mars", "Mars exploration", "museums", "unknow"}} ===
+=== Guideline: The user is interested in talking about science. They are interested specifically in museums and learning about space exploration. Ask the user about different museums or space exploration activities they have experienced. ===
+Hokiebot:  That's really cool! What's your favorite museum or space explorer that you've visited? === Blen400M:  That would be really interesting to learn about. Do you know much about the history of Mars?
+=== TIMING [tpc:2.675184965133667, gdl:1.1232266426086426, gen:0.9525103569030762, tot:4.751085519790649] ===
+=== CONV_HISTORY [[(" That's really cool! Do you have any specific topics that you're interested in learning more about?", ''), ('I want to learn more about mars.', '{"high-level": {"topic": "science", "if_interest": "yes"}, "middle-level: {"topic: "mars", "interest": ["Mars", "Mars exploration", "museums", "unknow"}}'), (" That's really cool! What's your favorite museum or space explorer that you've visited?", '')]] ===
+You: My favorite museum is the air and space museum in washington d.c.
+=== User Input: My favorite museum is the air and space museum in washington d.c. ===
+=== Topic Pref: {"high-level": {"topic": "museums", "if_interest": "yes"}, "low-level: {"topic: "air and space museum in washington d.c. ===
+=== Guideline: The user is interested in science and learning about it. They are interested in visiting museums and learning about outer space. Ask them about their favorite outer space destination.  ===
+Hokiebot:  That's really cool! What's your favorite museum to visit and why is it your favorite? === Blen400M:  Have you ever been to the Smithsonian in Washington D.C.? It's one of the largest museums in the world.
+=== TIMING [tpc:1.3507678508758545, gdl:1.0638861656188965, gen:1.101738452911377, tot:3.5165276527404785] ===
+=== CONV_HISTORY [[(" That's really cool! What's your favorite museum or space explorer that you've visited?", ''), ('My favorite museum is the air and space museum in washington d.c.', '{"high-level": {"topic": "museums", "if_interest": "yes"}, "low-level: {"topic: "air and space museum in washington d.c.'), (" That's really cool! What's your favorite museum to visit and why is it your favorite?", '')]] ===
+You: It is my favorite because they have so many different exhibits!
+=== User Input: It is my favorite because they have so many different exhibits! ===
+=== Topic Pref: {"high-level": {"topic": "museum", "if_interest": "yes"}, "middle-level: {"topic: "favorite museum", "why is it your favorite", "middle_level": "why are they your favorite museum to visit and why is it yours", "unknow": "because they have so many different exhibits", "low-level"}} ===
+=== Guideline: The user is interested in visiting museums. They enjoy visiting museums and specifically like science museums. Ask them about their favorite ones and suggest some new ones for them to explore. ===
+Hokiebot:  That's really cool! What's your favorite museum you've visited so far? === Blen400M:  I've never heard of that one. I'll have to check it out. Do you like art museums?
+=== TIMING [tpc:1.9716055393218994, gdl:0.8779909610748291, gen:0.7276523113250732, tot:3.577394723892212] ===
+=== CONV_HISTORY [[(" That's really cool! What's your favorite museum to visit and why is it your favorite?", ''), ('It is my favorite because they have so many different exhibits!', '{"high-level": {"topic": "museum", "if_interest": "yes"}, "middle-level: {"topic: "favorite museum", "why is it your favorite", "middle_level": "why are they your favorite museum to visit and why is it yours", "unknow": "because they have so many different exhibits", "low-level"}}'), (" That's really cool! What's your favorite museum you've visited so far?", '')]] ===
+You: I already told you my favorite museum.
+=== User Input: I already told you my favorite museum. ===
+=== Topic Pref: {"high-level": {"topic": "museums", "if_interest": "yes"}, "middle-level: {"topic: "favorite museum", {"if_not": "unknow"}} ===
+=== Guideline: The user is interested in talking about museums. They really enjoy visiting museums and specifically like science museums. Ask them what their favorite one is. ===
+Hokiebot:  That's really cool! What's your favorite museum that you've visited so far? === Blen400M:  I've never heard of it. What kind of museums do they have in there?
+=== TIMING [tpc:0.9480698108673096, gdl:0.749478816986084, gen:0.7963781356811523, tot:2.494084119796753] ===
+=== CONV_HISTORY [[(" That's really cool! What's your favorite museum you've visited so far?", ''), ('I already told you my favorite museum.', '{"high-level": {"topic": "museums", "if_interest": "yes"}, "middle-level: {"topic: "favorite museum", {"if_not": "unknow"}}'), (" That's really cool! What's your favorite museum that you've visited so far?", '')]] ===
+You: I told you already.
+=== User Input: I told you already. ===
+=== Topic Pref: {"high-level": {"topic": "museum", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in museums but loves to explore. They have already visited one of their favorite museums, Museum of Science and Industry. Ask them about other museums they have visited or suggest new museums that they may want to check out. ===
+Hokiebot:  Which museum has your favorite exhibit or artifacts in the collection? === Blen400M:  I'm not sure what that is, but I'm glad you told me! What is it about?
+=== TIMING [tpc:0.9362401962280273, gdl:1.533583641052246, gen:1.0250966548919678, tot:3.495068073272705] ===
+=== CONV_HISTORY [[(" That's really cool! What's your favorite museum that you've visited so far?", ''), ('I told you already.', '{"high-level": {"topic": "museum", "if_interest": "no"}}'), (' Which museum has your favorite exhibit or artifacts in the collection?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 17:06:26.264364
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I played a really fun video game today.
+=== User Input: I played a really fun video game today. ===
+=== Topic Pref: {"high-level": {"topic": "video game", "if_interest": "yes"}} ===
+=== Guideline: The user likes playing video games. They specifically like RPGs and strategy games. Ask them about what they like to play and discuss other RPGs and strategy games that they may like. ===
+Hokiebot:  That's cool. Do you have any other hobbies or interests that you like to talk about? === Blen400M:  What game did you play? I love playing video games, but I'm not very good at them.
+=== TIMING [tpc:1.2966887950897217, gdl:1.111020803451538, gen:0.8898766040802002, tot:3.2977213859558105] ===
+=== CONV_HISTORY [[('', ''), ('I played a really fun video game today.', '{"high-level": {"topic": "video game", "if_interest": "yes"}}'), (" That's cool. Do you have any other hobbies or interests that you like to talk about?", '')]] ===
+You: Not really. I only like video games.
+=== User Input: Not really. I only like video games. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in talking about hobbies. They specifically like playing video games. Ask them what type of video games they like to play. ===
+Hokiebot:  Do you have any hobbies that you are passionate about that you don't like to talk about? === Blen400M:  What kind of video games do you like? I'm a big fan of RPGs.
+=== TIMING [tpc:0.5294296741485596, gdl:0.7739157676696777, gen:0.682136058807373, tot:1.985609531402588] ===
+=== CONV_HISTORY [[(" That's cool. Do you have any other hobbies or interests that you like to talk about?", ''), ('Not really. I only like video games.', '{"high-level": {"topic": "hobbies", "if_interest": "no"}}'), (" Do you have any hobbies that you are passionate about that you don't like to talk about?", '')]] ===
+You: I like watching anime.
+=== User Input: I like watching anime. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": ["anime", "yes"}} ===
+=== Guideline: The user is not interested in talking about hobbies. They do not like watching TV. Ask them about other hobbies that they enjoy instead. ===
+Hokiebot:  That's too bad. What hobbies do you have that you enjoy instead of watching TV? === Blen400M:  What kind of anime do you like to watch? There are so many good ones out there.
+=== TIMING [tpc:1.6199877262115479, gdl:0.7826845645904541, gen:0.6572060585021973, tot:3.0600085258483887] ===
+=== CONV_HISTORY [[(" Do you have any hobbies that you are passionate about that you don't like to talk about?", ''), ('I like watching anime.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "low-interest": ["anime", "yes"}}'), (" That's too bad. What hobbies do you have that you enjoy instead of watching TV?", '')]] ===
+You: None.
+=== User Input: None. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "no"}} ===
+=== Guideline: The user is not interested in watching TV, but they do enjoy playing video games. Ask them what specific types of games they enjoy instead of watching TV. ===
+Hokiebot:  What type of video games do they like to play? Do you have any favorite video games? === Blen400M:  I like anime too, but I don't watch it as much as I used to.
+=== TIMING [tpc:1.2588870525360107, gdl:0.8141505718231201, gen:0.7791595458984375, tot:2.8523428440093994] ===
+=== CONV_HISTORY [[(" That's too bad. What hobbies do you have that you enjoy instead of watching TV?", ''), ('None.', '{"high-level": {"topic": "hobbies", "if_interest": "no"}}'), (' What type of video games do they like to play? Do you have any favorite video games?', '')]] ===
+You: I like playing Zelda.
+=== User Input: I like playing Zelda. ===
+=== Topic Pref: {"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "video games", "middle_level": "favorite video game genre": "game name": "Zelda", "how about you?"}} ===
+=== Guideline: The user is not interested in video games. They do not have any interest in talking about video games. Ask them what specific video games they enjoy playing and what their favorite game is. ===
+Hokiebot:  What is your favorite video game that you have ever played and why do you like it so much? === Blen400M:  I've never played it, but I know it's a first-person shooter game.
+=== TIMING [tpc:1.5233142375946045, gdl:0.988797664642334, gen:0.8737790584564209, tot:3.386096954345703] ===
+=== CONV_HISTORY [[(' What type of video games do they like to play? Do you have any favorite video games?', ''), ('I like playing Zelda.', '{"high-level": {"topic": "hobbies", "if_interest": "yes"}, "middle-level: {"topic: "video games", "middle_level": "favorite video game genre": "game name": "Zelda", "how about you?"}}'), (' What is your favorite video game that you have ever played and why do you like it so much?', '')]] ===
+You: My favorite video game of all time is super smash bros.
+=== User Input: My favorite video game of all time is super smash bros. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level: {"level": "favorite video game", "topic": ["super smash bros", "video game name": "super smash", "why"}} ===
+=== Guideline: The user is interested in video games and specifically enjoys playing the Nintendo 64. They really enjoy the adventure and RPG video games genres. Talk to them about other video games that they might enjoy playing or ask for their favorite RPG or R ===
+Hokiebot:  That's awesome! Do you have any other favorite video games or RPGs that they would recommend? === Blen400M:  Have you ever played Super Smash Bros. Brawl? It was released in 1996 for the Nintendo 64.
+=== TIMING [tpc:1.9820544719696045, gdl:1.5894622802734375, gen:0.7747738361358643, tot:4.346437454223633] ===
+=== CONV_HISTORY [[(' What is your favorite video game that you have ever played and why do you like it so much?', ''), ('My favorite video game of all time is super smash bros.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level: {"level": "favorite video game", "topic": ["super smash bros", "video game name": "super smash", "why"}}'), (" That's awesome! Do you have any other favorite video games or RPGs that they would recommend?", '')]] ===
+You: I love playing skyrim.
+=== User Input: I love playing skyrim. ===
+=== Topic Pref: {"high-level": {"topic": "video game", "if_interest": "yes"}, "middle-level:"topic": ["Skyrim", "Skyrim recommendation", "yes"}} ===
+=== Guideline: The user loves playing RPGs. Ask them what their favorite RPG is. ===
+Hokiebot:  That's awesome! What's your favorite role-playing RPG that you've played? === Blen400M:  I've never played it, but I've heard a lot about it. It's a first-person shooter game, right?
+=== TIMING [tpc:1.6805989742279053, gdl:0.5953075885772705, gen:0.9225413799285889, tot:3.1985929012298584] ===
+=== CONV_HISTORY [[(" That's awesome! Do you have any other favorite video games or RPGs that they would recommend?", ''), ('I love playing skyrim.', '{"high-level": {"topic": "video game", "if_interest": "yes"}, "middle-level:"topic": ["Skyrim", "Skyrim recommendation", "yes"}}'), (" That's awesome! What's your favorite role-playing RPG that you've played?", '')]] ===
+You: I would say skyrim is my favorite RPG.
+=== User Input: I would say skyrim is my favorite RPG. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level: {"topic: "RPGs", "middle_level": "favorite RPG", "topic": ["Skyrim", "RPG", "Skyrim"]}} ===
+=== Guideline: The user enjoys playing video games in their free time. They love playing RPGs. Talk to them about what they like about RPGs and why they like them. ===
+Hokiebot:  That's awesome! What's your favorite RPG to play and why do you like them so much? === Blen400M:  I've never played it, but I've heard a lot about it. It's one of the most popular video games of all time.
+=== TIMING [tpc:2.038482427597046, gdl:0.9548571109771729, gen:0.9380841255187988, tot:3.9315855503082275] ===
+=== CONV_HISTORY [[(" That's awesome! What's your favorite role-playing RPG that you've played?", ''), ('I would say skyrim is my favorite RPG.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level: {"topic: "RPGs", "middle_level": "favorite RPG", "topic": ["Skyrim", "RPG", "Skyrim"]}}'), (" That's awesome! What's your favorite RPG to play and why do you like them so much?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 17:37:59.223979
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I enjoy playing the guitar.
+=== User Input: I enjoy playing the guitar. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "guitar", "interest":yes"}} ===
+=== Guideline: The user is interested in playing the guitar. They particularly enjoy classic rock songs. Ask them what their favorite classic rock band is. ===
+Hokiebot:  I love classic rock too! Do you have any classic rock bands that you would recommend listening to? === Blen400M:  What kind of music do you like to play? I'm not very good at it myself.
+=== TIMING [tpc:1.7375319004058838, gdl:0.7116751670837402, gen:1.0713391304016113, tot:3.520719289779663] ===
+=== CONV_HISTORY [[('', ''), ('I enjoy playing the guitar.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "guitar", "interest":yes"}}'), (' I love classic rock too! Do you have any classic rock bands that you would recommend listening to?', '')]] ===
+You: I don't like classic rock.
+=== User Input: I don't like classic rock. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle-aged", "no"}} ===
+=== Guideline: The user is not interested in classic rock, but they do enjoy playing the guitar. They play classic rock songs. Ask them what their favorite rock band is and who their favorite guitarist is. ===
+Hokiebot:  Do you have a favorite classic rock band or is there one that you enjoy listening to the most? === Blen400M:  I'm not a big fan either, but I do like some of the bands from the 60s and 70s.
+=== TIMING [tpc:1.3755707740783691, gdl:1.040006160736084, gen:1.1600885391235352, tot:3.5758707523345947] ===
+=== CONV_HISTORY [[(' I love classic rock too! Do you have any classic rock bands that you would recommend listening to?', ''), ("I don't like classic rock.", '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle-aged", "no"}}'), (' Do you have a favorite classic rock band or is there one that you enjoy listening to the most?', '')]] ===
+You: No. I like country music.
+=== User Input: No. I like country music. ===
+=== Topic Pref: {"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "country music"}} ===
+=== Guideline: The user is not interested in classic rock. They do like listening to indie rock. Ask them about their favorite bands and songs and give them recommendations for new indie rock artists. ===
+Hokiebot:  What's your favorite band or song that you've recommended to them so that they can expand their horizons? === Blen400M:  Country music is a great genre of music. It originated in the southern United States.
+=== TIMING [tpc:1.0174572467803955, gdl:0.9973359107971191, gen:1.1421663761138916, tot:3.1572234630584717] ===
+=== CONV_HISTORY [[(' Do you have a favorite classic rock band or is there one that you enjoy listening to the most?', ''), ('No. I like country music.', '{"high-level": {"topic": "music", "if_interest": "yes"}, "middle- level": {"genre": "country music"}}'), (" What's your favorite band or song that you've recommended to them so that they can expand their horizons?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-08-06 17:42:03.833844
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...

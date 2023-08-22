@@ -185,3 +185,96 @@ Hokiebot:  Have you ever visited any other National Parks or National Forests?
 You: goodbye
 Hokiebot: Goodbye! Thanks for chatting!
 
+BLENDERBOT - PREV_TURNS:3 - 2023-07-30 01:20:04.365647
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I like to play soccer.
+=== User Input: I like to play soccer. ===
+=== Topic Pref: {"high-level": {"topic": "sports", "if_interest": "yes"}, "low-interest":{"topic": ["soccer", "soccer player", "which sport", "yes"}} ===
+Hokiebot:  Do you have a favorite team or team that plays soccer or do you just like to watch them play?
+=== TIMING [tpc:1.9207866191864014, gdl:0.7660531997680664, gen:0.4932839870452881, tot:3.1801750659942627] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I like to play soccer.', '{"high-level": {"topic": "sports", "if_interest": "yes"}, "low-interest":{"topic": ["soccer", "soccer player", "which sport", "yes"}}'), (' Do you have a favorite team or team that plays soccer or do you just like to watch them play?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-07-30 01:21:19.290893
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I played Mario Kart today.
+=== User Input: I played Mario Kart today. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level:{"topic": ["Mario Kart", "Hokiebot"], "if-interest": ["yes"}} ===
+Hokiebot:  That's too bad. Do you have any other hobbies that you're passionate about?
+=== TIMING [tpc:1.9849255084991455, gdl:1.2845702171325684, gen:0.43380045890808105, tot:3.7033472061157227] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I played Mario Kart today.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level:{"topic": ["Mario Kart", "Hokiebot"], "if-interest": ["yes"}}'), (" That's too bad. Do you have any other hobbies that you're passionate about?", '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
+BLENDERBOT - PREV_TURNS:3 - 2023-07-30 01:22:25.901564
+Hokiebot: Hello! I am Hokiebot. I love to have conversations. Say something to me...
+You: I had fun playing Mario Kart today.
+=== User Input: I had fun playing Mario Kart today. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level:{"topic": ["Mario Kart", "Hokiebot"], "if= "yes"}} ===
+Hokiebot:  That's awesome! Do you have a favorite strategy or strategy game that you like to play?
+=== TIMING [tpc:1.7411253452301025, gdl:0.912264347076416, gen:0.5139658451080322, tot:3.1673965454101562] ===
+=== CONV_HISTORY [[('Hello! I am Hokiebot. I love to have conversations. Say something to me...', ''), ('I had fun playing Mario Kart today.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level:{"topic": ["Mario Kart", "Hokiebot"], "if= "yes"}}'), (" That's awesome! Do you have a favorite strategy or strategy game that you like to play?", '')]] ===
+You: I like playing Age of Empires.
+=== User Input: I like playing Age of Empires. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level: {"topic: "Age of Empires", "interest": ["yes"}} ===
+Hokiebot:  I've heard great things about that game! What do you like about it the most? 
+=== TIMING [tpc:1.2726771831512451, gdl:1.0193982124328613, gen:0.3579139709472656, tot:2.650045156478882] ===
+=== CONV_HISTORY [[(" That's awesome! Do you have a favorite strategy or strategy game that you like to play?", ''), ('I like playing Age of Empires.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "low-level: {"topic: "Age of Empires", "interest": ["yes"}}'), (" I've heard great things about that game! What do you like about it the most? ", '')]] ===
+You: I like how complex and competitive it is.
+=== User Input: I like how complex and competitive it is. ===
+=== Topic Pref: {"high-level": {"topic": "strategy game", "if_interest": "yes"}, "middle-level: {"topic:" "competitive aspects", "middle_level": "why do you like it the most", "how complex and competitive it is": "unknow"}} ===
+Hokiebot:  That's really cool! Do you have any favorite strategy games that you've played in the past?
+=== TIMING [tpc:1.379378318786621, gdl:0.9004678726196289, gen:0.4725680351257324, tot:2.752465009689331] ===
+=== CONV_HISTORY [[(" I've heard great things about that game! What do you like about it the most? ", ''), ('I like how complex and competitive it is.', '{"high-level": {"topic": "strategy game", "if_interest": "yes"}, "middle-level: {"topic:" "competitive aspects", "middle_level": "why do you like it the most", "how complex and competitive it is": "unknow"}}'), (" That's really cool! Do you have any favorite strategy games that you've played in the past?", '')]] ===
+You: No. Mostly just Age of Empires.
+=== User Input: No. Mostly just Age of Empires. ===
+=== Topic Pref: {"high-level": {"topic": "strategy games", "if_interest": "yes"}, "middle-level: {"topic: "Age of Empires", "interest": ["yes"}} ===
+Hokiebot:  Adventure games can be a lot of fun. What are some of your favorites?
+=== TIMING [tpc:1.119091272354126, gdl:0.625690221786499, gen:0.36341214179992676, tot:2.1082468032836914] ===
+=== CONV_HISTORY [[(" That's really cool! Do you have any favorite strategy games that you've played in the past?", ''), ('No. Mostly just Age of Empires.', '{"high-level": {"topic": "strategy games", "if_interest": "yes"}, "middle-level: {"topic: "Age of Empires", "interest": ["yes"}}'), (' Adventure games can be a lot of fun. What are some of your favorites?', '')]] ===
+You: I like playing Zelda!
+=== User Input: I like playing Zelda! ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level: {"level": "favorite game", "topic": ["Zelda", "The Legend of Zelda", "Mario", "Skyrim"], "low-level:"}} ===
+Hokiebot:  That's cool! Do you have any other favorite video games or video games in particular that you like to play?
+=== TIMING [tpc:1.368373155593872, gdl:1.0693597793579102, gen:0.3681497573852539, tot:2.8059513568878174] ===
+=== CONV_HISTORY [[(' Adventure games can be a lot of fun. What are some of your favorites?', ''), ('I like playing Zelda!', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level: {"level": "favorite game", "topic": ["Zelda", "The Legend of Zelda", "Mario", "Skyrim"], "low-level:"}}'), (" That's cool! Do you have any other favorite video games or video games in particular that you like to play?", '')]] ===
+You: I like racing games.
+=== User Input: I like racing games. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level:"topic": ["Racing games"], "low-interest": ["yes"}} ===
+Hokiebot:  I've heard great things about Skyrim! What's your favorite game that you've played so far?
+=== TIMING [tpc:0.9718971252441406, gdl:0.9019250869750977, gen:0.3391551971435547, tot:2.2130160331726074] ===
+=== CONV_HISTORY [[(" That's cool! Do you have any other favorite video games or video games in particular that you like to play?", ''), ('I like racing games.', '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-level:"topic": ["Racing games"], "low-interest": ["yes"}}'), (" I've heard great things about Skyrim! What's your favorite game that you've played so far?", '')]] ===
+You: My favorite game i've played is Mario Kart.
+=== User Input: My favorite game i've played is Mario Kart. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-Level": {"level": "favorite game", "topic": ["Skyrim", "Mario Kart", "Skyrim"]}, "low-level: {"topic: "video game name", "when was released": "unknown"}} ===
+Hokiebot:  That sounds like a lot of fun! Do you have any other favorite video games that you like to play?
+=== TIMING [tpc:1.9835550785064697, gdl:0.6983323097229004, gen:0.3176288604736328, tot:2.9995594024658203] ===
+=== CONV_HISTORY [[(" I've heard great things about Skyrim! What's your favorite game that you've played so far?", ''), ("My favorite game i've played is Mario Kart.", '{"high-level": {"topic": "video games", "if_interest": "yes"}, "middle-Level": {"level": "favorite game", "topic": ["Skyrim", "Mario Kart", "Skyrim"]}, "low-level: {"topic: "video game name", "when was released": "unknown"}}'), (' That sounds like a lot of fun! Do you have any other favorite video games that you like to play?', '')]] ===
+You: No.
+=== User Input: No. ===
+=== Topic Pref: {"high-level": {"topic": "video games", "if_interest": "no"}} ===
+Hokiebot:  I love board games too! What's your favorite boardgame to play with your family and friends?
+=== TIMING [tpc:0.5081419944763184, gdl:0.8301632404327393, gen:0.30809617042541504, tot:1.6464829444885254] ===
+=== CONV_HISTORY [[(' That sounds like a lot of fun! Do you have any other favorite video games that you like to play?', ''), ('No.', '{"high-level": {"topic": "video games", "if_interest": "no"}}'), (" I love board games too! What's your favorite boardgame to play with your family and friends?", '')]] ===
+You: I think that Settlers of Catan is fun!
+=== User Input: I think that Settlers of Catan is fun! ===
+=== Topic Pref: {"high-level": {"topic": "board games", "if_interest": "yes"}, "middle- level": {"level": "Settlers of Catan"}} ===
+Hokiebot:  That's awesome! Do you have any favorite board games that you've played with friends or family?
+=== TIMING [tpc:1.0888710021972656, gdl:1.1844732761383057, gen:0.3737151622772217, tot:2.6471052169799805] ===
+=== CONV_HISTORY [[(" I love board games too! What's your favorite boardgame to play with your family and friends?", ''), ('I think that Settlers of Catan is fun!', '{"high-level": {"topic": "board games", "if_interest": "yes"}, "middle- level": {"level": "Settlers of Catan"}}'), (" That's awesome! Do you have any favorite board games that you've played with friends or family?", '')]] ===
+You: No. That is the only one that I play.
+=== User Input: No. That is the only one that I play. ===
+=== Topic Pref: {"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level: {"topic:" "favorite board game", "middle_level": "no"}} ===
+Hokiebot:  What other board games or strategy games do you like to play with your friends and family? 
+=== TIMING [tpc:1.5088329315185547, gdl:1.0520820617675781, gen:0.3423616886138916, tot:2.9033875465393066] ===
+=== CONV_HISTORY [[(" That's awesome! Do you have any favorite board games that you've played with friends or family?", ''), ('No. That is the only one that I play.', '{"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level: {"topic:" "favorite board game", "middle_level": "no"}}'), (' What other board games or strategy games do you like to play with your friends and family? ', '')]] ===
+You: I like to play Age of Empires.
+=== User Input: I like to play Age of Empires. ===
+=== Topic Pref: {"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level:"topic": ["Age of Empires", "board game", "favorite game]}} ===
+Hokiebot:  Do you have any other games or strategies that you enjoy playing with friends or family?
+=== TIMING [tpc:1.1882662773132324, gdl:0.7040653228759766, gen:0.3145129680633545, tot:2.2068898677825928] ===
+=== CONV_HISTORY [[(' What other board games or strategy games do you like to play with your friends and family? ', ''), ('I like to play Age of Empires.', '{"high-level": {"topic": "board games", "if_interest": "yes"}, "middle-level:"topic": ["Age of Empires", "board game", "favorite game]}}'), (' Do you have any other games or strategies that you enjoy playing with friends or family?', '')]] ===
+You: goodbye
+Hokiebot: Goodbye! Thanks for chatting!
+
