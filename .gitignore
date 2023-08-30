@@ -4,3 +4,4 @@ data/training_data/
 model/guideliner.pt
 model/*.pt
 pipeline/model/*.pt
+__pycache__
