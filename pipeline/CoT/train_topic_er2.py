@@ -3,6 +3,7 @@ import datetime
 import random
 import torch.nn as nn
 import pandas as pd
+from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoTokenizer, T5ForConditionalGeneration, AutoModelForSeq2SeqLM
 
@@ -20,13 +21,14 @@ def train(model, dataloader, tokenizer, num_epochs=10):
         ]
     criteria = torch.optim.Adam(model.parameters(), lr= 1e-4)
     
-    log = open('./log.txt', 'a+')
+    log = open('./log_cot.txt', 'a+')
     log.write('================ STARTING A NEW RUN == {} =================\n'.format(datetime.datetime.now()))
     
     for epoch in range(num_epochs):
         eploss = 0
-
-        for batch in dataloader:
+        loop = tqdm(dl, leave=True)
+        b = 0
+        for batch in loop:
             model.train()
             criteria.zero_grad()
             x, y = batch
@@ -36,8 +38,11 @@ def train(model, dataloader, tokenizer, num_epochs=10):
             out.backward()
             criteria.step()
             eploss += out.item()
+            loop.set_description(f'Epoch {epoch}, Batch {b}/{len(dl)}')
+            loop.set_postfix(loss1=out.item())
+            b += 1
 
-        if epoch % 1 == 0:
+        if epoch % 5 == 0:
             model.eval()
             log.write("Epoch:{}, EpLoss:{}\n".format(epoch, eploss/len(dataloader)))
 
@@ -59,22 +64,25 @@ def train(model, dataloader, tokenizer, num_epochs=10):
     log.close()
 
 class TopicDataset(Dataset):
-    def __init__(self, guideline_file, tokenizer):
+    def __init__(self, input_file, output_file, tokenizer):
         self.tokenizer = tokenizer
-        self.examples = pd.read_csv(guideline_file, sep='|')
+        self.inputs = open(input_file, 'r', encoding='utf-8').readlines()#pd.read_csv(input_file, sep='|')
+        self.outputs = open(output_file, 'r', encoding='utf-8').readlines()
 
     def __len__(self):
-        return len(self.examples)
+        return len(self.inputs)
     
     def __getitem__(self, idx):
-        topic_inp, inp = self.examples.iloc[idx]
+        inp = self.inputs[idx].strip()
+        out = self.outputs[idx]
         #print(topic_inp)
         #print(inp)
         instruction = "Instruction: Generate a list of topics increasing in specificity to define the subject.\n\n"
         instruction += "Input:[CONTEXT]{}[ENDOFDIALOGUE][QUESTION]The topics defining the input are".format(inp)
-        topic_inp = self.tokenizer(topic_inp, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        #topic_inp = self.tokenizer(topic_inp, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
         inp = self.tokenizer(instruction, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
-        return inp, topic_inp
+        out = self.tokenizer(out, max_length=50, padding='max_length', truncation=True, return_tensors='pt').input_ids
+        return inp, out
 
 
 device_id = '0' # need to change this to 6 when I am training w/ jingyuan's GPU
@@ -92,8 +100,8 @@ if __name__ == '__main__':
     inst_model = AutoModelForSeq2SeqLM.from_pretrained("prakharz/DIAL-BART0")
 
     # create dataloader 
-    ds = TopicDataset('./ds2.txt', inst_tokenizer)
-    dl = torch.utils.data.DataLoader(ds, batch_size=32, shuffle=True)
+    ds = TopicDataset('./tracker_input_cot_new.txt', './tracker_output_cot.txt', inst_tokenizer)
+    dl = torch.utils.data.DataLoader(ds, batch_size=64, shuffle=True)
 
     #inst_model = torch.nn.DataParallel(inst_model, device_ids=[0])
 
@@ -101,12 +109,12 @@ if __name__ == '__main__':
     inst_model.to(device)
     
     
-    train(inst_model, dl, inst_tokenizer, 30)
+    train(inst_model, dl, inst_tokenizer, 5)
 
     #torch.save(blen_model.state_dict(), './model/blenderbot.pt')
     #torch.save(inst_model.state_dict(), './model/intructdialogue.pt')
 
     try:
-        torch.save(inst_model.module.state_dict(), '../model/topic_er.pt')
+        torch.save(inst_model.module.state_dict(), '../model/topic_er2.pt')
     except AttributeError:
-        torch.save(inst_model.state_dict(), '../model/topic_er.pt')
+        torch.save(inst_model.state_dict(), '../model/topic_er2.pt')
