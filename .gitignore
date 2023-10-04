@@ -5,3 +5,6 @@ model/guideliner.pt
 model/*.pt
 pipeline/model/*.pt
 __pycache__
+pipeline/CoT/topical_chat/
+pipeline/CoT/recommender/model/*.pt
+pipeline/CoT/topic_extraction/model/*.pt
